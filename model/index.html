@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#344f41"><meta name="description" content="从一道错题，找到下一步。学生与家长共用的数学与物理学习诊断记录。">
+  <title>知因 · 数学与物理学习诊断</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="theme.css">
+  <script src="themes.js"></script>
+  <script defer src="knowledge.js"></script><script defer src="content.js"></script><script defer src="math-content.js"></script><script defer src="physics-knowledge.js"></script><script defer src="physics-content.js"></script><script defer src="subjects.js"></script><script defer src="exam-focus.js"></script><script defer src="study-guides.js"></script><script defer src="model.js"></script><script defer src="migration.js"></script><script defer src="services.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到内容</a>
+  <div id="app"><main class="loading"><h1>知因</h1><p>正在打开学习记录…</p><p>若此提示一直存在，请通过“启动系统”打开，或使用最新版浏览器。</p></main></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal"><div id="modal-content"></div><button class="modal-close" data-action="close-modal" aria-label="关闭">×</button></dialog>
+  <input id="backup-input" type="file" accept=".json,application/json" hidden>
+  <noscript>需要启用 JavaScript 才能使用本地诊断与保存功能。</noscript>
+</body>
+</html>

@@ -1,0 +1,4 @@
+model/vendor/
+__pycache__/
+*.pyc
+work/
