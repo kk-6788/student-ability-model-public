@@ -1,0 +1,18020 @@
+window.MATH_CONTENT = {
+  "schemaVersion": 1,
+  "id": "zhiyin-math-foundations",
+  "version": "2026.09.17",
+  "subject": "math",
+  "title": "数学全目录对应题与解答复核",
+  "grade": "高中及初高中衔接",
+  "textbook": "对应现有数学目录；非教材官方配套题库",
+  "source": "419个现有目录节点均有原创对应题；新增419题经过独立解答与匹配复审，保留原24道短答系统核验题。题目覆盖不等于所有题型覆盖，解答复核不等于学生作答通过；无教师身份认证或真实学生样本效度验证。",
+  "skills": [
+    {
+      "id": "s1",
+      "targetId": "M1-1-1-02",
+      "name": "元素与集合的关系（属于/不属于）",
+      "objective": "判断指定元素是否满足集合的定义条件",
+      "boundary": "不检验集合间的包含关系",
+      "prerequisites": [],
+      "prerequisiteSkills": "识别整数、整除"
+    },
+    {
+      "id": "s2",
+      "targetId": "M1-1-2-01",
+      "name": "子集的概念与符号",
+      "objective": "判断一个集合的所有元素是否都属于另一个集合",
+      "boundary": "不检验真子集计数",
+      "prerequisites": [],
+      "prerequisiteSkills": "元素归属判断"
+    },
+    {
+      "id": "s3",
+      "targetId": "M1-1-3-02",
+      "name": "交集的定义与Venn图",
+      "objective": "识别同时满足两个集合条件的元素",
+      "boundary": "本组只检验交集定义，不证明能绘制 Venn 图",
+      "prerequisites": [],
+      "prerequisiteSkills": "列举集合与简单整数判断"
+    },
+    {
+      "id": "s4",
+      "targetId": "M1-1-3-01",
+      "name": "并集的定义与Venn图",
+      "objective": "识别至少属于一个集合的元素并去重",
+      "boundary": "只检验并集定义和去重，不检验作图",
+      "prerequisites": [],
+      "prerequisiteSkills": "集合元素的互异性"
+    },
+    {
+      "id": "s5",
+      "targetId": "M1-1-5-03",
+      "name": "全称量词命题的否定",
+      "objective": "将全称命题否定为存在反例的命题",
+      "boundary": "不检验原命题真假或复杂多重量词",
+      "prerequisites": [],
+      "prerequisiteSkills": "大于与小于等于互为否定"
+    },
+    {
+      "id": "s6",
+      "targetId": "M1-3-1-02",
+      "name": "函数定义域的求法",
+      "objective": "依据分母非零或根式被开方数非负求定义域",
+      "boundary": "只检验两种基础限制，不覆盖复合函数与多条件交集",
+      "prerequisites": [],
+      "prerequisiteSkills": "解一次不等式"
+    },
+    {
+      "id": "s7",
+      "targetId": "M1-3-2-01",
+      "name": "增函数与减函数的定义",
+      "objective": "根据任意两点的函数值大小关系识别增减性",
+      "boundary": "不检验特定复杂函数的完整单调性证明",
+      "prerequisites": [],
+      "prerequisiteSkills": "理解任意、区间与大小关系"
+    },
+    {
+      "id": "s8",
+      "targetId": "M1-3-3-01",
+      "name": "奇函数与偶函数的定义",
+      "objective": "依据对称定义域和函数值关系判断奇偶性",
+      "boundary": "不检验复杂表达式化简和图像应用",
+      "prerequisites": [],
+      "prerequisiteSkills": "负数平方与零值"
+    },
+    {
+      "id": "s9",
+      "targetId": "M1-3-5-01",
+      "name": "函数零点的定义",
+      "objective": "将零点理解为使函数值为零的自变量",
+      "boundary": "不检验零点存在定理和零点个数综合判断",
+      "prerequisites": [],
+      "prerequisiteSkills": "解一次方程和读坐标"
+    },
+    {
+      "id": "s10",
+      "targetId": "J-ALG-01",
+      "name": "移项与一元一次方程",
+      "objective": "通过等式性质求一次方程解并检验",
+      "boundary": "只覆盖简单一次方程，不覆盖分式方程",
+      "prerequisites": [],
+      "prerequisiteSkills": "整数四则运算"
+    },
+    {
+      "id": "s11",
+      "targetId": "J-ALG-03",
+      "name": "不等式变号与解集",
+      "objective": "在不等式乘除负数时改变方向，并检查解集",
+      "boundary": "只覆盖一次不等式变号，不覆盖二次与分式不等式",
+      "prerequisites": [],
+      "prerequisiteSkills": "有理数除法与比较大小"
+    },
+    {
+      "id": "s12",
+      "targetId": "J-ALG-05",
+      "name": "二次函数图像与零点",
+      "objective": "把二次函数与 x 轴交点转成零点问题",
+      "boundary": "只检验基础零点关联，不覆盖图像全部性质",
+      "prerequisites": [],
+      "prerequisiteSkills": "平方非负与乘积为零"
+    },
+    {
+      "id": "full-m1-1-1-01",
+      "targetId": "M1-1-1-01",
+      "name": "集合的含义（元素的确定性/互异性/无序性）",
+      "objective": "能在本题条件下运用“集合的含义（元素的确定性/互异性/无序性）”得出答案，并说明依据。",
+      "boundary": "检测确定性、互异性、无序性；不检测含参集合。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-1-03",
+      "targetId": "M1-1-1-03",
+      "name": "常用数集（N,N+,Z,Q,R）",
+      "objective": "能在本题条件下运用“常用数集（N,N+,Z,Q,R）”得出答案，并说明依据。",
+      "boundary": "检测五个常用数集及包含关系；不检测无理数证明。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-1-04",
+      "targetId": "M1-1-1-04",
+      "name": "集合的表示法——列举法",
+      "objective": "能在本题条件下运用“集合的表示法——列举法”得出答案，并说明依据。",
+      "boundary": "检测有限集合列举及筛选；不检测无限集合表示。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-1-05",
+      "targetId": "M1-1-1-05",
+      "name": "集合的表示法——描述法",
+      "objective": "能在本题条件下运用“集合的表示法——描述法”得出答案，并说明依据。",
+      "boundary": "检测描述法的数域及限制条件；不要求唯一写法。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-1-06",
+      "targetId": "M1-1-1-06",
+      "name": "集合的分类（有限集/无限集/空集）",
+      "objective": "能在本题条件下运用“集合的分类（有限集/无限集/空集）”得出答案，并说明依据。",
+      "boundary": "检测空集、有限集、无限集区分；不比较无限集势。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-2-02",
+      "targetId": "M1-1-2-02",
+      "name": "真子集的概念与符号",
+      "objective": "能在本题条件下运用“真子集的概念与符号”得出答案，并说明依据。",
+      "boundary": "检测真子集要求包含且不相等。",
+      "prerequisiteSkills": "子集的概念与符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-2-03",
+      "targetId": "M1-1-2-03",
+      "name": "集合相等（A包含于B且B包含于A）",
+      "objective": "能在本题条件下运用“集合相等（A包含于B且B包含于A）”得出答案，并说明依据。",
+      "boundary": "检测集合相等及双向包含；不涉及多参数。",
+      "prerequisiteSkills": "子集的概念与符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-2-04",
+      "targetId": "M1-1-2-04",
+      "name": "空集的性质",
+      "objective": "能在本题条件下运用“空集的性质”得出答案，并说明依据。",
+      "boundary": "检测空集与含空集集合、包含与属于的区分。",
+      "prerequisiteSkills": "子集的概念与符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-2-05",
+      "targetId": "M1-1-2-05",
+      "name": "子集的个数计算",
+      "objective": "能在本题条件下运用“子集的个数计算”得出答案，并说明依据。",
+      "boundary": "检测n元素集合三类子集计数；不检测带指定包含条件。",
+      "prerequisiteSkills": "真子集的概念与符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-2-06",
+      "targetId": "M1-1-2-06",
+      "name": "Venn图表示集合关系",
+      "objective": "能在本题条件下运用“Venn图表示集合关系”得出答案，并说明依据。",
+      "boundary": "检测文字描述的嵌套Venn图读图；不检测三集合交错区域。",
+      "prerequisiteSkills": "子集的概念与符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-3-03",
+      "targetId": "M1-1-3-03",
+      "name": "全集与补集与Venn图",
+      "objective": "能在本题条件下运用“全集与补集与Venn图”得出答案，并说明依据。",
+      "boundary": "检测全集依赖性、补集运算及图区。",
+      "prerequisiteSkills": "集合相等（A包含于B且B包含于A）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-3-04",
+      "targetId": "M1-1-3-04",
+      "name": "集合运算性质（幂等律/交换律/结合律）",
+      "objective": "能在本题条件下运用“集合运算性质（幂等律/交换律/结合律）”得出答案，并说明依据。",
+      "boundary": "检测幂等、交换、结合的具体实例；不据实例替代一般证明，交的交换结合未单独检测。",
+      "prerequisiteSkills": "并集的定义与Venn图；交集的定义与Venn图",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-3-05",
+      "targetId": "M1-1-3-05",
+      "name": "分配律",
+      "objective": "能在本题条件下运用“分配律”得出答案，并说明依据。",
+      "boundary": "检测并交两种分配律的实例运用；不要求抽象证明。",
+      "prerequisiteSkills": "集合运算性质（幂等律/交换律/结合律）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-3-06",
+      "targetId": "M1-1-3-06",
+      "name": "德摩根律",
+      "objective": "能在本题条件下运用“德摩根律”得出答案，并说明依据。",
+      "boundary": "检测两条德摩根律及统一全集。",
+      "prerequisiteSkills": "集合运算性质（幂等律/交换律/结合律）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-4-01",
+      "targetId": "M1-1-4-01",
+      "name": "充分条件的定义与判定",
+      "objective": "能在本题条件下运用“充分条件的定义与判定”得出答案，并说明依据。",
+      "boundary": "检测充分条件及反向反例；不含复合命题。",
+      "prerequisiteSkills": "集合的含义（元素的确定性/互异性/无序性）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-4-02",
+      "targetId": "M1-1-4-02",
+      "name": "必要条件的定义与判定",
+      "objective": "能在本题条件下运用“必要条件的定义与判定”得出答案，并说明依据。",
+      "boundary": "检测必要条件的蕴含方向。",
+      "prerequisiteSkills": "充分条件的定义与判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-4-03",
+      "targetId": "M1-1-4-03",
+      "name": "充要条件的定义与判定",
+      "objective": "能在本题条件下运用“充要条件的定义与判定”得出答案，并说明依据。",
+      "boundary": "检测两个方向都成立；不检测参数充要条件。",
+      "prerequisiteSkills": "充分条件的定义与判定；必要条件的定义与判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-4-04",
+      "targetId": "M1-1-4-04",
+      "name": "充分不必要条件/必要不充分条件",
+      "objective": "能在本题条件下运用“充分不必要条件/必要不充分条件”得出答案，并说明依据。",
+      "boundary": "检测充分不必要与必要不充分的对偶关系。",
+      "prerequisiteSkills": "充要条件的定义与判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-4-05",
+      "targetId": "M1-1-4-05",
+      "name": "集合观点下的充要条件",
+      "objective": "能在本题条件下运用“集合观点下的充要条件”得出答案，并说明依据。",
+      "boundary": "检测用包含、相等转化条件及端点约束。",
+      "prerequisiteSkills": "充要条件的定义与判定；子集的概念与符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-5-01",
+      "targetId": "M1-1-5-01",
+      "name": "全称量词与全称量词命题",
+      "objective": "能在本题条件下运用“全称量词与全称量词命题”得出答案，并说明依据。",
+      "boundary": "检测全称量词、数域与反例；不涉及多层量词。",
+      "prerequisiteSkills": "充分条件的定义与判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-5-02",
+      "targetId": "M1-1-5-02",
+      "name": "存在量词与存在量词命题",
+      "objective": "能在本题条件下运用“存在量词与存在量词命题”得出答案，并说明依据。",
+      "boundary": "检测存在量词、见证和数域限制。",
+      "prerequisiteSkills": "充分条件的定义与判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-5-04",
+      "targetId": "M1-1-5-04",
+      "name": "存在量词命题的否定",
+      "objective": "能在本题条件下运用“存在量词命题的否定”得出答案，并说明依据。",
+      "boundary": "检测存在量词否定及真假验证。",
+      "prerequisiteSkills": "存在量词与存在量词命题",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-1-5-05",
+      "targetId": "M1-1-5-05",
+      "name": "命题否定的真假关系",
+      "objective": "能在本题条件下运用“命题否定的真假关系”得出答案，并说明依据。",
+      "boundary": "检测否定真值互补；不检测命题的逆否形式。",
+      "prerequisiteSkills": "全称量词命题的否定；存在量词命题的否定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-1-01",
+      "targetId": "M1-2-1-01",
+      "name": "不等式的概念",
+      "objective": "能在本题条件下运用“不等式的概念”得出答案，并说明依据。",
+      "boundary": "检测严格与非严格不等式的语义；不检测二次求解。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-1-02",
+      "targetId": "M1-2-1-02",
+      "name": "实数比较大小的方法——作差法",
+      "objective": "能在本题条件下运用“实数比较大小的方法——作差法”得出答案，并说明依据。",
+      "boundary": "检测作差、化简、定号三步；不涉及参数分段。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-1-03",
+      "targetId": "M1-2-1-03",
+      "name": "不等式的性质（传递性/可加性/可乘性）",
+      "objective": "能在本题条件下运用“不等式的性质（传递性/可加性/可乘性）”得出答案，并说明依据。",
+      "boundary": "检测传递、加法、正负乘法；不检测平方推广。",
+      "prerequisiteSkills": "不等式的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-1-04",
+      "targetId": "M1-2-1-04",
+      "name": "同向可加性与同向可乘性",
+      "objective": "能在本题条件下运用“同向可加性与同向可乘性”得出答案，并说明依据。",
+      "boundary": "检测同向加与正量乘的条件；不要求可达最值。",
+      "prerequisiteSkills": "不等式的性质（传递性/可加性/可乘性）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-1-05",
+      "targetId": "M1-2-1-05",
+      "name": "不等式的倒数法则",
+      "objective": "能在本题条件下运用“不等式的倒数法则”得出答案，并说明依据。",
+      "boundary": "检测正区间、负区间倒数规则；不检测跨零区间整体变换。",
+      "prerequisiteSkills": "不等式的性质（传递性/可加性/可乘性）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-2-01",
+      "targetId": "M1-2-2-01",
+      "name": "基本不等式的推导",
+      "objective": "能在本题条件下运用“基本不等式的推导”得出答案，并说明依据。",
+      "boundary": "检测基本不等式推导和等号条件；不涉及求最值建模。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-2-02",
+      "targetId": "M1-2-2-02",
+      "name": "基本不等式的几何解释",
+      "objective": "能在本题条件下运用“基本不等式的几何解释”得出答案，并说明依据。",
+      "boundary": "检测半圆模型的几何解释；需要勾股定理，不检测圆外情形。",
+      "prerequisiteSkills": "基本不等式的推导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-2-03",
+      "targetId": "M1-2-2-03",
+      "name": "和为定值积最大（求最大值）",
+      "objective": "能在本题条件下运用“和为定值积最大（求最大值）”得出答案，并说明依据。",
+      "boundary": "检测正数定和积最大及可达性。",
+      "prerequisiteSkills": "基本不等式的推导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-2-04",
+      "targetId": "M1-2-2-04",
+      "name": "积为定值和最小（求最小值）",
+      "objective": "能在本题条件下运用“积为定值和最小（求最小值）”得出答案，并说明依据。",
+      "boundary": "检测正数定积和最小及等号。",
+      "prerequisiteSkills": "基本不等式的推导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-2-05",
+      "targetId": "M1-2-2-05",
+      "name": "常数代换法（1的妙用）",
+      "objective": "能在本题条件下运用“常数代换法（1的妙用）”得出答案，并说明依据。",
+      "boundary": "检测常数代换制造定积；不检测多变量推广。",
+      "prerequisiteSkills": "基本不等式的推导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-2-06",
+      "targetId": "M1-2-2-06",
+      "name": "配凑法构造定值",
+      "objective": "能在本题条件下运用“配凑法构造定值”得出答案，并说明依据。",
+      "boundary": "检测移项配凑定积与原变量恢复。",
+      "prerequisiteSkills": "基本不等式的推导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-2-07",
+      "targetId": "M1-2-2-07",
+      "name": "基本不等式链",
+      "objective": "能在本题条件下运用“基本不等式链”得出答案，并说明依据。",
+      "boundary": "检测调和、几何、算术、平方平均的不等式链；仅双正数。",
+      "prerequisiteSkills": "基本不等式的推导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-01",
+      "targetId": "M1-2-3-01",
+      "name": "二次函数的图像特征",
+      "objective": "能在本题条件下运用“二次函数的图像特征”得出答案，并说明依据。",
+      "boundary": "检测二次图像的开口、轴、顶点、截距与极值；不检测零点。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-02",
+      "targetId": "M1-2-3-02",
+      "name": "二次函数与x轴的交点与判别式",
+      "objective": "能在本题条件下运用“二次函数与x轴的交点与判别式”得出答案，并说明依据。",
+      "boundary": "检测判别式与实交点个数；不求交点坐标的参数式。",
+      "prerequisiteSkills": "二次函数的图像特征",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-03",
+      "targetId": "M1-2-3-03",
+      "name": "一元二次方程的求根公式与韦达定理",
+      "objective": "能在本题条件下运用“一元二次方程的求根公式与韦达定理”得出答案，并说明依据。",
+      "boundary": "检测求根公式及根系数关系；不检测复根。",
+      "prerequisiteSkills": "二次函数与x轴的交点与判别式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-04",
+      "targetId": "M1-2-3-04",
+      "name": "一元二次不等式的解法（图像法）",
+      "objective": "能在本题条件下运用“一元二次不等式的解法（图像法）”得出答案，并说明依据。",
+      "boundary": "检测图像法与二次项负号、端点；不含参数。",
+      "prerequisiteSkills": "二次函数与x轴的交点与判别式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-05",
+      "targetId": "M1-2-3-05",
+      "name": "含参数的一元二次不等式讨论",
+      "objective": "能在本题条件下运用“含参数的一元二次不等式讨论”得出答案，并说明依据。",
+      "boundary": "检测含参数根顺序和重根讨论；不检测二次项系数退化。",
+      "prerequisiteSkills": "一元二次不等式的解法（图像法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-06",
+      "targetId": "M1-2-3-06",
+      "name": "分式不等式的解法",
+      "objective": "能在本题条件下运用“分式不等式的解法”得出答案，并说明依据。",
+      "boundary": "检测分式符号分析和分母禁值；不涉及多因子。",
+      "prerequisiteSkills": "一元二次不等式的解法（图像法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-07",
+      "targetId": "M1-2-3-07",
+      "name": "一元二次不等式恒成立问题",
+      "objective": "能在本题条件下运用“一元二次不等式恒成立问题”得出答案，并说明依据。",
+      "boundary": "检测二次不等式在R上非负恒成立；不检测限定区间。",
+      "prerequisiteSkills": "含参数的一元二次不等式讨论",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-2-3-08",
+      "targetId": "M1-2-3-08",
+      "name": "不等式在R上恒成立的条件",
+      "objective": "能在本题条件下运用“不等式在R上恒成立的条件”得出答案，并说明依据。",
+      "boundary": "检测全实数严格恒正及二次系数退化；不检测其他参数组合。",
+      "prerequisiteSkills": "一元二次不等式恒成立问题",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-1-01",
+      "targetId": "M1-3-1-01",
+      "name": "函数的定义（三要素）",
+      "objective": "能在本题条件下运用“函数的定义（三要素）”得出答案，并说明依据。",
+      "boundary": "检测函数三要素及相同性；不检测映射的满射单射。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-1-03",
+      "targetId": "M1-3-1-03",
+      "name": "抽象函数定义域的求法",
+      "objective": "能在本题条件下运用“抽象函数定义域的求法”得出答案，并说明依据。",
+      "boundary": "检测抽象函数输入范围与自变量范围转换。",
+      "prerequisiteSkills": "函数定义域的求法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-1-04",
+      "targetId": "M1-3-1-04",
+      "name": "函数值域求法（观察法/配方法）",
+      "objective": "能在本题条件下运用“函数值域求法（观察法/配方法）”得出答案，并说明依据。",
+      "boundary": "检测观察与配方两种值域法；不涉及参数。",
+      "prerequisiteSkills": "函数的定义（三要素）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-1-05",
+      "targetId": "M1-3-1-05",
+      "name": "值域求法（分离常数法/判别式法）",
+      "objective": "能在本题条件下运用“值域求法（分离常数法/判别式法）”得出答案，并说明依据。",
+      "boundary": "检测分离常数及判别式法并处理二次退化。",
+      "prerequisiteSkills": "函数值域求法（观察法/配方法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-1-06",
+      "targetId": "M1-3-1-06",
+      "name": "函数的三种表示法",
+      "objective": "能在本题条件下运用“函数的三种表示法”得出答案，并说明依据。",
+      "boundary": "检测三种表示法等价转换；图像采用坐标点文字描述。",
+      "prerequisiteSkills": "函数的定义（三要素）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-1-07",
+      "targetId": "M1-3-1-07",
+      "name": "分段函数的概念与求值",
+      "objective": "能在本题条件下运用“分段函数的概念与求值”得出答案，并说明依据。",
+      "boundary": "检测分段归属、分界点和嵌套求值。",
+      "prerequisiteSkills": "函数的定义（三要素）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-1-08",
+      "targetId": "M1-3-1-08",
+      "name": "分段函数的图像",
+      "objective": "能在本题条件下运用“分段函数的图像”得出答案，并说明依据。",
+      "boundary": "检测分段图像截取和边界；以精确坐标描述替代手绘。",
+      "prerequisiteSkills": "分段函数的概念与求值",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-2-02",
+      "targetId": "M1-3-2-02",
+      "name": "单调性判断——定义法",
+      "objective": "能在本题条件下运用“单调性判断——定义法”得出答案，并说明依据。",
+      "boundary": "检测取值、作差、变形、定号的完整证明。",
+      "prerequisiteSkills": "增函数与减函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-2-03",
+      "targetId": "M1-3-2-03",
+      "name": "单调性判断——图像法",
+      "objective": "能在本题条件下运用“单调性判断——图像法”得出答案，并说明依据。",
+      "boundary": "检测分段线性图像的走势；图形由坐标和连接规则精确定义。",
+      "prerequisiteSkills": "增函数与减函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-2-04",
+      "targetId": "M1-3-2-04",
+      "name": "复合函数的单调性（同增异减）",
+      "objective": "能在本题条件下运用“复合函数的单调性（同增异减）”得出答案，并说明依据。",
+      "boundary": "检测复合单调性及合法定义域。",
+      "prerequisiteSkills": "单调性判断——定义法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-2-05",
+      "targetId": "M1-3-2-05",
+      "name": "单调区间的表示",
+      "objective": "能在本题条件下运用“单调区间的表示”得出答案，并说明依据。",
+      "boundary": "检测单调区间分开表示及定义域断点。",
+      "prerequisiteSkills": "单调性判断——定义法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-2-06",
+      "targetId": "M1-3-2-06",
+      "name": "函数的最值（最大/小值）",
+      "objective": "能在本题条件下运用“函数的最值（最大/小值）”得出答案，并说明依据。",
+      "boundary": "检测最值必须可取到及开端点影响。",
+      "prerequisiteSkills": "增函数与减函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-3-02",
+      "targetId": "M1-3-3-02",
+      "name": "奇偶性的判断方法",
+      "objective": "能在本题条件下运用“奇偶性的判断方法”得出答案，并说明依据。",
+      "boundary": "检测先查定义域再验关系。",
+      "prerequisiteSkills": "奇函数与偶函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-3-03",
+      "targetId": "M1-3-3-03",
+      "name": "奇函数的图像特征",
+      "objective": "能在本题条件下运用“奇函数的图像特征”得出答案，并说明依据。",
+      "boundary": "检测奇函数原点对称的点对应；不检测完整解析式。",
+      "prerequisiteSkills": "奇函数与偶函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-3-04",
+      "targetId": "M1-3-3-04",
+      "name": "偶函数的图像特征",
+      "objective": "能在本题条件下运用“偶函数的图像特征”得出答案，并说明依据。",
+      "boundary": "检测偶对称点及单调区间反射；不求完整函数表达式。",
+      "prerequisiteSkills": "奇函数与偶函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-3-05",
+      "targetId": "M1-3-3-05",
+      "name": "奇函数的性质f(0)=0",
+      "objective": "能在本题条件下运用“奇函数的性质f(0)=0”得出答案，并说明依据。",
+      "boundary": "检测f(0)=0及其必要非充分性。",
+      "prerequisiteSkills": "奇函数与偶函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-3-06",
+      "targetId": "M1-3-3-06",
+      "name": "利用奇偶性求解析式",
+      "objective": "能在本题条件下运用“利用奇偶性求解析式”得出答案，并说明依据。",
+      "boundary": "检测反射到已知区间后利用奇性求式。",
+      "prerequisiteSkills": "奇函数与偶函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-3-07",
+      "targetId": "M1-3-3-07",
+      "name": "奇偶性与单调性的综合",
+      "objective": "能在本题条件下运用“奇偶性与单调性的综合”得出答案，并说明依据。",
+      "boundary": "检测奇偶性与全域单调性的联合使用。",
+      "prerequisiteSkills": "复合函数的单调性（同增异减）；利用奇偶性求解析式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-3-08",
+      "targetId": "M1-3-3-08",
+      "name": "函数的对称性与周期性（拓展）",
+      "objective": "能在本题条件下运用“函数的对称性与周期性（拓展）”得出答案，并说明依据。",
+      "boundary": "检测对称与周期移位；不从一个周期推断最小周期。",
+      "prerequisiteSkills": "奇偶性与单调性的综合",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-4-01",
+      "targetId": "M1-3-4-01",
+      "name": "幂函数的定义",
+      "objective": "能在本题条件下运用“幂函数的定义”得出答案，并说明依据。",
+      "boundary": "检测幂函数结构；不把一般幂函数模型kx^α与教材幂函数混同。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-4-02",
+      "targetId": "M1-3-4-02",
+      "name": "五个常见幂函数的图像与性质",
+      "objective": "能在本题条件下运用“五个常见幂函数的图像与性质”得出答案，并说明依据。",
+      "boundary": "检测五个标准幂函数的定义域、奇偶、正半轴走势和共同点；不完整检测负半轴图像及值域。",
+      "prerequisiteSkills": "幂函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-4-03",
+      "targetId": "M1-3-4-03",
+      "name": "幂函数的共性规律",
+      "objective": "能在本题条件下运用“幂函数的共性规律”得出答案，并说明依据。",
+      "boundary": "检测幂函数正半轴共同点和指数符号规律；不讨论负输入上任意实指数的定义。",
+      "prerequisiteSkills": "幂函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-5-02",
+      "targetId": "M1-3-5-02",
+      "name": "函数零点存在定理",
+      "objective": "能在本题条件下运用“函数零点存在定理”得出答案，并说明依据。",
+      "boundary": "检测存在定理的连续性及端点异号；不宣称唯一。",
+      "prerequisiteSkills": "函数零点的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-5-03",
+      "targetId": "M1-3-5-03",
+      "name": "函数零点个数的判断",
+      "objective": "能在本题条件下运用“函数零点个数的判断”得出答案，并说明依据。",
+      "boundary": "检测存在性与唯一性两部分结合。",
+      "prerequisiteSkills": "函数零点的定义；增函数与减函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-5-04",
+      "targetId": "M1-3-5-04",
+      "name": "二分法求近似解",
+      "objective": "能在本题条件下运用“二分法求近似解”得出答案，并说明依据。",
+      "boundary": "检测二分法区间更新及区间宽度误差；不要求给定小数位舍入。",
+      "prerequisiteSkills": "函数零点存在定理",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-3-5-05",
+      "targetId": "M1-3-5-05",
+      "name": "函数模型的建立与应用",
+      "objective": "能在本题条件下运用“函数模型的建立与应用”得出答案，并说明依据。",
+      "boundary": "检测从两组数据建立一次函数模型及解释变量；不检测分段收费或真实价格预测。",
+      "prerequisiteSkills": "二分法求近似解",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-1-01",
+      "targetId": "M1-4-1-01",
+      "name": "根式与分数指数幂的互化",
+      "objective": "能在本题条件下运用“根式与分数指数幂的互化”得出答案，并说明依据。",
+      "boundary": "检测正底数根式与分数指数互化；不推广到负底数任意有理指数。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-1-02",
+      "targetId": "M1-4-1-02",
+      "name": "有理数指数幂的运算性质",
+      "objective": "能在本题条件下运用“有理数指数幂的运算性质”得出答案，并说明依据。",
+      "boundary": "检测有理指数乘除与幂的乘方；底数限制已给正。",
+      "prerequisiteSkills": "根式与分数指数幂的互化",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-1-03",
+      "targetId": "M1-4-1-03",
+      "name": "无理数指数幂的含义",
+      "objective": "能在本题条件下运用“无理数指数幂的含义”得出答案，并说明依据。",
+      "boundary": "检测无理指数的逼近含义和夹逼方向；不证明极限存在性。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-1-04",
+      "targetId": "M1-4-1-04",
+      "name": "指数幂的化简与求值",
+      "objective": "能在本题条件下运用“指数幂的化简与求值”得出答案，并说明依据。",
+      "boundary": "检测根式、负分数指数和混合运算；不含变量化简。",
+      "prerequisiteSkills": "有理数指数幂的运算性质",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-2-01",
+      "targetId": "M1-4-2-01",
+      "name": "指数函数的概念",
+      "objective": "能在本题条件下运用“指数函数的概念”得出答案，并说明依据。",
+      "boundary": "检测指数函数标准形式与底数约束。",
+      "prerequisiteSkills": "有理数指数幂的运算性质",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-2-02",
+      "targetId": "M1-4-2-02",
+      "name": "指数函数的图像",
+      "objective": "能在本题条件下运用“指数函数的图像”得出答案，并说明依据。",
+      "boundary": "检测指数图像描点、正值及渐近特征；不检查绘图精度。",
+      "prerequisiteSkills": "指数函数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-2-03",
+      "targetId": "M1-4-2-03",
+      "name": "指数函数的性质",
+      "objective": "能在本题条件下运用“指数函数的性质”得出答案，并说明依据。",
+      "boundary": "检测指数函数核心性质及指数不等式；不含复合定义域。",
+      "prerequisiteSkills": "指数函数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-2-04",
+      "targetId": "M1-4-2-04",
+      "name": "底数大小对图像位置的影响",
+      "objective": "能在本题条件下运用“底数大小对图像位置的影响”得出答案，并说明依据。",
+      "boundary": "检测底数大小与图像左右半平面位置。",
+      "prerequisiteSkills": "指数函数的图像",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-2-05",
+      "targetId": "M1-4-2-05",
+      "name": "指数型函数图像的变换",
+      "objective": "能在本题条件下运用“指数型函数图像的变换”得出答案，并说明依据。",
+      "boundary": "检测指数型图像平移及点、范围联动；不检测伸缩。",
+      "prerequisiteSkills": "指数函数的图像",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-3-01",
+      "targetId": "M1-4-3-01",
+      "name": "对数的概念",
+      "objective": "能在本题条件下运用“对数的概念”得出答案，并说明依据。",
+      "boundary": "检测指数对数互化及定义条件。",
+      "prerequisiteSkills": "有理数指数幂的运算性质",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-3-02",
+      "targetId": "M1-4-3-02",
+      "name": "常用对数与自然对数",
+      "objective": "能在本题条件下运用“常用对数与自然对数”得出答案，并说明依据。",
+      "boundary": "检测常用对数、自然对数记号和基本求值。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-3-03",
+      "targetId": "M1-4-3-03",
+      "name": "对数的运算性质",
+      "objective": "能在本题条件下运用“对数的运算性质”得出答案，并说明依据。",
+      "boundary": "检测积、商、幂三条运算律，真数均正。",
+      "prerequisiteSkills": "对数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-3-04",
+      "targetId": "M1-4-3-04",
+      "name": "换底公式及其推论",
+      "objective": "能在本题条件下运用“换底公式及其推论”得出答案，并说明依据。",
+      "boundary": "检测换底公式、链式相乘与互倒推论。",
+      "prerequisiteSkills": "对数的运算性质",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-3-05",
+      "targetId": "M1-4-3-05",
+      "name": "对数恒等式",
+      "objective": "能在本题条件下运用“对数恒等式”得出答案，并说明依据。",
+      "boundary": "检测两类对数恒等式与定义限制。",
+      "prerequisiteSkills": "对数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-4-01",
+      "targetId": "M1-4-4-01",
+      "name": "对数函数的概念",
+      "objective": "能在本题条件下运用“对数函数的概念”得出答案，并说明依据。",
+      "boundary": "检测对数函数形式及底数条件；不把平方产生的负底数解保留。",
+      "prerequisiteSkills": "对数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-4-02",
+      "targetId": "M1-4-4-02",
+      "name": "对数函数的图像",
+      "objective": "能在本题条件下运用“对数函数的图像”得出答案，并说明依据。",
+      "boundary": "检测对数描点、截距与渐近线；图像以关键点描述。",
+      "prerequisiteSkills": "对数函数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-4-03",
+      "targetId": "M1-4-4-03",
+      "name": "对数函数的性质",
+      "objective": "能在本题条件下运用“对数函数的性质”得出答案，并说明依据。",
+      "boundary": "检测对数函数性质与解不等式时真数限制。",
+      "prerequisiteSkills": "对数函数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-4-04",
+      "targetId": "M1-4-4-04",
+      "name": "底数大小对图像位置的影响",
+      "objective": "能在本题条件下运用“底数大小对图像位置的影响”得出答案，并说明依据。",
+      "boundary": "检测底数变化影响图像位置及真数分段。",
+      "prerequisiteSkills": "对数函数的图像",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-4-05",
+      "targetId": "M1-4-4-05",
+      "name": "对数型函数图像的变换",
+      "objective": "能在本题条件下运用“对数型函数图像的变换”得出答案，并说明依据。",
+      "boundary": "检测对数平移、真数限制和轴交点。",
+      "prerequisiteSkills": "对数函数的图像",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-4-06",
+      "targetId": "M1-4-4-06",
+      "name": "指数函数与对数函数互为反函数",
+      "objective": "能在本题条件下运用“指数函数与对数函数互为反函数”得出答案，并说明依据。",
+      "boundary": "检测指数对数互逆、定义域交换和图像对称。",
+      "prerequisiteSkills": "指数函数的概念；对数函数的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-4-07",
+      "targetId": "M1-4-4-07",
+      "name": "反函数的概念",
+      "objective": "能在本题条件下运用“反函数的概念”得出答案，并说明依据。",
+      "boundary": "检测反函数的一一对应与定义域限制。",
+      "prerequisiteSkills": "指数函数与对数函数互为反函数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-5-01",
+      "targetId": "M1-4-5-01",
+      "name": "指数函数模型",
+      "objective": "能在本题条件下运用“指数函数模型”得出答案，并说明依据。",
+      "boundary": "检测恒比指数模型与离散阈值；不估计生物实际变化。",
+      "prerequisiteSkills": "指数函数的图像",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-5-02",
+      "targetId": "M1-4-5-02",
+      "name": "对数函数模型",
+      "objective": "能在本题条件下运用“对数函数模型”得出答案，并说明依据。",
+      "boundary": "检测给定对数模型的正向与反向换算；不引入实际声学假设。",
+      "prerequisiteSkills": "对数函数的图像",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-5-03",
+      "targetId": "M1-4-5-03",
+      "name": "幂函数模型",
+      "objective": "能在本题条件下运用“幂函数模型”得出答案，并说明依据。",
+      "boundary": "检测幂函数模型拟合及反解；不推导球体积公式。",
+      "prerequisiteSkills": "幂函数的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-5-04",
+      "targetId": "M1-4-5-04",
+      "name": "三种函数增长的差异",
+      "objective": "能在本题条件下运用“三种函数增长的差异”得出答案，并说明依据。",
+      "boundary": "检测三类增长的数值差异及有限样本结论边界；不证明指数最终超过幂的极限定理。",
+      "prerequisiteSkills": "指数函数模型；对数函数模型；幂函数模型",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-4-5-05",
+      "targetId": "M1-4-5-05",
+      "name": "函数模型的选择与拟合",
+      "objective": "能在本题条件下运用“函数模型的选择与拟合”得出答案，并说明依据。",
+      "boundary": "检测候选模型筛选、参数拟合和外推；不保证现实第4次必为80。",
+      "prerequisiteSkills": "三种函数增长的差异",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-01",
+      "targetId": "M1-5-1-01",
+      "name": "任意角的概念",
+      "objective": "能在本题条件下运用“任意角的概念”得出答案，并说明依据。",
+      "boundary": "检测任意角的旋转方向、整周与零角。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-02",
+      "targetId": "M1-5-1-02",
+      "name": "终边相同的角的集合",
+      "objective": "能在本题条件下运用“终边相同的角的集合”得出答案，并说明依据。",
+      "boundary": "检测同终边角通式与区间筛选。",
+      "prerequisiteSkills": "任意角的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-03",
+      "targetId": "M1-5-1-03",
+      "name": "象限角与轴线角",
+      "objective": "能在本题条件下运用“象限角与轴线角”得出答案，并说明依据。",
+      "boundary": "检测象限角和轴线角的区分。",
+      "prerequisiteSkills": "任意角的概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-04",
+      "targetId": "M1-5-1-04",
+      "name": "弧度制的定义",
+      "objective": "能在本题条件下运用“弧度制的定义”得出答案，并说明依据。",
+      "boundary": "检测弧度定义及无量纲比值；默认正向小于一周弧。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-05",
+      "targetId": "M1-5-1-05",
+      "name": "角度与弧度的互化",
+      "objective": "能在本题条件下运用“角度与弧度的互化”得出答案，并说明依据。",
+      "boundary": "检测角度弧度双向换算含负角。",
+      "prerequisiteSkills": "弧度制的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-06",
+      "targetId": "M1-5-1-06",
+      "name": "特殊角的弧度值",
+      "objective": "能在本题条件下运用“特殊角的弧度值”得出答案，并说明依据。",
+      "boundary": "检测七个常见特殊角弧度值；不检测三角函数值。",
+      "prerequisiteSkills": "角度与弧度的互化",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-07",
+      "targetId": "M1-5-1-07",
+      "name": "弧长公式",
+      "objective": "能在本题条件下运用“弧长公式”得出答案，并说明依据。",
+      "boundary": "检测弧长公式、角度预转换及反向应用。",
+      "prerequisiteSkills": "弧度制的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-1-08",
+      "targetId": "M1-5-1-08",
+      "name": "扇形面积公式",
+      "objective": "能在本题条件下运用“扇形面积公式”得出答案，并说明依据。",
+      "boundary": "检测扇形面积的角度式与弧长式。",
+      "prerequisiteSkills": "弧度制的定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-2-01",
+      "targetId": "M1-5-2-01",
+      "name": "任意角三角函数的定义（单位圆法）",
+      "objective": "能在本题条件下运用“任意角三角函数的定义（单位圆法）”得出答案，并说明依据。",
+      "boundary": "检测单位圆定义及正切禁值；不依赖锐角三角形。",
+      "prerequisiteSkills": "终边相同的角的集合",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-2-02",
+      "targetId": "M1-5-2-02",
+      "name": "三角函数值在各象限的符号",
+      "objective": "能在本题条件下运用“三角函数值在各象限的符号”得出答案，并说明依据。",
+      "boundary": "检测三种函数的象限符号配合；已排除轴线角。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-2-03",
+      "targetId": "M1-5-2-03",
+      "name": "诱导公式一（终边相同的角）",
+      "objective": "能在本题条件下运用“诱导公式一（终边相同的角）”得出答案，并说明依据。",
+      "boundary": "检测加减2kπ的诱导公式一；不使用异名函数变换。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-2-04",
+      "targetId": "M1-5-2-04",
+      "name": "单位圆与三角函数线",
+      "objective": "能在本题条件下运用“单位圆与三角函数线”得出答案，并说明依据。",
+      "boundary": "检测三角函数线位置与有向性；T在终边反向延长线上，使用的是直线OP。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-3-01",
+      "targetId": "M1-5-3-01",
+      "name": "平方关系 sin^2+cos^2=1",
+      "objective": "能在本题条件下运用“平方关系 sin^2+cos^2=1”得出答案，并说明依据。",
+      "boundary": "检测平方关系及符号选择；不求正切。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-3-02",
+      "targetId": "M1-5-3-02",
+      "name": "商数关系 tan=sin/cos",
+      "objective": "能在本题条件下运用“商数关系 tan=sin/cos”得出答案，并说明依据。",
+      "boundary": "检测商数关系及定义限制。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-3-03",
+      "targetId": "M1-5-3-03",
+      "name": "同角关系求值（知一求二）",
+      "objective": "能在本题条件下运用“同角关系求值（知一求二）”得出答案，并说明依据。",
+      "boundary": "检测知正切求正余弦，结合平方、商数和象限。",
+      "prerequisiteSkills": "平方关系 sin^2+cos^2=1；商数关系 tan=sin/cos",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-3-04",
+      "targetId": "M1-5-3-04",
+      "name": "同角关系的化简与证明",
+      "objective": "能在本题条件下运用“同角关系的化简与证明”得出答案，并说明依据。",
+      "boundary": "检测同角平方关系的恒等变形及禁值。",
+      "prerequisiteSkills": "同角关系求值（知一求二）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-3-05",
+      "targetId": "M1-5-3-05",
+      "name": "sin+cos与sincos的关系",
+      "objective": "能在本题条件下运用“sin+cos与sincos的关系”得出答案，并说明依据。",
+      "boundary": "检测和、积、差平方之间关系；不确定角所在具体象限。",
+      "prerequisiteSkills": "同角关系求值（知一求二）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-4-01",
+      "targetId": "M1-5-4-01",
+      "name": "诱导公式二（派+α）",
+      "objective": "能在本题条件下运用“诱导公式二（派+α）”得出答案，并说明依据。",
+      "boundary": "检测π+α三条诱导关系；附带基本三角求值。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-4-02",
+      "targetId": "M1-5-4-02",
+      "name": "诱导公式三（-α）",
+      "objective": "能在本题条件下运用“诱导公式三（-α）”得出答案，并说明依据。",
+      "boundary": "检测-α诱导公式中奇偶差别。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-4-03",
+      "targetId": "M1-5-4-03",
+      "name": "诱导公式四（派-α）",
+      "objective": "能在本题条件下运用“诱导公式四（派-α）”得出答案，并说明依据。",
+      "boundary": "检测π-α三函数的诱导关系。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-4-04",
+      "targetId": "M1-5-4-04",
+      "name": "诱导公式五（派/2-α）",
+      "objective": "能在本题条件下运用“诱导公式五（派/2-α）”得出答案，并说明依据。",
+      "boundary": "检测π/2-α异名变换与正切倒数；题中分母非零。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-4-05",
+      "targetId": "M1-5-4-05",
+      "name": "诱导公式六（派/2+α）",
+      "objective": "能在本题条件下运用“诱导公式六（派/2+α）”得出答案，并说明依据。",
+      "boundary": "检测π/2+α的异名与符号。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-4-06",
+      "targetId": "M1-5-4-06",
+      "name": "记忆口诀：奇变偶不变符号看象限",
+      "objective": "能在本题条件下运用“记忆口诀：奇变偶不变符号看象限”得出答案，并说明依据。",
+      "boundary": "检测口诀的奇偶指代、换名和定号；限正余弦。",
+      "prerequisiteSkills": "诱导公式二（派+α）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-4-07",
+      "targetId": "M1-5-4-07",
+      "name": "诱导公式综合运用",
+      "objective": "能在本题条件下运用“诱导公式综合运用”得出答案，并说明依据。",
+      "boundary": "检测多条诱导公式综合及约分保留禁值。",
+      "prerequisiteSkills": "诱导公式二（派+α）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-5-01",
+      "targetId": "M1-5-5-01",
+      "name": "正弦函数的图像（五点作图法）",
+      "objective": "能在本题条件下运用“正弦函数的图像（五点作图法）”得出答案，并说明依据。",
+      "boundary": "检测正弦五点作图的选点、纵向伸缩和走势；以坐标表达，未检测徒手精度。",
+      "prerequisiteSkills": "任意角三角函数的定义（单位圆法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-5-02",
+      "targetId": "M1-5-5-02",
+      "name": "正弦函数的性质",
+      "objective": "能在本题条件下运用“正弦函数的性质”得出答案，并说明依据。",
+      "boundary": "检测正弦定义域、范围、奇偶、周期、单调及最值；对称轴另题检测。",
+      "prerequisiteSkills": "正弦函数的图像（五点作图法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-5-03",
+      "targetId": "M1-5-5-03",
+      "name": "余弦函数的图像与性质",
+      "objective": "能在本题条件下运用“余弦函数的图像与性质”得出答案，并说明依据。",
+      "boundary": "检测余弦图像关键点与基本性质；单调区间仅要求一个周期。",
+      "prerequisiteSkills": "正弦函数的图像（五点作图法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-5-04",
+      "targetId": "M1-5-5-04",
+      "name": "正切函数的图像与性质",
+      "objective": "能在本题条件下运用“正切函数的图像与性质”得出答案，并说明依据。",
+      "boundary": "检测正切图像及定义域、范围、奇偶、周期、各支单调；不把全域合成一个增区间。",
+      "prerequisiteSkills": "正弦函数的图像（五点作图法）",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-5-05",
+      "targetId": "M1-5-5-05",
+      "name": "三角函数的周期性",
+      "objective": "能在本题条件下运用“三角函数的周期性”得出答案，并说明依据。",
+      "boundary": "检测三类周期公式与周期/最小周期区分。",
+      "prerequisiteSkills": "正弦函数的性质",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-5-06",
+      "targetId": "M1-5-5-06",
+      "name": "三角函数的对称性",
+      "objective": "能在本题条件下运用“三角函数的对称性”得出答案，并说明依据。",
+      "boundary": "检测正弦轴对称和中心对称，包含公式验证。",
+      "prerequisiteSkills": "正弦函数的性质",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-6-01",
+      "targetId": "M1-5-6-01",
+      "name": "两角差的余弦公式",
+      "objective": "能在本题条件下运用“两角差的余弦公式”得出答案，并说明依据。",
+      "boundary": "检测两角差余弦的加号与配对乘积。",
+      "prerequisiteSkills": "实数基本运算与数学符号阅读。",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-6-02",
+      "targetId": "M1-5-6-02",
+      "name": "两角和的余弦公式",
+      "objective": "能在本题条件下运用“两角和的余弦公式”得出答案，并说明依据。",
+      "boundary": "检测两角和余弦的减号；已知角均锐避免开根歧义。",
+      "prerequisiteSkills": "两角差的余弦公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-6-03",
+      "targetId": "M1-5-6-03",
+      "name": "两角和与差的正弦公式",
+      "objective": "能在本题条件下运用“两角和与差的正弦公式”得出答案，并说明依据。",
+      "boundary": "检测正弦和角及差角两公式。",
+      "prerequisiteSkills": "两角和的余弦公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-6-04",
+      "targetId": "M1-5-6-04",
+      "name": "两角和与差的正切公式",
+      "objective": "能在本题条件下运用“两角和与差的正切公式”得出答案，并说明依据。",
+      "boundary": "检测正切和差公式及分母限制。",
+      "prerequisiteSkills": "两角和与差的正弦公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-6-05",
+      "targetId": "M1-5-6-05",
+      "name": "辅助角公式 asinx+bcosx",
+      "objective": "能在本题条件下运用“辅助角公式 asinx+bcosx”得出答案，并说明依据。",
+      "boundary": "检测辅助角构造、系数匹配与最值相位恢复。",
+      "prerequisiteSkills": "两角和与差的正弦公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-7-01",
+      "targetId": "M1-5-7-01",
+      "name": "二倍角的正弦公式",
+      "objective": "能在本题条件下运用“二倍角的正弦公式”得出答案，并说明依据。",
+      "boundary": "检测正弦二倍角及原角象限的符号约束。",
+      "prerequisiteSkills": "两角和与差的正弦公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-7-02",
+      "targetId": "M1-5-7-02",
+      "name": "二倍角的余弦公式",
+      "objective": "会选用二倍角余弦公式并识别其等价形式",
+      "boundary": "检测已知正弦求二倍角余弦；不覆盖含参方程",
+      "prerequisiteSkills": "同角平方关系、分数运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-7-03",
+      "targetId": "M1-5-7-03",
+      "name": "二倍角的正切公式",
+      "objective": "应用二倍角正切公式并检查分母限制",
+      "boundary": "检测有定义与分母为零的对照；不覆盖复杂三角方程",
+      "prerequisiteSkills": "正切定义、分式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-7-04",
+      "targetId": "M1-5-7-04",
+      "name": "升幂降角与降幂升角",
+      "objective": "双向使用降幂和升幂关系",
+      "boundary": "检测平方与二倍角间转换，不覆盖高次幂的系统降幂",
+      "prerequisiteSkills": "二倍角余弦、特殊角值",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-7-05",
+      "targetId": "M1-5-7-05",
+      "name": "半角公式",
+      "objective": "利用半角公式并由半角象限确定根号前符号",
+      "boundary": "检测三种半角值；不覆盖半角恒等变形的多种路径",
+      "prerequisiteSkills": "象限、平方根",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-7-06",
+      "targetId": "M1-5-7-06",
+      "name": "积化和差与和差化积",
+      "objective": "分别实施积化和差与和差化积",
+      "boundary": "各检测一个正弦型恒等式，不代表覆盖四类全部公式",
+      "prerequisiteSkills": "和差角公式、特殊角",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-8-01",
+      "targetId": "M1-5-8-01",
+      "name": "phi对图像的影响（左右平移）",
+      "objective": "从相位变化求实际水平位移",
+      "boundary": "固定角频率2，检测最短平移；不覆盖多次复合变换",
+      "prerequisiteSkills": "函数平移规则",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-8-02",
+      "targetId": "M1-5-8-02",
+      "name": "omega对图像的影响（周期变换）",
+      "objective": "把角频率与横向伸缩、周期联系起来",
+      "boundary": "只检测无相位的正频率变换",
+      "prerequisiteSkills": "正弦基本周期",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-8-03",
+      "targetId": "M1-5-8-03",
+      "name": "A对图像的影响（振幅变换）",
+      "objective": "区分振幅大小与负系数的反射作用",
+      "boundary": "检测振幅和纵向变化；不涉及竖直位移",
+      "prerequisiteSkills": "正弦值域、绝对值",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-8-04",
+      "targetId": "M1-5-8-04",
+      "name": "平移与伸缩的顺序区别",
+      "objective": "按顺序正确复合平移与伸缩",
+      "boundary": "只检测两种指定顺序的区别",
+      "prerequisiteSkills": "函数自变量替换",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-8-05",
+      "targetId": "M1-5-8-05",
+      "name": "由图像求解析式",
+      "objective": "从峰高、峰间距、峰位置提取三个参数",
+      "boundary": "用文字给定准确图像特征；不检测读图测量误差",
+      "prerequisiteSkills": "周期公式、正弦最高点",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-8-06",
+      "targetId": "M1-5-8-06",
+      "name": "周期/振幅/频率/相位/初相",
+      "objective": "区分振幅、周期、频率、相位和初相",
+      "boundary": "仅对给定标准简谐表达式识别参数",
+      "prerequisiteSkills": "单位、周期公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-8-07",
+      "targetId": "M1-5-8-07",
+      "name": "简谐运动的三角函数模型",
+      "objective": "根据振幅、周期、初始运动方向建模",
+      "boundary": "理想简谐模型；不检测阻尼和受迫振动",
+      "prerequisiteSkills": "正弦图像、周期",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-9-01",
+      "targetId": "M1-5-9-01",
+      "name": "圆周运动中的三角函数",
+      "objective": "将匀速圆周运动的竖直投影转为三角模型",
+      "boundary": "只测高度，不测二维轨迹、变速旋转",
+      "prerequisiteSkills": "圆周周期、余弦",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m1-5-9-02",
+      "targetId": "M1-5-9-02",
+      "name": "潮汐/温度/交流电中的应用",
+      "objective": "把潮汐、温度和交流电三个情境对应到周期参数",
+      "boundary": "题中数据为理想化假设；不声称真实潮汐、气温严格正弦",
+      "prerequisiteSkills": "振幅、中线、频率",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-1-01",
+      "targetId": "M2-6-1-01",
+      "name": "向量的定义（大小+方向）",
+      "objective": "识别大小和方向共同确定向量",
+      "boundary": "只检测位移与路程的概念区分",
+      "prerequisiteSkills": "长度与方向",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-1-02",
+      "targetId": "M2-6-1-02",
+      "name": "向量的表示",
+      "objective": "区分向量记号、坐标表示和模的标量表示",
+      "boundary": "以二维坐标辅助表示，不测复杂作图",
+      "prerequisiteSkills": "坐标相减、勾股定理",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-1-03",
+      "targetId": "M2-6-1-03",
+      "name": "向量的模（长度）",
+      "objective": "理解向量模为非负长度且不同于向量本身",
+      "boundary": "检测模和反向向量；不证明一般三角不等式",
+      "prerequisiteSkills": "勾股定理、向量加法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-1-04",
+      "targetId": "M2-6-1-04",
+      "name": "零向量与单位向量",
+      "objective": "构造单位向量并识别零向量限制",
+      "boundary": "二维非零向量标准化；不测一般向量空间",
+      "prerequisiteSkills": "模、分数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-1-05",
+      "targetId": "M2-6-1-05",
+      "name": "平行向量与相等向量",
+      "objective": "区分平行、同向及相等，并处理零向量约定",
+      "boundary": "只检测给定向量判断",
+      "prerequisiteSkills": "数乘、坐标相等",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-1-06",
+      "targetId": "M2-6-1-06",
+      "name": "向量的夹角",
+      "objective": "把向量平移至共同起点后确定夹角范围",
+      "boundary": "只检测非零向量平面方向的夹角",
+      "prerequisiteSkills": "方位角",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-2-01",
+      "targetId": "M2-6-2-01",
+      "name": "向量加法的三角形法则",
+      "objective": "用首尾连接实施向量加法",
+      "boundary": "指定三点的两向量相加",
+      "prerequisiteSkills": "向量表示、勾股定理",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-2-02",
+      "targetId": "M2-6-2-02",
+      "name": "向量加法的平行四边形法则",
+      "objective": "以同起点邻边和确定平行四边形对角线",
+      "boundary": "O为原点；不涉及一般空间平行四边形",
+      "prerequisiteSkills": "坐标向量",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-2-03",
+      "targetId": "M2-6-2-03",
+      "name": "加法运算律",
+      "objective": "用交换律与结合律重组向量和",
+      "boundary": "检测加法运算律，数乘与数量积不在范围内",
+      "prerequisiteSkills": "坐标加法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-2-04",
+      "targetId": "M2-6-2-04",
+      "name": "向量减法的定义与法则",
+      "objective": "正确确定向量减法的方向",
+      "boundary": "检测同起点法则及坐标核验",
+      "prerequisiteSkills": "相反向量、减法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-2-05",
+      "targetId": "M2-6-2-05",
+      "name": "向量数乘的定义与运算律",
+      "objective": "掌握数乘几何含义和分配律",
+      "boundary": "只测负数倍及一次分配，不测参数综合",
+      "prerequisiteSkills": "向量加减、模",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-2-06",
+      "targetId": "M2-6-2-06",
+      "name": "向量共线定理",
+      "objective": "用共线定理转换为唯一数乘关系",
+      "boundary": "检测两个独立基向量的系数法",
+      "prerequisiteSkills": "不共线向量线性表示",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-2-07",
+      "targetId": "M2-6-2-07",
+      "name": "线性运算综合",
+      "objective": "综合使用中点、数乘和首尾相加",
+      "boundary": "指定中线上的内分点；不测外分和参数轨迹",
+      "prerequisiteSkills": "中点向量、数乘",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-3-01",
+      "targetId": "M2-6-3-01",
+      "name": "平面向量基本定理",
+      "objective": "核查基底不共线条件和表示唯一性",
+      "boundary": "二维给定基底，不推广到高维",
+      "prerequisiteSkills": "二元一次方程",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-3-02",
+      "targetId": "M2-6-3-02",
+      "name": "正交分解与坐标表示",
+      "objective": "把位移分解为正交有符号分量",
+      "boundary": "基向量已正交且单位长；不测斜坐标系",
+      "prerequisiteSkills": "方向、勾股定理",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-3-03",
+      "targetId": "M2-6-3-03",
+      "name": "向量坐标运算",
+      "objective": "逐分量实施加、减、数乘运算",
+      "boundary": "直接坐标运算，不检测几何建模",
+      "prerequisiteSkills": "有理数运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-3-04",
+      "targetId": "M2-6-3-04",
+      "name": "向量共线的坐标表示",
+      "objective": "使用行列式形式判断二维共线",
+      "boundary": "给定非零第二向量；不检测三点轨迹",
+      "prerequisiteSkills": "分量数乘",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-3-05",
+      "targetId": "M2-6-3-05",
+      "name": "向量模的坐标表示",
+      "objective": "把模转为坐标平方和并保留双解",
+      "boundary": "平面距离及单一轴上点；不测复杂轨迹",
+      "prerequisiteSkills": "勾股定理、平方方程",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-3-06",
+      "targetId": "M2-6-3-06",
+      "name": "向量夹角的坐标表示",
+      "objective": "由坐标数量积和模计算夹角",
+      "boundary": "非零平面向量、特殊角",
+      "prerequisiteSkills": "数量积坐标式、反求角",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-4-01",
+      "targetId": "M2-6-4-01",
+      "name": "数量积的定义",
+      "objective": "应用数量积定义并识别其结果类型",
+      "boundary": "指定模和夹角，不测坐标推导",
+      "prerequisiteSkills": "特殊角余弦",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-4-02",
+      "targetId": "M2-6-4-02",
+      "name": "数量积的几何意义（投影）",
+      "objective": "区分数量投影、投影向量与数量积",
+      "boundary": "仅向非零b投影，明确有符号约定",
+      "prerequisiteSkills": "单位向量、余弦",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-4-03",
+      "targetId": "M2-6-4-03",
+      "name": "数量积的运算律",
+      "objective": "正确运用数量积交换律、分配律并识别类型限制",
+      "boundary": "展开一次双线性式；不涉及外积",
+      "prerequisiteSkills": "数量积、向量模平方",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-4-04",
+      "targetId": "M2-6-4-04",
+      "name": "数量积的坐标运算",
+      "objective": "按坐标求数量积",
+      "boundary": "二维整数坐标的直接数量积",
+      "prerequisiteSkills": "整数乘加",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-4-05",
+      "targetId": "M2-6-4-05",
+      "name": "用数量积求模",
+      "objective": "通过自乘展开求和向量的模",
+      "boundary": "给定模与点积；不检测求角",
+      "prerequisiteSkills": "数量积分配律、根式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-4-06",
+      "targetId": "M2-6-4-06",
+      "name": "用数量积求夹角",
+      "objective": "由和差模反推数量积及夹角",
+      "boundary": "等模特例，不涉及多参数角范围",
+      "prerequisiteSkills": "模平方展开",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-4-07",
+      "targetId": "M2-6-4-07",
+      "name": "用数量积判断垂直",
+      "objective": "应用点积为零判垂直并识别夹角的非零要求",
+      "boundary": "本题a、b均非零，另检查零向量边界",
+      "prerequisiteSkills": "数量积坐标式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-5-01",
+      "targetId": "M2-6-5-01",
+      "name": "余弦定理及其推导",
+      "objective": "从向量差的模平方推导余弦定理并应用",
+      "boundary": "只检测一顶角推导及两边夹角求第三边",
+      "prerequisiteSkills": "数量积、模平方",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-5-02",
+      "targetId": "M2-6-5-02",
+      "name": "余弦定理的应用",
+      "objective": "用余弦定理由三边判角",
+      "boundary": "只检测三边求一角余弦和角型",
+      "prerequisiteSkills": "余弦符号、边角大小关系",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-5-03",
+      "targetId": "M2-6-5-03",
+      "name": "正弦定理及其推导",
+      "objective": "用面积关系推导正弦定理并按对边配对",
+      "boundary": "推导以面积公式为前置；不另推外接圆2R形式",
+      "prerequisiteSkills": "三角形面积公式、分式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-5-04",
+      "targetId": "M2-6-5-04",
+      "name": "正弦定理的应用",
+      "objective": "用正弦定理在边角及外接圆半径间转换",
+      "boundary": "两角一边，解唯一；不检测SSA多解",
+      "prerequisiteSkills": "内角和、特殊角值",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-5-05",
+      "targetId": "M2-6-5-05",
+      "name": "三角形解的个数判断",
+      "objective": "用正弦定理和角和筛选SSA三角形个数",
+      "boundary": "覆盖无解、一解、两解及退化角边界；不列出全部边长",
+      "prerequisiteSkills": "正弦值范围、三角形内角严格正",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-5-06",
+      "targetId": "M2-6-5-06",
+      "name": "三角形面积公式",
+      "objective": "用两边夹角面积公式并与底高式联系",
+      "boundary": "只测指定夹角，不测试海伦公式和外接圆面积式",
+      "prerequisiteSkills": "正弦、三角形面积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-6-5-07",
+      "targetId": "M2-6-5-07",
+      "name": "解三角形的实际应用",
+      "objective": "从实测基线和视角建立三角形并求不可达距离",
+      "boundary": "理想水平测量且角度精确；不处理测量误差",
+      "prerequisiteSkills": "正弦定理、和角公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-1-01",
+      "targetId": "M2-7-1-01",
+      "name": "虚数单位i",
+      "objective": "使用虚数单位定义及幂的四周期",
+      "boundary": "正整数幂和简单二次方程，不测复数开方一般式",
+      "prerequisiteSkills": "整数幂、方程",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-1-02",
+      "targetId": "M2-7-1-02",
+      "name": "复数的代数形式",
+      "objective": "把复数统一为实系数代数形式",
+      "boundary": "只测标准形式整理与实数嵌入",
+      "prerequisiteSkills": "同类项合并",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-1-03",
+      "targetId": "M2-7-1-03",
+      "name": "实部与虚部",
+      "objective": "从整理后的代数式识别实部与虚部",
+      "boundary": "需一次乘法辅助；不检测含参分类",
+      "prerequisiteSkills": "i²=−1、乘法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-1-04",
+      "targetId": "M2-7-1-04",
+      "name": "复数的分类",
+      "objective": "用实部虚部条件区分实数、纯虚数和零",
+      "boundary": "单参数二次虚部；不讨论复参数",
+      "prerequisiteSkills": "方程、复数定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-1-05",
+      "targetId": "M2-7-1-05",
+      "name": "复数相等的条件",
+      "objective": "把复数相等转为两个实方程",
+      "boundary": "限定x、y实数；不测复参数系数分离",
+      "prerequisiteSkills": "二元一次方程",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-2-01",
+      "targetId": "M2-7-2-01",
+      "name": "复数的加法与减法",
+      "objective": "逐部分加减并正确处理负号",
+      "boundary": "直接复数加减",
+      "prerequisiteSkills": "有理数运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-2-02",
+      "targetId": "M2-7-2-02",
+      "name": "复数的乘法",
+      "objective": "展开复数乘法并使用i²=−1",
+      "boundary": "二因式乘积与四次幂，不测三角形式",
+      "prerequisiteSkills": "分配律",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-2-03",
+      "targetId": "M2-7-2-03",
+      "name": "共轭复数",
+      "objective": "通过共轭运算消去虚部",
+      "boundary": "给定代数形式；不测共轭方程组",
+      "prerequisiteSkills": "复数乘法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-2-04",
+      "targetId": "M2-7-2-04",
+      "name": "复数的除法（分母实数化）",
+      "objective": "用共轭使复数分母实数化",
+      "boundary": "分母非零，检测一次除法",
+      "prerequisiteSkills": "共轭、乘法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-3-01",
+      "targetId": "M2-7-3-01",
+      "name": "复平面",
+      "objective": "建立复数与复平面点的对应",
+      "boundary": "检测象限与坐标轴；不测轨迹",
+      "prerequisiteSkills": "平面直角坐标",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-3-02",
+      "targetId": "M2-7-3-02",
+      "name": "复数的向量表示",
+      "objective": "用复数表示平面向量及两点位移",
+      "boundary": "平面自由向量对应，未涉及旋转乘法",
+      "prerequisiteSkills": "坐标减法、模",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-7-3-03",
+      "targetId": "M2-7-3-03",
+      "name": "复数的模",
+      "objective": "应用复数模及其共轭、数乘性质",
+      "boundary": "二维代数模与单参数方程；不测轨迹综合",
+      "prerequisiteSkills": "平方根、二次方程",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-1-01",
+      "targetId": "M2-8-1-01",
+      "name": "棱柱的结构特征",
+      "objective": "识别棱柱构成、计数与侧面结构",
+      "boundary": "一般六棱柱，区分直棱柱；不测斜棱柱体积",
+      "prerequisiteSkills": "多边形、平行四边形",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-1-02",
+      "targetId": "M2-8-1-02",
+      "name": "棱锥的结构特征",
+      "objective": "根据统一锥顶识别棱锥结构并计数",
+      "boundary": "五棱锥，不限定正棱锥",
+      "prerequisiteSkills": "多边形顶点与边",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-1-03",
+      "targetId": "M2-8-1-03",
+      "name": "棱台的结构特征",
+      "objective": "区分棱台的平行截面、相似底面和共同锥顶",
+      "boundary": "正四棱台特例，不将一般棱台侧面说成等腰",
+      "prerequisiteSkills": "相似比、梯形",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-1-04",
+      "targetId": "M2-8-1-04",
+      "name": "圆柱/圆锥/圆台的结构特征",
+      "objective": "比较圆柱、圆锥、圆台的生成与母线结构",
+      "boundary": "规定非退化直角梯形且两底不等；不测表面积",
+      "prerequisiteSkills": "旋转体、直角图形",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-1-05",
+      "targetId": "M2-8-1-05",
+      "name": "球的结构特征",
+      "objective": "识别球截面及大圆条件",
+      "boundary": "给定球与非切截平面；不测球面距离",
+      "prerequisiteSkills": "勾股定理",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-2-01",
+      "targetId": "M2-8-2-01",
+      "name": "斜二测画法的规则",
+      "objective": "实施斜二测方向与长度规则并区分实际量和图示量",
+      "boundary": "采用45°和y缩半的指定约定；图示面积不作真实面积",
+      "prerequisiteSkills": "平行四边形面积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-2-02",
+      "targetId": "M2-8-2-02",
+      "name": "空间几何体直观图画法",
+      "objective": "根据斜二测规则构造完整长方体直观图",
+      "boundary": "用操作步骤检测作图规则，未提供实际手绘图评分",
+      "prerequisiteSkills": "平行线、斜二测规则",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-01",
+      "targetId": "M2-8-3-01",
+      "name": "棱柱/棱锥/棱台的表面积",
+      "objective": "按底面与侧面展开计算柱、锥、台的表面积",
+      "boundary": "均为正四棱体，斜高已给；不测一般多边形或组合体",
+      "prerequisiteSkills": "三角形与梯形面积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-02",
+      "targetId": "M2-8-3-02",
+      "name": "圆柱/圆锥/圆台的表面积",
+      "objective": "区分三个旋转体的侧面积并加齐底面",
+      "boundary": "检测完整封闭表面；不测试缺底容器和组合接面",
+      "prerequisiteSkills": "圆面积、母线",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-03",
+      "targetId": "M2-8-3-03",
+      "name": "球的表面积",
+      "objective": "应用球表面积与半径平方的关系",
+      "boundary": "完整球面，不检测球冠",
+      "prerequisiteSkills": "平方比例",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-04",
+      "targetId": "M2-8-3-04",
+      "name": "棱柱/棱锥/棱台的体积",
+      "objective": "并列应用棱柱、棱锥、棱台体积公式",
+      "boundary": "底面积和垂直高已知；不测求高过程",
+      "prerequisiteSkills": "根式、底高概念",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-05",
+      "targetId": "M2-8-3-05",
+      "name": "圆柱/圆锥/圆台的体积",
+      "objective": "应用圆柱、圆锥和圆台体积公式",
+      "boundary": "高均为垂直高；不考母线换高",
+      "prerequisiteSkills": "圆面积、体积公式",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-06",
+      "targetId": "M2-8-3-06",
+      "name": "球的体积",
+      "objective": "利用球体积及半径立方比",
+      "boundary": "假设完全熔铸无损；不考虑材料空隙",
+      "prerequisiteSkills": "体积、比例",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-07",
+      "targetId": "M2-8-3-07",
+      "name": "等积法求体积",
+      "objective": "通过同一三棱锥的等积换底求距离",
+      "boundary": "两个底面积已给；不涉及符号距离",
+      "prerequisiteSkills": "棱锥体积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-3-08",
+      "targetId": "M2-8-3-08",
+      "name": "割补法求体积",
+      "objective": "先识别被割去的简单体再作体积差",
+      "boundary": "一次顶角切割，三截点均在相邻棱上",
+      "prerequisiteSkills": "三角形面积、棱锥体积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-4-01",
+      "targetId": "M2-8-4-01",
+      "name": "平面的三个基本事实（公理）",
+      "objective": "分别在情境中使用三个平面基本事实",
+      "boundary": "仅检测事实调用与唯一性，不证明公理",
+      "prerequisiteSkills": "点线面记号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-4-02",
+      "targetId": "M2-8-4-02",
+      "name": "公理1（直线在平面内）",
+      "objective": "使用两点在平面内推出整条直线在平面内",
+      "boundary": "明确两点不同；只测包含性而非其他位置关系",
+      "prerequisiteSkills": "集合包含、直线唯一性",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-4-03",
+      "targetId": "M2-8-4-03",
+      "name": "公理2（确定平面）",
+      "objective": "使用不共线三点确定平面的存在唯一性",
+      "boundary": "只测点集确定平面，D限制不可删除",
+      "prerequisiteSkills": "直线在平面内",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-4-04",
+      "targetId": "M2-8-4-04",
+      "name": "公理3（两平面交线）",
+      "objective": "运用两平面唯一交线定位公共点",
+      "boundary": "两个平面必须不同；不考虑重合情形",
+      "prerequisiteSkills": "基本事实、反证法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-4-05",
+      "targetId": "M2-8-4-05",
+      "name": "空间点/线/面的位置关系",
+      "objective": "区分点面、线面、面面的位置关系",
+      "boundary": "只测正方体中的典型关系，不含全部任意空间构型",
+      "prerequisiteSkills": "正方体结构",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-4-06",
+      "targetId": "M2-8-4-06",
+      "name": "异面直线的概念与判定",
+      "objective": "以不共面本质判定异面，排除平行混淆",
+      "boundary": "正方体指定两直线，不涉及复杂异面证明",
+      "prerequisiteSkills": "平面两直线位置关系",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-5-01",
+      "targetId": "M2-8-5-01",
+      "name": "线面平行的判定定理",
+      "objective": "用面外直线与面内直线平行判定线面平行",
+      "boundary": "非退化四面体，检测中位线型判定",
+      "prerequisiteSkills": "中位线、平面交线",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-5-02",
+      "targetId": "M2-8-5-02",
+      "name": "线面平行的性质定理",
+      "objective": "利用含平行线的截面交线得到线线平行",
+      "boundary": "两平面相交、β包含l；不覆盖平面重合",
+      "prerequisiteSkills": "共面直线的位置关系",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-5-03",
+      "targetId": "M2-8-5-03",
+      "name": "面面平行的判定定理",
+      "objective": "由两组相交直线的平行关系判定面面平行",
+      "boundary": "非退化四面体的中点截面；不证明一般空间仿射性质",
+      "prerequisiteSkills": "中位线、相交直线",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-5-04",
+      "targetId": "M2-8-5-04",
+      "name": "面面平行的性质定理",
+      "objective": "把平行平面的截线转为平行直线",
+      "boundary": "假定截面确与两面相交；不讨论γ平行两面",
+      "prerequisiteSkills": "平行的定义、反证法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-5-05",
+      "targetId": "M2-8-5-05",
+      "name": "平行关系的转化与综合",
+      "objective": "完成中点线到线线平行再到线面平行的转化",
+      "boundary": "棱柱侧面中点构型；不涵盖全部平行综合",
+      "prerequisiteSkills": "平行四边形、中点、线面判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-6-01",
+      "targetId": "M2-8-6-01",
+      "name": "线面垂直的判定定理",
+      "objective": "使用平面内两相交线判定线面垂直",
+      "boundary": "矩形底面的指定两邻边；不需已知PA长度",
+      "prerequisiteSkills": "矩形、线面垂直判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-6-02",
+      "targetId": "M2-8-6-02",
+      "name": "线面垂直的性质定理",
+      "objective": "应用线面垂直的两个基本性质",
+      "boundary": "非重合垂线作平行结论；包含异面直线方向垂直",
+      "prerequisiteSkills": "线面垂直定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-6-03",
+      "targetId": "M2-8-6-03",
+      "name": "面面垂直的判定定理",
+      "objective": "用包含另一平面垂线判定面面垂直",
+      "boundary": "非退化四面体，两侧面确含PA",
+      "prerequisiteSkills": "线面垂直、面包含直线",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-6-04",
+      "targetId": "M2-8-6-04",
+      "name": "面面垂直的性质定理",
+      "objective": "准确调用面面垂直性质中的面内与垂直交线条件",
+      "boundary": "只测性质定理，不另测二面角计算",
+      "prerequisiteSkills": "面面垂直、交线",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-6-05",
+      "targetId": "M2-8-6-05",
+      "name": "垂直关系的转化与综合",
+      "objective": "串联线线垂直、线面判定和线面性质",
+      "boundary": "正方体的对角截面构型；不推广一般长方体对角线",
+      "prerequisiteSkills": "正方形对角线、垂直判定",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-7-01",
+      "targetId": "M2-8-7-01",
+      "name": "异面直线所成的角",
+      "objective": "通过平行移动把异面直线角转为可比较方向角",
+      "boundary": "特殊正方体直角情形；不测一般非特殊角",
+      "prerequisiteSkills": "空间平行与垂直",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-7-02",
+      "targetId": "M2-8-7-02",
+      "name": "直线与平面所成的角",
+      "objective": "找到斜线射影并计算线面角",
+      "boundary": "垂足已知的非垂直斜线；不测寻找垂足的复杂题",
+      "prerequisiteSkills": "勾股定理、正弦",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-7-03",
+      "targetId": "M2-8-7-03",
+      "name": "二面角与二面角的平面角",
+      "objective": "构造二面角平面角并保留钝角信息",
+      "boundary": "半平面方向已指定，不能自动取锐角",
+      "prerequisiteSkills": "垂直、余弦定理",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-8-7-04",
+      "targetId": "M2-8-7-04",
+      "name": "点到平面的距离",
+      "objective": "识别点面距离必须取垂线段",
+      "boundary": "正四棱锥，垂足由对称结构确定",
+      "prerequisiteSkills": "正方形对角线、勾股定理",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-1-01",
+      "targetId": "M2-9-1-01",
+      "name": "简单随机抽样",
+      "objective": "用固定容量子集等可能识别简单随机抽样",
+      "boundary": "总体小且完全列举；不讨论有放回抽样定义差异",
+      "prerequisiteSkills": "组合计数或枚举",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-1-02",
+      "targetId": "M2-9-1-02",
+      "name": "抽签法",
+      "objective": "给出可执行且公平的抽签法",
+      "boundary": "不放回抽5名；不保证现实中混匀自动完美",
+      "prerequisiteSkills": "编号、概率对称性",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-1-03",
+      "targetId": "M2-9-1-03",
+      "name": "随机数法",
+      "objective": "实施随机数法的分组、范围、去重和停止规则",
+      "boundary": "假定数字组独立均匀；不测随机数发生器质量",
+      "prerequisiteSkills": "整数编号、集合去重",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-1-04",
+      "targetId": "M2-9-1-04",
+      "name": "分层随机抽样",
+      "objective": "确定比例分配并保留层内随机性",
+      "boundary": "按比例分层，人数恰为整数；不涉及最优非比例分配",
+      "prerequisiteSkills": "比例、简单随机抽样",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-1-05",
+      "targetId": "M2-9-1-05",
+      "name": "系统抽样",
+      "objective": "执行系统抽样并识别周期排序风险",
+      "boundary": "总体容量整除样本量；不涉及非整数间隔调整",
+      "prerequisiteSkills": "等差数列、随机起点",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-2-01",
+      "targetId": "M2-9-2-01",
+      "name": "频率分布直方图的绘制",
+      "objective": "由不等组距数据确定直方图高度与面积意义",
+      "boundary": "给出绘图关键数值，未评分实际手绘质量",
+      "prerequisiteSkills": "频率、矩形面积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-2-02",
+      "targetId": "M2-9-2-02",
+      "name": "频率分布折线图",
+      "objective": "从直方图组中值与高度构造频率分布折线",
+      "boundary": "明确纵轴密度及等组距约定；不与以频数为纵轴的折线混用",
+      "prerequisiteSkills": "直方图、组中值",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-2-03",
+      "targetId": "M2-9-2-03",
+      "name": "茎叶图的绘制与读取",
+      "objective": "绘制和读取茎叶图并保留重复值",
+      "boundary": "非负两位整数；不涉及负数或小数茎叶约定",
+      "prerequisiteSkills": "十进制位值、排序",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-3-01",
+      "targetId": "M2-9-3-01",
+      "name": "众数",
+      "objective": "按最高频数识别众数与并列众数",
+      "boundary": "离散小样本；不讨论连续密度峰值估计",
+      "prerequisiteSkills": "频数计数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-3-02",
+      "targetId": "M2-9-3-02",
+      "name": "中位数",
+      "objective": "按奇偶样本量选择中位位置",
+      "boundary": "小样本排序；不测组距数据中位估算",
+      "prerequisiteSkills": "排序、平均",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-3-03",
+      "targetId": "M2-9-3-03",
+      "name": "平均数",
+      "objective": "按组容量加权恢复总体平均数",
+      "boundary": "已知精确组均值与人数；不处理四舍五入误差",
+      "prerequisiteSkills": "平均数、总量",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-3-04",
+      "targetId": "M2-9-3-04",
+      "name": "极差",
+      "objective": "计算极差并处理平移与负数缩放",
+      "boundary": "两种变换分别实施；不检测离群值稳健性",
+      "prerequisiteSkills": "最大最小、有理数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-3-05",
+      "targetId": "M2-9-3-05",
+      "name": "方差与标准差",
+      "objective": "按指定分母算方差标准差并使用线性变换性质",
+      "boundary": "采用高中描述方差分母n，不是无偏估计n−1",
+      "prerequisiteSkills": "平均数、平方根",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-3-06",
+      "targetId": "M2-9-3-06",
+      "name": "百分位数",
+      "objective": "根据明确约定计算整数和非整数位置的百分位数",
+      "boundary": "约定已给；不同软件插值定义可能产生不同结果",
+      "prerequisiteSkills": "排序、取整",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-9-3-07",
+      "targetId": "M2-9-3-07",
+      "name": "箱线图",
+      "objective": "把四分位数、箱体、须和离群点组合成箱线图",
+      "boundary": "已明确四分位数及箱须约定；不混用最小最大作须的版本",
+      "prerequisiteSkills": "中位数、四分位距",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-1-01",
+      "targetId": "M2-10-1-01",
+      "name": "样本空间与随机事件",
+      "objective": "列出有顺序样本空间并用子集表示随机事件",
+      "boundary": "两次硬币试验；列样本空间不需要公平性",
+      "prerequisiteSkills": "集合、顺序",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-1-02",
+      "targetId": "M2-10-1-02",
+      "name": "事件的关系（互斥/对立）",
+      "objective": "以交集为空和并集为全集区分互斥与对立",
+      "boundary": "离散有限样本空间；不涉及概率零集",
+      "prerequisiteSkills": "集合交并补",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-1-03",
+      "targetId": "M2-10-1-03",
+      "name": "事件的运算（并/交）",
+      "objective": "把“或”“且”对应到并交运算",
+      "boundary": "有限样本的直接事件运算",
+      "prerequisiteSkills": "集合符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-1-04",
+      "targetId": "M2-10-1-04",
+      "name": "古典概型的特征与概率",
+      "objective": "识别古典概型的有限等可能基本结果",
+      "boundary": "独立公平且两骰可区分；不处理偏骰",
+      "prerequisiteSkills": "有序对、计数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-1-05",
+      "targetId": "M2-10-1-05",
+      "name": "互斥事件概率加法公式",
+      "objective": "使用互斥加法公式并检验适用前提",
+      "boundary": "三事件“两两互斥”是条件；不涉及一般容斥多项式",
+      "prerequisiteSkills": "概率界、对立事件",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-1-06",
+      "targetId": "M2-10-1-06",
+      "name": "对立事件概率公式",
+      "objective": "用对立事件将至少一次转为一次也无",
+      "boundary": "独立同分布三次试验；独立性为计算前置",
+      "prerequisiteSkills": "独立乘法、补事件",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-1-07",
+      "targetId": "M2-10-1-07",
+      "name": "频率与概率的关系",
+      "objective": "计算合并频率并区分概率和频率的统计含义",
+      "boundary": "不推断硬币一定公平；不做置信区间或显著性检验",
+      "prerequisiteSkills": "频率、样本随机性",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-2-01",
+      "targetId": "M2-10-2-01",
+      "name": "事件独立性的定义",
+      "objective": "用概率乘积等式识别独立并区别互斥",
+      "boundary": "给定精确概率；不需要由频数统计估计",
+      "prerequisiteSkills": "事件交、概率乘法",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-2-02",
+      "targetId": "M2-10-2-02",
+      "name": "相互独立事件的判断",
+      "objective": "从有限样本的集合计数判断独立性",
+      "boundary": "单次骰子中两个事件也可独立；不依赖“试验不同”直觉",
+      "prerequisiteSkills": "古典概率、独立定义",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m2-10-2-03",
+      "targetId": "M2-10-2-03",
+      "name": "独立事件的概率计算",
+      "objective": "结合独立乘法、互斥加法和对立事件",
+      "boundary": "独立是明示条件，不推广到相关射击",
+      "prerequisiteSkills": "事件分类、概率四则",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-01",
+      "targetId": "M3-1-1-01",
+      "name": "空间向量的概念",
+      "objective": "把平面自由向量概念延伸到空间",
+      "boundary": "长方体中非零边向量，不讨论作用点固定的力矩",
+      "prerequisiteSkills": "向量大小、方向",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-02",
+      "targetId": "M3-1-1-02",
+      "name": "空间向量的线性运算",
+      "objective": "用空间向量线性运算表示中点和位移",
+      "boundary": "一般平行六面体，不需三方向正交",
+      "prerequisiteSkills": "平行六面体、中点向量",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-03",
+      "targetId": "M3-1-1-03",
+      "name": "空间向量的数量积",
+      "objective": "把数量积扩展到三维坐标并用于夹角",
+      "boundary": "两非零向量，答案保留余弦值",
+      "prerequisiteSkills": "平面点积、平方根",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-04",
+      "targetId": "M3-1-1-04",
+      "name": "向量共线/共面条件",
+      "objective": "分别应用空间向量共线和共面条件",
+      "boundary": "以向量可平移共面为定义；不混同四个点共面",
+      "prerequisiteSkills": "线性组合",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-05",
+      "targetId": "M3-1-1-05",
+      "name": "空间向量基本定理",
+      "objective": "检验三向量不共面及表示唯一性",
+      "boundary": "明确基底不要求正交单位；不测高维基底",
+      "prerequisiteSkills": "空间线性运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-06",
+      "targetId": "M3-1-1-06",
+      "name": "空间直角坐标系",
+      "objective": "识别空间坐标三轴及坐标平面的投影与对称",
+      "boundary": "指定标准正交坐标系；不测旋转坐标系",
+      "prerequisiteSkills": "平面投影、对称",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-07",
+      "targetId": "M3-1-1-07",
+      "name": "空间向量的坐标运算",
+      "objective": "实施三维加减、数乘、数量积",
+      "boundary": "纯坐标计算，不检测空间建模",
+      "prerequisiteSkills": "有理数运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-1-08",
+      "targetId": "M3-1-1-08",
+      "name": "空间两点间距离公式",
+      "objective": "使用三维两点距离公式并核查中点长度",
+      "boundary": "欧氏正交坐标；不测曲面最短路",
+      "prerequisiteSkills": "平方根、中点",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-2-01",
+      "targetId": "M3-1-2-01",
+      "name": "直线的方向向量",
+      "objective": "构造直线方向向量及识别非零倍数等价性",
+      "boundary": "两点必须不同；不检测直线参数方程",
+      "prerequisiteSkills": "坐标相减、数乘",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-2-02",
+      "targetId": "M3-1-2-02",
+      "name": "平面的法向量",
+      "objective": "联立两个点积为零求平面法向量",
+      "boundary": "需两不共线面内向量；法向量不唯一",
+      "prerequisiteSkills": "数量积、二元条件",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-2-03",
+      "targetId": "M3-1-2-03",
+      "name": "用向量证明平行",
+      "objective": "用方向与法向关系证明线面、面面平行并排除重合",
+      "boundary": "显式平面方程与参数直线；不覆盖任意几何建系",
+      "prerequisiteSkills": "数量积、法向量",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-2-04",
+      "targetId": "M3-1-2-04",
+      "name": "用向量证明垂直",
+      "objective": "分别用方向与法向平行、两法向垂直证明垂直",
+      "boundary": "方向和法向均非零；不检测线线相交条件",
+      "prerequisiteSkills": "法向量、点积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-3-01",
+      "targetId": "M3-1-3-01",
+      "name": "用向量求异面直线所成角",
+      "objective": "以方向向量计算异面直线锐角或直角",
+      "boundary": "同时检查确实异面；不把向量钝角直接当线角",
+      "prerequisiteSkills": "空间参数坐标、点积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-3-02",
+      "targetId": "M3-1-3-02",
+      "name": "用向量求线面角",
+      "objective": "将法向夹角转成线面角正弦",
+      "boundary": "法向给定且非零，不测平面方程求法向",
+      "prerequisiteSkills": "点积、余角关系",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-3-03",
+      "targetId": "M3-1-3-03",
+      "name": "用向量求二面角",
+      "objective": "用垂棱向量求指定二面角并匹配半平面",
+      "boundary": "直接给坐标半平面；不把无向两平面锐角代替指定二面角",
+      "prerequisiteSkills": "点积、二面角平面角",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-3-04",
+      "targetId": "M3-1-3-04",
+      "name": "二面角正负判断",
+      "objective": "判断指定二面角余弦的正负并避免法向角混淆",
+      "boundary": "知识点的“正负”指余弦符号；普通二面角本身取[0°,180°]，不是负角",
+      "prerequisiteSkills": "垂棱向量、点积",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-3-05",
+      "targetId": "M3-1-3-05",
+      "name": "用向量求点到平面的距离",
+      "objective": "用点与面内点的位移在法向上投影求点面距",
+      "boundary": "已给平面方程；使用绝对值得到非负距离",
+      "prerequisiteSkills": "法向量、投影",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-1-3-06",
+      "targetId": "M3-1-3-06",
+      "name": "用向量求线面距/面面距",
+      "objective": "把平行线面、平行面面距离转为法向投影",
+      "boundary": "先证明平行，若相交则距离为0，不能直接套常数差",
+      "prerequisiteSkills": "点面距离、法向量",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-1-01",
+      "targetId": "M3-2-1-01",
+      "name": "直线的倾斜角",
+      "objective": "按取值范围确定直线倾斜角并处理竖直线",
+      "boundary": "非水平负斜率和竖直情形；不测方向角360°体系",
+      "prerequisiteSkills": "正切、坐标直线",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-1-02",
+      "targetId": "M3-2-1-02",
+      "name": "直线的斜率",
+      "objective": "将倾斜角对应到斜率并识别定义域断点",
+      "boundary": "只比较指定角，未证明每个连续分支的单调性",
+      "prerequisiteSkills": "特殊角正切",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-1-03",
+      "targetId": "M3-2-1-03",
+      "name": "两点间斜率公式",
+      "objective": "使用两点斜率公式并检查横坐标差非零",
+      "boundary": "平面两点与单参数求解，明确竖直例外",
+      "prerequisiteSkills": "分式、一次方程",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-2-01",
+      "targetId": "M3-2-2-01",
+      "name": "点斜式方程",
+      "objective": "由已知点和斜率列点斜式并识别竖直线例外",
+      "boundary": "检测一个非竖直实例及竖直例外，不覆盖含参数直线族",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-2-02",
+      "targetId": "M3-2-2-02",
+      "name": "斜截式方程",
+      "objective": "由斜率与纵截距写方程并区分截距",
+      "boundary": "仅检测斜截式与两轴截距，不代表所有形式互化",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-2-03",
+      "targetId": "M3-2-2-03",
+      "name": "两点式方程",
+      "objective": "使用两点式并处理同横坐标情况",
+      "boundary": "检测两点均不同坐标和竖直线，不涉及重合点",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-2-04",
+      "targetId": "M3-2-2-04",
+      "name": "截距式方程",
+      "objective": "用有向截距列截距式并辨别零截距限制",
+      "boundary": "仅检测非零截距以及过原点例外",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-2-05",
+      "targetId": "M3-2-2-05",
+      "name": "一般式方程",
+      "objective": "检验一般式的系数条件并包含竖直水平线",
+      "boundary": "检测退化方程与三类简单直线",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-2-06",
+      "targetId": "M3-2-2-06",
+      "name": "方程形式互化",
+      "objective": "把同一直线在四种形式间等价转换",
+      "boundary": "检测斜率与两截距均存在的实例",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-3-01",
+      "targetId": "M3-2-3-01",
+      "name": "两直线交点坐标",
+      "objective": "联立直线方程求交点并验证",
+      "boundary": "仅检测唯一交点情形",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-3-02",
+      "targetId": "M3-2-3-02",
+      "name": "两直线平行/垂直的条件",
+      "objective": "使用一般式系数区分平行重合和垂直",
+      "boundary": "检测给定直线之间关系，不覆盖空间直线",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-3-03",
+      "targetId": "M3-2-3-03",
+      "name": "点到直线的距离公式",
+      "objective": "正确代入点到直线距离并保留绝对值",
+      "boundary": "检测一个非轴向直线，不含距离最值",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-3-04",
+      "targetId": "M3-2-3-04",
+      "name": "平行线间的距离",
+      "objective": "统一法向系数后计算平行线间距",
+      "boundary": "仅检测两条已给平行直线",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-3-05",
+      "targetId": "M3-2-3-05",
+      "name": "对称问题",
+      "objective": "用中点在线上与连线垂直求轴对称点",
+      "boundary": "检测点关于非轴向直线对称，不含最短路径",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-4-01",
+      "targetId": "M3-2-4-01",
+      "name": "圆的标准方程",
+      "objective": "由圆心和圆上一点建立标准方程",
+      "boundary": "检测中心半径式，不含三点定圆",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-4-02",
+      "targetId": "M3-2-4-02",
+      "name": "圆的一般方程",
+      "objective": "判别一般圆方程的实圆与退化条件",
+      "boundary": "检测二次项同系数的标准一般式",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-4-03",
+      "targetId": "M3-2-4-03",
+      "name": "配方法化一般式为标准式",
+      "objective": "完整补平方把一般圆方程化为标准式",
+      "boundary": "仅检测配方计算，不涉及参数分类",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-4-04",
+      "targetId": "M3-2-4-04",
+      "name": "点与圆的位置关系",
+      "objective": "以距离平方和半径平方判断内外及圆上",
+      "boundary": "仅检测三个定点的位置关系",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-5-01",
+      "targetId": "M3-2-5-01",
+      "name": "直线与圆的位置关系",
+      "objective": "用圆心距与半径分类直线圆位置",
+      "boundary": "检测一族平行直线全部三类位置",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-5-02",
+      "targetId": "M3-2-5-02",
+      "name": "圆的切线方程",
+      "objective": "求圆上点切线并利用垂直半径",
+      "boundary": "仅检测指定切点，不涵盖圆外点两条切线",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-5-03",
+      "targetId": "M3-2-5-03",
+      "name": "弦长公式",
+      "objective": "利用垂径定理计算圆弦长",
+      "boundary": "仅检测相交时的定长弦",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-2-5-04",
+      "targetId": "M3-2-5-04",
+      "name": "圆与圆的位置关系",
+      "objective": "比较圆心距与半径和差分类两圆关系",
+      "boundary": "检测不等半径圆的五类位置，不含重合圆",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-1-01",
+      "targetId": "M3-3-1-01",
+      "name": "椭圆的定义",
+      "objective": "依据距离和与焦距比较判断椭圆及退化",
+      "boundary": "检测定义条件，不要求一般旋转椭圆",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-1-02",
+      "targetId": "M3-3-1-02",
+      "name": "椭圆的标准方程",
+      "objective": "区分焦轴方向并写椭圆标准式",
+      "boundary": "检测中心原点、轴与坐标轴重合的椭圆",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-1-03",
+      "targetId": "M3-3-1-03",
+      "name": "椭圆的几何性质",
+      "objective": "从椭圆方程读取范围对称性顶点轴长焦点",
+      "boundary": "检测轴对齐标准椭圆的主要几何性质",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-1-04",
+      "targetId": "M3-3-1-04",
+      "name": "离心率",
+      "objective": "计算椭圆离心率并比较扁平程度",
+      "boundary": "检测离心率定义与同长轴椭圆比较",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-1-05",
+      "targetId": "M3-3-1-05",
+      "name": "焦点三角形问题",
+      "objective": "把焦距和与勾股关系结合求焦点三角形面积",
+      "boundary": "仅检测存在的直角焦点三角形",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-2-01",
+      "targetId": "M3-3-2-01",
+      "name": "双曲线的定义",
+      "objective": "依据距离差绝对值及焦距判断双曲线",
+      "boundary": "检测完整双支和单支条件，不含旋转",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-2-02",
+      "targetId": "M3-3-2-02",
+      "name": "双曲线的标准方程",
+      "objective": "由实轴方向及参数建立双曲线标准式",
+      "boundary": "检测中心原点且焦点在y轴的情形",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-2-03",
+      "targetId": "M3-3-2-03",
+      "name": "双曲线的几何性质",
+      "objective": "读取双曲线范围对称性顶点焦点与实虚轴",
+      "boundary": "检测标准双曲线，不涉及平移",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-2-04",
+      "targetId": "M3-3-2-04",
+      "name": "双曲线的渐近线",
+      "objective": "从双曲线二次齐次项求渐近线并辨轴向",
+      "boundary": "检测两种标准方向，未覆盖平移",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-2-05",
+      "targetId": "M3-3-2-05",
+      "name": "双曲线的离心率",
+      "objective": "由渐近线求双曲线离心率并说明范围",
+      "boundary": "检测焦点在x轴的比例参数",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-3-01",
+      "targetId": "M3-3-3-01",
+      "name": "抛物线的定义",
+      "objective": "把点到焦点与准线等距翻译成抛物线方程",
+      "boundary": "仅检测焦点不在准线上的轴对齐情形",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-3-02",
+      "targetId": "M3-3-3-02",
+      "name": "抛物线的标准方程",
+      "objective": "辨识四种方向的抛物线标准式与焦点准线",
+      "boundary": "检测两种负方向，并明确2p系数",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-3-03",
+      "targetId": "M3-3-3-03",
+      "name": "抛物线的几何性质",
+      "objective": "描述抛物线范围顶点对称轴焦点准线和离心率",
+      "boundary": "仅检测一个标准抛物线",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-3-04",
+      "targetId": "M3-3-3-04",
+      "name": "抛物线的通径",
+      "objective": "求过焦点垂直对称轴弦的端点和长度",
+      "boundary": "仅检测通径，不含任意焦点弦",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-3-05",
+      "targetId": "M3-3-3-05",
+      "name": "抛物线定义的应用",
+      "objective": "运用抛物线定义把焦点距离转为到准线距离",
+      "boundary": "检测带竖线距离的最小值，不含复杂折线路径",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-4-01",
+      "targetId": "M3-3-4-01",
+      "name": "直线与椭圆的位置关系",
+      "objective": "联立方程用判别式分类直线与椭圆",
+      "boundary": "检测水平参数直线，不涉及斜率参数",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-4-02",
+      "targetId": "M3-3-4-02",
+      "name": "直线与双曲线的位置关系",
+      "objective": "识别双曲线直线联立的二次退化与交点数",
+      "boundary": "检测渐近方向及普通相交和相切实例",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-4-03",
+      "targetId": "M3-3-4-03",
+      "name": "直线与抛物线的位置关系",
+      "objective": "区分抛物线轴向一交点和真正相切",
+      "boundary": "检测竖直与水平直线族",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-4-04",
+      "targetId": "M3-3-4-04",
+      "name": "弦长公式",
+      "objective": "用根差与斜率计算圆锥曲线弦长",
+      "boundary": "检测一条非竖直椭圆弦",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-4-05",
+      "targetId": "M3-3-4-05",
+      "name": "中点弦问题（点差法）",
+      "objective": "以点差法求中点弦斜率并验证弦存在",
+      "boundary": "检测给定内点中点的非竖直椭圆弦",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-4-06",
+      "targetId": "M3-3-4-06",
+      "name": "圆锥曲线的最值与范围",
+      "objective": "把椭圆上的线性量转成单位圆求范围",
+      "boundary": "仅检测一个线性目标，未覆盖距离乘积类最值",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m3-3-4-07",
+      "targetId": "M3-3-4-07",
+      "name": "轨迹方程的求法",
+      "objective": "用关联点代换求轨迹并证明反向可达",
+      "boundary": "检测圆上动点中点轨迹，不含排除点限制",
+      "prerequisiteSkills": "坐标代入、解方程、距离与平方运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-1-01",
+      "targetId": "M4-4-1-01",
+      "name": "数列的定义与分类",
+      "objective": "按项数和变化规律分类数列并理解项的位置",
+      "boundary": "检测有限无限、递增递减常数摆动实例",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-1-02",
+      "targetId": "M4-4-1-02",
+      "name": "通项公式",
+      "objective": "由通项求项并用正整数下标检验成员",
+      "boundary": "检测明确给定通项，不由有限项唯一猜公式",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-1-03",
+      "targetId": "M4-4-1-03",
+      "name": "递推公式",
+      "objective": "连同初始条件使用递推并验证通项",
+      "boundary": "检测一阶线性递推的简单实例",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-1-04",
+      "targetId": "M4-4-1-04",
+      "name": "前n项和Sn",
+      "objective": "正确理解前n项和并区分单项",
+      "boundary": "仅检测有限求和与记号",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-1-05",
+      "targetId": "M4-4-1-05",
+      "name": "an与Sn的关系",
+      "objective": "由前n项和求通项并单独检查首项",
+      "boundary": "检测首项不能直接沿用差分公式的情形",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-2-01",
+      "targetId": "M4-4-2-01",
+      "name": "等差数列的定义",
+      "objective": "以全体相邻差恒定识别等差数列",
+      "boundary": "检测常数数列与非等差反例",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-2-02",
+      "targetId": "M4-4-2-02",
+      "name": "等差数列通项公式",
+      "objective": "用等差通项由两项反求首项公差与指定项",
+      "boundary": "检测两条线性条件，未含参数分类",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-2-03",
+      "targetId": "M4-4-2-03",
+      "name": "等差中项",
+      "objective": "通过两端平均求等差中项并解决参数",
+      "boundary": "检测三个数按给定次序成等差",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-2-04",
+      "targetId": "M4-4-2-04",
+      "name": "等差数列前n项和",
+      "objective": "运用等差前n项和并正确确定末项",
+      "boundary": "检测直接求和，不涵盖最大前缀和",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-2-05",
+      "targetId": "M4-4-2-05",
+      "name": "等差数列下标和性质",
+      "objective": "按下标和相等转移等差项和",
+      "boundary": "检测两项和性质，不涵盖任意数列",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-2-06",
+      "targetId": "M4-4-2-06",
+      "name": "等差数列片段和性质",
+      "objective": "运用等长连续片段和构成等差数列",
+      "boundary": "检测连续不重叠等长片段",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-3-01",
+      "targetId": "M4-4-3-01",
+      "name": "等比数列的定义",
+      "objective": "以非零常比识别等比数列并排除含零情形",
+      "boundary": "检测正负公比与零项限制，按高中等比定义",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-3-02",
+      "targetId": "M4-4-3-02",
+      "name": "等比数列通项公式",
+      "objective": "由非相邻项求等比公比并注意符号条件",
+      "boundary": "检测正项数列排除负公比分支",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-3-03",
+      "targetId": "M4-4-3-03",
+      "name": "等比中项",
+      "objective": "求等比中项并保留正负两种可能",
+      "boundary": "检测非零实数两端及次序",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-3-04",
+      "targetId": "M4-4-3-04",
+      "name": "等比数列前n项和",
+      "objective": "分公比等于1与不等于1求等比和",
+      "boundary": "检测求和公式边界及负公比",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-3-05",
+      "targetId": "M4-4-3-05",
+      "name": "等比数列下标和性质",
+      "objective": "用等比下标和性质求项积并确定符号",
+      "boundary": "检测项积性质与正项条件",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-4-01",
+      "targetId": "M4-4-4-01",
+      "name": "公式法求和",
+      "objective": "辨认可直接套用等差及等比求和的形式",
+      "boundary": "检测两种标准公式法，不涉及复合技巧",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-4-02",
+      "targetId": "M4-4-4-02",
+      "name": "裂项相消法",
+      "objective": "分解相邻因子分式并完成首尾消项",
+      "boundary": "检测1/[n(n+1)]型裂项",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-4-03",
+      "targetId": "M4-4-4-03",
+      "name": "错位相减法",
+      "objective": "用错位相减求等差乘等比型和并保留末端",
+      "boundary": "检测Σk·2ᵏ实例",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-4-04",
+      "targetId": "M4-4-4-04",
+      "name": "分组求和法",
+      "objective": "拆分混合通项后分别求和",
+      "boundary": "检测一个等差与等比叠加数列",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-4-05",
+      "targetId": "M4-4-4-05",
+      "name": "倒序相加法",
+      "objective": "通过倒序配对形成恒定和",
+      "boundary": "检测一般等差求和公式的推导而非背诵",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-5-01",
+      "targetId": "M4-4-5-01",
+      "name": "数学归纳法的原理与步骤",
+      "objective": "区分归纳基础与归纳递推并识别缺步",
+      "boundary": "检测归纳逻辑，不以少量验证代替证明",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-5-02",
+      "targetId": "M4-4-5-02",
+      "name": "数学归纳法证明恒等式",
+      "objective": "归纳证明平方和恒等式并展示关键因式分解",
+      "boundary": "检测一个恒等式的完整归纳链",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-4-5-03",
+      "targetId": "M4-4-5-03",
+      "name": "数学归纳法证明不等式",
+      "objective": "在正确起点上归纳证明严格不等式",
+      "boundary": "检测n≥4的指数与平方比较",
+      "prerequisiteSkills": "代数运算、数列下标与求和符号",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-1-01",
+      "targetId": "M4-5-1-01",
+      "name": "平均变化率",
+      "objective": "按自变量增量计算函数平均变化率",
+      "boundary": "检测指定区间，不等同于瞬时变化率",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-1-02",
+      "targetId": "M4-5-1-02",
+      "name": "瞬时变化率",
+      "objective": "由小时间段平均速度极限求瞬时速度",
+      "boundary": "检测一项运动模型，突出趋近过程",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-1-03",
+      "targetId": "M4-5-1-03",
+      "name": "导数的定义",
+      "objective": "按导数定义计算并检验左右极限",
+      "boundary": "检测多项式导数与绝对值不可导例外",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-1-04",
+      "targetId": "M4-5-1-04",
+      "name": "导数的几何意义",
+      "objective": "把给定导数解释为切线斜率并区分割线",
+      "boundary": "检测导数几何意义与切线基本方程",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-1-05",
+      "targetId": "M4-5-1-05",
+      "name": "切线方程的求法",
+      "objective": "求指定点处切线并检验点是否在曲线上",
+      "boundary": "检测已知横坐标切线，不含过外点切线",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-2-01",
+      "targetId": "M4-5-2-01",
+      "name": "基本初等函数的导数公式",
+      "objective": "调用幂指数对数三角函数及常数导数",
+      "boundary": "检测列出的常见基本函数，未覆盖反三角函数",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-2-02",
+      "targetId": "M4-5-2-02",
+      "name": "导数的加减法法则",
+      "objective": "逐项运用导数线性法则",
+      "boundary": "检测常数倍加减，不包含乘除法",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-2-03",
+      "targetId": "M4-5-2-03",
+      "name": "导数的乘法法则",
+      "objective": "应用乘积求导且两项齐全",
+      "boundary": "检测多项式乘指数函数",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-2-04",
+      "targetId": "M4-5-2-04",
+      "name": "导数的除法法则",
+      "objective": "使用商法则并保留原定义域",
+      "boundary": "检测简单有理函数导数",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-2-05",
+      "targetId": "M4-5-2-05",
+      "name": "复合函数求导（链式法则）",
+      "objective": "识别内外层并保留链式因子",
+      "boundary": "检测平方复合与对数复合",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-3-01",
+      "targetId": "M4-5-3-01",
+      "name": "导数与单调性的关系",
+      "objective": "区分导数符号判单调的充分条件与误逆命题",
+      "boundary": "检测零导数孤立点不破坏严格递增",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-3-02",
+      "targetId": "M4-5-3-02",
+      "name": "用导数求单调区间",
+      "objective": "通过导数零点分区判断增减",
+      "boundary": "检测三次多项式全定义域单调区间",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-3-03",
+      "targetId": "M4-5-3-03",
+      "name": "函数极值的定义",
+      "objective": "依据邻域而非导数零值判定局部极值",
+      "boundary": "检测局部与全局区别以及驻点非极值",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-3-04",
+      "targetId": "M4-5-3-04",
+      "name": "用导数求极值",
+      "objective": "通过导数变号识别极大极小并求函数值",
+      "boundary": "检测两个驻点的完整判别",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-3-05",
+      "targetId": "M4-5-3-05",
+      "name": "用导数求最值",
+      "objective": "比较闭区间端点与内部驻点求最值",
+      "boundary": "检测连续可导函数的闭区间最值",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-3-06",
+      "targetId": "M4-5-3-06",
+      "name": "已知单调性/极值求参数",
+      "objective": "将给定全域单调性和极值条件转化为参数条件",
+      "boundary": "检测同一函数的两个独立参数问法",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-4-01",
+      "targetId": "M4-5-4-01",
+      "name": "恒成立问题的最值法",
+      "objective": "把对所有自变量成立转成函数最小值约束",
+      "boundary": "检测一元二次恒成立，不含参数交叉复杂情形",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-4-02",
+      "targetId": "M4-5-4-02",
+      "name": "存在性问题",
+      "objective": "把存在性不等式转成最大值条件并处理严格号",
+      "boundary": "检测闭区间至少一个解的严格不等式",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-4-03",
+      "targetId": "M4-5-4-03",
+      "name": "构造函数证明不等式",
+      "objective": "构造差函数用导数证明对数不等式及等号",
+      "boundary": "检测x>0的一条基础不等式",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-4-04",
+      "targetId": "M4-5-4-04",
+      "name": "导数研究函数零点",
+      "objective": "用单调区间与极值结合连续性判断零点数",
+      "boundary": "检测确定三次函数零点数和隔离区间",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m4-5-4-05",
+      "targetId": "M4-5-4-05",
+      "name": "实际优化问题",
+      "objective": "建立约束目标定义域并用导数求现实最优",
+      "boundary": "检测固定周长矩形面积模型",
+      "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-1-01",
+      "targetId": "M5-6-1-01",
+      "name": "分类加法计数原理",
+      "objective": "识别互斥类别并按加法计数",
+      "boundary": "仅检测恰选一种且类别不重叠的情形",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-1-02",
+      "targetId": "M5-6-1-02",
+      "name": "分步乘法计数原理",
+      "objective": "把完整方案拆成有序步骤并相乘",
+      "boundary": "检测各步骤选择数固定的情况",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-1-03",
+      "targetId": "M5-6-1-03",
+      "name": "两个原理的综合应用",
+      "objective": "先按互斥方案分类再在类内分步",
+      "boundary": "检测组合型加乘，条件充分列明",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-01",
+      "targetId": "M5-6-2-01",
+      "name": "排列的定义",
+      "objective": "识别有序选取并展示换序产生不同结果",
+      "boundary": "检测排列概念，不以公式背诵替代",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-02",
+      "targetId": "M5-6-2-02",
+      "name": "排列数公式",
+      "objective": "按不重复选取的排列数公式计算",
+      "boundary": "检测选取部分元素的有序分配",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-03",
+      "targetId": "M5-6-2-03",
+      "name": "全排列与阶乘",
+      "objective": "理解全排列阶乘并正确处理空阶乘",
+      "boundary": "检测四个互异元素全排列及0!约定",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-04",
+      "targetId": "M5-6-2-04",
+      "name": "组合的定义",
+      "objective": "识别无序子集与有序安排的差异",
+      "boundary": "检测组合定义及小集合列举",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-05",
+      "targetId": "M5-6-2-05",
+      "name": "组合数公式",
+      "objective": "运用组合数公式处理无序选择",
+      "boundary": "检测单次等资格抽取",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-06",
+      "targetId": "M5-6-2-06",
+      "name": "组合数性质",
+      "objective": "使用组合对称与帕斯卡恒等式",
+      "boundary": "检测两条常见组合数性质",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-07",
+      "targetId": "M5-6-2-07",
+      "name": "相邻问题（捆绑法）",
+      "objective": "将必须相邻元素捆为块并乘内部排列",
+      "boundary": "检测两名指定人相邻的线性排列",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-08",
+      "targetId": "M5-6-2-08",
+      "name": "不相邻问题（插空法）",
+      "objective": "先排其余元素再插空使指定元素不相邻",
+      "boundary": "检测两个指定人的不相邻排列",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-09",
+      "targetId": "M5-6-2-09",
+      "name": "分组分配问题",
+      "objective": "区分无标签分组和有标签分配并去重",
+      "boundary": "检测四人等分为两组及分配到两任务",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-2-10",
+      "targetId": "M5-6-2-10",
+      "name": "隔板法",
+      "objective": "将正整数与非负整数分配分别转成隔板",
+      "boundary": "检测同类物品给有标签对象，无上界限制",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-3-01",
+      "targetId": "M5-6-3-01",
+      "name": "二项式定理的展开式",
+      "objective": "完整展开二项式并处理负号与幂次",
+      "boundary": "检测四次二项式展开",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-3-02",
+      "targetId": "M5-6-3-02",
+      "name": "通项公式",
+      "objective": "使用通项定位指定幂次并计算系数",
+      "boundary": "检测含正负幂的有限展开",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-3-03",
+      "targetId": "M5-6-3-03",
+      "name": "系数与二项式系数的区别",
+      "objective": "区分二项式系数与实际项系数",
+      "boundary": "检测同一项的两种系数",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-3-04",
+      "targetId": "M5-6-3-04",
+      "name": "二项式系数的性质",
+      "objective": "运用二项式系数对称性中间最大值与总和",
+      "boundary": "检测n=8的一行系数三属性",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-6-3-05",
+      "targetId": "M5-6-3-05",
+      "name": "赋值法求系数和",
+      "objective": "通过取1和负1求总系数与奇偶系数和",
+      "boundary": "检测多项式实际系数的代数和",
+      "prerequisiteSkills": "有限集合计数、阶乘与组合数",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-1-01",
+      "targetId": "M5-7-1-01",
+      "name": "条件概率的定义",
+      "objective": "按条件事件缩小样本空间计算条件概率",
+      "boundary": "检测等可能骰子条件，条件概率非零",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-1-02",
+      "targetId": "M5-7-1-02",
+      "name": "乘法公式",
+      "objective": "用条件概率乘法计算不放回联合事件",
+      "boundary": "检测相依两次抽取，不假定独立",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-1-03",
+      "targetId": "M5-7-1-03",
+      "name": "全概率公式",
+      "objective": "按完整互斥来源分解事件计算全概率",
+      "boundary": "检测两来源模型，给定条件概率",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-1-04",
+      "targetId": "M5-7-1-04",
+      "name": "贝叶斯公式",
+      "objective": "用贝叶斯从结果更新来源概率",
+      "boundary": "检测双来源逆向条件，不涉及检验医学解读",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-2-01",
+      "targetId": "M5-7-2-01",
+      "name": "随机变量的概念",
+      "objective": "把试验结果映射为数值随机变量并求取值",
+      "boundary": "检测有限离散随机变量，区分样本点与取值",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-2-02",
+      "targetId": "M5-7-2-02",
+      "name": "分布列及性质",
+      "objective": "利用概率非负及总和为1确定分布列参数",
+      "boundary": "检测有限分布列合法性和区间概率",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-2-03",
+      "targetId": "M5-7-2-03",
+      "name": "两点分布",
+      "objective": "建立0-1两点分布并辨别一般两值变量",
+      "boundary": "检测伯努利0-1分布及仿射变化",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-3-01",
+      "targetId": "M5-7-3-01",
+      "name": "数学期望",
+      "objective": "由分布列加权计算期望并解释非必然取值",
+      "boundary": "检测有限离散期望",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-3-02",
+      "targetId": "M5-7-3-02",
+      "name": "期望的性质",
+      "objective": "使用期望线性性且不额外要求独立",
+      "boundary": "检测线性变换与两变量线性组合",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-3-03",
+      "targetId": "M5-7-3-03",
+      "name": "方差",
+      "objective": "由中心平方或二阶矩计算方差",
+      "boundary": "检测有限分布列的方差及与期望区别",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-3-04",
+      "targetId": "M5-7-3-04",
+      "name": "方差的性质",
+      "objective": "对线性变换的方差平方缩放并辨别独立条件",
+      "boundary": "检测单变量仿射变换以及和方差的局限",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-4-01",
+      "targetId": "M5-7-4-01",
+      "name": "n次独立重复试验",
+      "objective": "检验固定次数独立性及成功概率相同三个条件",
+      "boundary": "检测辨认独立重复试验模型",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-4-02",
+      "targetId": "M5-7-4-02",
+      "name": "二项分布",
+      "objective": "将成功次数建成二项分布并算恰好与至少概率",
+      "boundary": "检测n=4固定p的独立试验",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-4-03",
+      "targetId": "M5-7-4-03",
+      "name": "二项分布的期望与方差",
+      "objective": "从二项参数求期望方差并由指标和解释",
+      "boundary": "检测二项分布数字特征",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-4-04",
+      "targetId": "M5-7-4-04",
+      "name": "超几何分布",
+      "objective": "用不放回组合计数建立超几何分布及支持集",
+      "boundary": "检测小样本全分布，不混同放回二项",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-5-01",
+      "targetId": "M5-7-5-01",
+      "name": "正态分布的概率密度曲线",
+      "objective": "从正态密度式读取参数并区分密度与概率",
+      "boundary": "检测密度参数、峰值与单点概率",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-5-02",
+      "targetId": "M5-7-5-02",
+      "name": "正态曲线的性质",
+      "objective": "使用正态曲线对称性及标准差对形状影响",
+      "boundary": "检测对称尾概率和同均值曲线比较",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-5-03",
+      "targetId": "M5-7-5-03",
+      "name": "标准正态分布",
+      "objective": "将一般正态标准化并使用给定分布函数",
+      "boundary": "检测两端标准化及区间概率",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-7-5-04",
+      "targetId": "M5-7-5-04",
+      "name": "3-sigma原则",
+      "objective": "应用三倍标准差区间并解释小概率而非绝不可能",
+      "boundary": "检测已假设正态总体的经验覆盖范围",
+      "prerequisiteSkills": "分数运算、事件与概率基础",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-1-01",
+      "targetId": "M5-8-1-01",
+      "name": "散点图",
+      "objective": "正确绘制成对数据散点并观察非线性形态",
+      "boundary": "检测点坐标绘制及避免简单线性概括",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-1-02",
+      "targetId": "M5-8-1-02",
+      "name": "正相关与负相关",
+      "objective": "根据总体趋势区分正负相关并避免因果推断",
+      "boundary": "检测两组简短成对数据的相关方向",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-1-03",
+      "targetId": "M5-8-1-03",
+      "name": "样本相关系数",
+      "objective": "按中心化积与平方和求样本相关系数",
+      "boundary": "检测非零方差小样本的相关系数",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-2-01",
+      "targetId": "M5-8-2-01",
+      "name": "回归直线方程",
+      "objective": "利用回归模型作区间内预测并区分估计与确定值",
+      "boundary": "检测已给回归式的解释和预测",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-2-02",
+      "targetId": "M5-8-2-02",
+      "name": "最小二乘法",
+      "objective": "以残差平方和最小建立拟合直线",
+      "boundary": "检测三点带截距最小二乘及唯一最优",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-2-03",
+      "targetId": "M5-8-2-03",
+      "name": "回归系数的计算",
+      "objective": "由原始汇总量算回归斜率与截距",
+      "boundary": "检测含截距一元线性回归的系数计算",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-2-04",
+      "targetId": "M5-8-2-04",
+      "name": "回归直线过样本中心",
+      "objective": "用样本中心在含截距回归线上求未知数",
+      "boundary": "检测含截距最小二乘中心性质",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-3-01",
+      "targetId": "M5-8-3-01",
+      "name": "2x2列联表",
+      "objective": "由分类人数补全二维列联表与边际和",
+      "boundary": "检测两个二分类变量，四格互斥穷尽",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-3-02",
+      "targetId": "M5-8-3-02",
+      "name": "卡方统计量的计算",
+      "objective": "代入2×2列联表计算未校正卡方统计量",
+      "boundary": "检测Pearson未作连续性校正的统计量",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-m5-8-3-03",
+      "targetId": "M5-8-3-03",
+      "name": "独立性检验的步骤与判断",
+      "objective": "完成独立性检验的假设统计量阈值和有限结论",
+      "boundary": "检测给定阈值的2×2卡方检验，不证明因果",
+      "prerequisiteSkills": "均值、平方和与数据表阅读",
+      "prerequisites": []
+    },
+    {
+      "id": "full-j-alg-02",
+      "targetId": "J-ALG-02",
+      "name": "因式分解与整式运算",
+      "objective": "先展开合并再提取公因式和完全平方",
+      "boundary": "检测整式运算与整系数二次因式分解",
+      "prerequisiteSkills": "有理数与代数式基础运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-j-alg-04",
+      "targetId": "J-ALG-04",
+      "name": "分式运算与分母限制",
+      "objective": "分式通分约分同时保留原分母限制",
+      "boundary": "检测可约因子产生的可去点限制",
+      "prerequisiteSkills": "有理数与代数式基础运算",
+      "prerequisites": []
+    },
+    {
+      "id": "full-j-geo-01",
+      "targetId": "J-GEO-01",
+      "name": "勾股定理与相似三角形",
+      "objective": "把勾股定理与直角三角形相似比例联合应用",
+      "boundary": "检测直角三角形斜边及斜边高的相似关系",
+      "prerequisiteSkills": "有理数与代数式基础运算",
+      "prerequisites": []
+    }
+  ],
+  "items": [
+    {
+      "id": "s1-1",
+      "skillId": "s1",
+      "familyId": "s1-form1",
+      "text": "A={2,4,6}，3 是否属于 A？填写：属于/不属于。",
+      "answer": "不属于",
+      "steps": [
+        "逐一比较，3 不是所列元素。"
+      ],
+      "alignment": "将元素与列举集合逐一核对。",
+      "contrast": "如果把 3 换成 4，答案如何变化？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "795988edd560d1f75edbf6fbc07044dfc9c5ac04f70e3f093ebe7f766c204a26",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 不属于，与参考答案一致。",
+        "alignmentCheck": "将元素与列举集合逐一核对。 检测范围限定为：判断指定元素是否满足集合的定义条件",
+        "bypassCheck": "列举题可逐项观察；只支持元素归属，不推断集合构造能力。",
+        "sourceRefs": [
+          {
+            "title": "集合定义",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s1-2",
+      "skillId": "s1",
+      "familyId": "s1-form2",
+      "text": "B={x∈Z | x 是 3 的倍数}，−6 是否属于 B？填写：属于/不属于。",
+      "answer": "属于",
+      "steps": [
+        "−6 是整数，且 −6=3×(−2)，满足定义条件。"
+      ],
+      "alignment": "检查元素是否同时满足集合条件。",
+      "contrast": "−6/5 是否满足整数这个条件？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "4559cb62b755d1addb79f78f6364d532ac06252e9c2f8605f0ed55e261a1b1ff",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 属于，与参考答案一致。",
+        "alignmentCheck": "检查元素是否同时满足集合条件。 检测范围限定为：判断指定元素是否满足集合的定义条件",
+        "bypassCheck": "列举题可逐项观察；只支持元素归属，不推断集合构造能力。",
+        "sourceRefs": [
+          {
+            "title": "集合定义",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2-1",
+      "skillId": "s2",
+      "familyId": "s2-form1",
+      "text": "A={1,2}，B={1,2,3}，A 是否是 B 的子集？填写：是/否。",
+      "answer": "是",
+      "steps": [
+        "A 中的 1 和 2 都属于 B。"
+      ],
+      "alignment": "逐个检查 A 的所有元素。",
+      "contrast": "B 是否也是 A 的子集？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "3593452f1d264c986116c4626eca2de4955a2cd9137f76e113947408c5c05e58",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 是，与参考答案一致。",
+        "alignmentCheck": "逐个检查 A 的所有元素。 检测范围限定为：判断一个集合的所有元素是否都属于另一个集合",
+        "bypassCheck": "有限集合用逐项比较即可，属于目标定义的具体使用；不能推断抽象集合证明能力。",
+        "sourceRefs": [
+          {
+            "title": "子集定义",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2-2",
+      "skillId": "s2",
+      "familyId": "s2-form2",
+      "text": "集合 A={1,2}。A 是自身的子集吗？填写：是/否。",
+      "answer": "是",
+      "steps": [
+        "A 中每个元素都在 A 中；子集允许两个集合相等。"
+      ],
+      "alignment": "区分子集与真子集。",
+      "contrast": "如果问真子集，答案是否改变？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "0f81dbb3a8a7953e7fb9d456bbf79adb317a1f4e6da2b7e31ddc3060c11bee7b",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 是，与参考答案一致。",
+        "alignmentCheck": "区分子集与真子集。 检测范围限定为：判断一个集合的所有元素是否都属于另一个集合",
+        "bypassCheck": "有限集合用逐项比较即可，属于目标定义的具体使用；不能推断抽象集合证明能力。",
+        "sourceRefs": [
+          {
+            "title": "子集定义",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3-1",
+      "skillId": "s3",
+      "familyId": "s3-form1",
+      "text": "A={1,3,5}，B={2,3,4}。A∩B 中唯一的元素是什么？",
+      "answer": "3",
+      "steps": [
+        "比较两个集合，只有 3 同时出现。"
+      ],
+      "alignment": "用“同时属于”判定交集。",
+      "contrast": "只在其中一个集合出现的 5 为什么不能选？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "dbac472308f9eccd4bf6a113af0a87764888c0b37bc27ce402810f06a9b5664d",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 3，与参考答案一致。",
+        "alignmentCheck": "用“同时属于”判定交集。 检测范围限定为：识别同时满足两个集合条件的元素",
+        "bypassCheck": "数数与筛选能完成；只归交集公共元素，不归 Venn 作图。",
+        "sourceRefs": [
+          {
+            "title": "交集与并集",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3-2",
+      "skillId": "s3",
+      "familyId": "s3-form2",
+      "text": "A 为小于 6 的正偶数集合，B 为小于 6 的正整数中的 3 的倍数集合。A∩B 是空集吗？填写：是/否。",
+      "answer": "是",
+      "steps": [
+        "A={2,4}，B={3}，没有公共元素。"
+      ],
+      "alignment": "无公共元素时交集为空集。",
+      "contrast": "如果改为并集，会有哪些元素？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "c68b20dff27b616cfc2296f223c6e3052f91b51173c530c4978b3d3101a63fc1",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 是，与参考答案一致。",
+        "alignmentCheck": "无公共元素时交集为空集。 检测范围限定为：识别同时满足两个集合条件的元素",
+        "bypassCheck": "数数与筛选能完成；只归交集公共元素，不归 Venn 作图。",
+        "sourceRefs": [
+          {
+            "title": "交集与并集",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4-1",
+      "skillId": "s4",
+      "familyId": "s4-form1",
+      "text": "A={1,2}，B={2,3}。A∪B 有多少个元素？",
+      "answer": "3",
+      "steps": [
+        "并集为 {1,2,3}；共同元素 2 只计一次。"
+      ],
+      "alignment": "至少属于一个集合，并将重复元素去重。",
+      "contrast": "为什么不能把两个集合的个数直接相加？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "b553b926a9180e3999383b0ea393f018d9b80815159a31b2af33e207e8ad18bb",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 3，与参考答案一致。",
+        "alignmentCheck": "至少属于一个集合，并将重复元素去重。 检测范围限定为：识别至少属于一个集合的元素并去重",
+        "bypassCheck": "可直接合并数数，未要求用容斥公式；不匹配到容斥公式知识点。",
+        "sourceRefs": [
+          {
+            "title": "交集与并集",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4-2",
+      "skillId": "s4",
+      "familyId": "s4-form2",
+      "text": "A={1}，B={2}。1 属于 A∪B 吗？填写：属于/不属于。",
+      "answer": "属于",
+      "steps": [
+        "1 属于 A，已经满足至少属于其中一个集合。"
+      ],
+      "alignment": "区分“至少一个”与“同时两个”。",
+      "contrast": "1 属于 A∩B 吗？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "83c150be4ee4fbb9e57aeaf64759c3dfc98a23de9c1cd9076f4a65fd1e2efbdd",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 属于，与参考答案一致。",
+        "alignmentCheck": "区分“至少一个”与“同时两个”。 检测范围限定为：识别至少属于一个集合的元素并去重",
+        "bypassCheck": "可直接合并数数，未要求用容斥公式；不匹配到容斥公式知识点。",
+        "sourceRefs": [
+          {
+            "title": "交集与并集",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5-1",
+      "skillId": "s5",
+      "familyId": "s5-form1",
+      "text": "“所有实数 x 都满足 x²>0”的否定是：A.存在实数 x 使 x²≤0；B.所有实数 x 都满足 x²≤0。填写 A/B。",
+      "answer": "A",
+      "steps": [
+        "否定“所有”得到“存在”；否定 >0 得到 ≤0。"
+      ],
+      "alignment": "同时更换量词并否定结论。",
+      "contrast": "只否定结论而保留“所有”为什么不对？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "f821722d6ea7771514c78a93c994a9ead4b4b51f0b864d31b2993ea3488a509e",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 A，与参考答案一致。",
+        "alignmentCheck": "同时更换量词并否定结论。 检测范围限定为：将全称命题否定为存在反例的命题",
+        "bypassCheck": "选项可能被猜中；需确定程度及另题验证，不以单次选择判定稳定。",
+        "sourceRefs": [
+          {
+            "title": "量词及否定",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5-2",
+      "skillId": "s5",
+      "familyId": "s5-form2",
+      "text": "“每个学生都交了作业”的否定是：A.每个学生都没交；B.至少有一个学生没交。填写 A/B。",
+      "answer": "B",
+      "steps": [
+        "只要存在一个未交的学生，原全称命题就不成立。"
+      ],
+      "alignment": "用一个反例否定全称命题。",
+      "contrast": "部分交了、部分没交时，哪个说法成立？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "57b2773c06875ab62b698c8e996ec9803bd03ac487aa873d65b960eb61c3d863",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 B，与参考答案一致。",
+        "alignmentCheck": "用一个反例否定全称命题。 检测范围限定为：将全称命题否定为存在反例的命题",
+        "bypassCheck": "选项可能被猜中；需确定程度及另题验证，不以单次选择判定稳定。",
+        "sourceRefs": [
+          {
+            "title": "量词及否定",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6-1",
+      "skillId": "s6",
+      "familyId": "s6-form1",
+      "text": "f(x)=1/(x−2)。定义域中唯一必须排除的实数是多少？",
+      "answer": "2",
+      "steps": [
+        "分母 x−2 不能为 0，所以排除 x=2。"
+      ],
+      "alignment": "由分母非零确定限制。",
+      "contrast": "分子等于 0 是否也必须排除？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "90e1046cb44b9fa46bfc9bd2d9c6c8373b12d12fbb2255c18caeffe3d3a1178b",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 2，与参考答案一致。",
+        "alignmentCheck": "由分母非零确定限制。 检测范围限定为：依据分母非零或根式被开方数非负求定义域",
+        "bypassCheck": "分母和根式分别只检验单一限制；不等同于完整定义域综合能力。",
+        "sourceRefs": [
+          {
+            "title": "定义域限制",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6-2",
+      "skillId": "s6",
+      "familyId": "s6-form2",
+      "text": "f(x)=√(x−3)。定义域内最小的实数是多少？",
+      "answer": "3",
+      "steps": [
+        "x−3≥0，故 x≥3，最小为 3。"
+      ],
+      "alignment": "由实数平方根的定义得到非负条件。",
+      "contrast": "x=3 时根式为 0，为什么可以取？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "68fda03eda655b98afdc583a81b8363b3659117be896041b3004874dd6cd3139",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 3，与参考答案一致。",
+        "alignmentCheck": "由实数平方根的定义得到非负条件。 检测范围限定为：依据分母非零或根式被开方数非负求定义域",
+        "bypassCheck": "分母和根式分别只检验单一限制；不等同于完整定义域综合能力。",
+        "sourceRefs": [
+          {
+            "title": "定义域限制",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7-1",
+      "skillId": "s7",
+      "familyId": "s7-form1",
+      "text": "区间 I 上任意 x₁<x₂ 都满足 f(x₁)>f(x₂)。f 在 I 上是增函数还是减函数？填写：增函数/减函数。",
+      "answer": "减函数",
+      "steps": [
+        "自变量增大时函数值严格减小，符合减函数定义。"
+      ],
+      "alignment": "直接使用任意两点的大小关系。",
+      "contrast": "如果仅有一对点满足，足够吗？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "0895518460248ab5114f5009dd63e3c912ea9f28e4e37d3cca6db2494e2f3702",
+        "answerCheck": "定义关系检查；独立求得 减函数，与参考答案一致。",
+        "alignmentCheck": "直接使用任意两点的大小关系。 检测范围限定为：根据任意两点的函数值大小关系识别增减性",
+        "bypassCheck": "第二题可用反例驳斥全称结论；匹配定义中的任意性，不匹配具体函数定义法证明。",
+        "sourceRefs": [
+          {
+            "title": "任意两点与增减性",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7-2",
+      "skillId": "s7",
+      "familyId": "s7-form2",
+      "text": "某函数在区间 I 内有一对 x₁<x₂ 且 f(x₁)<f(x₂)。仅凭这一对点就能证明它在 I 上为增函数吗？填写：能/不能。",
+      "answer": "不能",
+      "steps": [
+        "定义要求任意一对有序点都满足，单个例子不能证明全称结论。"
+      ],
+      "alignment": "检验定义中的“任意”，避免凭一点对推整体。",
+      "contrast": "还必须对哪些点对成立？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "3a50cfc9752c259201a07abb6184864199937c9884b900458d3c6003c25ea491",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 不能，与参考答案一致。",
+        "alignmentCheck": "检验定义中的“任意”，避免凭一点对推整体。 检测范围限定为：根据任意两点的函数值大小关系识别增减性",
+        "bypassCheck": "第二题可用反例驳斥全称结论；匹配定义中的任意性，不匹配具体函数定义法证明。",
+        "sourceRefs": [
+          {
+            "title": "任意两点与增减性",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8-1",
+      "skillId": "s8",
+      "familyId": "s8-form1",
+      "text": "f(x)=x²，定义域为 R。它是奇函数还是偶函数？填写：奇函数/偶函数。",
+      "answer": "偶函数",
+      "steps": [
+        "定义域关于 0 对称，且 f(−x)=x²=f(x)。"
+      ],
+      "alignment": "同时检查定义域对称性和函数值关系。",
+      "contrast": "如果定义域改成 (0,+∞)，还能这样判断吗？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "58a7e331b75e6b7ebd9f8d0217ec502098dd906f1178104eb591081d42aa0bdc",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 偶函数，与参考答案一致。",
+        "alignmentCheck": "同时检查定义域对称性和函数值关系。 检测范围限定为：依据对称定义域和函数值关系判断奇偶性",
+        "bypassCheck": "平方函数可凭图像记忆识别；第二题补查定义域对称性，不能推断复杂函数化简能力。",
+        "sourceRefs": [
+          {
+            "title": "奇偶函数定义",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8-2",
+      "skillId": "s8",
+      "familyId": "s8-form2",
+      "text": "f(x)=x² 的定义域为 [0,1]。它是偶函数吗？填写：是/否。",
+      "answer": "否",
+      "steps": [
+        "定义域不关于原点对称，不满足偶函数定义的前提。"
+      ],
+      "alignment": "检验容易遗漏的定义域条件。",
+      "contrast": "公式相同为何奇偶性可以不同？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "bc2b95fced1dd4eb4386d3a32013fa02c7d269bb10d8eec73506ae1058e80ca1",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 否，与参考答案一致。",
+        "alignmentCheck": "检验容易遗漏的定义域条件。 检测范围限定为：依据对称定义域和函数值关系判断奇偶性",
+        "bypassCheck": "平方函数可凭图像记忆识别；第二题补查定义域对称性，不能推断复杂函数化简能力。",
+        "sourceRefs": [
+          {
+            "title": "奇偶函数定义",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9-1",
+      "skillId": "s9",
+      "familyId": "s9-form1",
+      "text": "f(x)=x−4。f 的零点是多少？",
+      "answer": "4",
+      "steps": [
+        "令 f(x)=0，解 x−4=0 得 x=4。"
+      ],
+      "alignment": "零点是自变量的值。",
+      "contrast": "零点是 4、0 还是 (4,0)？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "28d79396172c5cafe1cce5b3b18e930718e14a51c61ce2d2365045917be3283e",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 4，与参考答案一致。",
+        "alignmentCheck": "零点是自变量的值。 检测范围限定为：将零点理解为使函数值为零的自变量",
+        "bypassCheck": "一次式求根可能凭移项完成；图像题补查零点是横坐标，仍只覆盖定义识别。",
+        "sourceRefs": [
+          {
+            "title": "零点与横轴交点",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9-2",
+      "skillId": "s9",
+      "familyId": "s9-form2",
+      "text": "已知函数图像与 x 轴的唯一交点为 (−3,0)。函数的零点是多少？",
+      "answer": "−3",
+      "steps": [
+        "x 轴上的点函数值为 0，零点取其横坐标 −3。"
+      ],
+      "alignment": "把图像交点与零点的数值含义联系起来。",
+      "contrast": "为什么不能把整个坐标对作为零点？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "2de2c9a3a77fa6f71aff6164da0882961b70111526496f618849c8d295e54533",
+        "answerCheck": "定义关系检查；独立求得 -3，与参考答案一致。",
+        "alignmentCheck": "把图像交点与零点的数值含义联系起来。 检测范围限定为：将零点理解为使函数值为零的自变量",
+        "bypassCheck": "一次式求根可能凭移项完成；图像题补查零点是横坐标，仍只覆盖定义识别。",
+        "sourceRefs": [
+          {
+            "title": "零点与横轴交点",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10-1",
+      "skillId": "s10",
+      "familyId": "s10-form1",
+      "text": "解方程 3x+6=15，x 等于多少？",
+      "answer": "3",
+      "steps": [
+        "两边减 6 得 3x=9，再除以 3 得 x=3。"
+      ],
+      "alignment": "保持等式成立地移项与除以非零数。",
+      "contrast": "代回原式左右是否相等？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "8514a30a8f3d5fe7a25cc50b85906fd3045a88430347d49edc73d366fc105b91",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 3，与参考答案一致。",
+        "alignmentCheck": "保持等式成立地移项与除以非零数。 检测范围限定为：通过等式性质求一次方程解并检验",
+        "bypassCheck": "可代入或心算完成；只能支持方程解与检验，不证明完整规范移项过程。",
+        "sourceRefs": [
+          {
+            "title": "一次方程与等式变形",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10-2",
+      "skillId": "s10",
+      "familyId": "s10-form2",
+      "text": "方程 x−5=2 的解是 x=−3 吗？填写：是/否。",
+      "answer": "否",
+      "steps": [
+        "代入 −3 后左边为 −8，不等于 2；正确解为 7。"
+      ],
+      "alignment": "通过代入检查移项符号错误。",
+      "contrast": "从 x−5=2 到 x=2+5 用了什么等式性质？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "ea888746e2448a4a12eec848247a0c275e8501fd060e63ce3cfef2c63eb5c267",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 否，与参考答案一致。",
+        "alignmentCheck": "通过代入检查移项符号错误。 检测范围限定为：通过等式性质求一次方程解并检验",
+        "bypassCheck": "可代入或心算完成；只能支持方程解与检验，不证明完整规范移项过程。",
+        "sourceRefs": [
+          {
+            "title": "一次方程与等式变形",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11-1",
+      "skillId": "s11",
+      "familyId": "s11-form1",
+      "text": "解不等式 −2x>6。用 x 和不等号表示解集。",
+      "answer": "x<−3",
+      "steps": [
+        "两边除以 −2，必须改变方向，得到 x<−3。"
+      ],
+      "alignment": "乘除负数时改变不等号方向。",
+      "contrast": "对比 2x>6，为何方向不同？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "bcd76e2c6ee7fa8f3361b5749b14198f7f058a5880a90af5d6ba48dd4617a610",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 x<-3，与参考答案一致。",
+        "alignmentCheck": "乘除负数时改变不等号方向。 检测范围限定为：在不等式乘除负数时改变方向，并检查解集",
+        "bypassCheck": "可代入反例判错，未必会规范变形；配合解集题核验，错因仍保留为假设。",
+        "sourceRefs": [
+          {
+            "title": "乘除负数时不等号反向",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11-2",
+      "skillId": "s11",
+      "familyId": "s11-form2",
+      "text": "由 −3x≤9 推出 x≤−3，这一步正确吗？填写：正确/错误。",
+      "answer": "错误",
+      "steps": [
+        "除以负数 −3 时应变号，正确结果为 x≥−3。"
+      ],
+      "alignment": "识别错误步骤，避免只背最后答案。",
+      "contrast": "代入 x=0 能否发现错误？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "0ec64793bbbaa248fab4fa966db29b35602718186835235dfe6b8c32579bb5ac",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 错误，与参考答案一致。",
+        "alignmentCheck": "识别错误步骤，避免只背最后答案。 检测范围限定为：在不等式乘除负数时改变方向，并检查解集",
+        "bypassCheck": "可代入反例判错，未必会规范变形；配合解集题核验，错因仍保留为假设。",
+        "sourceRefs": [
+          {
+            "title": "乘除负数时不等号反向",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12-1",
+      "skillId": "s12",
+      "familyId": "s12-form1",
+      "text": "y=(x−2)(x−5) 的图像与 x 轴交点中，较小的横坐标是多少？",
+      "answer": "2",
+      "steps": [
+        "令 y=0，得 x=2 或 x=5，较小为 2。"
+      ],
+      "alignment": "把 x 轴交点转化为函数值为零。",
+      "contrast": "如果问纵坐标，答案是多少？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "0d070d5ab799c8ac8aa1d1ab02c88db161fea283b2caefe08676543c7406b506",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 2，与参考答案一致。",
+        "alignmentCheck": "把 x 轴交点转化为函数值为零。 检测范围限定为：把二次函数与 x 轴交点转成零点问题",
+        "bypassCheck": "可因式为零或平方非负完成；仅支持零点与图像交点关系，不推断全部图像性质。",
+        "sourceRefs": [
+          {
+            "title": "零点与横轴交点",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12-2",
+      "skillId": "s12",
+      "familyId": "s12-form2",
+      "text": "函数 y=x²+1 的图像与 x 轴有交点吗？填写：有/没有。",
+      "answer": "没有",
+      "steps": [
+        "对实数 x 有 x²≥0，因此 y≥1，不会等于 0。"
+      ],
+      "alignment": "利用无实数零点判断不与 x 轴相交。",
+      "contrast": "把 +1 改成 −1，情况如何变化？",
+      "source": "知因数学原创草稿（AI 辅助编写，2026-09-12）",
+      "status": "system-checked",
+      "audit": null,
+      "verification": {
+        "method": "system-cross-check",
+        "checkedAt": "2026-09-13",
+        "fingerprint": "612ed212ce2b1c37284bc26751fcbac5b254c50d751c4a8ec552045b01c61cdc",
+        "answerCheck": "SymPy符号运算或有限集合/真值穷举；独立求得 没有，与参考答案一致。",
+        "alignmentCheck": "利用无实数零点判断不与 x 轴相交。 检测范围限定为：把二次函数与 x 轴交点转成零点问题",
+        "bypassCheck": "可因式为零或平方非负完成；仅支持零点与图像交点关系，不推断全部图像性质。",
+        "sourceRefs": [
+          {
+            "title": "零点与横轴交点",
+            "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-1-01",
+      "skillId": "full-m1-1-1-01",
+      "familyId": "full-m1-1-1-01",
+      "text": "把2、1、2、3列入集合A。写出A及元素个数，判断A是否等于{3,2,1}；“本班很高的学生”未约定高度标准，能否确定一个集合？",
+      "answer": "A={1,2,3}，3个元素；相等；不能据此确定。",
+      "steps": [
+        "重复的2只保留一次，体现互异性",
+        "顺序不影响元素，故两集合相等",
+        "“很高”缺少确定标准，元素归属不能确定"
+      ],
+      "alignment": "检测“集合的含义（元素的确定性/互异性/无序性）”的关键依据：重复的2只保留一次，体现互异性；顺序不影响元素，故两集合相等；“很高”缺少确定标准，元素归属不能确定。检测范围以本题检测边界为限。",
+      "contrast": "若约定身高大于180厘米，成员可确定。",
+      "assessment": {
+        "objective": "能在本题条件下运用“集合的含义（元素的确定性/互异性/无序性）”得出答案，并说明依据。",
+        "boundary": "检测确定性、互异性、无序性；不检测含参集合。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1d1e53c329248b933e55f47f87351d2a376b2d31f09b1e38dc29b255136e34c3",
+        "answerCheck": "逻辑辅助检查（非自动证明）：去重且次序无关；确定性另按文字定义逻辑审查。独立解答复审：重复2删除后恰为三个元素，重排不改变集合；未给“很高”标准时归属不可判定。三项集合特性均有对应小问。",
+        "alignmentCheck": "检测“集合的含义（元素的确定性/互异性/无序性）”的关键依据：重复的2只保留一次，体现互异性；顺序不影响元素，故两集合相等；“很高”缺少确定标准，元素归属不能确定。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测确定性、互异性、无序性；不检测含参集合。 对照：若约定身高大于180厘米，成员可确定。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合概念",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-1-02",
+      "skillId": "s1",
+      "familyId": "full-m1-1-1-02",
+      "text": "A={x∈Z:-2≤x<2}。用∈或∉填空：-2__A，2__A，1/2__A。",
+      "answer": "依次为∈、∉、∉。",
+      "steps": [
+        "A列举为{-2,-1,0,1}",
+        "-2满足整数及区间条件",
+        "2违反上界，1/2不是整数"
+      ],
+      "alignment": "检测“元素与集合的关系（属于/不属于）”的关键依据：A列举为{-2,-1,0,1}；-2满足整数及区间条件；2违反上界，1/2不是整数。检测范围以本题检测边界为限。",
+      "contrast": "把Z改为R后，1/2∈A。",
+      "assessment": {
+        "objective": "能在本题条件下运用“元素与集合的关系（属于/不属于）”得出答案，并说明依据。",
+        "boundary": "检测元素归属，含开端点及数域限制；不检测子集。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2fd28ba1f3714279ec29b8c0cff3d38ad836ca17a69b3225909c6882549485a4",
+        "answerCheck": "固定规格计算检查：整数区间成员逐个核对。独立解答复审：逐个核查整数与上下界交集为{-2,-1,0,1}；2违反开上界而1/2违反数域，三处填空一致。",
+        "alignmentCheck": "检测“元素与集合的关系（属于/不属于）”的关键依据：A列举为{-2,-1,0,1}；-2满足整数及区间条件；2违反上界，1/2不是整数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测元素归属，含开端点及数域限制；不检测子集。 对照：把Z改为R后，1/2∈A。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合概念",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-1-03",
+      "skillId": "full-m1-1-1-03",
+      "familyId": "full-m1-1-1-03",
+      "text": "约定N含0。将0、-3、2/5、√2分别归入N、N+、Z、Q、R中所有适合的数集。",
+      "answer": "0∈N,Z,Q,R；-3∈Z,Q,R；2/5∈Q,R；√2∈R且不在其余四集中。",
+      "steps": [
+        "N+是正整数集，N另含0",
+        "整数都是有理数，有理数都是实数",
+        "√2是无理实数"
+      ],
+      "alignment": "检测“常用数集（N,N+,Z,Q,R）”的关键依据：N+是正整数集，N另含0；整数都是有理数，有理数都是实数；√2是无理实数。检测范围以本题检测边界为限。",
+      "contrast": "-√4=-2是整数，并非出现根号就无理。",
+      "assessment": {
+        "objective": "能在本题条件下运用“常用数集（N,N+,Z,Q,R）”得出答案，并说明依据。",
+        "boundary": "检测五个常用数集及包含关系；不检测无理数证明。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "076cccf8da623edc111369debf2e4f62b8e3bf8c5e7215e659cd38b0b369faee",
+        "answerCheck": "逻辑辅助检查（非自动证明）：符号数的整数/有理性质。独立解答复审：按N含0约定逐层核查N⊂Z⊂Q⊂R；正整数集排除0，负整数与有理非整数分类正确。",
+        "alignmentCheck": "检测“常用数集（N,N+,Z,Q,R）”的关键依据：N+是正整数集，N另含0；整数都是有理数，有理数都是实数；√2是无理实数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测五个常用数集及包含关系；不检测无理数证明。 对照：-√4=-2是整数，并非出现根号就无理。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合概念",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-1-04",
+      "skillId": "full-m1-1-1-04",
+      "familyId": "full-m1-1-1-04",
+      "text": "用列举法表示A={x∈Z:x²<10且x为奇数}。",
+      "answer": "A={-3,-1,1,3}。",
+      "steps": [
+        "x²<10给出-√10<x<√10",
+        "其中奇整数为-3,-1,1,3",
+        "各元素列一次并加花括号"
+      ],
+      "alignment": "检测“集合的表示法——列举法”的关键依据：x²<10给出-√10<x<√10；其中奇整数为-3,-1,1,3；各元素列一次并加花括号。检测范围以本题检测边界为限。",
+      "contrast": "若改为x²≤9，所得集合不变。",
+      "assessment": {
+        "objective": "能在本题条件下运用“集合的表示法——列举法”得出答案，并说明依据。",
+        "boundary": "检测有限集合列举及筛选；不检测无限集合表示。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9c9273d84b37b882018bc17a8813797b91be358fc572165507d49116566474ff",
+        "answerCheck": "固定规格计算检查：区间整数有限穷举。独立解答复审：奇整数绝对值小于√10的只有1、3及其相反数，集合无漏项，有限列举边界相符。",
+        "alignmentCheck": "检测“集合的表示法——列举法”的关键依据：x²<10给出-√10<x<√10；其中奇整数为-3,-1,1,3；各元素列一次并加花括号。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测有限集合列举及筛选；不检测无限集合表示。 对照：若改为x²≤9，所得集合不变。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合概念",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-1-05",
+      "skillId": "full-m1-1-1-05",
+      "familyId": "full-m1-1-1-05",
+      "text": "用描述法表示{-4,-2,0,2,4}，须明确数域。",
+      "answer": "{x∈Z:-4≤x≤4且x为偶数}。",
+      "steps": [
+        "元素均为偶整数",
+        "最小和最大分别为-4、4",
+        "以整数数域和区间、偶数条件共同刻画"
+      ],
+      "alignment": "检测“集合的表示法——描述法”的关键依据：元素均为偶整数；最小和最大分别为-4、4；以整数数域和区间、偶数条件共同刻画。检测范围以本题检测边界为限。",
+      "contrast": "只写-4≤x≤4会引入1/2等多余元素。",
+      "assessment": {
+        "objective": "能在本题条件下运用“集合的表示法——描述法”得出答案，并说明依据。",
+        "boundary": "检测描述法的数域及限制条件；不要求唯一写法。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "46d1f147abc63aa753e29d551fd82a0626b99d7d15309884b950d8011d69e145",
+        "answerCheck": "固定规格计算检查：描述条件穷举。独立解答复审：把区间内偶整数逐个生成得到−4、−2、0、2、4；数域明确，描述与原多重条件等价。",
+        "alignmentCheck": "检测“集合的表示法——描述法”的关键依据：元素均为偶整数；最小和最大分别为-4、4；以整数数域和区间、偶数条件共同刻画。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测描述法的数域及限制条件；不要求唯一写法。 对照：只写-4≤x≤4会引入1/2等多余元素。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合概念",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-1-06",
+      "skillId": "full-m1-1-1-06",
+      "familyId": "full-m1-1-1-06",
+      "text": "把A={x∈R:x²+1=0}、B={0}、C={2n:n∈N}分类为空集、非空有限集或无限集。",
+      "answer": "A为空集；B为非空有限集；C为无限集。",
+      "steps": [
+        "实数平方非负，A无元素",
+        "B有一个元素0",
+        "不同自然数给出不同的2n，C元素无穷"
+      ],
+      "alignment": "检测“集合的分类（有限集/无限集/空集）”的关键依据：实数平方非负，A无元素；B有一个元素0；不同自然数给出不同的2n，C元素无穷。检测范围以本题检测边界为限。",
+      "contrast": "{∅}是含一个元素的有限集。",
+      "assessment": {
+        "objective": "能在本题条件下运用“集合的分类（有限集/无限集/空集）”得出答案，并说明依据。",
+        "boundary": "检测空集、有限集、无限集区分；不比较无限集势。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "406d1d299e9a74170792bf8b53d1d455af956fd2829a86f1edc21fe0ed9b3e0f",
+        "answerCheck": "逻辑辅助检查（非自动证明）：实数解集为空及有限集基数；无限性由单射证明。独立解答复审：x²+1在实数上至少1故为空集；{0}确含一元素；n→2n单射且自然数无限，分类正确。",
+        "alignmentCheck": "检测“集合的分类（有限集/无限集/空集）”的关键依据：实数平方非负，A无元素；B有一个元素0；不同自然数给出不同的2n，C元素无穷。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测空集、有限集、无限集区分；不比较无限集势。 对照：{∅}是含一个元素的有限集。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合概念",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-2-01",
+      "skillId": "s2",
+      "familyId": "full-m1-1-2-01",
+      "text": "A={1,3}，B={1,2,3}。判断A⊆B及B⊆A，并给出后一判断的依据。",
+      "answer": "A⊆B真，B⊆A假。",
+      "steps": [
+        "A中1和3均属于B，满足子集定义",
+        "B中的2不属于A，是反例"
+      ],
+      "alignment": "检测“子集的概念与符号”的关键依据：A中1和3均属于B，满足子集定义；B中的2不属于A，是反例。检测范围以本题检测边界为限。",
+      "contrast": "A⊆A也成立。",
+      "assessment": {
+        "objective": "能在本题条件下运用“子集的概念与符号”得出答案，并说明依据。",
+        "boundary": "检测子集的全元素条件；不检测参数范围。",
+        "prerequisiteSkills": "集合的含义（元素的确定性/互异性/无序性）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c41d9923d44162c6f1d79e88d865e12c273887973c04e1ae743a58c4aaa549c8",
+        "answerCheck": "逻辑辅助检查（非自动证明）：两个方向包含逐元素比较。独立解答复审：检查1、3在B中，而2在B不在A；子集关系一真一假有直接反例。",
+        "alignmentCheck": "检测“子集的概念与符号”的关键依据：A中1和3均属于B，满足子集定义；B中的2不属于A，是反例。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测子集的全元素条件；不检测参数范围。 对照：A⊆A也成立。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：子集关系",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-2-02",
+      "skillId": "full-m1-1-2-02",
+      "familyId": "full-m1-1-2-02",
+      "text": "A={0,1}，B={0,1,2}，C={1,0}。判断A⊊B及A⊊C。",
+      "answer": "A⊊B真；A⊊C假。",
+      "steps": [
+        "A所有元素在B中且2只在B中",
+        "A与C元素完全相同，故不是严格包含"
+      ],
+      "alignment": "检测“真子集的概念与符号”的关键依据：A所有元素在B中且2只在B中；A与C元素完全相同，故不是严格包含。检测范围以本题检测边界为限。",
+      "contrast": "A⊆C仍为真。",
+      "assessment": {
+        "objective": "能在本题条件下运用“真子集的概念与符号”得出答案，并说明依据。",
+        "boundary": "检测真子集要求包含且不相等。",
+        "prerequisiteSkills": "子集的概念与符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c6d3d244340e264de7cfca69aed08412aaeca95f1fb3224adf9b1b475471dd4d",
+        "answerCheck": "逻辑辅助检查（非自动证明）：真包含与相等区别。独立解答复审：B比A多2而C与A完全相同，严格包含与包含区分充分。",
+        "alignmentCheck": "检测“真子集的概念与符号”的关键依据：A所有元素在B中且2只在B中；A与C元素完全相同，故不是严格包含。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测真子集要求包含且不相等。 对照：A⊆C仍为真。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：子集关系",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-2-03",
+      "skillId": "full-m1-1-2-03",
+      "familyId": "full-m1-1-2-03",
+      "text": "A={x∈R:x²-3x+2=0}，B={1,a}。求使A=B的a。",
+      "answer": "a=2。",
+      "steps": [
+        "因式分解得A={1,2}",
+        "B已有1，要与A相等必须且只需补入2",
+        "代回a=2验证双向包含"
+      ],
+      "alignment": "检测“集合相等（A包含于B且B包含于A）”的关键依据：因式分解得A={1,2}；B已有1，要与A相等必须且只需补入2；代回a=2验证双向包含。检测范围以本题检测边界为限。",
+      "contrast": "a=1时B={1}，与A不相等。",
+      "assessment": {
+        "objective": "能在本题条件下运用“集合相等（A包含于B且B包含于A）”得出答案，并说明依据。",
+        "boundary": "检测集合相等及双向包含；不涉及多参数。",
+        "prerequisiteSkills": "子集的概念与符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a3911aa018610e4e72431614ded4ac50e3e6e5dd0333e0eb8f8fa5d34eb13500",
+        "answerCheck": "固定规格计算检查：多项式根与集合相等。独立解答复审：多项式分解为(x−1)(x−2)，A两元素；B要补足2只能a=2，a=1时合并重复不能相等。",
+        "alignmentCheck": "检测“集合相等（A包含于B且B包含于A）”的关键依据：因式分解得A={1,2}；B已有1，要与A相等必须且只需补入2；代回a=2验证双向包含。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测集合相等及双向包含；不涉及多参数。 对照：a=1时B={1}，与A不相等。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：子集关系",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-2-04",
+      "skillId": "full-m1-1-2-04",
+      "familyId": "full-m1-1-2-04",
+      "text": "判断：①∅⊆∅；②∅⊊{0}；③∅∈{∅}；④∅={0}。",
+      "answer": "①②③真，④假。",
+      "steps": [
+        "空集是自身子集",
+        "{0}非空故空集是其真子集",
+        "{∅}唯一元素就是∅",
+        "∅无元素而{0}有元素"
+      ],
+      "alignment": "检测“空集的性质”的关键依据：空集是自身子集；{0}非空故空集是其真子集；{∅}唯一元素就是∅；∅无元素而{0}有元素。检测范围以本题检测边界为限。",
+      "contrast": "∅⊊∅为假。",
+      "assessment": {
+        "objective": "能在本题条件下运用“空集的性质”得出答案，并说明依据。",
+        "boundary": "检测空集与含空集集合、包含与属于的区分。",
+        "prerequisiteSkills": "子集的概念与符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e7536e06024a777d9266f1c7afa43827a82eb51e59762c8e47c4f843b68d65b8",
+        "answerCheck": "逻辑辅助检查（非自动证明）：空集关系直接计算。独立解答复审：空集包含与属于使用层级不同；{∅}有一个集合元素，{0}有一个数元素，四项真值核查正确。",
+        "alignmentCheck": "检测“空集的性质”的关键依据：空集是自身子集；{0}非空故空集是其真子集；{∅}唯一元素就是∅；∅无元素而{0}有元素。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测空集与含空集集合、包含与属于的区分。 对照：∅⊊∅为假。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：子集关系",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-2-05",
+      "skillId": "full-m1-1-2-05",
+      "familyId": "full-m1-1-2-05",
+      "text": "A={a,b,c,d}且四元素互异。求全部子集、真子集、非空真子集的个数。",
+      "answer": "16、15、14。",
+      "steps": [
+        "每元素有选或不选两种选择，共2⁴=16",
+        "真子集去掉A自身得15",
+        "再去掉空集得14"
+      ],
+      "alignment": "检测“子集的个数计算”的关键依据：每元素有选或不选两种选择，共2⁴=16；真子集去掉A自身得15；再去掉空集得14。检测范围以本题检测边界为限。",
+      "contrast": "只有一个元素时非空真子集数为0。",
+      "assessment": {
+        "objective": "能在本题条件下运用“子集的个数计算”得出答案，并说明依据。",
+        "boundary": "检测n元素集合三类子集计数；不检测带指定包含条件。",
+        "prerequisiteSkills": "真子集的概念与符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "306d1b973e3b08d4ec72f29c4cc262861c664aefa092569808f96fd1f616a954",
+        "answerCheck": "固定规格计算检查：16个子集全枚举。独立解答复审：四个独立选/不选给16种；排除全集后15，再排除空集14，题设互异性确保计数适用。",
+        "alignmentCheck": "检测“子集的个数计算”的关键依据：每元素有选或不选两种选择，共2⁴=16；真子集去掉A自身得15；再去掉空集得14。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测n元素集合三类子集计数；不检测带指定包含条件。 对照：只有一个元素时非空真子集数为0。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：子集关系",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-2-06",
+      "skillId": "full-m1-1-2-06",
+      "familyId": "full-m1-1-2-06",
+      "text": "全集U={1,2,3,4,5,6}。Venn图中A圆完全在B圆内，A区写1、2，B内A外写3，B外写4、5、6。写出A、B，并判断包含关系。",
+      "answer": "A={1,2}，B={1,2,3}，A⊊B⊊U。",
+      "steps": [
+        "内圆两数组成A",
+        "B须合并A区与其外圈，得1、2、3",
+        "各外圈非空，故均为真子集"
+      ],
+      "alignment": "检测“Venn图表示集合关系”的关键依据：内圆两数组成A；B须合并A区与其外圈，得1、2、3；各外圈非空，故均为真子集。检测范围以本题检测边界为限。",
+      "contrast": "B不能只写{3}，内圆元素仍在B内。",
+      "assessment": {
+        "objective": "能在本题条件下运用“Venn图表示集合关系”得出答案，并说明依据。",
+        "boundary": "检测文字描述的嵌套Venn图读图；不检测三集合交错区域。",
+        "prerequisiteSkills": "子集的概念与符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9c7e3ee0428dd1002abec6e852bd3d84af7bcce4b3231822b8f2ef4b7148c4ab",
+        "answerCheck": "逻辑辅助检查（非自动证明）：嵌套Venn区域合并。独立解答复审：嵌套圆外层必须包含内层元素，B={1,2,3}且两层差集非空，严格包含链正确。",
+        "alignmentCheck": "检测“Venn图表示集合关系”的关键依据：内圆两数组成A；B须合并A区与其外圈，得1、2、3；各外圈非空，故均为真子集。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测文字描述的嵌套Venn图读图；不检测三集合交错区域。 对照：B不能只写{3}，内圆元素仍在B内。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：子集关系",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-2-subsets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-3-01",
+      "skillId": "s4",
+      "familyId": "full-m1-1-3-01",
+      "text": "U={1,2,3,4,5}，A={1,2,3}，B={3,4}。求A∪B，并用文字说明Venn图应涂哪几个区域。",
+      "answer": "{1,2,3,4}；A独有区、交叠区、B独有区均涂色。",
+      "steps": [
+        "属于A或B即可进入并集",
+        "重复的3只记一次",
+        "两圆内部全部涂色，外部不涂"
+      ],
+      "alignment": "检测“并集的定义与Venn图”的关键依据：属于A或B即可进入并集；重复的3只记一次；两圆内部全部涂色，外部不涂。检测范围以本题检测边界为限。",
+      "contrast": "只涂交叠区得到的是{3}。",
+      "assessment": {
+        "objective": "能在本题条件下运用“并集的定义与Venn图”得出答案，并说明依据。",
+        "boundary": "检测并集计算和对应Venn区域。",
+        "prerequisiteSkills": "集合相等（A包含于B且B包含于A）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3961219233dc5dc0bc95d0e62123cc7891129b6079c792db648ef9bf8cc33fef",
+        "answerCheck": "固定规格计算检查：并集区域去重。独立解答复审：逐项逻辑“至少属于一个”选出1至4，交叠3只计一次；所描述涂区与并集一致。",
+        "alignmentCheck": "检测“并集的定义与Venn图”的关键依据：属于A或B即可进入并集；重复的3只记一次；两圆内部全部涂色，外部不涂。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测并集计算和对应Venn区域。 对照：只涂交叠区得到的是{3}。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合运算",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-3-02",
+      "skillId": "s3",
+      "familyId": "full-m1-1-3-02",
+      "text": "A={1,2,4}，B={2,3,4}。求A∩B，并说明Venn图涂色区域。",
+      "answer": "{2,4}；只涂两圆交叠区域。",
+      "steps": [
+        "逐一寻找同时属于A和B的元素",
+        "2、4满足而1、3只属一边",
+        "共同部分对应交叠区"
+      ],
+      "alignment": "检测“交集的定义与Venn图”的关键依据：逐一寻找同时属于A和B的元素；2、4满足而1、3只属一边；共同部分对应交叠区。检测范围以本题检测边界为限。",
+      "contrast": "A∪B则为{1,2,3,4}。",
+      "assessment": {
+        "objective": "能在本题条件下运用“交集的定义与Venn图”得出答案，并说明依据。",
+        "boundary": "检测交集计算及图示含义。",
+        "prerequisiteSkills": "集合相等（A包含于B且B包含于A）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d23ec42a8f509f3b92237739f38c3b24ee35e992be85195bff0218835e5b5478",
+        "answerCheck": "固定规格计算检查：交集共同元素。独立解答复审：同时在两个集合的仅2、4，对应两圆交叠，答案及图示语义相符。",
+        "alignmentCheck": "检测“交集的定义与Venn图”的关键依据：逐一寻找同时属于A和B的元素；2、4满足而1、3只属一边；共同部分对应交叠区。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测交集计算及图示含义。 对照：A∪B则为{1,2,3,4}。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合运算",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-3-03",
+      "skillId": "full-m1-1-3-03",
+      "familyId": "full-m1-1-3-03",
+      "text": "U={0,1,2,3,4,5}，A={0,2,4}。求A在U中的补集并描述Venn图区域；若全集换为Z，补集是否仍相同？",
+      "answer": "C_U A={1,3,5}；矩形U内、A圆外；换为Z后不相同。",
+      "steps": [
+        "从全集删去A元素",
+        "余下1、3、5",
+        "在Z中-1、6等也不属于A，必须加入补集"
+      ],
+      "alignment": "检测“全集与补集与Venn图”的关键依据：从全集删去A元素；余下1、3、5；在Z中-1、6等也不属于A，必须加入补集。检测范围以本题检测边界为限。",
+      "contrast": "补集不能脱离全集书写。",
+      "assessment": {
+        "objective": "能在本题条件下运用“全集与补集与Venn图”得出答案，并说明依据。",
+        "boundary": "检测全集依赖性、补集运算及图区。",
+        "prerequisiteSkills": "集合相等（A包含于B且B包含于A）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6ff147d575cb9d273b8609edc0c9d5ab9c408ef5c07c816b30ccf5b8a7b02a01",
+        "answerCheck": "固定规格计算检查：补集相对指定全集。独立解答复审：全集删去0、2、4余1、3、5；改Z后负整数及6等入补集，正确体现全集依赖。",
+        "alignmentCheck": "检测“全集与补集与Venn图”的关键依据：从全集删去A元素；余下1、3、5；在Z中-1、6等也不属于A，必须加入补集。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测全集依赖性、补集运算及图区。 对照：补集不能脱离全集书写。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合运算",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-3-04",
+      "skillId": "full-m1-1-3-04",
+      "familyId": "full-m1-1-3-04",
+      "text": "A={1,2}，B={2,3}，C={3,4}。计算A∪A、A∩A、A∪B与B∪A、(A∪B)∪C与A∪(B∪C)，指出各对应的律。",
+      "answer": "前两者均A（幂等）；中间均{1,2,3}（交换）；最后均{1,2,3,4}（结合）。",
+      "steps": [
+        "重复并或交不改变A",
+        "交换两集合次序不改变并集元素",
+        "先合并任一对最后均收集三集合元素"
+      ],
+      "alignment": "检测“集合运算性质（幂等律/交换律/结合律）”的关键依据：重复并或交不改变A；交换两集合次序不改变并集元素；先合并任一对最后均收集三集合元素。检测范围以本题检测边界为限。",
+      "contrast": "A\\B与B\\A通常不同，本例为{1}与{3}。",
+      "assessment": {
+        "objective": "能在本题条件下运用“集合运算性质（幂等律/交换律/结合律）”得出答案，并说明依据。",
+        "boundary": "检测幂等、交换、结合的具体实例；不据实例替代一般证明，交的交换结合未单独检测。",
+        "prerequisiteSkills": "并集的定义与Venn图；交集的定义与Venn图"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "88ba52fa63e5528efbc84d3b1c43e9b40a16c8e21e50e0732466dbd37f64bc0b",
+        "answerCheck": "逻辑辅助检查（非自动证明）：幂等交换结合两侧直接算。独立解答复审：分别重算幂等、换序及分组并运算得到A、{1,2,3}、{1,2,3,4}；边界明确未代替一般证明。",
+        "alignmentCheck": "检测“集合运算性质（幂等律/交换律/结合律）”的关键依据：重复并或交不改变A；交换两集合次序不改变并集元素；先合并任一对最后均收集三集合元素。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测幂等、交换、结合的具体实例；不据实例替代一般证明，交的交换结合未单独检测。 对照：A\\B与B\\A通常不同，本例为{1}与{3}。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合运算",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-3-05",
+      "skillId": "full-m1-1-3-05",
+      "familyId": "full-m1-1-3-05",
+      "text": "A={1,2}，B={2,3}，C={1,4}。分别计算A∩(B∪C)与(A∩B)∪(A∩C)，以及A∪(B∩C)与(A∪B)∩(A∪C)。",
+      "answer": "第一对均{1,2}，第二对也均{1,2}。",
+      "steps": [
+        "B∪C={1,2,3,4}，与A交得A",
+        "A∩B={2}且A∩C={1}，并得A",
+        "B∩C=∅，第二对左边为A",
+        "右边{1,2,3}∩{1,2,4}=A"
+      ],
+      "alignment": "检测“分配律”的关键依据：B∪C={1,2,3,4}，与A交得A；A∩B={2}且A∩C={1}，并得A；B∩C=∅，第二对左边为A；右边{1,2,3}∩{1,2,4}=A。检测范围以本题检测边界为限。",
+      "contrast": "分配时外层运算会进入两项，不能把交并符号全写相同。",
+      "assessment": {
+        "objective": "能在本题条件下运用“分配律”得出答案，并说明依据。",
+        "boundary": "检测并交两种分配律的实例运用；不要求抽象证明。",
+        "prerequisiteSkills": "集合运算性质（幂等律/交换律/结合律）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4ff14d03fb9df060ebade5f958a619a96b60b23b760d932348d233f3bed42b9a",
+        "answerCheck": "逻辑辅助检查（非自动证明）：两种分配律均计算。独立解答复审：B与C不交；两种分配形式左、右各算得{1,2}，两条分配律均实际使用。",
+        "alignmentCheck": "检测“分配律”的关键依据：B∪C={1,2,3,4}，与A交得A；A∩B={2}且A∩C={1}，并得A；B∩C=∅，第二对左边为A；右边{1,2,3}∩{1,2,4}=A。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测并交两种分配律的实例运用；不要求抽象证明。 对照：分配时外层运算会进入两项，不能把交并符号全写相同。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合运算",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-3-06",
+      "skillId": "full-m1-1-3-06",
+      "familyId": "full-m1-1-3-06",
+      "text": "U={1,2,3,4,5}，A={1,2,3}，B={3,4}。用德摩根律求C_U(A∪B)和C_U(A∩B)。",
+      "answer": "依次为{5}与{1,2,4,5}。",
+      "steps": [
+        "C_U A={4,5}，C_U B={1,2,5}",
+        "并集的补等于补集的交，得{5}",
+        "交集的补等于补集的并，得{1,2,4,5}"
+      ],
+      "alignment": "检测“德摩根律”的关键依据：C_U A={4,5}，C_U B={1,2,5}；并集的补等于补集的交，得{5}；交集的补等于补集的并，得{1,2,4,5}。检测范围以本题检测边界为限。",
+      "contrast": "把两条等式中的交并保持不变会出错。",
+      "assessment": {
+        "objective": "能在本题条件下运用“德摩根律”得出答案，并说明依据。",
+        "boundary": "检测两条德摩根律及统一全集。",
+        "prerequisiteSkills": "集合运算性质（幂等律/交换律/结合律）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "199389e43d4ed2fa2351623a93af6acf787bff2bf76889f433cf1f179fd19227",
+        "answerCheck": "逻辑辅助检查（非自动证明）：德摩根两侧集合运算。独立解答复审：补集A为4、5，补集B为1、2、5；交得5并得1、2、4、5，与原运算再取补一致。",
+        "alignmentCheck": "检测“德摩根律”的关键依据：C_U A={4,5}，C_U B={1,2,5}；并集的补等于补集的交，得{5}；交集的补等于补集的并，得{1,2,4,5}。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测两条德摩根律及统一全集。 对照：把两条等式中的交并保持不变会出错。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：集合运算",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/1-4-set-operations-with-two-sets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-4-01",
+      "skillId": "full-m1-1-4-01",
+      "familyId": "full-m1-1-4-01",
+      "text": "实数x满足p:x>3，q:x>1。p是否是q的充分条件？反向蕴含成立吗？",
+      "answer": "是充分条件；反向不成立。",
+      "steps": [
+        "x>3必有x>1，故p⇒q",
+        "取x=2满足q却不满足p，否定q⇒p"
+      ],
+      "alignment": "检测“充分条件的定义与判定”的关键依据：x>3必有x>1，故p⇒q；取x=2满足q却不满足p，否定q⇒p。检测范围以本题检测边界为限。",
+      "contrast": "将p改为x>0后，p不是q的充分条件。",
+      "assessment": {
+        "objective": "能在本题条件下运用“充分条件的定义与判定”得出答案，并说明依据。",
+        "boundary": "检测充分条件及反向反例；不含复合命题。",
+        "prerequisiteSkills": "集合的含义（元素的确定性/互异性/无序性）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "36b5ec1fc3cb5e5f0a4cccb23bcfe591fd850c5707ffe2d966ba55332f44d8a0",
+        "answerCheck": "逻辑辅助检查（非自动证明）：区间包含及x=2反例。独立解答复审：x>3蕴含x>1而x=2否定反向，充分性判断的方向正确。",
+        "alignmentCheck": "检测“充分条件的定义与判定”的关键依据：x>3必有x>1，故p⇒q；取x=2满足q却不满足p，否定q⇒p。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测充分条件及反向反例；不含复合命题。 对照：将p改为x>0后，p不是q的充分条件。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-1-4-02",
+      "skillId": "full-m1-1-4-02",
+      "familyId": "full-m1-1-4-02",
+      "text": "p:x≠0，q:x²>4，x∈R。p是否为q的必要条件？是否充分？",
+      "answer": "必要但不充分。",
+      "steps": [
+        "x²>4推出|x|>2，因而x≠0，故q⇒p",
+        "x=1满足p而不满足q，故p不充分"
+      ],
+      "alignment": "检测“必要条件的定义与判定”的关键依据：x²>4推出|x|>2，因而x≠0，故q⇒p；x=1满足p而不满足q，故p不充分。检测范围以本题检测边界为限。",
+      "contrast": "“x>0”不是q的必要条件，x=-3是反例。",
+      "assessment": {
+        "objective": "能在本题条件下运用“必要条件的定义与判定”得出答案，并说明依据。",
+        "boundary": "检测必要条件的蕴含方向。",
+        "prerequisiteSkills": "充分条件的定义与判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "99026560c0ec433bd164bfda3e1461d29420234a81065eeb16364c477e19f6dd",
+        "answerCheck": "逻辑辅助检查（非自动证明）：二次不等式解集排除0且x=1反例。独立解答复审：x²>4推出非零；反例x=1满足非零不满足平方大于4，必要不充分正确。",
+        "alignmentCheck": "检测“必要条件的定义与判定”的关键依据：x²>4推出|x|>2，因而x≠0，故q⇒p；x=1满足p而不满足q，故p不充分。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测必要条件的蕴含方向。 对照：“x>0”不是q的必要条件，x=-3是反例。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-1-4-03",
+      "skillId": "full-m1-1-4-03",
+      "familyId": "full-m1-1-4-03",
+      "text": "x∈R，p:|x-1|=2，q:x=-1或x=3。证明p是q的充要条件。",
+      "answer": "p⇔q，互为充要条件。",
+      "steps": [
+        "p给出x-1=2或-2，得到q",
+        "反过来代入-1或3，绝对值均为2，得到p"
+      ],
+      "alignment": "检测“充要条件的定义与判定”的关键依据：p给出x-1=2或-2，得到q；反过来代入-1或3，绝对值均为2，得到p。检测范围以本题检测边界为限。",
+      "contrast": "若q只保留x=3，则q是p的充分不必要条件。",
+      "assessment": {
+        "objective": "能在本题条件下运用“充要条件的定义与判定”得出答案，并说明依据。",
+        "boundary": "检测两个方向都成立；不检测参数充要条件。",
+        "prerequisiteSkills": "充分条件的定义与判定；必要条件的定义与判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a6a11d2accf694a416621a2d5f94050e50a60bb84208c5d0a41063401fda61b5",
+        "answerCheck": "逻辑辅助检查（非自动证明）：绝对值方程全部实根。独立解答复审：绝对值方程分两支得−1和3，反向两值均满足，双向均完成。",
+        "alignmentCheck": "检测“充要条件的定义与判定”的关键依据：p给出x-1=2或-2，得到q；反过来代入-1或3，绝对值均为2，得到p。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测两个方向都成立；不检测参数充要条件。 对照：若q只保留x=3，则q是p的充分不必要条件。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-1-4-04",
+      "skillId": "full-m1-1-4-04",
+      "familyId": "full-m1-1-4-04",
+      "text": "对实数x，p:x=2，q:x²=4。分别判定p对q、q对p的条件类型。",
+      "answer": "p是q的充分不必要条件；q是p的必要不充分条件。",
+      "steps": [
+        "x=2必使x²=4",
+        "x=-2满足q却不满足p",
+        "据单向蕴含分别从两个方向命名"
+      ],
+      "alignment": "检测“充分不必要条件/必要不充分条件”的关键依据：x=2必使x²=4；x=-2满足q却不满足p；据单向蕴含分别从两个方向命名。检测范围以本题检测边界为限。",
+      "contrast": "把p改为|x|=2后，两者等价。",
+      "assessment": {
+        "objective": "能在本题条件下运用“充分不必要条件/必要不充分条件”得出答案，并说明依据。",
+        "boundary": "检测充分不必要与必要不充分的对偶关系。",
+        "prerequisiteSkills": "充要条件的定义与判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "956485b40fb96147e4e2acc183124dc842ab1ef3be08ef4311045c99510ba6c8",
+        "answerCheck": "逻辑辅助检查（非自动证明）：两个条件真值集合严格包含。独立解答复审：x=2推出平方4而−2否定反向；从p对q及q对p命名互为充分/必要，结论正确。",
+        "alignmentCheck": "检测“充分不必要条件/必要不充分条件”的关键依据：x=2必使x²=4；x=-2满足q却不满足p；据单向蕴含分别从两个方向命名。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测充分不必要与必要不充分的对偶关系。 对照：把p改为|x|=2后，两者等价。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-1-4-05",
+      "skillId": "full-m1-1-4-05",
+      "familyId": "full-m1-1-4-05",
+      "text": "p:x∈[a,a+2]，q:x∈[1,5]。求p是q充分条件时的a；能否使p成为q的充要条件？",
+      "answer": "1≤a≤3；不存在充要条件所需的a。",
+      "steps": [
+        "充分条件要求[a,a+2]⊆[1,5]",
+        "比较端点得a≥1且a+2≤5",
+        "充要需区间相等，但长度2与4不同"
+      ],
+      "alignment": "检测“集合观点下的充要条件”的关键依据：充分条件要求[a,a+2]⊆[1,5]；比较端点得a≥1且a+2≤5；充要需区间相等，但长度2与4不同。检测范围以本题检测边界为限。",
+      "contrast": "必要条件要求[1,5]⊆[a,a+2]，也不可能。",
+      "assessment": {
+        "objective": "能在本题条件下运用“集合观点下的充要条件”得出答案，并说明依据。",
+        "boundary": "检测用包含、相等转化条件及端点约束。",
+        "prerequisiteSkills": "充要条件的定义与判定；子集的概念与符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "cb6edeb7bb9794d063b78fb49f797e7eddfd6b439facff61aa275840c19a55d7",
+        "answerCheck": "逻辑辅助检查（非自动证明）：充分条件端点同时约束与区间长度比较。独立解答复审：区间包含等价左端a≥1、右端a+2≤5，给[1,3]；长度差排除相等及充要条件。",
+        "alignmentCheck": "检测“集合观点下的充要条件”的关键依据：充分条件要求[a,a+2]⊆[1,5]；比较端点得a≥1且a+2≤5；充要需区间相等，但长度2与4不同。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测用包含、相等转化条件及端点约束。 对照：必要条件要求[1,5]⊆[a,a+2]，也不可能。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-1-5-01",
+      "skillId": "full-m1-1-5-01",
+      "familyId": "full-m1-1-5-01",
+      "text": "把“每个实数的平方都不小于0”写成量词命题并判断真假；判断∀x∈R,x²>x真假。",
+      "answer": "∀x∈R,x²≥0为真；第二命题为假。",
+      "steps": [
+        "“每个”对应∀且数域R",
+        "实数平方总非负",
+        "第二命题取x=0即0>0不成立"
+      ],
+      "alignment": "检测“全称量词与全称量词命题”的关键依据：“每个”对应∀且数域R；实数平方总非负；第二命题取x=0即0>0不成立。检测范围以本题检测边界为限。",
+      "contrast": "∀x∈R,x²≥x也是假，x=1/2反例。",
+      "assessment": {
+        "objective": "能在本题条件下运用“全称量词与全称量词命题”得出答案，并说明依据。",
+        "boundary": "检测全称量词、数域与反例；不涉及多层量词。",
+        "prerequisiteSkills": "充分条件的定义与判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d0cc37f11636944ef7927849648313e58ca7c3abc82b5824fc3dcce5c920e508",
+        "answerCheck": "逻辑辅助检查（非自动证明）：平方非负符号事实及全称反例。独立解答复审：非负平方全称成立，x=0使严格大于自身命题失败，量词数域和真值明确。",
+        "alignmentCheck": "检测“全称量词与全称量词命题”的关键依据：“每个”对应∀且数域R；实数平方总非负；第二命题取x=0即0>0不成立。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测全称量词、数域与反例；不涉及多层量词。 对照：∀x∈R,x²≥x也是假，x=1/2反例。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：量词与否定",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-5-02",
+      "skillId": "full-m1-1-5-02",
+      "familyId": "full-m1-1-5-02",
+      "text": "用量词写“存在整数，其平方等于9”，给出所有见证；再判断存在整数平方等于2。",
+      "answer": "∃x∈Z,x²=9，见证±3；∃x∈Z,x²=2为假。",
+      "steps": [
+        "“存在”对应∃",
+        "解x²=9得±3且均为整数",
+        "1²<2<2²且负整数平方相同，2不是整数平方"
+      ],
+      "alignment": "检测“存在量词与存在量词命题”的关键依据：“存在”对应∃；解x²=9得±3且均为整数；1²<2<2²且负整数平方相同，2不是整数平方。检测范围以本题检测边界为限。",
+      "contrast": "把第二题数域改为R，则见证±√2。",
+      "assessment": {
+        "objective": "能在本题条件下运用“存在量词与存在量词命题”得出答案，并说明依据。",
+        "boundary": "检测存在量词、见证和数域限制。",
+        "prerequisiteSkills": "充分条件的定义与判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "94689c6da1c2efe595a91aa7dad50333c6c1772ace40d8672aca0a33fb623d81",
+        "answerCheck": "逻辑辅助检查（非自动证明）：整数见证与无整数平方为2。独立解答复审：平方9的整数根恰±3；平方2落在相邻整数平方间无整数根，存在命题真假正确。",
+        "alignmentCheck": "检测“存在量词与存在量词命题”的关键依据：“存在”对应∃；解x²=9得±3且均为整数；1²<2<2²且负整数平方相同，2不是整数平方。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测存在量词、见证和数域限制。 对照：把第二题数域改为R，则见证±√2。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：量词与否定",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-5-03",
+      "skillId": "s5",
+      "familyId": "full-m1-1-5-03",
+      "text": "写出命题“∀x∈R，x²≥x”的否定，并给出使否定成立的一个值。",
+      "answer": "∃x∈R，x²<x；可取x=1/2。",
+      "steps": [
+        "否定全称量词改为存在量词",
+        "≥的否定是<，数域仍为R",
+        "1/4<1/2成立"
+      ],
+      "alignment": "检测“全称量词命题的否定”的关键依据：否定全称量词改为存在量词；≥的否定是<，数域仍为R；1/4<1/2成立。检测范围以本题检测边界为限。",
+      "contrast": "不能写成∀x∈R,x²<x。",
+      "assessment": {
+        "objective": "能在本题条件下运用“全称量词命题的否定”得出答案，并说明依据。",
+        "boundary": "检测全称命题否定及严格符号；不检测复合逻辑。",
+        "prerequisiteSkills": "全称量词与全称量词命题"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "50544f4dc9a0157857f93e7b0f9b7cb98eab5a5eda46f40101e8e74b911a25fe",
+        "answerCheck": "逻辑辅助检查（非自动证明）：量词否定见证1/2。独立解答复审：否定交换∀为∃且≥变<，数域保持；1/2代回得1/4<1/2，见证有效。",
+        "alignmentCheck": "检测“全称量词命题的否定”的关键依据：否定全称量词改为存在量词；≥的否定是<，数域仍为R；1/4<1/2成立。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测全称命题否定及严格符号；不检测复合逻辑。 对照：不能写成∀x∈R,x²<x。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：量词与否定",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-5-04",
+      "skillId": "full-m1-1-5-04",
+      "familyId": "full-m1-1-5-04",
+      "text": "写出“∃x∈R，x²+2x+2≤0”的否定并判断两命题真假。",
+      "answer": "否定：∀x∈R，x²+2x+2>0；原假、否定真。",
+      "steps": [
+        "∃否定成∀，≤否定成>",
+        "配方x²+2x+2=(x+1)²+1≥1",
+        "故找不到原命题见证，否定恒真"
+      ],
+      "alignment": "检测“存在量词命题的否定”的关键依据：∃否定成∀，≤否定成>；配方x²+2x+2=(x+1)²+1≥1；故找不到原命题见证，否定恒真。检测范围以本题检测边界为限。",
+      "contrast": "若常数2改为1，原命题在x=-1成立。",
+      "assessment": {
+        "objective": "能在本题条件下运用“存在量词命题的否定”得出答案，并说明依据。",
+        "boundary": "检测存在量词否定及真假验证。",
+        "prerequisiteSkills": "存在量词与存在量词命题"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "796bec902c2003c31dd72a3af0476851436e2abf9bf3f24108b19c86ae5e1c4c",
+        "answerCheck": "逻辑辅助检查（非自动证明）：配方全域正证明。独立解答复审：配方(x+1)²+1≥1证明原存在命题假；其全称严格正否定真，补集逻辑无漏边界。",
+        "alignmentCheck": "检测“存在量词命题的否定”的关键依据：∃否定成∀，≤否定成>；配方x²+2x+2=(x+1)²+1≥1；故找不到原命题见证，否定恒真。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测存在量词否定及真假验证。 对照：若常数2改为1，原命题在x=-1成立。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：量词与否定",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-1-5-05",
+      "skillId": "full-m1-1-5-05",
+      "familyId": "full-m1-1-5-05",
+      "text": "p为“∀x∈R，x²>0”。写出¬p，并判断p、¬p，是否可能二者同真或同假？",
+      "answer": "¬p：∃x∈R，x²≤0；p假，¬p真；不能同真或同假。",
+      "steps": [
+        "x=0使p失败",
+        "同一值满足¬p",
+        "命题与其否定互相排斥且穷尽两种真值"
+      ],
+      "alignment": "检测“命题否定的真假关系”的关键依据：x=0使p失败；同一值满足¬p；命题与其否定互相排斥且穷尽两种真值。检测范围以本题检测边界为限。",
+      "contrast": "将>改为≥后原命题真、否定假。",
+      "assessment": {
+        "objective": "能在本题条件下运用“命题否定的真假关系”得出答案，并说明依据。",
+        "boundary": "检测否定真值互补；不检测命题的逆否形式。",
+        "prerequisiteSkills": "全称量词命题的否定；存在量词命题的否定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d404e3509c82b43beb9c05c6a5b5fe06cc23ca473a18eedfa18aa069b4c5ff3b",
+        "answerCheck": "逻辑辅助检查（非自动证明）：原命题反例与否定见证同时为0。独立解答复审：0同时推翻严格正平方全称并满足其否定；命题与否定不可能同真同假，逻辑正确。",
+        "alignmentCheck": "检测“命题否定的真假关系”的关键依据：x=0使p失败；同一值满足¬p；命题与其否定互相排斥且穷尽两种真值。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测否定真值互补；不检测命题的逆否形式。 对照：将>改为≥后原命题真、否定假。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：量词与否定",
+            "url": "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-2-1-01",
+      "skillId": "full-m1-2-1-01",
+      "familyId": "full-m1-2-1-01",
+      "text": "设整数x满足“不少于2且小于5”。写成不等式并列出解；判断2是否可取。",
+      "answer": "2≤x<5；整数解{2,3,4}；2可取。",
+      "steps": [
+        "“不少于”对应≥",
+        "“小于”对应严格<",
+        "结合整数限制列出2、3、4"
+      ],
+      "alignment": "检测“不等式的概念”的关键依据：“不少于”对应≥；“小于”对应严格<；结合整数限制列出2、3、4。检测范围以本题检测边界为限。",
+      "contrast": "若“不超过5”，还应包括5。",
+      "assessment": {
+        "objective": "能在本题条件下运用“不等式的概念”得出答案，并说明依据。",
+        "boundary": "检测严格与非严格不等式的语义；不检测二次求解。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "308ab7f38b0b483f928d2b732b3f622a2eb345fc2a1c841e2c9c0b6e0c61ada4",
+        "answerCheck": "固定规格计算检查：整数不等式解枚举。独立解答复审：不少于2包含2，小于5排除5，整数过滤恰2、3、4，与语义相符。",
+        "alignmentCheck": "检测“不等式的概念”的关键依据：“不少于”对应≥；“小于”对应严格<；结合整数限制列出2、3、4。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测严格与非严格不等式的语义；不检测二次求解。 对照：若“不超过5”，还应包括5。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-1-02",
+      "skillId": "full-m1-2-1-02",
+      "familyId": "full-m1-2-1-02",
+      "text": "不用展开分别比较两个数，改用作差法比较A=(x+1)²与B=x²+2x+2，x∈R。",
+      "answer": "恒有A<B。",
+      "steps": [
+        "A-B=x²+2x+1-(x²+2x+2)=-1",
+        "差恒为负，故A<B"
+      ],
+      "alignment": "检测“实数比较大小的方法——作差法”的关键依据：A-B=x²+2x+1-(x²+2x+2)=-1；差恒为负，故A<B。检测范围以本题检测边界为限。",
+      "contrast": "若B常数项改为0，则A>B。",
+      "assessment": {
+        "objective": "能在本题条件下运用“实数比较大小的方法——作差法”得出答案，并说明依据。",
+        "boundary": "检测作差、化简、定号三步；不涉及参数分段。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b16b7ec97e79a7426dc0f380ae57df62ea688601b8300807efbd4d26b490ac5d",
+        "answerCheck": "固定规格计算检查：作差符号恒等式。独立解答复审：展开相减常数差−1，不依赖x，恒A<B；检测作差法而非数值抽样。",
+        "alignmentCheck": "检测“实数比较大小的方法——作差法”的关键依据：A-B=x²+2x+1-(x²+2x+2)=-1；差恒为负，故A<B。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测作差、化简、定号三步；不涉及参数分段。 对照：若B常数项改为0，则A>B。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-1-03",
+      "skillId": "full-m1-2-1-03",
+      "familyId": "full-m1-2-1-03",
+      "text": "已知a>b>c。填写：a__c，a+5__b+5，2a__2b，-3a__-3b，并说明每处性质。",
+      "answer": "依次>、>、>、<；传递性、可加性、乘正数同向、乘负数反向。",
+      "steps": [
+        "a>b且b>c推出a>c",
+        "同加5差不变",
+        "乘2保持差为正",
+        "乘-3使差为负"
+      ],
+      "alignment": "检测“不等式的性质（传递性/可加性/可乘性）”的关键依据：a>b且b>c推出a>c；同加5差不变；乘2保持差为正；乘-3使差为负。检测范围以本题检测边界为限。",
+      "contrast": "乘0只得到相等，不能保留严格>。",
+      "assessment": {
+        "objective": "能在本题条件下运用“不等式的性质（传递性/可加性/可乘性）”得出答案，并说明依据。",
+        "boundary": "检测传递、加法、正负乘法；不检测平方推广。",
+        "prerequisiteSkills": "不等式的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4311b15c92f6fac89457739de9380b3aeaa960043d64de7036086b6a4616ecd6",
+        "answerCheck": "逻辑辅助检查（非自动证明）：传递加乘符号由差表达式重算。独立解答复审：差a−b>0经同加、正倍、负倍分别保号保号反号，四个关系符号核对正确。",
+        "alignmentCheck": "检测“不等式的性质（传递性/可加性/可乘性）”的关键依据：a>b且b>c推出a>c；同加5差不变；乘2保持差为正；乘-3使差为负。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测传递、加法、正负乘法；不检测平方推广。 对照：乘0只得到相等，不能保留严格>。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-1-04",
+      "skillId": "full-m1-2-1-04",
+      "familyId": "full-m1-2-1-04",
+      "text": "0<a<2，0<b<3。由同向加法和乘法给出a+b、ab的严格范围；若删去正性，乘积上界6还必然成立吗？",
+      "answer": "0<a+b<5，0<ab<6；删正性后不一定。",
+      "steps": [
+        "同向相加得上下界",
+        "正数可同向相乘，得0<ab<6",
+        "a=b=-10仍有a<2,b<3，但ab=100"
+      ],
+      "alignment": "检测“同向可加性与同向可乘性”的关键依据：同向相加得上下界；正数可同向相乘，得0<ab<6；a=b=-10仍有a<2,b<3，但ab=100。检测范围以本题检测边界为限。",
+      "contrast": "开区间上界5、6均不能取到。",
+      "assessment": {
+        "objective": "能在本题条件下运用“同向可加性与同向可乘性”得出答案，并说明依据。",
+        "boundary": "检测同向加与正量乘的条件；不要求可达最值。",
+        "prerequisiteSkills": "不等式的性质（传递性/可加性/可乘性）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "17ab3302bc6576b9e9f6bbdff2d00dd0dac6c2f2fd07426fcd27a53526f3472b",
+        "answerCheck": "逻辑辅助检查（非自动证明）：正量乘积上界分解及删正性反例。独立解答复审：两正量严格上界相加5相乘6且不可取；去掉正性用−10、−10得100构成有效反例。",
+        "alignmentCheck": "检测“同向可加性与同向可乘性”的关键依据：同向相加得上下界；正数可同向相乘，得0<ab<6；a=b=-10仍有a<2,b<3，但ab=100。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测同向加与正量乘的条件；不要求可达最值。 对照：开区间上界5、6均不能取到。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-1-05",
+      "skillId": "full-m1-2-1-05",
+      "familyId": "full-m1-2-1-05",
+      "text": "已知2<a<5，求1/a范围；已知-5<b<-2，求1/b范围。",
+      "answer": "1/5<1/a<1/2；-1/2<1/b<-1/5。",
+      "steps": [
+        "同号非零数取倒数使次序反转",
+        "正区间两端倒数为1/2、1/5",
+        "负区间两端倒数为-1/5、-1/2，重新排序"
+      ],
+      "alignment": "检测“不等式的倒数法则”的关键依据：同号非零数取倒数使次序反转；正区间两端倒数为1/2、1/5；负区间两端倒数为-1/5、-1/2，重新排序。检测范围以本题检测边界为限。",
+      "contrast": "-1<z<1且z≠0的倒数不能写成(-1,1)。",
+      "assessment": {
+        "objective": "能在本题条件下运用“不等式的倒数法则”得出答案，并说明依据。",
+        "boundary": "检测正区间、负区间倒数规则；不检测跨零区间整体变换。",
+        "prerequisiteSkills": "不等式的性质（传递性/可加性/可乘性）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "96fb1155cafc60ac565f350fccc0872182d52fdaeba39001f71c21218fe88cb8",
+        "answerCheck": "固定规格计算检查：倒数差公式决定同号区间反向。独立解答复审：倒数在正负各个不跨0区间均递减，四端点倒数重排为(1/5,1/2)及(−1/2,−1/5)。",
+        "alignmentCheck": "检测“不等式的倒数法则”的关键依据：同号非零数取倒数使次序反转；正区间两端倒数为1/2、1/5；负区间两端倒数为-1/5、-1/2，重新排序。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正区间、负区间倒数规则；不检测跨零区间整体变换。 对照：-1<z<1且z≠0的倒数不能写成(-1,1)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-2-01",
+      "skillId": "full-m1-2-2-01",
+      "familyId": "full-m1-2-2-01",
+      "text": "对a,b>0，从一个平方非负式推导a+b≥2√(ab)，并写等号条件。",
+      "answer": "(√a-√b)²≥0推出结论；等号当且仅当a=b。",
+      "steps": [
+        "展开平方得a+b-2√(ab)≥0",
+        "移项得所求不等式",
+        "平方为0等价于√a=√b，即a=b"
+      ],
+      "alignment": "检测“基本不等式的推导”的关键依据：展开平方得a+b-2√(ab)≥0；移项得所求不等式；平方为0等价于√a=√b，即a=b。检测范围以本题检测边界为限。",
+      "contrast": "若a,b均负，则√a、√b在实数内无定义，不能沿用这条平方差推导。",
+      "assessment": {
+        "objective": "能在本题条件下运用“基本不等式的推导”得出答案，并说明依据。",
+        "boundary": "检测基本不等式推导和等号条件；不涉及求最值建模。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "05607359812e26cf15bda5e4ed08dd62ec9d4af7b5dd2f61ce55b8c6948c91f1",
+        "answerCheck": "逻辑辅助检查（非自动证明）：平方展开基本不等式。独立解答复审：展开(√a−√b)²得a+b−2√ab，正数假设允许平方根及等号a=b；复核时建议把对照明确为√a、√b不定义，最终对照已明确，现行内容核对通过。",
+        "alignmentCheck": "检测“基本不等式的推导”的关键依据：展开平方得a+b-2√(ab)≥0；移项得所求不等式；平方为0等价于√a=√b，即a=b。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测基本不等式推导和等号条件；不涉及求最值建模。 对照：若a,b均负，则√a、√b在实数内无定义，不能沿用这条平方差推导。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-2-02",
+      "skillId": "full-m1-2-2-02",
+      "familyId": "full-m1-2-2-02",
+      "text": "直径AB=10的上半圆，圆心O，直径上点H满足AH=2、HB=8，过H垂线交圆于P。求PH并用图形说明√(2·8)≤(2+8)/2；何时等号？",
+      "answer": "PH=4≤5；一般H为圆心即AH=HB时等号。",
+      "steps": [
+        "半径OP=5，OH=3，故PH=√(25-9)=4",
+        "PH≤OP，对应几何平均≤算术平均",
+        "垂线过圆心时高度等于半径"
+      ],
+      "alignment": "检测“基本不等式的几何解释”的关键依据：半径OP=5，OH=3，故PH=√(25-9)=4；PH≤OP，对应几何平均≤算术平均；垂线过圆心时高度等于半径。检测范围以本题检测边界为限。",
+      "contrast": "H靠近端点时高变小，半径不变。",
+      "assessment": {
+        "objective": "能在本题条件下运用“基本不等式的几何解释”得出答案，并说明依据。",
+        "boundary": "检测半圆模型的几何解释；需要勾股定理，不检测圆外情形。",
+        "prerequisiteSkills": "基本不等式的推导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "dc8c4ca65f46f493058ae7f6ac432ddf2e11a6854357af21c0c04010c3000106",
+        "answerCheck": "固定规格计算检查：几何解释勾股复算。独立解答复审：半圆半径5、OH=3，勾股得高4；高不超过半径，H=O恰等号，几何平均与算术平均对应清楚。",
+        "alignmentCheck": "检测“基本不等式的几何解释”的关键依据：半径OP=5，OH=3，故PH=√(25-9)=4；PH≤OP，对应几何平均≤算术平均；垂线过圆心时高度等于半径。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测半圆模型的几何解释；需要勾股定理，不检测圆外情形。 对照：H靠近端点时高变小，半径不变。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-2-03",
+      "skillId": "full-m1-2-2-03",
+      "familyId": "full-m1-2-2-03",
+      "text": "a,b>0且a+b=14。求ab最大值及取等时a,b。",
+      "answer": "最大值49，在a=b=7时取到。",
+      "steps": [
+        "ab≤((a+b)/2)²=49",
+        "等号要求a=b",
+        "与和为14联立得各7，满足正性"
+      ],
+      "alignment": "检测“和为定值积最大（求最大值）”的关键依据：ab≤((a+b)/2)²=49；等号要求a=b；与和为14联立得各7，满足正性。检测范围以本题检测边界为限。",
+      "contrast": "若a≠b，只能得ab<49且无最大值49。",
+      "assessment": {
+        "objective": "能在本题条件下运用“和为定值积最大（求最大值）”得出答案，并说明依据。",
+        "boundary": "检测正数定和积最大及可达性。",
+        "prerequisiteSkills": "基本不等式的推导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0c3951f9f997c2f2ca32d0cb050cdfec1ca218145d7802318b563140159a3c89",
+        "answerCheck": "固定规格计算检查：定和积最大配方独立核验。独立解答复审：定和14给积上界49，取7、7可达；正性和等号条件均满足，非只给无法取得的界。",
+        "alignmentCheck": "检测“和为定值积最大（求最大值）”的关键依据：ab≤((a+b)/2)²=49；等号要求a=b；与和为14联立得各7，满足正性。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正数定和积最大及可达性。 对照：若a≠b，只能得ab<49且无最大值49。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-2-04",
+      "skillId": "full-m1-2-2-04",
+      "familyId": "full-m1-2-2-04",
+      "text": "a,b>0且ab=36。求a+b最小值及对应a,b。",
+      "answer": "最小值12，在a=b=6时取到。",
+      "steps": [
+        "a+b≥2√36=12",
+        "等号要求a=b",
+        "由正性与积36得a=b=6"
+      ],
+      "alignment": "检测“积为定值和最小（求最小值）”的关键依据：a+b≥2√36=12；等号要求a=b；由正性与积36得a=b=6。检测范围以本题检测边界为限。",
+      "contrast": "若允许两者为负，则和可无下界。",
+      "assessment": {
+        "objective": "能在本题条件下运用“积为定值和最小（求最小值）”得出答案，并说明依据。",
+        "boundary": "检测正数定积和最小及等号。",
+        "prerequisiteSkills": "基本不等式的推导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "18db4d0778dd9323061ed37790040500afc25b446f0c25392094daa7281bac70",
+        "answerCheck": "固定规格计算检查：定积和最低12平方差。独立解答复审：定积36的正数和至少12，6、6可达；两负数若允许则不能沿用此下界，边界诚实。",
+        "alignmentCheck": "检测“积为定值和最小（求最小值）”的关键依据：a+b≥2√36=12；等号要求a=b；由正性与积36得a=b=6。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正数定积和最小及等号。 对照：若允许两者为负，则和可无下界。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-2-05",
+      "skillId": "full-m1-2-2-05",
+      "familyId": "full-m1-2-2-05",
+      "text": "x,y>0且x+y=1。用“1的代换”求1/x+4/y最小值。",
+      "answer": "最小值9，x=1/3，y=2/3。",
+      "steps": [
+        "乘以1=x+y，得(1/x+4/y)(x+y)=5+y/x+4x/y",
+        "后两项积为4，和≥4",
+        "等号y/x=4x/y给y=2x，与和为1联立"
+      ],
+      "alignment": "检测“常数代换法（1的妙用）”的关键依据：乘以1=x+y，得(1/x+4/y)(x+y)=5+y/x+4x/y；后两项积为4，和≥4；等号y/x=4x/y给y=2x，与和为1联立。检测范围以本题检测边界为限。",
+      "contrast": "不能令x=y取等，因为两项系数不同。",
+      "assessment": {
+        "objective": "能在本题条件下运用“常数代换法（1的妙用）”得出答案，并说明依据。",
+        "boundary": "检测常数代换制造定积；不检测多变量推广。",
+        "prerequisiteSkills": "基本不等式的推导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a0169319270f8f83e642ca2b262c6517ecf23dace1b033562a53f3cbec65a298",
+        "answerCheck": "固定规格计算检查：将y=1-x后差9为非负分式。独立解答复审：代换展开为5+y/x+4x/y，后两项积4；等号y=2x，与和1得1/3、2/3，原值3+6=9。",
+        "alignmentCheck": "检测“常数代换法（1的妙用）”的关键依据：乘以1=x+y，得(1/x+4/y)(x+y)=5+y/x+4x/y；后两项积为4，和≥4；等号y/x=4x/y给y=2x，与和为1联立。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测常数代换制造定积；不检测多变量推广。 对照：不能令x=y取等，因为两项系数不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-2-06",
+      "skillId": "full-m1-2-2-06",
+      "familyId": "full-m1-2-2-06",
+      "text": "x>1，求x+4/(x-1)的最小值，并说明如何配凑。",
+      "answer": "最小值5，在x=3时取到。",
+      "steps": [
+        "把x写成(x-1)+1",
+        "正量x-1与4/(x-1)之积恒为4，和≥4",
+        "等号x-1=2，得x=3及总和5"
+      ],
+      "alignment": "检测“配凑法构造定值”的关键依据：把x写成(x-1)+1；正量x-1与4/(x-1)之积恒为4，和≥4；等号x-1=2，得x=3及总和5。检测范围以本题检测边界为限。",
+      "contrast": "若条件改为x<1，不能对两负项套同一基本不等式。",
+      "assessment": {
+        "objective": "能在本题条件下运用“配凑法构造定值”得出答案，并说明依据。",
+        "boundary": "检测移项配凑定积与原变量恢复。",
+        "prerequisiteSkills": "基本不等式的推导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a2dbd73d166a18f90bb0ff892c92276a816c58f6c6f9cff57a3491bec68eb93b",
+        "answerCheck": "固定规格计算检查：配凑后最小值差的平方。独立解答复审：令u=x−1>0，原式1+u+4/u≥5，u=2合法即x=3，配凑与回代正确。",
+        "alignmentCheck": "检测“配凑法构造定值”的关键依据：把x写成(x-1)+1；正量x-1与4/(x-1)之积恒为4，和≥4；等号x-1=2，得x=3及总和5。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测移项配凑定积与原变量恢复。 对照：若条件改为x<1，不能对两负项套同一基本不等式。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-2-07",
+      "skillId": "full-m1-2-2-07",
+      "familyId": "full-m1-2-2-07",
+      "text": "a,b>0，证明2ab/(a+b)≤√(ab)≤(a+b)/2≤√((a²+b²)/2)，并说明整条链何时等号。",
+      "answer": "链成立；所有等号同时成立当且仅当a=b。",
+      "steps": [
+        "首项≤√ab等价于2√ab≤a+b",
+        "中间由(√a-√b)²≥0",
+        "末项两边非负，平方后等价于(a-b)²≥0",
+        "三处等号均要求a=b"
+      ],
+      "alignment": "检测“基本不等式链”的关键依据：首项≤√ab等价于2√ab≤a+b；中间由(√a-√b)²≥0；末项两边非负，平方后等价于(a-b)²≥0；三处等号均要求a=b。检测范围以本题检测边界为限。",
+      "contrast": "a=1,b=4时四项为8/5、2、5/2、√(17/2)，均严格递增。",
+      "assessment": {
+        "objective": "能在本题条件下运用“基本不等式链”得出答案，并说明依据。",
+        "boundary": "检测调和、几何、算术、平方平均的不等式链；仅双正数。",
+        "prerequisiteSkills": "基本不等式的推导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "61c3a965772dce67de6e49b61799335acced48129f358a332d296ead3fbdb2ad",
+        "answerCheck": "逻辑辅助检查（非自动证明）：平均数链末项平方差，首项等价中项。独立解答复审：调和≤几何化为2√ab≤a+b；均方≥算术经平方差(a−b)²验证，全部等号共同为a=b。",
+        "alignmentCheck": "检测“基本不等式链”的关键依据：首项≤√ab等价于2√ab≤a+b；中间由(√a-√b)²≥0；末项两边非负，平方后等价于(a-b)²≥0；三处等号均要求a=b。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测调和、几何、算术、平方平均的不等式链；仅双正数。 对照：a=1,b=4时四项为8/5、2、5/2、√(17/2)，均严格递增。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-01",
+      "skillId": "full-m1-2-3-01",
+      "familyId": "full-m1-2-3-01",
+      "text": "f(x)=-2x²+8x-5。求开口方向、对称轴、顶点、y轴交点以及最大值。",
+      "answer": "开口向下；对称轴x=2；顶点(2,3)；y轴交点(0,-5)；最大值3。",
+      "steps": [
+        "配方f(x)=-2(x-2)²+3",
+        "二次项系数负，开口向下，顶点读为(2,3)",
+        "代入x=0得-5，平方项非正使最大值为3"
+      ],
+      "alignment": "检测“二次函数的图像特征”的关键依据：配方f(x)=-2(x-2)²+3；二次项系数负，开口向下，顶点读为(2,3)；代入x=0得-5，平方项非正使最大值为3。检测范围以本题检测边界为限。",
+      "contrast": "系数改为正时顶点给最小值。",
+      "assessment": {
+        "objective": "能在本题条件下运用“二次函数的图像特征”得出答案，并说明依据。",
+        "boundary": "检测二次图像的开口、轴、顶点、截距与极值；不检测零点。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2e4cae544d9b226a9934deaad28284c720b56884b4d78c417edbe0bc35453319",
+        "answerCheck": "固定规格计算检查：二次函数配方及截距。独立解答复审：独立配方−2(x−2)²+3展开回原式；顶点、轴、开口、y截距及最大3均正确。",
+        "alignmentCheck": "检测“二次函数的图像特征”的关键依据：配方f(x)=-2(x-2)²+3；二次项系数负，开口向下，顶点读为(2,3)；代入x=0得-5，平方项非正使最大值为3。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测二次图像的开口、轴、顶点、截距与极值；不检测零点。 对照：系数改为正时顶点给最小值。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-02",
+      "skillId": "full-m1-2-3-02",
+      "familyId": "full-m1-2-3-02",
+      "text": "y=x²-4x+m与x轴分别有两个、一个、零个交点时，m的范围是什么？",
+      "answer": "两个：m<4；一个：m=4；零个：m>4。",
+      "steps": [
+        "交点横坐标满足二次方程",
+        "判别式Δ=16-4m",
+        "分别令Δ>0、=0、<0得到三种条件"
+      ],
+      "alignment": "检测“二次函数与x轴的交点与判别式”的关键依据：交点横坐标满足二次方程；判别式Δ=16-4m；分别令Δ>0、=0、<0得到三种条件。检测范围以本题检测边界为限。",
+      "contrast": "m=4是相切，并非没有交点。",
+      "assessment": {
+        "objective": "能在本题条件下运用“二次函数与x轴的交点与判别式”得出答案，并说明依据。",
+        "boundary": "检测判别式与实交点个数；不求交点坐标的参数式。",
+        "prerequisiteSkills": "二次函数的图像特征"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6e266a1a89f2c2991e9fe2c6304828e61e457b64ae2dea29bde638eb0d36fdfd",
+        "answerCheck": "固定规格计算检查：含参二次交点判别式。独立解答复审：判别式16−4m的三种符号恰对应m<4、=4、>4，重根交点为一个。",
+        "alignmentCheck": "检测“二次函数与x轴的交点与判别式”的关键依据：交点横坐标满足二次方程；判别式Δ=16-4m；分别令Δ>0、=0、<0得到三种条件。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测判别式与实交点个数；不求交点坐标的参数式。 对照：m=4是相切，并非没有交点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-03",
+      "skillId": "full-m1-2-3-03",
+      "familyId": "full-m1-2-3-03",
+      "text": "用求根公式解2x²-7x+3=0，再用韦达定理核验两根之和与积。",
+      "answer": "根为3、1/2；和7/2，积3/2。",
+      "steps": [
+        "Δ=49-24=25",
+        "x=(7±5)/4，得到3及1/2",
+        "韦达给和-(-7)/2=7/2、积3/2，与计算一致"
+      ],
+      "alignment": "检测“一元二次方程的求根公式与韦达定理”的关键依据：Δ=49-24=25；x=(7±5)/4，得到3及1/2；韦达给和-(-7)/2=7/2、积3/2，与计算一致。检测范围以本题检测边界为限。",
+      "contrast": "漏掉分母2a会得错误的6和1。",
+      "assessment": {
+        "objective": "能在本题条件下运用“一元二次方程的求根公式与韦达定理”得出答案，并说明依据。",
+        "boundary": "检测求根公式及根系数关系；不检测复根。",
+        "prerequisiteSkills": "二次函数与x轴的交点与判别式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3b47165552ef45cf7f195e28a801145e7f803a401f72d433b471136d21a2c5a9",
+        "answerCheck": "固定规格计算检查：二次方程精确根。独立解答复审：因式分解(2x−1)(x−3)给3及1/2；和7/2积3/2与求根公式和韦达一致。",
+        "alignmentCheck": "检测“一元二次方程的求根公式与韦达定理”的关键依据：Δ=49-24=25；x=(7±5)/4，得到3及1/2；韦达给和-(-7)/2=7/2、积3/2，与计算一致。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测求根公式及根系数关系；不检测复根。 对照：漏掉分母2a会得错误的6和1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-04",
+      "skillId": "full-m1-2-3-04",
+      "familyId": "full-m1-2-3-04",
+      "text": "用二次函数图像的符号解-2x²+6x+8≥0。",
+      "answer": "x∈[-1,4]。",
+      "steps": [
+        "因式分解为-2(x-4)(x+1)，零点为-1、4",
+        "抛物线开口向下，两根之间在x轴上方",
+        "≥包含两个零点"
+      ],
+      "alignment": "检测“一元二次不等式的解法（图像法）”的关键依据：因式分解为-2(x-4)(x+1)，零点为-1、4；抛物线开口向下，两根之间在x轴上方；≥包含两个零点。检测范围以本题检测边界为限。",
+      "contrast": "改成>0时去掉两个端点。",
+      "assessment": {
+        "objective": "能在本题条件下运用“一元二次不等式的解法（图像法）”得出答案，并说明依据。",
+        "boundary": "检测图像法与二次项负号、端点；不含参数。",
+        "prerequisiteSkills": "二次函数与x轴的交点与判别式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "30d75ad616118e1b0e9ec20fb11ea0c1ef5e5af4729b663537fff587e99e1032",
+        "answerCheck": "固定规格计算检查：二次不等式真实求解。独立解答复审：零点−1、4，负首项使两根间非负，含等号所以闭端点正确。",
+        "alignmentCheck": "检测“一元二次不等式的解法（图像法）”的关键依据：因式分解为-2(x-4)(x+1)，零点为-1、4；抛物线开口向下，两根之间在x轴上方；≥包含两个零点。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测图像法与二次项负号、端点；不含参数。 对照：改成>0时去掉两个端点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-05",
+      "skillId": "full-m1-2-3-05",
+      "familyId": "full-m1-2-3-05",
+      "text": "讨论参数a∈R，解(x-a)(x-2)>0。",
+      "answer": "a<2时(-∞,a)∪(2,+∞)；a=2时R\\{2}；a>2时(-∞,2)∪(a,+∞)。",
+      "steps": [
+        "首项系数正，异根时两根外侧为正",
+        "按a与2大小排列根",
+        "a=2时为(x-2)²>0，排除2"
+      ],
+      "alignment": "检测“含参数的一元二次不等式讨论”的关键依据：首项系数正，异根时两根外侧为正；按a与2大小排列根；a=2时为(x-2)²>0，排除2。检测范围以本题检测边界为限。",
+      "contrast": "若为<0，a=2时无解。",
+      "assessment": {
+        "objective": "能在本题条件下运用“含参数的一元二次不等式讨论”得出答案，并说明依据。",
+        "boundary": "检测含参数根顺序和重根讨论；不检测二次项系数退化。",
+        "prerequisiteSkills": "一元二次不等式的解法（图像法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "192af0d00b5ba6a7ed85a4c4b2324e52ff91beb92cde1079874d86b9e2285b35",
+        "answerCheck": "固定规格计算检查：参数三分支用代表a=0,2,4核对符号并符号分解。独立解答复审：首项恒正按a与2排序，重根时除2外均严格正，三种参数分支完整。",
+        "alignmentCheck": "检测“含参数的一元二次不等式讨论”的关键依据：首项系数正，异根时两根外侧为正；按a与2大小排列根；a=2时为(x-2)²>0，排除2。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测含参数根顺序和重根讨论；不检测二次项系数退化。 对照：若为<0，a=2时无解。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-06",
+      "skillId": "full-m1-2-3-06",
+      "familyId": "full-m1-2-3-06",
+      "text": "解不等式(x-1)/(x+2)≤0。",
+      "answer": "x∈(-2,1]。",
+      "steps": [
+        "定义域排除-2",
+        "临界点-2、1分成三个区间",
+        "在(-2,1)分子负分母正，比值负",
+        "1使分子为0可取，-2不可取"
+      ],
+      "alignment": "检测“分式不等式的解法”的关键依据：定义域排除-2；临界点-2、1分成三个区间；在(-2,1)分子负分母正，比值负；1使分子为0可取，-2不可取。检测范围以本题检测边界为限。",
+      "contrast": "不能直接乘未知符号的x+2而保持不等号。",
+      "assessment": {
+        "objective": "能在本题条件下运用“分式不等式的解法”得出答案，并说明依据。",
+        "boundary": "检测分式符号分析和分母禁值；不涉及多因子。",
+        "prerequisiteSkills": "一元二次不等式的解法（图像法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3c08685ee8da084aba80708af02e9965054c64e50deac8192ba63514c97895c9",
+        "answerCheck": "固定规格计算检查：分式不等式精确求解。独立解答复审：分母−2禁取、分子1可取；选x=0为负比值，两外侧为正，解(−2,1]正确。",
+        "alignmentCheck": "检测“分式不等式的解法”的关键依据：定义域排除-2；临界点-2、1分成三个区间；在(-2,1)分子负分母正，比值负；1使分子为0可取，-2不可取。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测分式符号分析和分母禁值；不涉及多因子。 对照：不能直接乘未知符号的x+2而保持不等号。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-07",
+      "skillId": "full-m1-2-3-07",
+      "familyId": "full-m1-2-3-07",
+      "text": "求m，使x²-2mx+4≥0对所有实数x恒成立。",
+      "answer": "m∈[-2,2]。",
+      "steps": [
+        "配方为(x-m)²+4-m²",
+        "最小值4-m²须非负",
+        "解m²≤4得[-2,2]"
+      ],
+      "alignment": "检测“一元二次不等式恒成立问题”的关键依据：配方为(x-m)²+4-m²；最小值4-m²须非负；解m²≤4得[-2,2]。检测范围以本题检测边界为限。",
+      "contrast": "若要求>0恒成立，应改为-2<m<2。",
+      "assessment": {
+        "objective": "能在本题条件下运用“一元二次不等式恒成立问题”得出答案，并说明依据。",
+        "boundary": "检测二次不等式在R上非负恒成立；不检测限定区间。",
+        "prerequisiteSkills": "含参数的一元二次不等式讨论"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ff3572129c0227da154b32ae8659591367635fcae41e48fd9f6104718c0936fd",
+        "answerCheck": "固定规格计算检查：参数恒非负的最低值条件。独立解答复审：最小值4−m²在x=m可达，全实非负等价m²≤4，端点允许正确。",
+        "alignmentCheck": "检测“一元二次不等式恒成立问题”的关键依据：配方为(x-m)²+4-m²；最小值4-m²须非负；解m²≤4得[-2,2]。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测二次不等式在R上非负恒成立；不检测限定区间。 对照：若要求>0恒成立，应改为-2<m<2。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-2-3-08",
+      "skillId": "full-m1-2-3-08",
+      "familyId": "full-m1-2-3-08",
+      "text": "求a，使ax²+2ax+1>0对所有实数x成立，须考虑a=0。",
+      "answer": "0≤a<1。",
+      "steps": [
+        "a<0时大绝对值x使式子负",
+        "a=0时恒为1",
+        "a>0时配方a(x+1)²+1-a，最小值为1-a，要求a<1"
+      ],
+      "alignment": "检测“不等式在R上恒成立的条件”的关键依据：a<0时大绝对值x使式子负；a=0时恒为1；a>0时配方a(x+1)²+1-a，最小值为1-a，要求a<1。检测范围以本题检测边界为限。",
+      "contrast": "漏掉a=0会误写为(0,1)。",
+      "assessment": {
+        "objective": "能在本题条件下运用“不等式在R上恒成立的条件”得出答案，并说明依据。",
+        "boundary": "检测全实数严格恒正及二次系数退化；不检测其他参数组合。",
+        "prerequisiteSkills": "一元二次不等式恒成立问题"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ffbe2784d57ec9b2d22cdbe5264655ccce346f9a1ad6821830002c1691ae01d0",
+        "answerCheck": "逻辑辅助检查（非自动证明）：退化情形及正二次系数最低值。独立解答复审：分a<0、a=0、a>0完整；正系数最小1−a须>0，合并得到0≤a<1，零系数未遗漏。",
+        "alignmentCheck": "检测“不等式在R上恒成立的条件”的关键依据：a<0时大绝对值x使式子负；a=0时恒为1；a>0时配方a(x+1)²+1-a，最小值为1-a，要求a<1。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测全实数严格恒正及二次系数退化；不检测其他参数组合。 对照：漏掉a=0会误写为(0,1)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-01",
+      "skillId": "full-m1-3-1-01",
+      "familyId": "full-m1-3-1-01",
+      "text": "f(x)=x²定义在[-1,2]上。写出定义域、对应法则、值域；g(x)=x²定义在R上，是否与f相同？",
+      "answer": "定义域[-1,2]，法则x↦x²，值域[0,4]；与g不同。",
+      "steps": [
+        "每个输入在区间中且唯一对应平方",
+        "最小平方0，最大平方4，连续取得其间值",
+        "g的定义域不同，所以不是同一函数"
+      ],
+      "alignment": "检测“函数的定义（三要素）”的关键依据：每个输入在区间中且唯一对应平方；最小平方0，最大平方4，连续取得其间值；g的定义域不同，所以不是同一函数。检测范围以本题检测边界为限。",
+      "contrast": "表达式相同不足以判定函数相同。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数的定义（三要素）”得出答案，并说明依据。",
+        "boundary": "检测函数三要素及相同性；不检测映射的满射单射。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2d84af9ae8dd7f305d3504313cbc33460e189fecaecf95927600bba46a86ba5c",
+        "answerCheck": "固定规格计算检查：受限平方函数值域。独立解答复审：x²在[-1,2]连续取得0到4；对应公式相同而定义域不同，三要素及函数相同条件正确。",
+        "alignmentCheck": "检测“函数的定义（三要素）”的关键依据：每个输入在区间中且唯一对应平方；最小平方0，最大平方4，连续取得其间值；g的定义域不同，所以不是同一函数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测函数三要素及相同性；不检测映射的满射单射。 对照：表达式相同不足以判定函数相同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-02",
+      "skillId": "s6",
+      "familyId": "full-m1-3-1-02",
+      "text": "求f(x)=√(2x-1)/(x-3)的定义域。",
+      "answer": "[1/2,3)∪(3,+∞)。",
+      "steps": [
+        "根号内须2x-1≥0，得x≥1/2",
+        "分母须x≠3",
+        "取两条件交集"
+      ],
+      "alignment": "检测“函数定义域的求法”的关键依据：根号内须2x-1≥0，得x≥1/2；分母须x≠3；取两条件交集。检测范围以本题检测边界为限。",
+      "contrast": "x=1/2合法，分子为0并不造成无定义。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数定义域的求法”得出答案，并说明依据。",
+        "boundary": "检测根式与分式限制的交集；不含对数。",
+        "prerequisiteSkills": "函数的定义（三要素）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "807298af34921c9a92a68ae160f9528de2c5b8a331c732a44e74bceca68e5ddc",
+        "answerCheck": "固定规格计算检查：根式分式定义域。独立解答复审：根号下界x≥1/2与分母x≠3取交，1/2处分母不为0，所以闭左端正确。",
+        "alignmentCheck": "检测“函数定义域的求法”的关键依据：根号内须2x-1≥0，得x≥1/2；分母须x≠3；取两条件交集。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测根式与分式限制的交集；不含对数。 对照：x=1/2合法，分子为0并不造成无定义。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-03",
+      "skillId": "full-m1-3-1-03",
+      "familyId": "full-m1-3-1-03",
+      "text": "已知f(2x-1)关于x的定义域是[1,3]，求f的定义域及f(x+2)的定义域。",
+      "answer": "f定义域[1,5]；f(x+2)定义域[-1,3]。",
+      "steps": [
+        "x∈[1,3]时2x-1遍历[1,5]，这就是f允许的输入",
+        "令1≤x+2≤5",
+        "移项得到-1≤x≤3"
+      ],
+      "alignment": "检测“抽象函数定义域的求法”的关键依据：x∈[1,3]时2x-1遍历[1,5]，这就是f允许的输入；令1≤x+2≤5；移项得到-1≤x≤3。检测范围以本题检测边界为限。",
+      "contrast": "不能把f的定义域直接写成[1,3]。",
+      "assessment": {
+        "objective": "能在本题条件下运用“抽象函数定义域的求法”得出答案，并说明依据。",
+        "boundary": "检测抽象函数输入范围与自变量范围转换。",
+        "prerequisiteSkills": "函数定义域的求法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f57da16908f8fdc9d27304ef46c981a0956f95f3e9bc544785c63467c271ffaa",
+        "answerCheck": "固定规格计算检查：抽象输入仿射区间映射。独立解答复审：输入2x−1将[1,3]映为[1,5]；再解x+2落此域得到[-1,3]，没有混淆两个变量层级。",
+        "alignmentCheck": "检测“抽象函数定义域的求法”的关键依据：x∈[1,3]时2x-1遍历[1,5]，这就是f允许的输入；令1≤x+2≤5；移项得到-1≤x≤3。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测抽象函数输入范围与自变量范围转换。 对照：不能把f的定义域直接写成[1,3]。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-04",
+      "skillId": "full-m1-3-1-04",
+      "familyId": "full-m1-3-1-04",
+      "text": "分别求f(x)=√(x-2)+1（x≥2）及g(x)=x²-4x+1（x∈[0,3]）的值域，注明所用方法。",
+      "answer": "f值域[1,+∞)，观察法；g值域[-3,1]，配方法。",
+      "steps": [
+        "根号取遍非负实数，所以f≥1且均可取",
+        "g=(x-2)²-3，x∈[0,3]时平方取遍[0,4]",
+        "故g取遍[-3,1]"
+      ],
+      "alignment": "检测“函数值域求法（观察法/配方法）”的关键依据：根号取遍非负实数，所以f≥1且均可取；g=(x-2)²-3，x∈[0,3]时平方取遍[0,4]；故g取遍[-3,1]。检测范围以本题检测边界为限。",
+      "contrast": "g在该区间最大值出现在x=0而不是x=3。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数值域求法（观察法/配方法）”得出答案，并说明依据。",
+        "boundary": "检测观察与配方两种值域法；不涉及参数。",
+        "prerequisiteSkills": "函数的定义（三要素）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "54c694ad58e6f8cbac0a5b57e99ea92db5c0f90956349b4d55c227c0a5fc5243",
+        "answerCheck": "固定规格计算检查：两个函数精确值域。独立解答复审：根式非负得[1,∞)；配方g=(x−2)²−3，区间端点最大平方4、顶点最小0，值域[-3,1]。",
+        "alignmentCheck": "检测“函数值域求法（观察法/配方法）”的关键依据：根号取遍非负实数，所以f≥1且均可取；g=(x-2)²-3，x∈[0,3]时平方取遍[0,4]；故g取遍[-3,1]。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测观察与配方两种值域法；不涉及参数。 对照：g在该区间最大值出现在x=0而不是x=3。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-05",
+      "skillId": "full-m1-3-1-05",
+      "familyId": "full-m1-3-1-05",
+      "text": "求f(x)=(2x+1)/(x-1)的值域（用分离常数法），再用判别式法求g(x)=x/(x²+1)的值域，x∈R。",
+      "answer": "f值域R\\{2}；g值域[-1/2,1/2]。",
+      "steps": [
+        "f=2+3/(x-1)，后一项能取任意非零实数",
+        "设y=x/(x²+1)，得yx²-x+y=0",
+        "y≠0时Δ=1-4y²≥0，得|y|≤1/2",
+        "y=0时x=0可取，端点在x=±1取到"
+      ],
+      "alignment": "检测“值域求法（分离常数法/判别式法）”的关键依据：f=2+3/(x-1)，后一项能取任意非零实数；设y=x/(x²+1)，得yx²-x+y=0；y≠0时Δ=1-4y²≥0，得|y|≤1/2；y=0时x=0可取，端点在x=±1取到。检测范围以本题检测边界为限。",
+      "contrast": "判别式法必须单查y=0，方程此时不是二次。",
+      "assessment": {
+        "objective": "能在本题条件下运用“值域求法（分离常数法/判别式法）”得出答案，并说明依据。",
+        "boundary": "检测分离常数及判别式法并处理二次退化。",
+        "prerequisiteSkills": "函数值域求法（观察法/配方法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8c764dc678f8fb4d306d0d979a9f2d867cf89e44b30811118594260d4b9449c6",
+        "answerCheck": "固定规格计算检查：分离常数与判别式及退化根。独立解答复审：分离2+3/(x−1)可取除2外任意值；判别式1−4y²且单查y=0，端点±1/2在x=±1取得。",
+        "alignmentCheck": "检测“值域求法（分离常数法/判别式法）”的关键依据：f=2+3/(x-1)，后一项能取任意非零实数；设y=x/(x²+1)，得yx²-x+y=0；y≠0时Δ=1-4y²≥0，得|y|≤1/2；y=0时x=0可取，端点在x=±1取到。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测分离常数及判别式法并处理二次退化。 对照：判别式法必须单查y=0，方程此时不是二次。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-06",
+      "skillId": "full-m1-3-1-06",
+      "familyId": "full-m1-3-1-06",
+      "text": "按规则y=2x-1，输入仅为x∈{-1,0,2}。分别用解析式、表格和图像点集表示该函数。",
+      "answer": "解析式y=2x-1，x∈{-1,0,2}；表：-1→-3、0→-1、2→3；图像为三点(-1,-3),(0,-1),(2,3)。",
+      "steps": [
+        "代入三个输入计算输出",
+        "表格逐一对应",
+        "坐标系只描三点，不能连成整条直线"
+      ],
+      "alignment": "检测“函数的三种表示法”的关键依据：代入三个输入计算输出；表格逐一对应；坐标系只描三点，不能连成整条直线。检测范围以本题检测边界为限。",
+      "contrast": "若定义域换为R，图像才是完整直线。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数的三种表示法”得出答案，并说明依据。",
+        "boundary": "检测三种表示法等价转换；图像采用坐标点文字描述。",
+        "prerequisiteSkills": "函数的定义（三要素）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "14b078ef67e384108c2429d9f0c209077303fd18d17abf1587a520ccaf00e983",
+        "answerCheck": "固定规格计算检查：三表示逐点对应。独立解答复审：三输入代入输出−3、−1、3，有限域图像只有三个点，不能连线，三种表示相互一致。",
+        "alignmentCheck": "检测“函数的三种表示法”的关键依据：代入三个输入计算输出；表格逐一对应；坐标系只描三点，不能连成整条直线。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测三种表示法等价转换；图像采用坐标点文字描述。 对照：若定义域换为R，图像才是完整直线。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-07",
+      "skillId": "full-m1-3-1-07",
+      "familyId": "full-m1-3-1-07",
+      "text": "f(x)=x²（x<1），f(x)=2x+1（x≥1）。求f(-2)、f(1)、f(f(0))。",
+      "answer": "4、3、0。",
+      "steps": [
+        "-2<1用平方分支，得4",
+        "1归入第二段，得3",
+        "f(0)=0，再算f(0)=0"
+      ],
+      "alignment": "检测“分段函数的概念与求值”的关键依据：-2<1用平方分支，得4；1归入第二段，得3；f(0)=0，再算f(0)=0。检测范围以本题检测边界为限。",
+      "contrast": "左侧趋近1时值趋近1，但f(1)=3。",
+      "assessment": {
+        "objective": "能在本题条件下运用“分段函数的概念与求值”得出答案，并说明依据。",
+        "boundary": "检测分段归属、分界点和嵌套求值。",
+        "prerequisiteSkills": "函数的定义（三要素）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "aff6888d4631a963a33f450a85d4e7fc2d0fe7c6bad0d56d06c08d6c8a2e2ee8",
+        "answerCheck": "固定规格计算检查：分段与复合求值。独立解答复审：−2走平方支得4，1走线性支得3，0再嵌套仍0；分界等号归属正确。",
+        "alignmentCheck": "检测“分段函数的概念与求值”的关键依据：-2<1用平方分支，得4；1归入第二段，得3；f(0)=0，再算f(0)=0。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测分段归属、分界点和嵌套求值。 对照：左侧趋近1时值趋近1，但f(1)=3。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-1-08",
+      "skillId": "full-m1-3-1-08",
+      "familyId": "full-m1-3-1-08",
+      "text": "f(x)=x+1（x<0），f(x)=x²（x≥0）。说明图像两部分，并标出x=0处实心、空心点；求与y=1的交点。",
+      "answer": "左半直线在(0,1)空心；右半抛物线在(0,0)实心；与y=1唯一交点(1,1)。",
+      "steps": [
+        "第一段画y=x+1并只保留x<0",
+        "第二段画y=x²保留x≥0",
+        "解第一段y=1得x=0不合法，第二段得x=±1仅1合法"
+      ],
+      "alignment": "检测“分段函数的图像”的关键依据：第一段画y=x+1并只保留x<0；第二段画y=x²保留x≥0；解第一段y=1得x=0不合法，第二段得x=±1仅1合法。检测范围以本题检测边界为限。",
+      "contrast": "若把第一段端点误涂实心，会多报(0,1)。",
+      "assessment": {
+        "objective": "能在本题条件下运用“分段函数的图像”得出答案，并说明依据。",
+        "boundary": "检测分段图像截取和边界；以精确坐标描述替代手绘。",
+        "prerequisiteSkills": "分段函数的概念与求值"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1eca1b3a45ffcfc133b4fff764d89ac6a22567fe923631ce9758ad79dcd42241",
+        "answerCheck": "固定规格计算检查：分段水平线交点候选全筛选。独立解答复审：左支x=0空心、右支x=0实心；水平线y=1左解0被排，右解只取+1，唯一交点正确。",
+        "alignmentCheck": "检测“分段函数的图像”的关键依据：第一段画y=x+1并只保留x<0；第二段画y=x²保留x≥0；解第一段y=1得x=0不合法，第二段得x=±1仅1合法。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测分段图像截取和边界；以精确坐标描述替代手绘。 对照：若把第一段端点误涂实心，会多报(0,1)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-2-01",
+      "skillId": "s7",
+      "familyId": "full-m1-3-2-01",
+      "text": "按定义判断f(x)=3x-2、g(x)=-2x+5在R上的单调性，须写任意x₁<x₂时的函数值差。",
+      "answer": "f严格递增，g严格递减。",
+      "steps": [
+        "f(x₂)-f(x₁)=3(x₂-x₁)>0",
+        "g(x₂)-g(x₁)=-2(x₂-x₁)<0",
+        "对任意有序输入成立，分别符合增减定义"
+      ],
+      "alignment": "检测“增函数与减函数的定义”的关键依据：f(x₂)-f(x₁)=3(x₂-x₁)>0；g(x₂)-g(x₁)=-2(x₂-x₁)<0；对任意有序输入成立，分别符合增减定义。检测范围以本题检测边界为限。",
+      "contrast": "检查几个点只能提示，不能代替任意输入证明。",
+      "assessment": {
+        "objective": "能在本题条件下运用“增函数与减函数的定义”得出答案，并说明依据。",
+        "boundary": "检测单调定义的任意性和方向。",
+        "prerequisiteSkills": "函数的定义（三要素）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ed7be9c39fc0f653760ed7e8ad432f2d261b7c0c5fd65e2dd903da334720745b",
+        "answerCheck": "逻辑辅助检查（非自动证明）：定义法线性差。独立解答复审：任取有序x1<x2，差分别3Δx与−2Δx，证明全实严格增、减，无数值代替定义。",
+        "alignmentCheck": "检测“增函数与减函数的定义”的关键依据：f(x₂)-f(x₁)=3(x₂-x₁)>0；g(x₂)-g(x₁)=-2(x₂-x₁)<0；对任意有序输入成立，分别符合增减定义。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测单调定义的任意性和方向。 对照：检查几个点只能提示，不能代替任意输入证明。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-2-02",
+      "skillId": "full-m1-3-2-02",
+      "familyId": "full-m1-3-2-02",
+      "text": "用定义法证明f(x)=1/x在(0,+∞)严格递减。",
+      "answer": "对0<x₁<x₂，有f(x₁)-f(x₂)=(x₂-x₁)/(x₁x₂)>0，故递减。",
+      "steps": [
+        "任取0<x₁<x₂",
+        "通分得到差为(x₂-x₁)/(x₁x₂)",
+        "分子、分母都正，故小输入对应较大函数值"
+      ],
+      "alignment": "检测“单调性判断——定义法”的关键依据：任取0<x₁<x₂；通分得到差为(x₂-x₁)/(x₁x₂)；分子、分母都正，故小输入对应较大函数值。检测范围以本题检测边界为限。",
+      "contrast": "不能因此说1/x在整个非零实数域递减，-1<1但-1<1。",
+      "assessment": {
+        "objective": "能在本题条件下运用“单调性判断——定义法”得出答案，并说明依据。",
+        "boundary": "检测取值、作差、变形、定号的完整证明。",
+        "prerequisiteSkills": "增函数与减函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c0bedd4f241589a2bfb27c98744132a723dea40828b28207a548d22c58207a3d",
+        "answerCheck": "逻辑辅助检查（非自动证明）：倒数定义法差及跨零反例。独立解答复审：通分差分子x2−x1正，分母x1x2正，得到前值大于后值；限定正半轴必要。",
+        "alignmentCheck": "检测“单调性判断——定义法”的关键依据：任取0<x₁<x₂；通分得到差为(x₂-x₁)/(x₁x₂)；分子、分母都正，故小输入对应较大函数值。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测取值、作差、变形、定号的完整证明。 对照：不能因此说1/x在整个非零实数域递减，-1<1但-1<1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-2-03",
+      "skillId": "full-m1-3-2-03",
+      "familyId": "full-m1-3-2-03",
+      "text": "函数图像依次用线段连接(-3,0)、(-1,4)、(2,-2)、(4,1)。根据图像走势写出增区间、减区间及最大值。",
+      "answer": "增区间[-3,-1]、[2,4]；减区间[-1,2]；最大值4。",
+      "steps": [
+        "第一段斜率2向右上升",
+        "第二段斜率-2下降",
+        "第三段斜率3/2上升",
+        "最高折点为(-1,4)"
+      ],
+      "alignment": "检测“单调性判断——图像法”的关键依据：第一段斜率2向右上升；第二段斜率-2下降；第三段斜率3/2上升；最高折点为(-1,4)。检测范围以本题检测边界为限。",
+      "contrast": "两个增区间不能合成[-3,4]。",
+      "assessment": {
+        "objective": "能在本题条件下运用“单调性判断——图像法”得出答案，并说明依据。",
+        "boundary": "检测分段线性图像的走势；图形由坐标和连接规则精确定义。",
+        "prerequisiteSkills": "增函数与减函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8550a940144d6c712e0e3f8eec35146709d004aeb9b3d89dd24296fc83c361ba",
+        "answerCheck": "固定规格计算检查：折线各段斜率。独立解答复审：三线段斜率分别2、−2、3/2；逐段走势与最高顶点4一致，区间不误合并。",
+        "alignmentCheck": "检测“单调性判断——图像法”的关键依据：第一段斜率2向右上升；第二段斜率-2下降；第三段斜率3/2上升；最高折点为(-1,4)。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测分段线性图像的走势；图形由坐标和连接规则精确定义。 对照：两个增区间不能合成[-3,4]。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-2-04",
+      "skillId": "full-m1-3-2-04",
+      "familyId": "full-m1-3-2-04",
+      "text": "判断h(x)=√(4-2x)在定义域内的单调性，并用复合函数解释。",
+      "answer": "定义域(-∞,2]；严格递减。",
+      "steps": [
+        "内层u=4-2x递减且u≥0",
+        "外层√u在[0,+∞)递增",
+        "内减外增，复合后递减"
+      ],
+      "alignment": "检测“复合函数的单调性（同增异减）”的关键依据：内层u=4-2x递减且u≥0；外层√u在[0,+∞)递增；内减外增，复合后递减。检测范围以本题检测边界为限。",
+      "contrast": "若外层改为-√u，则内外都减，合成递增。",
+      "assessment": {
+        "objective": "能在本题条件下运用“复合函数的单调性（同增异减）”得出答案，并说明依据。",
+        "boundary": "检测复合单调性及合法定义域。",
+        "prerequisiteSkills": "单调性判断——定义法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "659b2551e2fb5d3032e31b83a3544ef8199c41f7ff0f35a3e913ab472c021bf4",
+        "answerCheck": "逻辑辅助检查（非自动证明）：复合函数定义域和导数符号。独立解答复审：内函数递减且合法输出非负，外根号严格增，故整体严格减；定义域x≤2正确。",
+        "alignmentCheck": "检测“复合函数的单调性（同增异减）”的关键依据：内层u=4-2x递减且u≥0；外层√u在[0,+∞)递增；内减外增，复合后递减。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测复合单调性及合法定义域。 对照：若外层改为-√u，则内外都减，合成递增。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-2-05",
+      "skillId": "full-m1-3-2-05",
+      "familyId": "full-m1-3-2-05",
+      "text": "f(x)=1/(x-1)。写出所有最大的单调递减区间，并说明能否合写为(-∞,1)∪(1,+∞)上递减。",
+      "answer": "最大递减区间为(-∞,1)、(1,+∞)；不能说在该并集上整体递减。",
+      "steps": [
+        "分界x=1无定义",
+        "同一侧x₁<x₂时差f(x₁)-f(x₂)=(x₂-x₁)/((x₁-1)(x₂-1))>0",
+        "跨两侧取0<2而f(0)=-1<f(2)=1，反例否定整体递减"
+      ],
+      "alignment": "检测“单调区间的表示”的关键依据：分界x=1无定义；同一侧x₁<x₂时差f(x₁)-f(x₂)=(x₂-x₁)/((x₁-1)(x₂-1))>0；跨两侧取0<2而f(0)=-1<f(2)=1，反例否定整体递减。检测范围以本题检测边界为限。",
+      "contrast": "区间端点1不能使用闭括号。",
+      "assessment": {
+        "objective": "能在本题条件下运用“单调区间的表示”得出答案，并说明依据。",
+        "boundary": "检测单调区间分开表示及定义域断点。",
+        "prerequisiteSkills": "单调性判断——定义法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "df8b81927ddcbd4610759b7d16c4fe821e72f43b7ce113804b4d43fd1af9cb92",
+        "answerCheck": "逻辑辅助检查（非自动证明）：同侧函数差及跨分支反例。独立解答复审：两侧内差分母同号给递减；跨断点0、2取值−1、1推翻整体递减，开端点与区间分开正确。",
+        "alignmentCheck": "检测“单调区间的表示”的关键依据：分界x=1无定义；同一侧x₁<x₂时差f(x₁)-f(x₂)=(x₂-x₁)/((x₁-1)(x₂-1))>0；跨两侧取0<2而f(0)=-1<f(2)=1，反例否定整体递减。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测单调区间分开表示及定义域断点。 对照：区间端点1不能使用闭括号。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-2-06",
+      "skillId": "full-m1-3-2-06",
+      "familyId": "full-m1-3-2-06",
+      "text": "求f(x)=-(x-2)²+5在[0,3]上的最大、最小值及对应自变量；若定义域改为(0,3]，最小值是否存在？",
+      "answer": "[0,3]上最大值5（x=2）、最小值1（x=0）；(0,3]上无最小值，下确界1。",
+      "steps": [
+        "平方在闭区间取0至4",
+        "负平方加5得值域[1,5]",
+        "删去0后平方达不到4，故值域(1,5]"
+      ],
+      "alignment": "检测“函数的最值（最大/小值）”的关键依据：平方在闭区间取0至4；负平方加5得值域[1,5]；删去0后平方达不到4，故值域(1,5]。检测范围以本题检测边界为限。",
+      "contrast": "最小值不等于一个无法达到的下界。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数的最值（最大/小值）”得出答案，并说明依据。",
+        "boundary": "检测最值必须可取到及开端点影响。",
+        "prerequisiteSkills": "增函数与减函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b1342eeddde0ec348989179157141b3ed5d831e76f89485c7956fd4fcbb0a592",
+        "answerCheck": "固定规格计算检查：闭开定义域的最值范围。独立解答复审：闭域平方最大4在0、最小0在2；去掉0后1不能取得但可趋近，无最小值而下确界1正确。",
+        "alignmentCheck": "检测“函数的最值（最大/小值）”的关键依据：平方在闭区间取0至4；负平方加5得值域[1,5]；删去0后平方达不到4，故值域(1,5]。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测最值必须可取到及开端点影响。 对照：最小值不等于一个无法达到的下界。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-01",
+      "skillId": "s8",
+      "familyId": "full-m1-3-3-01",
+      "text": "在R上判断f(x)=x³、g(x)=x²+1、h(x)=x²+x的奇偶性，按定义说明。",
+      "answer": "f奇；g偶；h非奇非偶。",
+      "steps": [
+        "三者定义域均关于0对称",
+        "f(-x)=-f(x)，g(-x)=g(x)",
+        "h(-x)=x²-x，既不恒等h(x)也不恒等-h(x)"
+      ],
+      "alignment": "检测“奇函数与偶函数的定义”的关键依据：三者定义域均关于0对称；f(-x)=-f(x)，g(-x)=g(x)；h(-x)=x²-x，既不恒等h(x)也不恒等-h(x)。检测范围以本题检测边界为限。",
+      "contrast": "零函数同时是奇函数和偶函数。",
+      "assessment": {
+        "objective": "能在本题条件下运用“奇函数与偶函数的定义”得出答案，并说明依据。",
+        "boundary": "检测奇偶定义与恒等要求。",
+        "prerequisiteSkills": "函数的定义（三要素）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "960a28f2bcc1b4051d88d0d08be1fa8f55735d8aca8fba99dc91420a3786ab59",
+        "answerCheck": "逻辑辅助检查（非自动证明）：奇偶函数符号恒等及非奇非偶反例。独立解答复审：三个定义域对称；代−x后分别反号、不变、两者均非恒等，奇偶分类正确。",
+        "alignmentCheck": "检测“奇函数与偶函数的定义”的关键依据：三者定义域均关于0对称；f(-x)=-f(x)，g(-x)=g(x)；h(-x)=x²-x，既不恒等h(x)也不恒等-h(x)。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测奇偶定义与恒等要求。 对照：零函数同时是奇函数和偶函数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-02",
+      "skillId": "full-m1-3-3-02",
+      "familyId": "full-m1-3-3-02",
+      "text": "判断f(x)=x²（x∈[-1,2]）和g(x)=(x²-1)/x（x≠0）的奇偶性。",
+      "answer": "f非奇非偶；g为奇函数。",
+      "steps": [
+        "f的定义域不关于0对称，2有定义而-2没有",
+        "g定义域对称且可写x-1/x",
+        "g(-x)=-x+1/x=-g(x)"
+      ],
+      "alignment": "检测“奇偶性的判断方法”的关键依据：f的定义域不关于0对称，2有定义而-2没有；g定义域对称且可写x-1/x；g(-x)=-x+1/x=-g(x)。检测范围以本题检测边界为限。",
+      "contrast": "表达式x²为偶式不保证限制定义域后的函数为偶函数。",
+      "assessment": {
+        "objective": "能在本题条件下运用“奇偶性的判断方法”得出答案，并说明依据。",
+        "boundary": "检测先查定义域再验关系。",
+        "prerequisiteSkills": "奇函数与偶函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "695dc15b204ce5613ec1c38f54adf5cdc8893b673c7dbd675a85879d91bcc121",
+        "answerCheck": "逻辑辅助检查（非自动证明）：定义域对称及有理式奇性。独立解答复审：[-1,2]先因不对称排除奇偶；x−1/x的对称非零域及反号关系同时满足奇性。",
+        "alignmentCheck": "检测“奇偶性的判断方法”的关键依据：f的定义域不关于0对称，2有定义而-2没有；g定义域对称且可写x-1/x；g(-x)=-x+1/x=-g(x)。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测先查定义域再验关系。 对照：表达式x²为偶式不保证限制定义域后的函数为偶函数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-03",
+      "skillId": "full-m1-3-3-03",
+      "familyId": "full-m1-3-3-03",
+      "text": "某奇函数定义域为R，图像经过(2,5)、(-3,4)。求图像上对应的对称点及f(-2)、f(3)。",
+      "answer": "对称点(-2,-5)、(3,-4)；f(-2)=-5，f(3)=-4。",
+      "steps": [
+        "奇函数图像关于原点对称，点(x,y)对应(-x,-y)",
+        "同时改变两个坐标符号得到两点"
+      ],
+      "alignment": "检测“奇函数的图像特征”的关键依据：奇函数图像关于原点对称，点(x,y)对应(-x,-y)；同时改变两个坐标符号得到两点。检测范围以本题检测边界为限。",
+      "contrast": "只改x不改y是轴对称，会用于偶函数。",
+      "assessment": {
+        "objective": "能在本题条件下运用“奇函数的图像特征”得出答案，并说明依据。",
+        "boundary": "检测奇函数原点对称的点对应；不检测完整解析式。",
+        "prerequisiteSkills": "奇函数与偶函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "14d1d5f9887bd2b0819e6757344860c16ce75606a1837601afdf158bc9440f47",
+        "answerCheck": "固定规格计算检查：奇函数点的原点反射。独立解答复审：原点对称须两个坐标同改号，两个对应点及函数值均正确。",
+        "alignmentCheck": "检测“奇函数的图像特征”的关键依据：奇函数图像关于原点对称，点(x,y)对应(-x,-y)；同时改变两个坐标符号得到两点。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测奇函数原点对称的点对应；不检测完整解析式。 对照：只改x不改y是轴对称，会用于偶函数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-04",
+      "skillId": "full-m1-3-3-04",
+      "familyId": "full-m1-3-3-04",
+      "text": "某偶函数定义域R，图像过(-2,7)、(3,9)，且在[0,+∞)严格递增。求两个对称点，并证明它在(-∞,0]严格递减。",
+      "answer": "对称点(2,7)、(-3,9)；在(-∞,0]严格递减。",
+      "steps": [
+        "偶函数关于y轴对称，点(x,y)对应(-x,y)",
+        "任取x₁<x₂≤0，则-x₁>-x₂≥0",
+        "正半轴递增给f(-x₁)>f(-x₂)，偶性转回得f(x₁)>f(x₂)，故负半轴递减"
+      ],
+      "alignment": "检测“偶函数的图像特征”的关键依据：偶函数关于y轴对称，点(x,y)对应(-x,y)；任取x₁<x₂≤0，则-x₁>-x₂≥0；正半轴递增给f(-x₁)>f(-x₂)，偶性转回得f(x₁)>f(x₂)，故负半轴递减。检测范围以本题检测边界为限。",
+      "contrast": "只改变横坐标的符号，纵坐标不变；比较负输入时顺序要反转。",
+      "assessment": {
+        "objective": "能在本题条件下运用“偶函数的图像特征”得出答案，并说明依据。",
+        "boundary": "检测偶对称点及单调区间反射；不求完整函数表达式。",
+        "prerequisiteSkills": "奇函数与偶函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "384b2ee90b3ece14aa0338af4ebd6fc832e9fb1f693776a8263c29c10ec4fd55",
+        "answerCheck": "逻辑辅助检查（非自动证明）：偶函数一致实例及负轴递减。独立解答复审：已检查修订后正半轴值f(2)=7<f(3)=9无矛盾；负输入反向再用偶性，负半轴递减推导完整。",
+        "alignmentCheck": "检测“偶函数的图像特征”的关键依据：偶函数关于y轴对称，点(x,y)对应(-x,y)；任取x₁<x₂≤0，则-x₁>-x₂≥0；正半轴递增给f(-x₁)>f(-x₂)，偶性转回得f(x₁)>f(x₂)，故负半轴递减。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测偶对称点及单调区间反射；不求完整函数表达式。 对照：只改变横坐标的符号，纵坐标不变；比较负输入时顺序要反转。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-05",
+      "skillId": "full-m1-3-3-05",
+      "familyId": "full-m1-3-3-05",
+      "text": "奇函数f的定义域包含0，且f(x)=x³+ax²+b对所有实数成立。求a、b，并说明f(0)。",
+      "answer": "a=b=0，f(0)=0。",
+      "steps": [
+        "奇性给f(0)=-f(0)，故b=f(0)=0",
+        "再由f(x)+f(-x)=2ax²+2b恒为0",
+        "取x=1得a=0，所得x³确为奇函数"
+      ],
+      "alignment": "检测“奇函数的性质f(0)=0”的关键依据：奇性给f(0)=-f(0)，故b=f(0)=0；再由f(x)+f(-x)=2ax²+2b恒为0；取x=1得a=0，所得x³确为奇函数。检测范围以本题检测边界为限。",
+      "contrast": "x²虽满足f(0)=0，却不是奇函数。",
+      "assessment": {
+        "objective": "能在本题条件下运用“奇函数的性质f(0)=0”得出答案，并说明依据。",
+        "boundary": "检测f(0)=0及其必要非充分性。",
+        "prerequisiteSkills": "奇函数与偶函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d30958b23ad4b1f2fcf81f0343105bb060e5a08cc4f7e7c185c0d175272cfdbd",
+        "answerCheck": "逻辑辅助检查（非自动证明）：奇性参数必要充分多项式比较。独立解答复审：奇性在0给b=0，再令偶次项恒消给a=0，所得x³确实奇；f(0)=0不充分的边界由对照体现。",
+        "alignmentCheck": "检测“奇函数的性质f(0)=0”的关键依据：奇性给f(0)=-f(0)，故b=f(0)=0；再由f(x)+f(-x)=2ax²+2b恒为0；取x=1得a=0，所得x³确为奇函数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测f(0)=0及其必要非充分性。 对照：x²虽满足f(0)=0，却不是奇函数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-06",
+      "skillId": "full-m1-3-3-06",
+      "familyId": "full-m1-3-3-06",
+      "text": "f是R上的奇函数，且x>0时f(x)=x²+2x。求x<0时解析式及f(0)。",
+      "answer": "x<0时f(x)=-x²+2x；f(0)=0。",
+      "steps": [
+        "x<0则-x>0，f(-x)=x²-2x",
+        "用f(x)=-f(-x)得-x²+2x",
+        "0在定义域内，奇性给0"
+      ],
+      "alignment": "检测“利用奇偶性求解析式”的关键依据：x<0则-x>0，f(-x)=x²-2x；用f(x)=-f(-x)得-x²+2x；0在定义域内，奇性给0。检测范围以本题检测边界为限。",
+      "contrast": "直接在负区间沿用x²+2x会违反奇性。",
+      "assessment": {
+        "objective": "能在本题条件下运用“利用奇偶性求解析式”得出答案，并说明依据。",
+        "boundary": "检测反射到已知区间后利用奇性求式。",
+        "prerequisiteSkills": "奇函数与偶函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "21a015b5aa20279f6f4890bd5e5a7fce24ac0406af09605966e936bbef978d99",
+        "answerCheck": "逻辑辅助检查（非自动证明）：奇性反射解析式。独立解答复审：负输入反射到正域得到f(−x)=x²−2x，再取负为−x²+2x，零点补0正确。",
+        "alignmentCheck": "检测“利用奇偶性求解析式”的关键依据：x<0则-x>0，f(-x)=x²-2x；用f(x)=-f(-x)得-x²+2x；0在定义域内，奇性给0。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测反射到已知区间后利用奇性求式。 对照：直接在负区间沿用x²+2x会违反奇性。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-07",
+      "skillId": "full-m1-3-3-07",
+      "familyId": "full-m1-3-3-07",
+      "text": "f为R上的奇函数且在R上严格递增，f(2)=3。解f(x)>-3。",
+      "answer": "x>-2。",
+      "steps": [
+        "奇性给f(-2)=-f(2)=-3",
+        "递增函数的大小关系与输入同向",
+        "故f(x)>f(-2)等价x>-2"
+      ],
+      "alignment": "检测“奇偶性与单调性的综合”的关键依据：奇性给f(-2)=-f(2)=-3；递增函数的大小关系与输入同向；故f(x)>f(-2)等价x>-2。检测范围以本题检测边界为限。",
+      "contrast": "若改为严格递减，结论方向相反，但f(2)=3与奇性递减本身矛盾。",
+      "assessment": {
+        "objective": "能在本题条件下运用“奇偶性与单调性的综合”得出答案，并说明依据。",
+        "boundary": "检测奇偶性与全域单调性的联合使用。",
+        "prerequisiteSkills": "复合函数的单调性（同增异减）；利用奇偶性求解析式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "33e84c74e4ee997c81c09cc770b7901c4d8ae64cd22709a70c18fbb632bccdbe",
+        "answerCheck": "逻辑辅助检查（非自动证明）：奇函数阈值反向点及一致模型见证。独立解答复审：由奇性f(−2)=−3，再以严格增把函数值比较等价为x>−2，结论与题设可兼容。",
+        "alignmentCheck": "检测“奇偶性与单调性的综合”的关键依据：奇性给f(-2)=-f(2)=-3；递增函数的大小关系与输入同向；故f(x)>f(-2)等价x>-2。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测奇偶性与全域单调性的联合使用。 对照：若改为严格递减，结论方向相反，但f(2)=3与奇性递减本身矛盾。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-3-08",
+      "skillId": "full-m1-3-3-08",
+      "familyId": "full-m1-3-3-08",
+      "text": "f定义于R，满足f(-x)=f(x)、f(x+4)=f(x)，且f(1)=2。求f(-1)、f(5)、f(7)，并判断能否断言4是最小正周期。",
+      "answer": "三值均2；不能断言4是最小正周期。",
+      "steps": [
+        "偶性给f(-1)=2",
+        "周期4给f(5)=f(1)=2、f(7)=f(-1)=2",
+        "常函数f≡2也满足题设而无最小正周期"
+      ],
+      "alignment": "检测“函数的对称性与周期性（拓展）”的关键依据：偶性给f(-1)=2；周期4给f(5)=f(1)=2、f(7)=f(-1)=2；常函数f≡2也满足题设而无最小正周期。检测范围以本题检测边界为限。",
+      "contrast": "f(x)=2+sin²(πx)也满足题设且最小正周期为1。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数的对称性与周期性（拓展）”得出答案，并说明依据。",
+        "boundary": "检测对称与周期移位；不从一个周期推断最小周期。",
+        "prerequisiteSkills": "奇偶性与单调性的综合"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c0e1a1c965998385efee4cd9f96f9b4dd512ba23fb1d1ba586d05432a031b866",
+        "answerCheck": "逻辑辅助检查（非自动证明）：周期和偶性移位及更小周期实例。独立解答复审：偶反射给−1值2，周期4移到5及7均2；常函数反例否定最小周期推断，对照周期1例亦满足条件。",
+        "alignmentCheck": "检测“函数的对称性与周期性（拓展）”的关键依据：偶性给f(-1)=2；周期4给f(5)=f(1)=2、f(7)=f(-1)=2；常函数f≡2也满足题设而无最小正周期。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测对称与周期移位；不从一个周期推断最小周期。 对照：f(x)=2+sin²(πx)也满足题设且最小正周期为1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-4-01",
+      "skillId": "full-m1-3-4-01",
+      "familyId": "full-m1-3-4-01",
+      "text": "在y=x³、y=2x²、y=x²+1、y=x^(-1/2)（x>0）中选出幂函数，并指出指数。",
+      "answer": "第一和第四个；指数分别3、-1/2。",
+      "steps": [
+        "幂函数形如y=x^α，系数为1且无加项",
+        "2x²系数不为1、x²+1含常数项",
+        "另外两式符合定义"
+      ],
+      "alignment": "检测“幂函数的定义”的关键依据：幂函数形如y=x^α，系数为1且无加项；2x²系数不为1、x²+1含常数项；另外两式符合定义。检测范围以本题检测边界为限。",
+      "contrast": "y=x⁰=1在约定定义域x>0上也是幂函数。",
+      "assessment": {
+        "objective": "能在本题条件下运用“幂函数的定义”得出答案，并说明依据。",
+        "boundary": "检测幂函数结构；不把一般幂函数模型kx^α与教材幂函数混同。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ce9eb8cac98b87a281164bf8a1332caa6d12713747531fa4116100f6cf8c1f06",
+        "answerCheck": "逻辑辅助检查（非自动证明）：标准幂函数排除系数与加项：x=1检验。独立解答复审：按教材严格形式系数1且无加项，第一第四是幂函数；定义域x>0足以支持负半指数。",
+        "alignmentCheck": "检测“幂函数的定义”的关键依据：幂函数形如y=x^α，系数为1且无加项；2x²系数不为1、x²+1含常数项；另外两式符合定义。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测幂函数结构；不把一般幂函数模型kx^α与教材幂函数混同。 对照：y=x⁰=1在约定定义域x>0上也是幂函数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-4-02",
+      "skillId": "full-m1-3-4-02",
+      "familyId": "full-m1-3-4-02",
+      "text": "对y=x、x²、x³、√x、1/x依次写定义域、奇偶性、在(0,+∞)的单调性，并写它们在x=1处的共同点。",
+      "answer": "定义域依次R、R、R、[0,+∞)、R\\{0}；奇、偶、奇、非奇非偶、奇；正半轴依次增、增、增、增、减；均过(1,1)。",
+      "steps": [
+        "前四个正输入随x增加而增，倒数随之减",
+        "奇偶判断同时查定义域和替换-x",
+        "五式代入1均得1"
+      ],
+      "alignment": "检测“五个常见幂函数的图像与性质”的关键依据：前四个正输入随x增加而增，倒数随之减；奇偶判断同时查定义域和替换-x；五式代入1均得1。检测范围以本题检测边界为限。",
+      "contrast": "√x因定义域不对称不能称奇函数。",
+      "assessment": {
+        "objective": "能在本题条件下运用“五个常见幂函数的图像与性质”得出答案，并说明依据。",
+        "boundary": "检测五个标准幂函数的定义域、奇偶、正半轴走势和共同点；不完整检测负半轴图像及值域。",
+        "prerequisiteSkills": "幂函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e6e2a118cb4a745c3eceab6dbbde452553bec2f59a79a80f878e4a10d5cf4d6f",
+        "answerCheck": "逻辑辅助检查（非自动证明）：五幂函数正轴导数符号及公共点。独立解答复审：五类定义域、奇偶及正半轴单调性逐项与标准式匹配；√x域不对称，1/x非零域，均过(1,1)。",
+        "alignmentCheck": "检测“五个常见幂函数的图像与性质”的关键依据：前四个正输入随x增加而增，倒数随之减；奇偶判断同时查定义域和替换-x；五式代入1均得1。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测五个标准幂函数的定义域、奇偶、正半轴走势和共同点；不完整检测负半轴图像及值域。 对照：√x因定义域不对称不能称奇函数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-4-03",
+      "skillId": "full-m1-3-4-03",
+      "familyId": "full-m1-3-4-03",
+      "text": "设f(x)=x^a（x>0）。求f(1)，并分别比较a>0、a<0时f(2)与f(1/2)；a=0时如何？",
+      "answer": "f(1)=1；a>0时f(2)>f(1/2)，a<0时相反；a=0时二者均1。",
+      "steps": [
+        "所有幂函数在正半轴均过(1,1)",
+        "正指数时随x增大而增、负指数时递减",
+        "零指数对应常函数"
+      ],
+      "alignment": "检测“幂函数的共性规律”的关键依据：所有幂函数在正半轴均过(1,1)；正指数时随x增大而增、负指数时递减；零指数对应常函数。检测范围以本题检测边界为限。",
+      "contrast": "a为偶整数时全实域不严格单调。",
+      "assessment": {
+        "objective": "能在本题条件下运用“幂函数的共性规律”得出答案，并说明依据。",
+        "boundary": "检测幂函数正半轴共同点和指数符号规律；不讨论负输入上任意实指数的定义。",
+        "prerequisiteSkills": "幂函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "19a24abea54a9a7b16844e48bf5b2f2d1d4bc6478e4d59e171bc521bae17b9a4",
+        "answerCheck": "逻辑辅助检查（非自动证明）：幂函数正半轴大小由比值化简。独立解答复审：正底数实幂1^a=1；比较2与1/2随指数符号翻向，a=0常函数单独处理完整。",
+        "alignmentCheck": "检测“幂函数的共性规律”的关键依据：所有幂函数在正半轴均过(1,1)；正指数时随x增大而增、负指数时递减；零指数对应常函数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测幂函数正半轴共同点和指数符号规律；不讨论负输入上任意实指数的定义。 对照：a为偶整数时全实域不严格单调。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-5-01",
+      "skillId": "s9",
+      "familyId": "full-m1-3-5-01",
+      "text": "f(x)=(x-1)(x+2)。求零点和图像与x轴交点，指出零点是数还是点。",
+      "answer": "零点为-2、1；交点为(-2,0)、(1,0)；零点是数。",
+      "steps": [
+        "零点定义为使f(x)=0的自变量",
+        "令两因子分别为0得-2、1",
+        "加纵坐标0才成为交点坐标"
+      ],
+      "alignment": "检测“函数零点的定义”的关键依据：零点定义为使f(x)=0的自变量；令两因子分别为0得-2、1；加纵坐标0才成为交点坐标。检测范围以本题检测边界为限。",
+      "contrast": "不能把(-2,0)称为函数的零点数值。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数零点的定义”得出答案，并说明依据。",
+        "boundary": "检测零点与交点区别。",
+        "prerequisiteSkills": "函数的定义（三要素）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9116c4008dd94929cc0fa95edbb8bd8dbfeba8ec91f7f71ecd8868d4b5dcfb1d",
+        "answerCheck": "固定规格计算检查：零点解集。独立解答复审：解因子得自变量−2、1，交点另加纵坐标0，零点是数的区别明确。",
+        "alignmentCheck": "检测“函数零点的定义”的关键依据：零点定义为使f(x)=0的自变量；令两因子分别为0得-2、1；加纵坐标0才成为交点坐标。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测零点与交点区别。 对照：不能把(-2,0)称为函数的零点数值。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-5-02",
+      "skillId": "full-m1-3-5-02",
+      "familyId": "full-m1-3-5-02",
+      "text": "f(x)=x³+x-1。证明它在(0,1)至少有一个零点；仅有端点异号而不连续是否足够？",
+      "answer": "连续且f(0)=-1、f(1)=1，故至少一零点；不连续时不够。",
+      "steps": [
+        "多项式在[0,1]连续，端点值乘积-1<0",
+        "由零点存在定理得开区间零点",
+        "反例g(x)=-1（x<1/2）、g(x)=1（x≥1/2）端点异号但无零点"
+      ],
+      "alignment": "检测“函数零点存在定理”的关键依据：多项式在[0,1]连续，端点值乘积-1<0；由零点存在定理得开区间零点；反例g(x)=-1（x<1/2）、g(x)=1（x≥1/2）端点异号但无零点。检测范围以本题检测边界为限。",
+      "contrast": "同号端点也可能有零点，如(x-1/2)²。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数零点存在定理”得出答案，并说明依据。",
+        "boundary": "检测存在定理的连续性及端点异号；不宣称唯一。",
+        "prerequisiteSkills": "函数零点的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e8ff63a77a52909dcf8d3835e1e12e9009e7786cc8d13c8035383d0dd75b9b44",
+        "answerCheck": "逻辑辅助检查（非自动证明）：零点定理端点和阶跃反例取值。独立解答复审：多项式连续加端点−1、1保证存在；所给跳跃函数端点异号却无零点，准确检测连续性条件。",
+        "alignmentCheck": "检测“函数零点存在定理”的关键依据：多项式在[0,1]连续，端点值乘积-1<0；由零点存在定理得开区间零点；反例g(x)=-1（x<1/2）、g(x)=1（x≥1/2）端点异号但无零点。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测存在定理的连续性及端点异号；不宣称唯一。 对照：同号端点也可能有零点，如(x-1/2)²。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-5-03",
+      "skillId": "full-m1-3-5-03",
+      "familyId": "full-m1-3-5-03",
+      "text": "判断f(x)=x³+x-1在R上的零点个数并证明。",
+      "answer": "恰有1个。",
+      "steps": [
+        "连续且f(0)<0<f(1)，至少有1个",
+        "对x₂>x₁，差=(x₂-x₁)(x₂²+x₁x₂+x₁²+1)>0",
+        "括号=(x₂+x₁/2)²+3x₁²/4+1>0，故严格递增，至多1个"
+      ],
+      "alignment": "检测“函数零点个数的判断”的关键依据：连续且f(0)<0<f(1)，至少有1个；对x₂>x₁，差=(x₂-x₁)(x₂²+x₁x₂+x₁²+1)>0；括号=(x₂+x₁/2)²+3x₁²/4+1>0，故严格递增，至多1个。检测范围以本题检测边界为限。",
+      "contrast": "只检验端点异号只能保证至少一个，不能排除多个。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数零点个数的判断”得出答案，并说明依据。",
+        "boundary": "检测存在性与唯一性两部分结合。",
+        "prerequisiteSkills": "函数零点的定义；增函数与减函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d7eaba26ab8572fb9a6c1b160434913757762f137e9db809ddfa8de201eb7d78",
+        "answerCheck": "逻辑辅助检查（非自动证明）：全域严格递增差商正定分解。独立解答复审：作差括号为平方和加1恒正，严格增保证至多一根，再结合存在性得到恰一根，论证闭合。",
+        "alignmentCheck": "检测“函数零点个数的判断”的关键依据：连续且f(0)<0<f(1)，至少有1个；对x₂>x₁，差=(x₂-x₁)(x₂²+x₁x₂+x₁²+1)>0；括号=(x₂+x₁/2)²+3x₁²/4+1>0，故严格递增，至多1个。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测存在性与唯一性两部分结合。 对照：只检验端点异号只能保证至少一个，不能排除多个。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-5-04",
+      "skillId": "full-m1-3-5-04",
+      "familyId": "full-m1-3-5-04",
+      "text": "用二分法对x²-2=0在[1,2]内做三次取中点判号，写最终夹逼区间，并以该区间中点作近似给出误差上界。",
+      "answer": "中点1.5、1.25、1.375；最终区间[1.375,1.5]；近似1.4375，绝对误差≤0.0625。",
+      "steps": [
+        "1.5²-2=0.25>0，保留[1,1.5]",
+        "1.25²-2=-0.4375，保留[1.25,1.5]",
+        "1.375²-2=-0.109375，保留[1.375,1.5]",
+        "区间中点距两端均0.0625"
+      ],
+      "alignment": "检测“二分法求近似解”的关键依据：1.5²-2=0.25>0，保留[1,1.5]；1.25²-2=-0.4375，保留[1.25,1.5]；1.375²-2=-0.109375，保留[1.375,1.5]；区间中点距两端均0.0625。检测范围以本题检测边界为限。",
+      "contrast": "用左端点作近似的误差界是0.125，不能仍用半宽。",
+      "assessment": {
+        "objective": "能在本题条件下运用“二分法求近似解”得出答案，并说明依据。",
+        "boundary": "检测二分法区间更新及区间宽度误差；不要求给定小数位舍入。",
+        "prerequisiteSkills": "函数零点存在定理"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "38327c338c7f12ca85c65c104dc0643661a02e7f3148dd688d4b4beb2d1ca383",
+        "answerCheck": "固定规格计算检查：独立执行三次二分。独立解答复审：三次中点分别3/2、5/4、11/8，符号+、−、−；剩区间长1/8，中点23/16误差≤1/16正确。",
+        "alignmentCheck": "检测“二分法求近似解”的关键依据：1.5²-2=0.25>0，保留[1,1.5]；1.25²-2=-0.4375，保留[1.25,1.5]；1.375²-2=-0.109375，保留[1.375,1.5]；区间中点距两端均0.0625。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测二分法区间更新及区间宽度误差；不要求给定小数位舍入。 对照：用左端点作近似的误差界是0.125，不能仍用半宽。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-3-5-05",
+      "skillId": "full-m1-3-5-05",
+      "familyId": "full-m1-3-5-05",
+      "text": "租车费用含固定起步费和每小时费用。租2小时付46元，租5小时付82元。建立费用C(t)模型（t≥0），求租8小时费用，说明假设。",
+      "answer": "C(t)=12t+22；8小时118元；假设全程按同一单价、无额外收费。",
+      "steps": [
+        "设C(t)=kt+b",
+        "由2k+b=46、5k+b=82得k=12,b=22",
+        "代入8得118"
+      ],
+      "alignment": "检测“函数模型的建立与应用”的关键依据：设C(t)=kt+b；由2k+b=46、5k+b=82得k=12,b=22；代入8得118。检测范围以本题检测边界为限。",
+      "contrast": "若有超时折扣，仅凭两点不能保证8小时仍适用。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数模型的建立与应用”得出答案，并说明依据。",
+        "boundary": "检测从两组数据建立一次函数模型及解释变量；不检测分段收费或真实价格预测。",
+        "prerequisiteSkills": "二分法求近似解"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a23b59f2c38b927752581f6f88e6cbe2399306829b8e75e8b7ed2135e7d181a8",
+        "answerCheck": "固定规格计算检查：模型参数解方程及回代。独立解答复审：两费用差36除时间差3得单价12，起步费22；8小时118，题中外推假设已明示。",
+        "alignmentCheck": "检测“函数模型的建立与应用”的关键依据：设C(t)=kt+b；由2k+b=46、5k+b=82得k=12,b=22；代入8得118。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测从两组数据建立一次函数模型及解释变量；不检测分段收费或真实价格预测。 对照：若有超时折扣，仅凭两点不能保证8小时仍适用。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-1-01",
+      "skillId": "full-m1-4-1-01",
+      "familyId": "full-m1-4-1-01",
+      "text": "将√[3](a²)写成分数指数幂（a>0），将b^(3/2)写成根式（b>0），计算27^(2/3)。",
+      "answer": "a^(2/3)；√(b³)或(√b)³；9。",
+      "steps": [
+        "n次根与1/n指数对应",
+        "幂的分子表示乘方次数",
+        "27^(2/3)=(√[3]27)²=3²=9"
+      ],
+      "alignment": "检测“根式与分数指数幂的互化”的关键依据：n次根与1/n指数对应；幂的分子表示乘方次数；27^(2/3)=(√[3]27)²=3²=9。检测范围以本题检测边界为限。",
+      "contrast": "√(x²)=|x|，不能无条件写x。",
+      "assessment": {
+        "objective": "能在本题条件下运用“根式与分数指数幂的互化”得出答案，并说明依据。",
+        "boundary": "检测正底数根式与分数指数互化；不推广到负底数任意有理指数。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e5eab7c31657a20ff3376639bf9ea8d38c1af88c3752153136a549765b7cd9c0",
+        "answerCheck": "固定规格计算检查：分数幂精确求值。独立解答复审：正底数确保根式与有理幂互换合法；27先开三次方得3再平方9，两个符号互化一致。",
+        "alignmentCheck": "检测“根式与分数指数幂的互化”的关键依据：n次根与1/n指数对应；幂的分子表示乘方次数；27^(2/3)=(√[3]27)²=3²=9。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正底数根式与分数指数互化；不推广到负底数任意有理指数。 对照：√(x²)=|x|，不能无条件写x。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-1-02",
+      "skillId": "full-m1-4-1-02",
+      "familyId": "full-m1-4-1-02",
+      "text": "a>0，化简(a^(2/3)·a^(5/6))/a^(1/2)，再计算(16^(-3/4))^(-2)。",
+      "answer": "a；64。",
+      "steps": [
+        "同底幂乘除指数相加减，2/3+5/6-1/2=1",
+        "幂的乘方指数相乘，(-3/4)(-2)=3/2",
+        "16^(3/2)=64"
+      ],
+      "alignment": "检测“有理数指数幂的运算性质”的关键依据：同底幂乘除指数相加减，2/3+5/6-1/2=1；幂的乘方指数相乘，(-3/4)(-2)=3/2；16^(3/2)=64。检测范围以本题检测边界为限。",
+      "contrast": "(a+b)^r通常不能分配成a^r+b^r。",
+      "assessment": {
+        "objective": "能在本题条件下运用“有理数指数幂的运算性质”得出答案，并说明依据。",
+        "boundary": "检测有理指数乘除与幂的乘方；底数限制已给正。",
+        "prerequisiteSkills": "根式与分数指数幂的互化"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d3be4ee3c93a3c8a02fc31e6d835a600c75d992925d75646e385ee40c3f7dcf5",
+        "answerCheck": "固定规格计算检查：有理指数合并。独立解答复审：指数2/3+5/6−1/2=1；乘方指数为3/2，16^(3/2)=64，底数为正无幂法则歧义。",
+        "alignmentCheck": "检测“有理数指数幂的运算性质”的关键依据：同底幂乘除指数相加减，2/3+5/6-1/2=1；幂的乘方指数相乘，(-3/4)(-2)=3/2；16^(3/2)=64。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测有理指数乘除与幂的乘方；底数限制已给正。 对照：(a+b)^r通常不能分配成a^r+b^r。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-1-03",
+      "skillId": "full-m1-4-1-03",
+      "familyId": "full-m1-4-1-03",
+      "text": "已知1.414<√2<1.415。写出2^√2和(1/2)^√2各自的上下界（用有理数指数幂表示），并说明2^√2如何由有理数指数逼近定义。",
+      "answer": "2^1.414<2^√2<2^1.415；(1/2)^1.415<(1/2)^√2<(1/2)^1.414；取有理数r趋近√2时2^r的唯一极限。",
+      "steps": [
+        "正底数大于1时指数增长使幂增长",
+        "底数在0与1之间时方向相反",
+        "用逐步缩小的有理数夹逼指数，其对应幂逼近同一实数"
+      ],
+      "alignment": "检测“无理数指数幂的含义”的关键依据：正底数大于1时指数增长使幂增长；底数在0与1之间时方向相反；用逐步缩小的有理数夹逼指数，其对应幂逼近同一实数。检测范围以本题检测边界为限。",
+      "contrast": "2^√2不能解释为“相乘√2次”。",
+      "assessment": {
+        "objective": "能在本题条件下运用“无理数指数幂的含义”得出答案，并说明依据。",
+        "boundary": "检测无理指数的逼近含义和夹逼方向；不证明极限存在性。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d53739c7d26de8b459c3a85bf01ff48fd920c67eb658c4933733431fa2ed830e",
+        "answerCheck": "逻辑辅助检查（非自动证明）：无理指数夹逼的有理端点平方。独立解答复审：大底指数增、小底指数减，四夹逼端点方向正确；仅描述无理幂极限定义，不声称证明极限存在。",
+        "alignmentCheck": "检测“无理数指数幂的含义”的关键依据：正底数大于1时指数增长使幂增长；底数在0与1之间时方向相反；用逐步缩小的有理数夹逼指数，其对应幂逼近同一实数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测无理指数的逼近含义和夹逼方向；不证明极限存在性。 对照：2^√2不能解释为“相乘√2次”。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-1-04",
+      "skillId": "full-m1-4-1-04",
+      "familyId": "full-m1-4-1-04",
+      "text": "计算(8^(2/3)·4^(-1/2)+27^(1/3))/25^(1/2)。",
+      "answer": "1。",
+      "steps": [
+        "8^(2/3)=4，4^(-1/2)=1/2",
+        "27^(1/3)=3，25^(1/2)=5",
+        "分子4·1/2+3=5，再除5"
+      ],
+      "alignment": "检测“指数幂的化简与求值”的关键依据：8^(2/3)=4，4^(-1/2)=1/2；27^(1/3)=3，25^(1/2)=5；分子4·1/2+3=5，再除5。检测范围以本题检测边界为限。",
+      "contrast": "负指数表示倒数，不表示计算结果为负。",
+      "assessment": {
+        "objective": "能在本题条件下运用“指数幂的化简与求值”得出答案，并说明依据。",
+        "boundary": "检测根式、负分数指数和混合运算；不含变量化简。",
+        "prerequisiteSkills": "有理数指数幂的运算性质"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5c47c04026600d2a5e65f1ba83044b6dd7aee60d246cd2e18ba2c046148a0648",
+        "answerCheck": "固定规格计算检查：混合指数独立精确运算。独立解答复审：依次求4、1/2、3、5，混合结果(2+3)/5=1；负指数正确按倒数理解。",
+        "alignmentCheck": "检测“指数幂的化简与求值”的关键依据：8^(2/3)=4，4^(-1/2)=1/2；27^(1/3)=3，25^(1/2)=5；分子4·1/2+3=5，再除5。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测根式、负分数指数和混合运算；不含变量化简。 对照：负指数表示倒数，不表示计算结果为负。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-2-01",
+      "skillId": "full-m1-4-2-01",
+      "familyId": "full-m1-4-2-01",
+      "text": "在y=3^x、y=x³、y=(-2)^x、y=2·3^x、y=1^x中选出教材定义下的指数函数。",
+      "answer": "只有y=3^x。",
+      "steps": [
+        "指数函数是y=a^x，要求a>0且a≠1",
+        "x³自变量在底数处，(-2)^x不能对全体实数定义",
+        "2·3^x有非单位系数，1^x为被排除的常函数"
+      ],
+      "alignment": "检测“指数函数的概念”的关键依据：指数函数是y=a^x，要求a>0且a≠1；x³自变量在底数处，(-2)^x不能对全体实数定义；2·3^x有非单位系数，1^x为被排除的常函数。检测范围以本题检测边界为限。",
+      "contrast": "指数型模型2·3^x不属于标准形式，但仍可研究指数增长。",
+      "assessment": {
+        "objective": "能在本题条件下运用“指数函数的概念”得出答案，并说明依据。",
+        "boundary": "检测指数函数标准形式与底数约束。",
+        "prerequisiteSkills": "有理数指数幂的运算性质"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8c184d17b4d6c4df3373c7902322341033a10fb19fd7e668aabb69c60986a998",
+        "answerCheck": "逻辑辅助检查（非自动证明）：指数函数排除条件见证。独立解答复审：标准指数函数底数正非1且系数1，五候选只有3^x符合，其余排除理由分别充分。",
+        "alignmentCheck": "检测“指数函数的概念”的关键依据：指数函数是y=a^x，要求a>0且a≠1；x³自变量在底数处，(-2)^x不能对全体实数定义；2·3^x有非单位系数，1^x为被排除的常函数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测指数函数标准形式与底数约束。 对照：指数型模型2·3^x不属于标准形式，但仍可研究指数增长。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-2-02",
+      "skillId": "full-m1-4-2-02",
+      "familyId": "full-m1-4-2-02",
+      "text": "画y=2^x的图像时，列出x=-2,-1,0,1,2对应点，说明图像是否与x轴相交以及水平渐近线。",
+      "answer": "点(-2,1/4)、(-1,1/2)、(0,1)、(1,2)、(2,4)；不交x轴；水平渐近线y=0。",
+      "steps": [
+        "按整数指数计算五个点并平滑递增连接",
+        "对任何实数x有2^x>0，故无横轴交点",
+        "x趋于负无穷时2^x趋0，图像靠近横轴"
+      ],
+      "alignment": "检测“指数函数的图像”的关键依据：按整数指数计算五个点并平滑递增连接；对任何实数x有2^x>0，故无横轴交点；x趋于负无穷时2^x趋0，图像靠近横轴。检测范围以本题检测边界为限。",
+      "contrast": "图像靠近x轴不等于最终会碰到x轴。",
+      "assessment": {
+        "objective": "能在本题条件下运用“指数函数的图像”得出答案，并说明依据。",
+        "boundary": "检测指数图像描点、正值及渐近特征；不检查绘图精度。",
+        "prerequisiteSkills": "指数函数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1cf0d783fca6dd59d3a67ea9112d707abb409fefbe2b5869a30503e943a0d7bc",
+        "answerCheck": "固定规格计算检查：指数图像五点。独立解答复审：五点倒数及整数幂核对为1/4、1/2、1、2、4；正值及向负无穷趋0表述与渐近线一致。",
+        "alignmentCheck": "检测“指数函数的图像”的关键依据：按整数指数计算五个点并平滑递增连接；对任何实数x有2^x>0，故无横轴交点；x趋于负无穷时2^x趋0，图像靠近横轴。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测指数图像描点、正值及渐近特征；不检查绘图精度。 对照：图像靠近x轴不等于最终会碰到x轴。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-2-03",
+      "skillId": "full-m1-4-2-03",
+      "familyId": "full-m1-4-2-03",
+      "text": "对f(x)=(1/3)^x，写定义域、值域、单调性、与y轴交点，并解f(x)>9。",
+      "answer": "定义域R，值域(0,+∞)，严格递减，交点(0,1)；解x<-2。",
+      "steps": [
+        "底数在0与1间决定递减，指数函数全实输入且输出正",
+        "0次幂为1",
+        "9=(1/3)^(-2)，递减性使不等号对应输入反向"
+      ],
+      "alignment": "检测“指数函数的性质”的关键依据：底数在0与1间决定递减，指数函数全实输入且输出正；0次幂为1；9=(1/3)^(-2)，递减性使不等号对应输入反向。检测范围以本题检测边界为限。",
+      "contrast": "x=-2仅得相等，严格>不能取。",
+      "assessment": {
+        "objective": "能在本题条件下运用“指数函数的性质”得出答案，并说明依据。",
+        "boundary": "检测指数函数核心性质及指数不等式；不含复合定义域。",
+        "prerequisiteSkills": "指数函数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5c5603fea9f0e8752be176d6c21ed55ecc958fe4d574e7e4cb82161d87f94be0",
+        "answerCheck": "逻辑辅助检查（非自动证明）：递减指数阈值。独立解答复审：底数1/3小于1，单调递减；9等于底数−2次幂，因此严格大于9要求x<−2，端点排除。",
+        "alignmentCheck": "检测“指数函数的性质”的关键依据：底数在0与1间决定递减，指数函数全实输入且输出正；0次幂为1；9=(1/3)^(-2)，递减性使不等号对应输入反向。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测指数函数核心性质及指数不等式；不含复合定义域。 对照：x=-2仅得相等，严格>不能取。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-2-04",
+      "skillId": "full-m1-4-2-04",
+      "familyId": "full-m1-4-2-04",
+      "text": "比较2^x与5^x：分别讨论x>0、x=0、x<0的大小，并给两图像公共点。",
+      "answer": "x>0时2^x<5^x；x=0时均1；x<0时2^x>5^x；公共点(0,1)。",
+      "steps": [
+        "比值5^x/2^x=(5/2)^x",
+        "按x正、零、负分别大于、等于、小于1",
+        "只有x=0能使比值1"
+      ],
+      "alignment": "检测“底数大小对图像位置的影响”的关键依据：比值5^x/2^x=(5/2)^x；按x正、零、负分别大于、等于、小于1；只有x=0能使比值1。检测范围以本题检测边界为限。",
+      "contrast": "底数较大不保证所有x的函数值较大。",
+      "assessment": {
+        "objective": "能在本题条件下运用“底数大小对图像位置的影响”得出答案，并说明依据。",
+        "boundary": "检测底数大小与图像左右半平面位置。",
+        "prerequisiteSkills": "指数函数的图像"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "91bfda8f4fb61b1a7a372ed846be589c55fddfd1d9192063aa8f58eb3c798c15",
+        "answerCheck": "逻辑辅助检查（非自动证明）：指数底数图像正负输入对照。独立解答复审：比值(5/2)^x按正、零、负分别大于、等于、小于1，唯一相等点0给图像(0,1)。",
+        "alignmentCheck": "检测“底数大小对图像位置的影响”的关键依据：比值5^x/2^x=(5/2)^x；按x正、零、负分别大于、等于、小于1；只有x=0能使比值1。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测底数大小与图像左右半平面位置。 对照：底数较大不保证所有x的函数值较大。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-2-05",
+      "skillId": "full-m1-4-2-05",
+      "familyId": "full-m1-4-2-05",
+      "text": "由y=2^x的图像怎样得到y=2^(x-1)+3？写水平渐近线、定义域、值域及原图上的点(0,1)对应的新点。",
+      "answer": "右移1、上移3；渐近线y=3；定义域R，值域(3,+∞)；新点(1,4)。",
+      "steps": [
+        "x替换为x-1对应横坐标加1",
+        "外加3对应纵坐标加3",
+        "原来y>0移为y>3，y=0渐近线同步上移"
+      ],
+      "alignment": "检测“指数型函数图像的变换”的关键依据：x替换为x-1对应横坐标加1；外加3对应纵坐标加3；原来y>0移为y>3，y=0渐近线同步上移。检测范围以本题检测边界为限。",
+      "contrast": "x-1对应右移，不能误判成左移。",
+      "assessment": {
+        "objective": "能在本题条件下运用“指数型函数图像的变换”得出答案，并说明依据。",
+        "boundary": "检测指数型图像平移及点、范围联动；不检测伸缩。",
+        "prerequisiteSkills": "指数函数的图像"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "35f81462d9e34e1cc473c14ce642bf1d98bf981b75c755ca39175442a83b58dc",
+        "answerCheck": "逻辑辅助检查（非自动证明）：平移点代入及非负余项。独立解答复审：自变量x−1将原点横坐标右加1、纵向加3，新点(1,4)，范围及渐近线同移正确。",
+        "alignmentCheck": "检测“指数型函数图像的变换”的关键依据：x替换为x-1对应横坐标加1；外加3对应纵坐标加3；原来y>0移为y>3，y=0渐近线同步上移。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测指数型图像平移及点、范围联动；不检测伸缩。 对照：x-1对应右移，不能误判成左移。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-3-01",
+      "skillId": "full-m1-4-3-01",
+      "familyId": "full-m1-4-3-01",
+      "text": "把4³=64写成对数式，计算log₂(1/8)，并说明log_a b有实数意义的底数与真数条件。",
+      "answer": "log₄64=3；log₂(1/8)=-3；a>0且a≠1，b>0。",
+      "steps": [
+        "对数是使底数幂等于真数的指数",
+        "2^(-3)=1/8",
+        "正底数且非1保证指数关系唯一，真数须正"
+      ],
+      "alignment": "检测“对数的概念”的关键依据：对数是使底数幂等于真数的指数；2^(-3)=1/8；正底数且非1保证指数关系唯一，真数须正。检测范围以本题检测边界为限。",
+      "contrast": "log₂(-8)在实数范围无意义。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数的概念”得出答案，并说明依据。",
+        "boundary": "检测指数对数互化及定义条件。",
+        "prerequisiteSkills": "有理数指数幂的运算性质"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "728455e5725c5a15c75547c53c8ccb15aef67dd333d85ede6010ef2b4f12fab2",
+        "answerCheck": "固定规格计算检查：对数定义幂还原。独立解答复审：4三次幂64与2负三次幂1/8可逆翻成对数；底正非1、真数正条件完整。",
+        "alignmentCheck": "检测“对数的概念”的关键依据：对数是使底数幂等于真数的指数；2^(-3)=1/8；正底数且非1保证指数关系唯一，真数须正。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测指数对数互化及定义条件。 对照：log₂(-8)在实数范围无意义。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-3-02",
+      "skillId": "full-m1-4-3-02",
+      "familyId": "full-m1-4-3-02",
+      "text": "计算lg1000、lg0.01、ln(e²)、e^(ln5)，并分别写出lg与ln的底数。",
+      "answer": "3、-2、2、5；底数分别10、e。",
+      "steps": [
+        "10³=1000且10^(-2)=0.01",
+        "ln以e为底，故ln(e²)=2",
+        "e与ln互逆，e^(ln5)=5"
+      ],
+      "alignment": "检测“常用对数与自然对数”的关键依据：10³=1000且10^(-2)=0.01；ln以e为底，故ln(e²)=2；e与ln互逆，e^(ln5)=5。检测范围以本题检测边界为限。",
+      "contrast": "ln10不等于1，lg10才等于1。",
+      "assessment": {
+        "objective": "能在本题条件下运用“常用对数与自然对数”得出答案，并说明依据。",
+        "boundary": "检测常用对数、自然对数记号和基本求值。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3d161994fa0c1952e2932b1a9c3ce5ea57e78ea91a2bfaeb32655a0b13cd89d0",
+        "answerCheck": "固定规格计算检查：常用自然对数精确求值。独立解答复审：十进制三次与负二次幂给3、−2，自然对数互逆给2、5，底数说明正确。",
+        "alignmentCheck": "检测“常用对数与自然对数”的关键依据：10³=1000且10^(-2)=0.01；ln以e为底，故ln(e²)=2；e与ln互逆，e^(ln5)=5。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测常用对数、自然对数记号和基本求值。 对照：ln10不等于1，lg10才等于1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-3-03",
+      "skillId": "full-m1-4-3-03",
+      "familyId": "full-m1-4-3-03",
+      "text": "用对数运算律计算log₂12+log₂(8/3)-2log₂4，并说明各运算对应的律。",
+      "answer": "1。",
+      "steps": [
+        "加法合并真数乘积12·8/3=32",
+        "系数2移入幂得log₂16",
+        "减法合并为log₂(32/16)=log₂2=1"
+      ],
+      "alignment": "检测“对数的运算性质”的关键依据：加法合并真数乘积12·8/3=32；系数2移入幂得log₂16；减法合并为log₂(32/16)=log₂2=1。检测范围以本题检测边界为限。",
+      "contrast": "log₂(12+8/3)不等于两个对数之和。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数的运算性质”得出答案，并说明依据。",
+        "boundary": "检测积、商、幂三条运算律，真数均正。",
+        "prerequisiteSkills": "对数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "16382db8ca6c0bb06cbb4209ba7bb65f4a2e37b7b790b1abc3687a2abcabd495",
+        "answerCheck": "固定规格计算检查：对数积商幂合并。独立解答复审：积合并12×8/3=32，减去log2 16得log2 2=1，积商幂三律均使用。",
+        "alignmentCheck": "检测“对数的运算性质”的关键依据：加法合并真数乘积12·8/3=32；系数2移入幂得log₂16；减法合并为log₂(32/16)=log₂2=1。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测积、商、幂三条运算律，真数均正。 对照：log₂(12+8/3)不等于两个对数之和。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-3-04",
+      "skillId": "full-m1-4-3-04",
+      "familyId": "full-m1-4-3-04",
+      "text": "用换底公式计算log₄8及log₂3·log₃8，再写出log₂3与log₃2的关系。",
+      "answer": "3/2；3；二者互为倒数。",
+      "steps": [
+        "log₄8=log₂8/log₂4=3/2",
+        "换底后连乘的log3因子约去得log₂8=3",
+        "交换底真位置使分子分母互换，乘积1"
+      ],
+      "alignment": "检测“换底公式及其推论”的关键依据：log₄8=log₂8/log₂4=3/2；换底后连乘的log3因子约去得log₂8=3；交换底真位置使分子分母互换，乘积1。检测范围以本题检测边界为限。",
+      "contrast": "log₂3不是1/log₂(1/3)，后式反而为负数。",
+      "assessment": {
+        "objective": "能在本题条件下运用“换底公式及其推论”得出答案，并说明依据。",
+        "boundary": "检测换底公式、链式相乘与互倒推论。",
+        "prerequisiteSkills": "对数的运算性质"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fd5ae47ce52c77093d02dc6482e54de1205ada8268a2a5f191a2c46985e407f6",
+        "answerCheck": "固定规格计算检查：换底精确运算。独立解答复审：换到底2后log4 8=3/2，链式乘积抵消log3得3，交换底真积1满足正非1要求。",
+        "alignmentCheck": "检测“换底公式及其推论”的关键依据：log₄8=log₂8/log₂4=3/2；换底后连乘的log3因子约去得log₂8=3；交换底真位置使分子分母互换，乘积1。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测换底公式、链式相乘与互倒推论。 对照：log₂3不是1/log₂(1/3)，后式反而为负数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-3-05",
+      "skillId": "full-m1-4-3-05",
+      "familyId": "full-m1-4-3-05",
+      "text": "化简3^(log₃7)+log₅(5^(-2))，并写出恒等式a^(log_a x)=x对a,x的限制。",
+      "answer": "5；a>0且a≠1，x>0。",
+      "steps": [
+        "第一项由指数对数互逆为7",
+        "第二项为-2",
+        "相加为5，第一恒等式要求真数x正及合法底数"
+      ],
+      "alignment": "检测“对数恒等式”的关键依据：第一项由指数对数互逆为7；第二项为-2；相加为5，第一恒等式要求真数x正及合法底数。检测范围以本题检测边界为限。",
+      "contrast": "a^(log_a(-2))在实数内不能用恒等式得到-2。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数恒等式”得出答案，并说明依据。",
+        "boundary": "检测两类对数恒等式与定义限制。",
+        "prerequisiteSkills": "对数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a8b85c97ca78228570b9b345ab41bd2c638bbbe8217e4345d2e437949f25f43a",
+        "answerCheck": "逻辑辅助检查（非自动证明）：对数恒等式。独立解答复审：互逆分别求7和−2，总和5；所列底数及真数条件足以合法，未保留负真数。",
+        "alignmentCheck": "检测“对数恒等式”的关键依据：第一项由指数对数互逆为7；第二项为-2；相加为5，第一恒等式要求真数x正及合法底数。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测两类对数恒等式与定义限制。 对照：a^(log_a(-2))在实数内不能用恒等式得到-2。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-4-01",
+      "skillId": "full-m1-4-4-01",
+      "familyId": "full-m1-4-4-01",
+      "text": "y=log_(a-1)x是对数函数，且图像过(4,2)。求a，并写参数合法条件。",
+      "answer": "a=3；合法条件a>1且a≠2。",
+      "steps": [
+        "底数a-1须正且不等于1",
+        "点条件给(a-1)²=4",
+        "底数为正，取a-1=2得a=3"
+      ],
+      "alignment": "检测“对数函数的概念”的关键依据：底数a-1须正且不等于1；点条件给(a-1)²=4；底数为正，取a-1=2得a=3。检测范围以本题检测边界为限。",
+      "contrast": "a=-1虽满足平方式，却使底数-2非法。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数函数的概念”得出答案，并说明依据。",
+        "boundary": "检测对数函数形式及底数条件；不把平方产生的负底数解保留。",
+        "prerequisiteSkills": "对数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "54011d163f3d92d58f774a7783fcc5c41ce21dab2a789231b6087537756237a6",
+        "answerCheck": "固定规格计算检查：参数底数候选筛选。独立解答复审：a−1>0且≠1，过点给平方4只能取正根2，因此a=3，负底伪解被排除。",
+        "alignmentCheck": "检测“对数函数的概念”的关键依据：底数a-1须正且不等于1；点条件给(a-1)²=4；底数为正，取a-1=2得a=3。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测对数函数形式及底数条件；不把平方产生的负底数解保留。 对照：a=-1虽满足平方式，却使底数-2非法。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-4-02",
+      "skillId": "full-m1-4-4-02",
+      "familyId": "full-m1-4-4-02",
+      "text": "为y=log₂x列出横坐标1/4、1/2、1、2、4的点，写出与坐标轴的交点及竖直渐近线。",
+      "answer": "点(1/4,-2)、(1/2,-1)、(1,0)、(2,1)、(4,2)；与x轴交于(1,0)，不交y轴；渐近线x=0。",
+      "steps": [
+        "以2的幂还原各对数值",
+        "真数须正故x=0无定义",
+        "x趋于0正侧时函数值趋于负无穷，靠近纵轴"
+      ],
+      "alignment": "检测“对数函数的图像”的关键依据：以2的幂还原各对数值；真数须正故x=0无定义；x趋于0正侧时函数值趋于负无穷，靠近纵轴。检测范围以本题检测边界为限。",
+      "contrast": "不能把(0,1)误当对数函数固定点。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数函数的图像”得出答案，并说明依据。",
+        "boundary": "检测对数描点、截距与渐近线；图像以关键点描述。",
+        "prerequisiteSkills": "对数函数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "48018f1fc8397e61f12aa766813c00ad469d6a2732ba78620a2d468cc49cffa5",
+        "answerCheck": "固定规格计算检查：对数五点。独立解答复审：五点与2的−2到2次幂反向对应，x=1为零点，x=0无定义且为竖直渐近线正确。",
+        "alignmentCheck": "检测“对数函数的图像”的关键依据：以2的幂还原各对数值；真数须正故x=0无定义；x趋于0正侧时函数值趋于负无穷，靠近纵轴。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测对数描点、截距与渐近线；图像以关键点描述。 对照：不能把(0,1)误当对数函数固定点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-4-03",
+      "skillId": "full-m1-4-4-03",
+      "familyId": "full-m1-4-4-03",
+      "text": "f(x)=log_(1/2)x。写定义域、值域、单调性、零点，并解f(x)≥2。",
+      "answer": "(0,+∞)、R、严格递减、零点1；0<x≤1/4。",
+      "steps": [
+        "真数x正，任意实数指数均对应一个正x，故值域R",
+        "底数小于1所以递减",
+        "2=log_(1/2)(1/4)，比较反向并保留x>0"
+      ],
+      "alignment": "检测“对数函数的性质”的关键依据：真数x正，任意实数指数均对应一个正x，故值域R；底数小于1所以递减；2=log_(1/2)(1/4)，比较反向并保留x>0。检测范围以本题检测边界为限。",
+      "contrast": "解不能包括0，哪怕数轴方向朝左。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数函数的性质”得出答案，并说明依据。",
+        "boundary": "检测对数函数性质与解不等式时真数限制。",
+        "prerequisiteSkills": "对数函数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f65240614ebe2a48fc52ee3217f47c2feec8c9868299e6e74dba88acfb6af33a",
+        "answerCheck": "固定规格计算检查：递减对数阈值。独立解答复审：小底对数递减，比较2反向为x≤1/4并与真数正相交，零点1及值域R正确。",
+        "alignmentCheck": "检测“对数函数的性质”的关键依据：真数x正，任意实数指数均对应一个正x，故值域R；底数小于1所以递减；2=log_(1/2)(1/4)，比较反向并保留x>0。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测对数函数性质与解不等式时真数限制。 对照：解不能包括0，哪怕数轴方向朝左。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-4-04",
+      "skillId": "full-m1-4-4-04",
+      "familyId": "full-m1-4-4-04",
+      "text": "比较log₂x与log₄x在x>1、x=1、0<x<1时的大小，指出两图像唯一交点。",
+      "answer": "x>1时log₂x>log₄x；x=1时相等；0<x<1时log₂x<log₄x；交点(1,0)。",
+      "steps": [
+        "换底得log₄x=(1/2)log₂x",
+        "log₂x在1两侧分别正、负",
+        "正数减半变小，负数减半变大，相等仅为0"
+      ],
+      "alignment": "检测“底数大小对图像位置的影响”的关键依据：换底得log₄x=(1/2)log₂x；log₂x在1两侧分别正、负；正数减半变小，负数减半变大，相等仅为0。检测范围以本题检测边界为限。",
+      "contrast": "“底数越大值越小”只在x>1成立。",
+      "assessment": {
+        "objective": "能在本题条件下运用“底数大小对图像位置的影响”得出答案，并说明依据。",
+        "boundary": "检测底数变化影响图像位置及真数分段。",
+        "prerequisiteSkills": "对数函数的图像"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "50d24ab3f6244f42c0a852095d473f231c7a0a5c1554268d3cb3299251e9484d",
+        "answerCheck": "逻辑辅助检查（非自动证明）：换底关系及两侧样本。独立解答复审：换底恰为二分之一倍，按log2 x的正负分区比较，相等仅x=1，三种结论无反向错误。",
+        "alignmentCheck": "检测“底数大小对图像位置的影响”的关键依据：换底得log₄x=(1/2)log₂x；log₂x在1两侧分别正、负；正数减半变小，负数减半变大，相等仅为0。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测底数变化影响图像位置及真数分段。 对照：“底数越大值越小”只在x>1成立。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-4-05",
+      "skillId": "full-m1-4-4-05",
+      "familyId": "full-m1-4-4-05",
+      "text": "由y=log₂x得到y=log₂(x+2)-1应如何平移？求新函数定义域、渐近线、零点。",
+      "answer": "左移2、下移1；定义域(-2,+∞)；渐近线x=-2；零点0。",
+      "steps": [
+        "x+2使图像向左2，外减1向下1",
+        "真数x+2>0给x>-2",
+        "令log₂(x+2)=1得x+2=2即x=0"
+      ],
+      "alignment": "检测“对数型函数图像的变换”的关键依据：x+2使图像向左2，外减1向下1；真数x+2>0给x>-2；令log₂(x+2)=1得x+2=2即x=0。检测范围以本题检测边界为限。",
+      "contrast": "渐近线随横移变成x=-2，纵移不改变它。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数型函数图像的变换”得出答案，并说明依据。",
+        "boundary": "检测对数平移、真数限制和轴交点。",
+        "prerequisiteSkills": "对数函数的图像"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a783c3a569bc29362275ac31ba06bce6754f94bfbb7b38b22b828565aaaa667a",
+        "answerCheck": "固定规格计算检查：对数平移零点与映射点。独立解答复审：左移2下移1得真数x+2正，新渐近线−2；零点解x+2=2给0，平移一致。",
+        "alignmentCheck": "检测“对数型函数图像的变换”的关键依据：x+2使图像向左2，外减1向下1；真数x+2>0给x>-2；令log₂(x+2)=1得x+2=2即x=0。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测对数平移、真数限制和轴交点。 对照：渐近线随横移变成x=-2，纵移不改变它。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-4-06",
+      "skillId": "full-m1-4-4-06",
+      "familyId": "full-m1-4-4-06",
+      "text": "求f(x)=3^x的反函数，并说明图像关系；把f图像上的(2,9)变为反函数上的点，并验证复合关系。",
+      "answer": "f⁻¹(x)=log₃x（x>0）；两图关于y=x对称；对应点(9,2)；f⁻¹(f(t))=t，f(f⁻¹(x))=x。",
+      "steps": [
+        "由y=3^x反解x=log₃y，再交换变量",
+        "交换横纵坐标对应关于直线y=x对称",
+        "两种复合分别用对数与指数恒等式"
+      ],
+      "alignment": "检测“指数函数与对数函数互为反函数”的关键依据：由y=3^x反解x=log₃y，再交换变量；交换横纵坐标对应关于直线y=x对称；两种复合分别用对数与指数恒等式。检测范围以本题检测边界为限。",
+      "contrast": "反函数记号f⁻¹不是1/f。",
+      "assessment": {
+        "objective": "能在本题条件下运用“指数函数与对数函数互为反函数”得出答案，并说明依据。",
+        "boundary": "检测指数对数互逆、定义域交换和图像对称。",
+        "prerequisiteSkills": "指数函数的概念；对数函数的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "31dd1309f0c32bf261fcb9b1936a798d0ca888eee25df98fc4725c0e08522d34",
+        "answerCheck": "逻辑辅助检查（非自动证明）：指数对数反函数互逆实例。独立解答复审：从y=3^x反解并交换坐标得到log3 x，域为正，点(9,2)及两复合恒等都在合法域。",
+        "alignmentCheck": "检测“指数函数与对数函数互为反函数”的关键依据：由y=3^x反解x=log₃y，再交换变量；交换横纵坐标对应关于直线y=x对称；两种复合分别用对数与指数恒等式。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测指数对数互逆、定义域交换和图像对称。 对照：反函数记号f⁻¹不是1/f。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-4-07",
+      "skillId": "full-m1-4-4-07",
+      "familyId": "full-m1-4-4-07",
+      "text": "f(x)=x²定义在[0,+∞)。求反函数的解析式、定义域和值域；若原定义域为R还能有反函数吗？",
+      "answer": "反函数√x，定义域和值域均[0,+∞)；原定义域为R时无反函数。",
+      "steps": [
+        "非负输入平方一一对应非负输出，反解取非负根",
+        "原函数值域成为反函数定义域",
+        "R上±1都映到1，反向不能唯一确定输入"
+      ],
+      "alignment": "检测“反函数的概念”的关键依据：非负输入平方一一对应非负输出，反解取非负根；原函数值域成为反函数定义域；R上±1都映到1，反向不能唯一确定输入。检测范围以本题检测边界为限。",
+      "contrast": "不能将反函数写成±√x，那会使正输入对应两个输出。",
+      "assessment": {
+        "objective": "能在本题条件下运用“反函数的概念”得出答案，并说明依据。",
+        "boundary": "检测反函数的一一对应与定义域限制。",
+        "prerequisiteSkills": "指数函数与对数函数互为反函数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b0c8883037b2c6f0c9b49cddd8b3a17286fc73dd5c1dc4b91a8ada0b9c3959e2",
+        "answerCheck": "逻辑辅助检查（非自动证明）：反函数限域保证非负开根。独立解答复审：平方限制非负才一一对应，反解取正根；全实域±1映到同一值否定反函数存在。",
+        "alignmentCheck": "检测“反函数的概念”的关键依据：非负输入平方一一对应非负输出，反解取非负根；原函数值域成为反函数定义域；R上±1都映到1，反向不能唯一确定输入。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测反函数的一一对应与定义域限制。 对照：不能将反函数写成±√x，那会使正输入对应两个输出。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-5-01",
+      "skillId": "full-m1-4-5-01",
+      "familyId": "full-m1-4-5-01",
+      "text": "某培养物初始质量80克，每小时增加到前一小时的1.5倍。建立整数小时n≥0时的质量模型，求3小时质量及首次超过400克的整小时数。",
+      "answer": "M(n)=80·1.5^n；M(3)=270克；首次为第4小时（405克）。",
+      "steps": [
+        "每小时固定倍率对应指数增长",
+        "3次相乘得80·27/8=270",
+        "M(4)=405>400且M(3)<400，模型随n递增，故第4小时首次超过"
+      ],
+      "alignment": "检测“指数函数模型”的关键依据：每小时固定倍率对应指数增长；3次相乘得80·27/8=270；M(4)=405>400且M(3)<400，模型随n递增，故第4小时首次超过。检测范围以本题检测边界为限。",
+      "contrast": "每小时“增加50克”会对应线性而非指数模型。",
+      "assessment": {
+        "objective": "能在本题条件下运用“指数函数模型”得出答案，并说明依据。",
+        "boundary": "检测恒比指数模型与离散阈值；不估计生物实际变化。",
+        "prerequisiteSkills": "指数函数的图像"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "810995408ab773d64aacfe38501b509fe22cd4caad52bb96357f4001cd6ee206",
+        "answerCheck": "固定规格计算检查：指数模型按时逐项生成。独立解答复审：80乘(3/2)^3=270、乘四次=405，单调递增保证4是首次整小时超400，阈值判断完整。",
+        "alignmentCheck": "检测“指数函数模型”的关键依据：每小时固定倍率对应指数增长；3次相乘得80·27/8=270；M(4)=405>400且M(3)<400，模型随n递增，故第4小时首次超过。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测恒比指数模型与离散阈值；不估计生物实际变化。 对照：每小时“增加50克”会对应线性而非指数模型。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-5-02",
+      "skillId": "full-m1-4-5-02",
+      "familyId": "full-m1-4-5-02",
+      "text": "测量装置定义读数L=10lg(I/I₀)，I,I₀>0。若I=1000I₀求L；若读数由20增至50，强度I增为原来多少倍？",
+      "answer": "L=30；强度变为1000倍。",
+      "steps": [
+        "代入比值1000，其常用对数为3",
+        "两读数差30=10lg(I₂/I₁)",
+        "解lg(I₂/I₁)=3得比值1000"
+      ],
+      "alignment": "检测“对数函数模型”的关键依据：代入比值1000，其常用对数为3；两读数差30=10lg(I₂/I₁)；解lg(I₂/I₁)=3得比值1000。检测范围以本题检测边界为限。",
+      "contrast": "读数多30不表示强度仅多30倍。",
+      "assessment": {
+        "objective": "能在本题条件下运用“对数函数模型”得出答案，并说明依据。",
+        "boundary": "检测给定对数模型的正向与反向换算；不引入实际声学假设。",
+        "prerequisiteSkills": "对数函数的图像"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b02bcd7eec65336c5e433a17591957eda0b82eb5a3472116724665af2238c7e2",
+        "answerCheck": "固定规格计算检查：对数模型回代。独立解答复审：读数30对应1000比值；两读数相减30除10为对数差3，强度比1000，并非读数比。",
+        "alignmentCheck": "检测“对数函数模型”的关键依据：代入比值1000，其常用对数为3；两读数差30=10lg(I₂/I₁)；解lg(I₂/I₁)=3得比值1000。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测给定对数模型的正向与反向换算；不引入实际声学假设。 对照：读数多30不表示强度仅多30倍。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-5-03",
+      "skillId": "full-m1-4-5-03",
+      "familyId": "full-m1-4-5-03",
+      "text": "同材质实心球质量m与半径r满足m=kr³。r=2厘米时m=24克，求k、r=3时的质量，以及质量192克时半径。",
+      "answer": "k=3；81克；半径4厘米。",
+      "steps": [
+        "用24=k·2³得k=3",
+        "代入r=3得3·27=81",
+        "由192=3r³得r³=64，正半径r=4"
+      ],
+      "alignment": "检测“幂函数模型”的关键依据：用24=k·2³得k=3；代入r=3得3·27=81；由192=3r³得r³=64，正半径r=4。检测范围以本题检测边界为限。",
+      "contrast": "半径倍增质量会为8倍，不是2倍。",
+      "assessment": {
+        "objective": "能在本题条件下运用“幂函数模型”得出答案，并说明依据。",
+        "boundary": "检测幂函数模型拟合及反解；不推导球体积公式。",
+        "prerequisiteSkills": "幂函数的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "58779bec4dd76aa4229bf79bcf8f2b58408b811065cb459debf7ad1b142f8d07",
+        "answerCheck": "固定规格计算检查：幂模型三组值。独立解答复审：24除半径立方8得系数3，代3得81，192除3后开立方得4，正半径选择正确。",
+        "alignmentCheck": "检测“幂函数模型”的关键依据：用24=k·2³得k=3；代入r=3得3·27=81；由192=3r³得r³=64，正半径r=4。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测幂函数模型拟合及反解；不推导球体积公式。 对照：半径倍增质量会为8倍，不是2倍。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-5-04",
+      "skillId": "full-m1-4-5-04",
+      "familyId": "full-m1-4-5-04",
+      "text": "比较L(x)=log₂x、P(x)=x²、E(x)=2^x在x=2、4、8的值；据此能否声称E(x)>P(x)对所有x>0成立？",
+      "answer": "x=2时1、4、4；x=4时2、16、16；x=8时3、64、256；不能，x=3时8<9。",
+      "steps": [
+        "分别计算三类增长模型取值",
+        "观察指数从相等到超过平方",
+        "全域命题须对每个x成立，x=3反例足以否定"
+      ],
+      "alignment": "检测“三种函数增长的差异”的关键依据：分别计算三类增长模型取值；观察指数从相等到超过平方；全域命题须对每个x成立，x=3反例足以否定。检测范围以本题检测边界为限。",
+      "contrast": "不能由x=8的一次比较推断整个正半轴排序。",
+      "assessment": {
+        "objective": "能在本题条件下运用“三种函数增长的差异”得出答案，并说明依据。",
+        "boundary": "检测三类增长的数值差异及有限样本结论边界；不证明指数最终超过幂的极限定理。",
+        "prerequisiteSkills": "指数函数模型；对数函数模型；幂函数模型"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "059a7a01b637272f22508a478d3bd3aae05d8ac27ea63812176fcc4b22b0cfd0",
+        "answerCheck": "固定规格计算检查：三增长模型精确表及反例。独立解答复审：三行数值逐项核对1/4/4、2/16/16、3/64/256；x=3使8<9足以否定全域排序。",
+        "alignmentCheck": "检测“三种函数增长的差异”的关键依据：分别计算三类增长模型取值；观察指数从相等到超过平方；全域命题须对每个x成立，x=3反例足以否定。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测三类增长的数值差异及有限样本结论边界；不证明指数最终超过幂的极限定理。 对照：不能由x=8的一次比较推断整个正半轴排序。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-4-5-05",
+      "skillId": "full-m1-4-5-05",
+      "familyId": "full-m1-4-5-05",
+      "text": "数据为(t,y)=(0,5),(1,10),(2,20),(3,40)。在一次模型y=at+b与指数模型y=A·b^t（b>0）中，选择能精确拟合全部数据的模型并预测t=4。",
+      "answer": "指数模型y=5·2^t；预测80。",
+      "steps": [
+        "相邻增量5、10、20不相同，排除一次模型",
+        "相邻比值全为2，得b=2，t=0给A=5",
+        "代入4得80"
+      ],
+      "alignment": "检测“函数模型的选择与拟合”的关键依据：相邻增量5、10、20不相同，排除一次模型；相邻比值全为2，得b=2，t=0给A=5；代入4得80。检测范围以本题检测边界为限。",
+      "contrast": "四个数据也可由别的非指定模型拟合，不能据此宣布唯一自然规律。",
+      "assessment": {
+        "objective": "能在本题条件下运用“函数模型的选择与拟合”得出答案，并说明依据。",
+        "boundary": "检测候选模型筛选、参数拟合和外推；不保证现实第4次必为80。",
+        "prerequisiteSkills": "三种函数增长的差异"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2eed4459355d6f2e34d6761363557ef8b30b88c967deaa520b5101468feae229",
+        "answerCheck": "固定规格计算检查：候选模型相邻增量与倍率。独立解答复审：差值5、10、20不恒，倍率恒2，指数系数由t=0得5；外推80并明确仅候选模型内判断。",
+        "alignmentCheck": "检测“函数模型的选择与拟合”的关键依据：相邻增量5、10、20不相同，排除一次模型；相邻比值全为2，得b=2，t=0给A=5；代入4得80。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测候选模型筛选、参数拟合和外推；不保证现实第4次必为80。 对照：四个数据也可由别的非指定模型拟合，不能据此宣布唯一自然规律。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-01",
+      "skillId": "full-m1-5-1-01",
+      "familyId": "full-m1-5-1-01",
+      "text": "射线从x轴正向出发，逆时针转1周再转30°得到α；顺时针转半周再转45°得到β。写α、β并判正负，0°是什么角？",
+      "answer": "α=390°为正角；β=-225°为负角；0°为零角。",
+      "steps": [
+        "逆时针方向为正，1周360°加30°",
+        "顺时针方向为负，半周180°加45°后加负号",
+        "没有转动对应零角"
+      ],
+      "alignment": "检测“任意角的概念”的关键依据：逆时针方向为正，1周360°加30°；顺时针方向为负，半周180°加45°后加负号；没有转动对应零角。检测范围以本题检测边界为限。",
+      "contrast": "终边相同不代表旋转量相等，390°与30°不同角。",
+      "assessment": {
+        "objective": "能在本题条件下运用“任意角的概念”得出答案，并说明依据。",
+        "boundary": "检测任意角的旋转方向、整周与零角。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ffb63db4d8ed695a2045ad7e6c29e7ad6b70574be7f9312fb65c788b54316777",
+        "answerCheck": "固定规格计算检查：旋转方向与总量。独立解答复审：逆时针360+30=390为正；顺时针−(180+45)=−225，零转动称零角，正负约定一致。",
+        "alignmentCheck": "检测“任意角的概念”的关键依据：逆时针方向为正，1周360°加30°；顺时针方向为负，半周180°加45°后加负号；没有转动对应零角。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测任意角的旋转方向、整周与零角。 对照：终边相同不代表旋转量相等，390°与30°不同角。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-02",
+      "skillId": "full-m1-5-1-02",
+      "familyId": "full-m1-5-1-02",
+      "text": "写出与-45°终边相同的全部角，并列出其中位于[0°,720°)内的角。",
+      "answer": "{-45°+360°k:k∈Z}；315°、675°。",
+      "steps": [
+        "终边相同相差整周",
+        "0≤-45+360k<720给1/8≤k<17/8",
+        "整数k为1、2，得到两角"
+      ],
+      "alignment": "检测“终边相同的角的集合”的关键依据：终边相同相差整周；0≤-45+360k<720给1/8≤k<17/8；整数k为1、2，得到两角。检测范围以本题检测边界为限。",
+      "contrast": "加180°通常为反向射线，不是同一终边。",
+      "assessment": {
+        "objective": "能在本题条件下运用“终边相同的角的集合”得出答案，并说明依据。",
+        "boundary": "检测同终边角通式与区间筛选。",
+        "prerequisiteSkills": "任意角的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3dd3e6e228fb48a5c7254d4f428e46ad068df04147df54d88d9bfcd2b4a2fb68",
+        "answerCheck": "固定规格计算检查：同终边角区间筛选。独立解答复审：角−45+360k筛[0,720)给k=1、2，得到315、675，全部同终边角用整数k覆盖。",
+        "alignmentCheck": "检测“终边相同的角的集合”的关键依据：终边相同相差整周；0≤-45+360k<720给1/8≤k<17/8；整数k为1、2，得到两角。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测同终边角通式与区间筛选。 对照：加180°通常为反向射线，不是同一终边。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-03",
+      "skillId": "full-m1-5-1-03",
+      "familyId": "full-m1-5-1-03",
+      "text": "判断765°、-135°、-270°分别为哪个象限角或哪条轴线上的角。",
+      "answer": "765°为第一象限；-135°为第三象限；-270°在y轴正半轴，不属象限角。",
+      "steps": [
+        "分别化成45°、225°、90°的同终边角",
+        "45在第一象限，225在第三",
+        "90终边恰在正y轴"
+      ],
+      "alignment": "检测“象限角与轴线角”的关键依据：分别化成45°、225°、90°的同终边角；45在第一象限，225在第三；90终边恰在正y轴。检测范围以本题检测边界为限。",
+      "contrast": "不能把90°称第二象限角。",
+      "assessment": {
+        "objective": "能在本题条件下运用“象限角与轴线角”得出答案，并说明依据。",
+        "boundary": "检测象限角和轴线角的区分。",
+        "prerequisiteSkills": "任意角的概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "85509f7caf2496dd67ee245469ca721d27b9b5fcd4fb5a09617cc3345f7b6503",
+        "answerCheck": "固定规格计算检查：象限归约。独立解答复审：分别模360化为45、225、90，前二属第一第三象限，最后正y轴不是象限角。",
+        "alignmentCheck": "检测“象限角与轴线角”的关键依据：分别化成45°、225°、90°的同终边角；45在第一象限，225在第三；90终边恰在正y轴。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测象限角和轴线角的区分。 对照：不能把90°称第二象限角。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-04",
+      "skillId": "full-m1-5-1-04",
+      "familyId": "full-m1-5-1-04",
+      "text": "半径为3厘米的圆上，一段弧长等于半径。所对圆心角是多少弧度？若半径为5、弧长为7.5，圆心角多少弧度？说明弧度数是否依赖单位选择。",
+      "answer": "分别1弧度、1.5弧度；不依赖同时换用的长度单位。",
+      "steps": [
+        "弧度数定义为弧长/半径",
+        "3/3=1，7.5/5=1.5",
+        "长度单位同倍换算在比值中约去"
+      ],
+      "alignment": "检测“弧度制的定义”的关键依据：弧度数定义为弧长/半径；3/3=1，7.5/5=1.5；长度单位同倍换算在比值中约去。检测范围以本题检测边界为限。",
+      "contrast": "长度等于直径的弧对应2弧度，不是π弧度。",
+      "assessment": {
+        "objective": "能在本题条件下运用“弧度制的定义”得出答案，并说明依据。",
+        "boundary": "检测弧度定义及无量纲比值；默认正向小于一周弧。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9f1074f9e95902f69bbfdd1d3fad5f98cbf8f3dc106ee0385aa44881ac6effeb",
+        "answerCheck": "固定规格计算检查：弧度数长度比。独立解答复审：弧长除半径给1和3/2，同单位成比例相消，正向弧的约定排除方向歧义。",
+        "alignmentCheck": "检测“弧度制的定义”的关键依据：弧度数定义为弧长/半径；3/3=1，7.5/5=1.5；长度单位同倍换算在比值中约去。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测弧度定义及无量纲比值；默认正向小于一周弧。 对照：长度等于直径的弧对应2弧度，不是π弧度。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-05",
+      "skillId": "full-m1-5-1-05",
+      "familyId": "full-m1-5-1-05",
+      "text": "把225°、-150°化为弧度，把7π/6、-3π/4弧度化为角度。",
+      "answer": "5π/4、-5π/6；210°、-135°。",
+      "steps": [
+        "角度乘π/180转换为弧度",
+        "弧度乘180/π转换为角度",
+        "负角的符号保留"
+      ],
+      "alignment": "检测“角度与弧度的互化”的关键依据：角度乘π/180转换为弧度；弧度乘180/π转换为角度；负角的符号保留。检测范围以本题检测边界为限。",
+      "contrast": "π弧度等于180°，不是360°。",
+      "assessment": {
+        "objective": "能在本题条件下运用“角度与弧度的互化”得出答案，并说明依据。",
+        "boundary": "检测角度弧度双向换算含负角。",
+        "prerequisiteSkills": "弧度制的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "22e7f2326a090833b90ffc1dceed8eaed63ded7f6e1e756df9c5318326deb893",
+        "answerCheck": "固定规格计算检查：角度弧度双向换算。独立解答复审：角度乘π/180与逆换180/π计算四结果5π/4、−5π/6、210、−135，负号保持。",
+        "alignmentCheck": "检测“角度与弧度的互化”的关键依据：角度乘π/180转换为弧度；弧度乘180/π转换为角度；负角的符号保留。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测角度弧度双向换算含负角。 对照：π弧度等于180°，不是360°。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-06",
+      "skillId": "full-m1-5-1-06",
+      "familyId": "full-m1-5-1-06",
+      "text": "依次写30°、45°、60°、90°、180°、270°、360°的弧度值。",
+      "answer": "π/6、π/4、π/3、π/2、π、3π/2、2π。",
+      "steps": [
+        "利用180°=π弧度按比例换算",
+        "小角分别是180°的1/6、1/4、1/3、1/2",
+        "大角分别是1、3/2、2倍"
+      ],
+      "alignment": "检测“特殊角的弧度值”的关键依据：利用180°=π弧度按比例换算；小角分别是180°的1/6、1/4、1/3、1/2；大角分别是1、3/2、2倍。检测范围以本题检测边界为限。",
+      "contrast": "60°对应π/3，而π/6是30°。",
+      "assessment": {
+        "objective": "能在本题条件下运用“特殊角的弧度值”得出答案，并说明依据。",
+        "boundary": "检测七个常见特殊角弧度值；不检测三角函数值。",
+        "prerequisiteSkills": "角度与弧度的互化"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "160eb1fe4d240d7c7129b475c52b753fa33ee41adae66d1e94be1622f1c54f7a",
+        "answerCheck": "固定规格计算检查：七个特殊角比例。独立解答复审：七个角分别为180度的1/6、1/4、1/3、1/2、1、3/2、2倍，弧度清单正确。",
+        "alignmentCheck": "检测“特殊角的弧度值”的关键依据：利用180°=π弧度按比例换算；小角分别是180°的1/6、1/4、1/3、1/2；大角分别是1、3/2、2倍。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测七个常见特殊角弧度值；不检测三角函数值。 对照：60°对应π/3，而π/6是30°。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-07",
+      "skillId": "full-m1-5-1-07",
+      "familyId": "full-m1-5-1-07",
+      "text": "半径6厘米的圆中，圆心角为150°的较小弧长是多少？若同半径的另一弧长为9厘米，其圆心角为几弧度？",
+      "answer": "5π厘米；3/2弧度。",
+      "steps": [
+        "先将150°变为5π/6",
+        "用l=rθ得6·5π/6=5π",
+        "反用θ=l/r=9/6=3/2"
+      ],
+      "alignment": "检测“弧长公式”的关键依据：先将150°变为5π/6；用l=rθ得6·5π/6=5π；反用θ=l/r=9/6=3/2。检测范围以本题检测边界为限。",
+      "contrast": "不能把150直接代入l=rθ得到900厘米。",
+      "assessment": {
+        "objective": "能在本题条件下运用“弧长公式”得出答案，并说明依据。",
+        "boundary": "检测弧长公式、角度预转换及反向应用。",
+        "prerequisiteSkills": "弧度制的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4a50b2dc90649e818c6aee42507ad190f105e390d14550ef96f712f6ca1802a8",
+        "answerCheck": "固定规格计算检查：弧长正反计算。独立解答复审：150度先转5π/6再乘6得5π；反求9/6为3/2弧度，单位与两向公式一致。",
+        "alignmentCheck": "检测“弧长公式”的关键依据：先将150°变为5π/6；用l=rθ得6·5π/6=5π；反用θ=l/r=9/6=3/2。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测弧长公式、角度预转换及反向应用。 对照：不能把150直接代入l=rθ得到900厘米。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-1-08",
+      "skillId": "full-m1-5-1-08",
+      "familyId": "full-m1-5-1-08",
+      "text": "半径4厘米、圆心角3π/4的扇形求面积；若半径仍4且弧长为6厘米，求另一扇形面积。",
+      "answer": "6π平方厘米；12平方厘米。",
+      "steps": [
+        "用S=r²θ/2得16·3π/8=6π",
+        "第二问用S=rl/2得4·6/2=12"
+      ],
+      "alignment": "检测“扇形面积公式”的关键依据：用S=r²θ/2得16·3π/8=6π；第二问用S=rl/2得4·6/2=12。检测范围以本题检测边界为限。",
+      "contrast": "扇形面积不是圆心角对应三角形面积。",
+      "assessment": {
+        "objective": "能在本题条件下运用“扇形面积公式”得出答案，并说明依据。",
+        "boundary": "检测扇形面积的角度式与弧长式。",
+        "prerequisiteSkills": "弧度制的定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1b55d39fcc7ad8e193fbce459386e75c32b72af7bd581c25dfa7e0248f2eaa63",
+        "answerCheck": "固定规格计算检查：扇形面积两公式。独立解答复审：r²θ/2=16×3π/8=6π；rl/2=4×6/2=12，两类扇形面积公式实算正确。",
+        "alignmentCheck": "检测“扇形面积公式”的关键依据：用S=r²θ/2得16·3π/8=6π；第二问用S=rl/2得4·6/2=12。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测扇形面积的角度式与弧长式。 对照：扇形面积不是圆心角对应三角形面积。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-2-01",
+      "skillId": "full-m1-5-2-01",
+      "familyId": "full-m1-5-2-01",
+      "text": "角α的终边与单位圆交于P=(-3/5,4/5)。按单位圆定义求sinα、cosα、tanα，说明正切为何有定义。",
+      "answer": "sinα=4/5，cosα=-3/5，tanα=-4/3；横坐标不为0。",
+      "steps": [
+        "单位圆上余弦等于横坐标、正弦等于纵坐标",
+        "正切为纵横坐标之比",
+        "x=-3/5≠0，商有定义"
+      ],
+      "alignment": "检测“任意角三角函数的定义（单位圆法）”的关键依据：单位圆上余弦等于横坐标、正弦等于纵坐标；正切为纵横坐标之比；x=-3/5≠0，商有定义。检测范围以本题检测边界为限。",
+      "contrast": "若P=(0,1)，正切无定义。",
+      "assessment": {
+        "objective": "能在本题条件下运用“任意角三角函数的定义（单位圆法）”得出答案，并说明依据。",
+        "boundary": "检测单位圆定义及正切禁值；不依赖锐角三角形。",
+        "prerequisiteSkills": "终边相同的角的集合"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3292b45e01675d3e1f5930f726eadf9743ce80f6d036e8745bd28adf5cf53027",
+        "answerCheck": "固定规格计算检查：单位圆坐标平方和及斜率。独立解答复审：给定点平方和9/25+16/25=1，确在单位圆；sin取y、cos取x、tan比值−4/3且分母非0。",
+        "alignmentCheck": "检测“任意角三角函数的定义（单位圆法）”的关键依据：单位圆上余弦等于横坐标、正弦等于纵坐标；正切为纵横坐标之比；x=-3/5≠0，商有定义。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测单位圆定义及正切禁值；不依赖锐角三角形。 对照：若P=(0,1)，正切无定义。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-2-02",
+      "skillId": "full-m1-5-2-02",
+      "familyId": "full-m1-5-2-02",
+      "text": "已知sinα<0且tanα>0，判断α终边所在象限及cosα符号；再填写第一至第四象限tan的正负顺序。",
+      "answer": "第三象限，cosα<0；tan符号依次+、-、+、-。",
+      "steps": [
+        "sin负限制在第三或第四象限",
+        "tan正要求sin、cos同号，因而cos负，确定第三象限",
+        "逐象限用纵横坐标同异号判断正切"
+      ],
+      "alignment": "检测“三角函数值在各象限的符号”的关键依据：sin负限制在第三或第四象限；tan正要求sin、cos同号，因而cos负，确定第三象限；逐象限用纵横坐标同异号判断正切。检测范围以本题检测边界为限。",
+      "contrast": "sin负不能单独确定第三象限，第四也可。",
+      "assessment": {
+        "objective": "能在本题条件下运用“三角函数值在各象限的符号”得出答案，并说明依据。",
+        "boundary": "检测三种函数的象限符号配合；已排除轴线角。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "363b1828a0f9dc687511771242919ec02fe0b0fe32518da8f7f84a7c7b73abfd",
+        "answerCheck": "逻辑辅助检查（非自动证明）：四象限符号表。独立解答复审：sin负与tan正交叉仅第三象限，余弦随之负；四象限tan符号正负正负核对正确。",
+        "alignmentCheck": "检测“三角函数值在各象限的符号”的关键依据：sin负限制在第三或第四象限；tan正要求sin、cos同号，因而cos负，确定第三象限；逐象限用纵横坐标同异号判断正切。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测三种函数的象限符号配合；已排除轴线角。 对照：sin负不能单独确定第三象限，第四也可。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-2-03",
+      "skillId": "full-m1-5-2-03",
+      "familyId": "full-m1-5-2-03",
+      "text": "利用终边相同的角，求sin(13π/6)、cos(-11π/3)、tan(17π/4)。",
+      "answer": "1/2、1/2、1。",
+      "steps": [
+        "13π/6=2π+π/6，正弦同值",
+        "-11π/3=-4π+π/3，余弦同值",
+        "17π/4=4π+π/4，正切同值"
+      ],
+      "alignment": "检测“诱导公式一（终边相同的角）”的关键依据：13π/6=2π+π/6，正弦同值；-11π/3=-4π+π/3，余弦同值；17π/4=4π+π/4，正切同值。检测范围以本题检测边界为限。",
+      "contrast": "正切另有周期π，但正弦余弦不能无条件用π代替2π。",
+      "assessment": {
+        "objective": "能在本题条件下运用“诱导公式一（终边相同的角）”得出答案，并说明依据。",
+        "boundary": "检测加减2kπ的诱导公式一；不使用异名函数变换。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "752d3ff2e167046eef2c005962b63a5efb1ab44cbbfe68f1b6a5c9a82afb9781",
+        "answerCheck": "固定规格计算检查：同终边特殊角精确求值。独立解答复审：三个角分别减2π、加4π、减4π得到π/6、π/3、π/4，函数值1/2、1/2、1正确。",
+        "alignmentCheck": "检测“诱导公式一（终边相同的角）”的关键依据：13π/6=2π+π/6，正弦同值；-11π/3=-4π+π/3，余弦同值；17π/4=4π+π/4，正切同值。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测加减2kπ的诱导公式一；不使用异名函数变换。 对照：正切另有周期π，但正弦余弦不能无条件用π代替2π。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-2-04",
+      "skillId": "full-m1-5-2-04",
+      "familyId": "full-m1-5-2-04",
+      "text": "单位圆上P=(-3/5,4/5)，M为P在x轴的投影，A=(1,0)。直线OP与直线x=1交于T。求正弦线MP、余弦线OM、正切线AT的有向数值（竖直向上、水平向右为正）。",
+      "answer": "MP=4/5，OM=-3/5，AT=-4/3。",
+      "steps": [
+        "M=(-3/5,0)，故竖直MP为4/5，水平OM为-3/5",
+        "直线OP斜率-4/3，在x=1时T=(1,-4/3)",
+        "从A到T向下，正切线值为-4/3"
+      ],
+      "alignment": "检测“单位圆与三角函数线”的关键依据：M=(-3/5,0)，故竖直MP为4/5，水平OM为-3/5；直线OP斜率-4/3，在x=1时T=(1,-4/3)；从A到T向下，正切线值为-4/3。检测范围以本题检测边界为限。",
+      "contrast": "把OM当无向长度3/5会丢掉余弦负号。",
+      "assessment": {
+        "objective": "能在本题条件下运用“单位圆与三角函数线”得出答案，并说明依据。",
+        "boundary": "检测三角函数线位置与有向性；T在终边反向延长线上，使用的是直线OP。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "26802a20c335920f86a44ccf4b564b9c3ad9126ffa8da923e8636b9611e73905",
+        "answerCheck": "固定规格计算检查：函数线坐标与切线交点。独立解答复审：M坐标及有向竖直、水平分量保留符号；直线OP斜率−4/3于x=1取负y，强调延长线避免几何歧义。",
+        "alignmentCheck": "检测“单位圆与三角函数线”的关键依据：M=(-3/5,0)，故竖直MP为4/5，水平OM为-3/5；直线OP斜率-4/3，在x=1时T=(1,-4/3)；从A到T向下，正切线值为-4/3。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测三角函数线位置与有向性；T在终边反向延长线上，使用的是直线OP。 对照：把OM当无向长度3/5会丢掉余弦负号。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-3-01",
+      "skillId": "full-m1-5-3-01",
+      "familyId": "full-m1-5-3-01",
+      "text": "已知sinα=5/13且α为第二象限角，求cosα；若去掉象限条件会有几个可能值？",
+      "answer": "cosα=-12/13；去掉象限后可为±12/13。",
+      "steps": [
+        "由sin²α+cos²α=1得cos²α=144/169",
+        "开平方有两个符号",
+        "第二象限余弦负，取-12/13"
+      ],
+      "alignment": "检测“平方关系 sin^2+cos^2=1”的关键依据：由sin²α+cos²α=1得cos²α=144/169；开平方有两个符号；第二象限余弦负，取-12/13。检测范围以本题检测边界为限。",
+      "contrast": "平方关系本身不能唯一决定余弦符号。",
+      "assessment": {
+        "objective": "能在本题条件下运用“平方关系 sin^2+cos^2=1”得出答案，并说明依据。",
+        "boundary": "检测平方关系及符号选择；不求正切。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bdb607e2912327e98f4f2f2d25f14f04c069e779f81423a7f60f23d75cf93474",
+        "answerCheck": "固定规格计算检查：平方关系正负两根。独立解答复审：1−25/169=144/169，第二象限选择−12/13；去掉象限保留正负两个值，条件作用明确。",
+        "alignmentCheck": "检测“平方关系 sin^2+cos^2=1”的关键依据：由sin²α+cos²α=1得cos²α=144/169；开平方有两个符号；第二象限余弦负，取-12/13。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测平方关系及符号选择；不求正切。 对照：平方关系本身不能唯一决定余弦符号。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-3-02",
+      "skillId": "full-m1-5-3-02",
+      "familyId": "full-m1-5-3-02",
+      "text": "已知sinα=-3/5、cosα=4/5，求tanα；当cosβ=0时还能使用tanβ=sinβ/cosβ求实数值吗？",
+      "answer": "tanα=-3/4；不能，tanβ无定义。",
+      "steps": [
+        "商数关系要求余弦不为0",
+        "对α直接相除(-3/5)/(4/5)=-3/4",
+        "cosβ=0使分母为0，商不存在"
+      ],
+      "alignment": "检测“商数关系 tan=sin/cos”的关键依据：商数关系要求余弦不为0；对α直接相除(-3/5)/(4/5)=-3/4；cosβ=0使分母为0，商不存在。检测范围以本题检测边界为限。",
+      "contrast": "不能把分母为0的商写成一个实数“无穷大”。",
+      "assessment": {
+        "objective": "能在本题条件下运用“商数关系 tan=sin/cos”得出答案，并说明依据。",
+        "boundary": "检测商数关系及定义限制。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "834e3165bc78c65068bd1a1d4a95bacc06e866bf53e694b75aef15e5d1155f20",
+        "answerCheck": "固定规格计算检查：商数关系精确比值。独立解答复审：两个分数相除得−3/4；余弦0时商无定义，不能给实数值，禁值检查完整。",
+        "alignmentCheck": "检测“商数关系 tan=sin/cos”的关键依据：商数关系要求余弦不为0；对α直接相除(-3/5)/(4/5)=-3/4；cosβ=0使分母为0，商不存在。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测商数关系及定义限制。 对照：不能把分母为0的商写成一个实数“无穷大”。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-3-03",
+      "skillId": "full-m1-5-3-03",
+      "familyId": "full-m1-5-3-03",
+      "text": "已知tanα=3/4且α为第三象限角，求sinα、cosα。",
+      "answer": "sinα=-3/5，cosα=-4/5。",
+      "steps": [
+        "设cosα=t，则sinα=3t/4",
+        "平方关系给25t²/16=1，得t=±4/5",
+        "第三象限两者均负，选择t=-4/5"
+      ],
+      "alignment": "检测“同角关系求值（知一求二）”的关键依据：设cosα=t，则sinα=3t/4；平方关系给25t²/16=1，得t=±4/5；第三象限两者均负，选择t=-4/5。检测范围以本题检测边界为限。",
+      "contrast": "tanα>0本身不能分辨第一和第三象限。",
+      "assessment": {
+        "objective": "能在本题条件下运用“同角关系求值（知一求二）”得出答案，并说明依据。",
+        "boundary": "检测知正切求正余弦，结合平方、商数和象限。",
+        "prerequisiteSkills": "平方关系 sin^2+cos^2=1；商数关系 tan=sin/cos"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "86cf16cffe1b710227ce75f588b86a233be30bfe4fe0e411377c8d6aa342a2ce",
+        "answerCheck": "固定规格计算检查：知一求二回代。独立解答复审：3:4直角比配平方和1给绝对值3/5、4/5，第三象限皆负，tan为正3/4反代成立。",
+        "alignmentCheck": "检测“同角关系求值（知一求二）”的关键依据：设cosα=t，则sinα=3t/4；平方关系给25t²/16=1，得t=±4/5；第三象限两者均负，选择t=-4/5。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测知正切求正余弦，结合平方、商数和象限。 对照：tanα>0本身不能分辨第一和第三象限。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-3-04",
+      "skillId": "full-m1-5-3-04",
+      "familyId": "full-m1-5-3-04",
+      "text": "当sin x≠±1时，化简1/(1-sin x)+1/(1+sin x)，并证明结果等于2/cos²x。",
+      "answer": "原式=2/(1-sin²x)=2/cos²x。",
+      "steps": [
+        "同分母相加，分子(1+sin x)+(1-sin x)=2",
+        "分母(1-sin x)(1+sin x)=1-sin²x",
+        "由平方关系替换成cos²x，题设保证不为0"
+      ],
+      "alignment": "检测“同角关系的化简与证明”的关键依据：同分母相加，分子(1+sin x)+(1-sin x)=2；分母(1-sin x)(1+sin x)=1-sin²x；由平方关系替换成cos²x，题设保证不为0。检测范围以本题检测边界为限。",
+      "contrast": "不能约去加法式中的sin x，必须先通分。",
+      "assessment": {
+        "objective": "能在本题条件下运用“同角关系的化简与证明”得出答案，并说明依据。",
+        "boundary": "检测同角平方关系的恒等变形及禁值。",
+        "prerequisiteSkills": "同角关系求值（知一求二）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ff01891d6bdef8eb56a070ce9ae977ef89867ef050fe97683b6fedc39fbe742d",
+        "answerCheck": "固定规格计算检查：同角恒等化简。独立解答复审：通分分子2、分母1−sin²，再换cos²；sin不等±1保证两原分母及化简分母都不为0。",
+        "alignmentCheck": "检测“同角关系的化简与证明”的关键依据：同分母相加，分子(1+sin x)+(1-sin x)=2；分母(1-sin x)(1+sin x)=1-sin²x；由平方关系替换成cos²x，题设保证不为0。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测同角平方关系的恒等变形及禁值。 对照：不能约去加法式中的sin x，必须先通分。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-3-05",
+      "skillId": "full-m1-5-3-05",
+      "familyId": "full-m1-5-3-05",
+      "text": "已知sinα+cosα=1/2。求sinαcosα及(sinα-cosα)²，能否唯一确定sinα-cosα？",
+      "answer": "sinαcosα=-3/8；差的平方7/4；差可为±√7/2，不能唯一确定。",
+      "steps": [
+        "和的平方=1+2sinαcosα=1/4，解出积-3/8",
+        "差的平方=1-2sinαcosα=7/4",
+        "平方仅确定绝对值，无额外条件不能选符号"
+      ],
+      "alignment": "检测“sin+cos与sincos的关系”的关键依据：和的平方=1+2sinαcosα=1/4，解出积-3/8；差的平方=1-2sinαcosα=7/4；平方仅确定绝对值，无额外条件不能选符号。检测范围以本题检测边界为限。",
+      "contrast": "若另知sinα>cosα，差才能取正根。",
+      "assessment": {
+        "objective": "能在本题条件下运用“sin+cos与sincos的关系”得出答案，并说明依据。",
+        "boundary": "检测和、积、差平方之间关系；不确定角所在具体象限。",
+        "prerequisiteSkills": "同角关系求值（知一求二）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3b46282d8a28457002408f23a86e8b0b1eb3fbc72f7ad588dd60ebdc16832354",
+        "answerCheck": "固定规格计算检查：和积条件两组真实可行单位圆坐标。独立解答复审：由和平方1/4得到积−3/8，差平方1−2积=7/4；交换sin与cos保和而翻差，两个符号都可行。",
+        "alignmentCheck": "检测“sin+cos与sincos的关系”的关键依据：和的平方=1+2sinαcosα=1/4，解出积-3/8；差的平方=1-2sinαcosα=7/4；平方仅确定绝对值，无额外条件不能选符号。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测和、积、差平方之间关系；不确定角所在具体象限。 对照：若另知sinα>cosα，差才能取正根。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-4-01",
+      "skillId": "full-m1-5-4-01",
+      "familyId": "full-m1-5-4-01",
+      "text": "α为锐角，sinα=3/5，求sin(π+α)、cos(π+α)、tan(π+α)。",
+      "answer": "-3/5、-4/5、3/4。",
+      "steps": [
+        "锐角由平方关系得cosα=4/5、tanα=3/4",
+        "加π使终边反向，正弦余弦变号",
+        "正切为两者商，符号不变"
+      ],
+      "alignment": "检测“诱导公式二（派+α）”的关键依据：锐角由平方关系得cosα=4/5、tanα=3/4；加π使终边反向，正弦余弦变号；正切为两者商，符号不变。检测范围以本题检测边界为限。",
+      "contrast": "cos(π+α)不是cosα。",
+      "assessment": {
+        "objective": "能在本题条件下运用“诱导公式二（派+α）”得出答案，并说明依据。",
+        "boundary": "检测π+α三条诱导关系；附带基本三角求值。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1c5f15d363ceb15f1774731abb386ae1a4af22fa544db0e0e42a2e656b37e814",
+        "answerCheck": "逻辑辅助检查（非自动证明）：π+α诱导值重算。独立解答复审：锐角cos=4/5，加π反转两坐标得到−3/5、−4/5，商3/4符号保持正确。",
+        "alignmentCheck": "检测“诱导公式二（派+α）”的关键依据：锐角由平方关系得cosα=4/5、tanα=3/4；加π使终边反向，正弦余弦变号；正切为两者商，符号不变。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测π+α三条诱导关系；附带基本三角求值。 对照：cos(π+α)不是cosα。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-4-02",
+      "skillId": "full-m1-5-4-02",
+      "familyId": "full-m1-5-4-02",
+      "text": "α为锐角且cosα=12/13。求sin(-α)、cos(-α)、tan(-α)。",
+      "answer": "-5/13、12/13、-5/12。",
+      "steps": [
+        "锐角sinα=√(1-144/169)=5/13",
+        "负角使单位圆点关于x轴反射，纵坐标变号而横坐标不变",
+        "正切相应变号"
+      ],
+      "alignment": "检测“诱导公式三（-α）”的关键依据：锐角sinα=√(1-144/169)=5/13；负角使单位圆点关于x轴反射，纵坐标变号而横坐标不变；正切相应变号。检测范围以本题检测边界为限。",
+      "contrast": "负角的余弦不一定为负，本题为正。",
+      "assessment": {
+        "objective": "能在本题条件下运用“诱导公式三（-α）”得出答案，并说明依据。",
+        "boundary": "检测-α诱导公式中奇偶差别。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f5f419599326acf6f4c74406941ff84aec453a24edd8941d12950bba6bdaa815",
+        "answerCheck": "固定规格计算检查：负角值平方补全及商。独立解答复审：锐角sin=5/13，负角关于x轴反射给−5/13、12/13，商−5/12正确。",
+        "alignmentCheck": "检测“诱导公式三（-α）”的关键依据：锐角sinα=√(1-144/169)=5/13；负角使单位圆点关于x轴反射，纵坐标变号而横坐标不变；正切相应变号。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测-α诱导公式中奇偶差别。 对照：负角的余弦不一定为负，本题为正。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-4-03",
+      "skillId": "full-m1-5-4-03",
+      "familyId": "full-m1-5-4-03",
+      "text": "α为锐角且tanα=5/12。求sin(π-α)、cos(π-α)、tan(π-α)。",
+      "answer": "5/13、-12/13、-5/12。",
+      "steps": [
+        "由正切及平方关系得sinα=5/13、cosα=12/13",
+        "π-α使单位圆点关于y轴反射，横坐标变号",
+        "正弦不变，余弦及正切变号"
+      ],
+      "alignment": "检测“诱导公式四（派-α）”的关键依据：由正切及平方关系得sinα=5/13、cosα=12/13；π-α使单位圆点关于y轴反射，横坐标变号；正弦不变，余弦及正切变号。检测范围以本题检测边界为限。",
+      "contrast": "sin(π-α)=sinα，不能一律添负号。",
+      "assessment": {
+        "objective": "能在本题条件下运用“诱导公式四（派-α）”得出答案，并说明依据。",
+        "boundary": "检测π-α三函数的诱导关系。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f2a2da96f28009caa5fc577d0570420ec3ccf280c22ac2d51475eeacd643564b",
+        "answerCheck": "逻辑辅助检查（非自动证明）：π-α反射余弦变号。独立解答复审：正切5/12结合锐角对应5-12-13比例，π−α保sin反cos，三结果正确。",
+        "alignmentCheck": "检测“诱导公式四（派-α）”的关键依据：由正切及平方关系得sinα=5/13、cosα=12/13；π-α使单位圆点关于y轴反射，横坐标变号；正弦不变，余弦及正切变号。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测π-α三函数的诱导关系。 对照：sin(π-α)=sinα，不能一律添负号。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-4-04",
+      "skillId": "full-m1-5-4-04",
+      "familyId": "full-m1-5-4-04",
+      "text": "α为锐角，sinα=8/17。求sin(π/2-α)、cos(π/2-α)、tan(π/2-α)。",
+      "answer": "15/17、8/17、15/8。",
+      "steps": [
+        "cosα=15/17",
+        "余角使正弦与余弦交换",
+        "正切为cosα/sinα=15/8"
+      ],
+      "alignment": "检测“诱导公式五（派/2-α）”的关键依据：cosα=15/17；余角使正弦与余弦交换；正切为cosα/sinα=15/8。检测范围以本题检测边界为限。",
+      "contrast": "正弦交换后不是仍为8/17。",
+      "assessment": {
+        "objective": "能在本题条件下运用“诱导公式五（派/2-α）”得出答案，并说明依据。",
+        "boundary": "检测π/2-α异名变换与正切倒数；题中分母非零。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "184200e659170c0574d09c92b335dfc4d83cb5fea7a276d4a5b6bf70e35af724",
+        "answerCheck": "固定规格计算检查：余角正余弦互换。独立解答复审：由8-15-17勾股比得cos=15/17，余角交换sin、cos并使tan互倒为15/8。",
+        "alignmentCheck": "检测“诱导公式五（派/2-α）”的关键依据：cosα=15/17；余角使正弦与余弦交换；正切为cosα/sinα=15/8。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测π/2-α异名变换与正切倒数；题中分母非零。 对照：正弦交换后不是仍为8/17。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-4-05",
+      "skillId": "full-m1-5-4-05",
+      "familyId": "full-m1-5-4-05",
+      "text": "α为锐角，cosα=7/25。求sin(π/2+α)、cos(π/2+α)、tan(π/2+α)。",
+      "answer": "7/25、-24/25、-7/24。",
+      "steps": [
+        "sinα=24/25",
+        "π/2+α在第二象限，正弦换为cosα且正，余弦换为sinα且负",
+        "商得-7/24"
+      ],
+      "alignment": "检测“诱导公式六（派/2+α）”的关键依据：sinα=24/25；π/2+α在第二象限，正弦换为cosα且正，余弦换为sinα且负；商得-7/24。检测范围以本题检测边界为限。",
+      "contrast": "cos(π/2+α)=-sinα，负号不能遗漏。",
+      "assessment": {
+        "objective": "能在本题条件下运用“诱导公式六（派/2+α）”得出答案，并说明依据。",
+        "boundary": "检测π/2+α的异名与符号。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7c9ab6e12e658efd8278a252204a1d0d113fdd41d122894b02220e8da2c189ee",
+        "answerCheck": "固定规格计算检查：π/2+α异名变号。独立解答复审：7-24-25比例补出sin，π/2+α在第二象限给sin7/25、cos−24/25，商−7/24正确。",
+        "alignmentCheck": "检测“诱导公式六（派/2+α）”的关键依据：sinα=24/25；π/2+α在第二象限，正弦换为cosα且正，余弦换为sinα且负；商得-7/24。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测π/2+α的异名与符号。 对照：cos(π/2+α)=-sinα，负号不能遗漏。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-4-06",
+      "skillId": "full-m1-5-4-06",
+      "familyId": "full-m1-5-4-06",
+      "text": "对锐角α，用“奇变偶不变，符号看象限”化简sin(3π/2-α)、cos(2π-α)、cos(π/2+α)，每项写明是否换名及符号。",
+      "answer": "-cosα（奇数个π/2，换名，第三象限正弦负）；cosα（偶数个π/2，不换名，第四象限余弦正）；-sinα（奇数个π/2，换名，第二象限余弦负）。",
+      "steps": [
+        "3、4、1分别是π/2的倍数，奇数倍换名、偶数倍不换",
+        "将α视为锐角确定三角所在象限",
+        "结合函数符号得到三个式子"
+      ],
+      "alignment": "检测“记忆口诀：奇变偶不变符号看象限”的关键依据：3、4、1分别是π/2的倍数，奇数倍换名、偶数倍不换；将α视为锐角确定三角所在象限；结合函数符号得到三个式子。检测范围以本题检测边界为限。",
+      "contrast": "“奇”指π/2倍数的奇偶，不是原角度数的奇偶。",
+      "assessment": {
+        "objective": "能在本题条件下运用“记忆口诀：奇变偶不变符号看象限”得出答案，并说明依据。",
+        "boundary": "检测口诀的奇偶指代、换名和定号；限正余弦。",
+        "prerequisiteSkills": "诱导公式二（派+α）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0e49ff1300726a773db755f137421601a080e9cbbae0d406978e1386f1107bb5",
+        "answerCheck": "逻辑辅助检查（非自动证明）：口诀三式符号展开。独立解答复审：三角分别在第三、第四、第二象限，π/2倍数3、4、1决定换名与否，最终−cos、cos、−sin正确。",
+        "alignmentCheck": "检测“记忆口诀：奇变偶不变符号看象限”的关键依据：3、4、1分别是π/2的倍数，奇数倍换名、偶数倍不换；将α视为锐角确定三角所在象限；结合函数符号得到三个式子。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测口诀的奇偶指代、换名和定号；限正余弦。 对照：“奇”指π/2倍数的奇偶，不是原角度数的奇偶。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-4-07",
+      "skillId": "full-m1-5-4-07",
+      "familyId": "full-m1-5-4-07",
+      "text": "化简E=[sin(π+α)cos(-α)]/[cos(π-α)sin(2π+α)]，并写原式有定义的条件。",
+      "answer": "E=1；条件sinαcosα≠0，即α≠kπ/2（k∈Z）。",
+      "steps": [
+        "分子化为-sinαcosα",
+        "分母化为(-cosα)sinα，与分子一致",
+        "约分须保证sinα及cosα都非零，原禁值不可删"
+      ],
+      "alignment": "检测“诱导公式综合运用”的关键依据：分子化为-sinαcosα；分母化为(-cosα)sinα，与分子一致；约分须保证sinα及cosα都非零，原禁值不可删。检测范围以本题检测边界为限。",
+      "contrast": "α=0时不能因化简为1而宣称原式有值。",
+      "assessment": {
+        "objective": "能在本题条件下运用“诱导公式综合运用”得出答案，并说明依据。",
+        "boundary": "检测多条诱导公式综合及约分保留禁值。",
+        "prerequisiteSkills": "诱导公式二（派+α）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e7cb8545d97fbbdd3184350caff3ebb2500ac0448be518c207e2a74fd3e35d22",
+        "answerCheck": "逻辑辅助检查（非自动证明）：综合诱导分子分母恒等与禁值样本。独立解答复审：四次诱导后分子分母同为−sinαcosα；禁值是sin或cos为0即kπ/2，不能因约分丢失。",
+        "alignmentCheck": "检测“诱导公式综合运用”的关键依据：分子化为-sinαcosα；分母化为(-cosα)sinα，与分子一致；约分须保证sinα及cosα都非零，原禁值不可删。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测多条诱导公式综合及约分保留禁值。 对照：α=0时不能因化简为1而宣称原式有值。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：三角恒等式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-5-01",
+      "skillId": "full-m1-5-5-01",
+      "familyId": "full-m1-5-5-01",
+      "text": "用五点法描述y=2sin x在[0,2π]上的图像，列出五个关键点并说明各相邻段的升降。",
+      "answer": "(0,0)、(π/2,2)、(π,0)、(3π/2,-2)、(2π,0)；依次升、降、降、升。",
+      "steps": [
+        "选取正弦一个周期的零点及极值点横坐标",
+        "将sin值0、1、0、-1、0乘2",
+        "用平滑曲线依次连接，不能当折线连接"
+      ],
+      "alignment": "检测“正弦函数的图像（五点作图法）”的关键依据：选取正弦一个周期的零点及极值点横坐标；将sin值0、1、0、-1、0乘2；用平滑曲线依次连接，不能当折线连接。检测范围以本题检测边界为限。",
+      "contrast": "五点法不是说两点之间为直线。",
+      "assessment": {
+        "objective": "能在本题条件下运用“正弦函数的图像（五点作图法）”得出答案，并说明依据。",
+        "boundary": "检测正弦五点作图的选点、纵向伸缩和走势；以坐标表达，未检测徒手精度。",
+        "prerequisiteSkills": "任意角三角函数的定义（单位圆法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "dba84c43b7eaec9dc40128ae24eaa087bc404828825fa2c2893175e59a2fc578",
+        "answerCheck": "固定规格计算检查：正弦五点纵坐标。独立解答复审：五点函数值0、2、0、−2、0，分段升降升序列为升降降升；平滑曲线区别折线已说明。",
+        "alignmentCheck": "检测“正弦函数的图像（五点作图法）”的关键依据：选取正弦一个周期的零点及极值点横坐标；将sin值0、1、0、-1、0乘2；用平滑曲线依次连接，不能当折线连接。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正弦五点作图的选点、纵向伸缩和走势；以坐标表达，未检测徒手精度。 对照：五点法不是说两点之间为直线。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-5-02",
+      "skillId": "full-m1-5-5-02",
+      "familyId": "full-m1-5-5-02",
+      "text": "对y=sin x写定义域、值域、奇偶性、最小正周期、全部增减区间以及取最大最小值的x（k∈Z）。",
+      "answer": "定义域R，值域[-1,1]，奇函数，最小正周期2π；增[-π/2+2kπ,π/2+2kπ]，减[π/2+2kπ,3π/2+2kπ]；最大1在π/2+2kπ，最小-1在3π/2+2kπ。",
+      "steps": [
+        "单位圆纵坐标给范围及上下端点",
+        "负角纵坐标取反给奇性",
+        "转一周重复且无更小正周期",
+        "右半圆纵坐标随角增大而升，左半圆下降，周期平移得全体区间"
+      ],
+      "alignment": "检测“正弦函数的性质”的关键依据：单位圆纵坐标给范围及上下端点；负角纵坐标取反给奇性；转一周重复且无更小正周期；右半圆纵坐标随角增大而升，左半圆下降，周期平移得全体区间。检测范围以本题检测边界为限。",
+      "contrast": "sin x不在整个R上递增。",
+      "assessment": {
+        "objective": "能在本题条件下运用“正弦函数的性质”得出答案，并说明依据。",
+        "boundary": "检测正弦定义域、范围、奇偶、周期、单调及最值；对称轴另题检测。",
+        "prerequisiteSkills": "正弦函数的图像（五点作图法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "51828a737f75a35d15b68a84c758ab6d83c0501be45c11feaf67b865d94605f8",
+        "answerCheck": "逻辑辅助检查（非自动证明）：正弦全域性质的符号恒等及关键端点。独立解答复审：sin范围、奇性、2π周期、增减区间及极值相位逐项核对；区间闭端点可用于严格单调而不跨极值。",
+        "alignmentCheck": "检测“正弦函数的性质”的关键依据：单位圆纵坐标给范围及上下端点；负角纵坐标取反给奇性；转一周重复且无更小正周期；右半圆纵坐标随角增大而升，左半圆下降，周期平移得全体区间。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正弦定义域、范围、奇偶、周期、单调及最值；对称轴另题检测。 对照：sin x不在整个R上递增。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-5-03",
+      "skillId": "full-m1-5-5-03",
+      "familyId": "full-m1-5-5-03",
+      "text": "对y=cos x列出[0,2π]五个关键点；写定义域、值域、奇偶性、最小正周期和该周期内最大单调区间。",
+      "answer": "五点(0,1),(π/2,0),(π,-1),(3π/2,0),(2π,1)；定义域R、值域[-1,1]、偶函数、最小正周期2π；[0,π]递减，[π,2π]递增。",
+      "steps": [
+        "单位圆横坐标依次1、0、-1、0、1",
+        "负角横坐标不变故偶性",
+        "一周重复且cosT=1的最小正T为2π",
+        "横坐标在上下半圆的变化给出单调区间"
+      ],
+      "alignment": "检测“余弦函数的图像与性质”的关键依据：单位圆横坐标依次1、0、-1、0、1；负角横坐标不变故偶性；一周重复且cosT=1的最小正T为2π；横坐标在上下半圆的变化给出单调区间。检测范围以本题检测边界为限。",
+      "contrast": "x=0已经是最大点，不能套用正弦从原点起画。",
+      "assessment": {
+        "objective": "能在本题条件下运用“余弦函数的图像与性质”得出答案，并说明依据。",
+        "boundary": "检测余弦图像关键点与基本性质；单调区间仅要求一个周期。",
+        "prerequisiteSkills": "正弦函数的图像（五点作图法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "250e77501ea46022e9925450c824904f01cbe06905602b11275d8cb20b81c829",
+        "answerCheck": "逻辑辅助检查（非自动证明）：余弦五点、偶性与周期。独立解答复审：cos五点1、0、−1、0、1；偶性、全实域、周期及本周期先降后增匹配，边界未冒充全周期区间检测。",
+        "alignmentCheck": "检测“余弦函数的图像与性质”的关键依据：单位圆横坐标依次1、0、-1、0、1；负角横坐标不变故偶性；一周重复且cosT=1的最小正T为2π；横坐标在上下半圆的变化给出单调区间。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测余弦图像关键点与基本性质；单调区间仅要求一个周期。 对照：x=0已经是最大点，不能套用正弦从原点起画。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-5-04",
+      "skillId": "full-m1-5-5-04",
+      "familyId": "full-m1-5-5-04",
+      "text": "对y=tan x写定义域、值域、奇偶性、最小正周期、所有最大单调区间；说明渐近线，并列出(-π/2,π/2)内三个描点坐标。",
+      "answer": "定义域排除π/2+kπ；值域R；奇函数；最小正周期π；每个(-π/2+kπ,π/2+kπ)递增；渐近线x=π/2+kπ；点(-π/4,-1),(0,0),(π/4,1)，k∈Z。",
+      "steps": [
+        "正切为sin/cos，余弦零点须排除",
+        "基准区间上值从负无穷增到正无穷",
+        "加π正弦余弦同时变号而商不变，负角商变号",
+        "整倍π平移基本图像"
+      ],
+      "alignment": "检测“正切函数的图像与性质”的关键依据：正切为sin/cos，余弦零点须排除；基准区间上值从负无穷增到正无穷；加π正弦余弦同时变号而商不变，负角商变号；整倍π平移基本图像。检测范围以本题检测边界为限。",
+      "contrast": "跨渐近线两侧不能断言仍递增。",
+      "assessment": {
+        "objective": "能在本题条件下运用“正切函数的图像与性质”得出答案，并说明依据。",
+        "boundary": "检测正切图像及定义域、范围、奇偶、周期、各支单调；不把全域合成一个增区间。",
+        "prerequisiteSkills": "正弦函数的图像（五点作图法）"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9ad656d597327702eb6967227a9d83747b845b66ba31f9b5377e4e2c9b36641e",
+        "answerCheck": "逻辑辅助检查（非自动证明）：正切基准点、奇性与周期。独立解答复审：正切除cos零点外定义、每支从负无穷增到正无穷，奇性周期π；三描点与渐近线及分支区间一致。",
+        "alignmentCheck": "检测“正切函数的图像与性质”的关键依据：正切为sin/cos，余弦零点须排除；基准区间上值从负无穷增到正无穷；加π正弦余弦同时变号而商不变，负角商变号；整倍π平移基本图像。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正切图像及定义域、范围、奇偶、周期、各支单调；不把全域合成一个增区间。 对照：跨渐近线两侧不能断言仍递增。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-5-05",
+      "skillId": "full-m1-5-5-05",
+      "familyId": "full-m1-5-5-05",
+      "text": "求f(x)=sin(3x-π/4)、g(x)=cos(x/2)、h(x)=tan(2x+1)的最小正周期，并判断2π是否也是f的周期。",
+      "answer": "分别2π/3、4π、π/2；2π也是f的周期，是最小正周期的3倍。",
+      "steps": [
+        "正余弦周期为2π除以|自变量系数|",
+        "正切周期为π除以|系数|",
+        "相位常量不改变周期，f的3倍最小周期仍为周期"
+      ],
+      "alignment": "检测“三角函数的周期性”的关键依据：正余弦周期为2π除以|自变量系数|；正切周期为π除以|系数|；相位常量不改变周期，f的3倍最小周期仍为周期。检测范围以本题检测边界为限。",
+      "contrast": "相位-π/4不应加进周期的分母。",
+      "assessment": {
+        "objective": "能在本题条件下运用“三角函数的周期性”得出答案，并说明依据。",
+        "boundary": "检测三类周期公式与周期/最小周期区分。",
+        "prerequisiteSkills": "正弦函数的性质"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2436665c2b2c6c12b41e705fefe3a18c29808b6ba92859aeca124ce3b56e8afd",
+        "answerCheck": "逻辑辅助检查（非自动证明）：三个周期角度增量。独立解答复审：分别以基本周期除频率3、1/2、2得2π/3、4π、π/2；2π为f最小周期整数3倍，判定正确。",
+        "alignmentCheck": "检测“三角函数的周期性”的关键依据：正余弦周期为2π除以|自变量系数|；正切周期为π除以|系数|；相位常量不改变周期，f的3倍最小周期仍为周期。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测三类周期公式与周期/最小周期区分。 对照：相位-π/4不应加进周期的分母。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-5-06",
+      "skillId": "full-m1-5-5-06",
+      "familyId": "full-m1-5-5-06",
+      "text": "写出y=sin x的全部对称轴与对称中心，并用sin(π/2+t)、sin(π/2-t)和sin(kπ±t)验证。",
+      "answer": "对称轴x=π/2+kπ；对称中心(kπ,0)，k∈Z。",
+      "steps": [
+        "sin(π/2+t)=sin(π/2-t)=cos t，平移kπ后两侧同乘(-1)^k，轴对称成立",
+        "sin(kπ+t)=(-1)^k sin t，sin(kπ-t)=-(-1)^k sin t，纵坐标和为0，中心对称成立",
+        "轴处应为极值点、中心处应为零点，得全部位置"
+      ],
+      "alignment": "检测“三角函数的对称性”的关键依据：sin(π/2+t)=sin(π/2-t)=cos t，平移kπ后两侧同乘(-1)^k，轴对称成立；sin(kπ+t)=(-1)^k sin t，sin(kπ-t)=-(-1)^k sin t，纵坐标和为0，中心对称成立；轴处应为极值点、中心处应为零点，得全部位置。检测范围以本题检测边界为限。",
+      "contrast": "x=kπ一般不是正弦图像对称轴，而是中心的横坐标。",
+      "assessment": {
+        "objective": "能在本题条件下运用“三角函数的对称性”得出答案，并说明依据。",
+        "boundary": "检测正弦轴对称和中心对称，包含公式验证。",
+        "prerequisiteSkills": "正弦函数的性质"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5e4bf63a06d656f352c431091aee0c915065eb10247074b2e23105b387f384eb",
+        "answerCheck": "逻辑辅助检查（非自动证明）：正弦轴对称与中心对称恒等。独立解答复审：两侧和差公式分别证明轴对称与中心对称；更严谨地轴对称要求cos a=0、中心要求sin a=0，可推出全部所列位置。",
+        "alignmentCheck": "检测“三角函数的对称性”的关键依据：sin(π/2+t)=sin(π/2-t)=cos t，平移kπ后两侧同乘(-1)^k，轴对称成立；sin(kπ+t)=(-1)^k sin t，sin(kπ-t)=-(-1)^k sin t，纵坐标和为0，中心对称成立；轴处应为极值点、中心处应为零点，得全部位置。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正弦轴对称和中心对称，包含公式验证。 对照：x=kπ一般不是正弦图像对称轴，而是中心的横坐标。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-6-01",
+      "skillId": "full-m1-5-6-01",
+      "familyId": "full-m1-5-6-01",
+      "text": "α、β均为锐角，sinα=3/5、cosβ=12/13。求cos(α-β)。",
+      "answer": "63/65。",
+      "steps": [
+        "先由锐角条件得cosα=4/5、sinβ=5/13",
+        "差角余弦公式为cosαcosβ+sinαsinβ",
+        "代入得48/65+15/65=63/65"
+      ],
+      "alignment": "检测“两角差的余弦公式”的关键依据：先由锐角条件得cosα=4/5、sinβ=5/13；差角余弦公式为cosαcosβ+sinαsinβ；代入得48/65+15/65=63/65。检测范围以本题检测边界为限。",
+      "contrast": "cos(α-β)通常不等于cosα-cosβ。",
+      "assessment": {
+        "objective": "能在本题条件下运用“两角差的余弦公式”得出答案，并说明依据。",
+        "boundary": "检测两角差余弦的加号与配对乘积。",
+        "prerequisiteSkills": "实数基本运算与数学符号阅读。"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d89042e4cc67d076d241917a08eac4fdd3dc299d51c14f78eb798a37bc7aa822",
+        "answerCheck": "固定规格计算检查：差角余弦及伴随正弦勾股。独立解答复审：补齐4/5、5/13后差角余弦两项48/65与15/65相加为63/65，锐角保证根号符号。",
+        "alignmentCheck": "检测“两角差的余弦公式”的关键依据：先由锐角条件得cosα=4/5、sinβ=5/13；差角余弦公式为cosαcosβ+sinαsinβ；代入得48/65+15/65=63/65。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测两角差余弦的加号与配对乘积。 对照：cos(α-β)通常不等于cosα-cosβ。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：和差角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-6-02",
+      "skillId": "full-m1-5-6-02",
+      "familyId": "full-m1-5-6-02",
+      "text": "α、β均为锐角，cosα=4/5、sinβ=5/13。求cos(α+β)。",
+      "answer": "33/65。",
+      "steps": [
+        "补出sinα=3/5、cosβ=12/13",
+        "和角余弦为cosαcosβ-sinαsinβ",
+        "相减得48/65-15/65=33/65"
+      ],
+      "alignment": "检测“两角和的余弦公式”的关键依据：补出sinα=3/5、cosβ=12/13；和角余弦为cosαcosβ-sinαsinβ；相减得48/65-15/65=33/65。检测范围以本题检测边界为限。",
+      "contrast": "与差角公式相比，第二项符号不同。",
+      "assessment": {
+        "objective": "能在本题条件下运用“两角和的余弦公式”得出答案，并说明依据。",
+        "boundary": "检测两角和余弦的减号；已知角均锐避免开根歧义。",
+        "prerequisiteSkills": "两角差的余弦公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3340b53e3578e0ba822006ec6a9764bbfdac0eb921e01ca2c2a5c6f8743cd9de",
+        "answerCheck": "固定规格计算检查：和角余弦及伴随正弦勾股。独立解答复审：和角第二项为负，48/65−15/65=33/65，补齐三角值及加减号无误。",
+        "alignmentCheck": "检测“两角和的余弦公式”的关键依据：补出sinα=3/5、cosβ=12/13；和角余弦为cosαcosβ-sinαsinβ；相减得48/65-15/65=33/65。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测两角和余弦的减号；已知角均锐避免开根歧义。 对照：与差角公式相比，第二项符号不同。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：和差角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-6-03",
+      "skillId": "full-m1-5-6-03",
+      "familyId": "full-m1-5-6-03",
+      "text": "利用45°与30°的和差，求sin75°及sin15°。",
+      "answer": "(√6+√2)/4；(√6-√2)/4。",
+      "steps": [
+        "sin(45°±30°)=sin45°cos30°±cos45°sin30°",
+        "代入√2/2、√3/2及1/2",
+        "两乘积分别√6/4与√2/4，按号相加减"
+      ],
+      "alignment": "检测“两角和与差的正弦公式”的关键依据：sin(45°±30°)=sin45°cos30°±cos45°sin30°；代入√2/2、√3/2及1/2；两乘积分别√6/4与√2/4，按号相加减。检测范围以本题检测边界为限。",
+      "contrast": "sin(45°+30°)不等于sin45°+sin30°。",
+      "assessment": {
+        "objective": "能在本题条件下运用“两角和与差的正弦公式”得出答案，并说明依据。",
+        "boundary": "检测正弦和角及差角两公式。",
+        "prerequisiteSkills": "两角和的余弦公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4da343baad6dc78f0193d70513abe85e060878e8fdcc4e71bb0d7466387c61fd",
+        "answerCheck": "固定规格计算检查：两个正弦特殊值精确化简。独立解答复审：sin(45±30)两乘积分别√6/4、√2/4，和差得指定根式，涵盖两公式。",
+        "alignmentCheck": "检测“两角和与差的正弦公式”的关键依据：sin(45°±30°)=sin45°cos30°±cos45°sin30°；代入√2/2、√3/2及1/2；两乘积分别√6/4与√2/4，按号相加减。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正弦和角及差角两公式。 对照：sin(45°+30°)不等于sin45°+sin30°。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：和差角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-6-04",
+      "skillId": "full-m1-5-6-04",
+      "familyId": "full-m1-5-6-04",
+      "text": "用正切和差公式求tan75°、tan15°，并检验公式分母是否为0。",
+      "answer": "2+√3；2-√3；分母1-1/√3和1+1/√3均非0。",
+      "steps": [
+        "写成45°±30°",
+        "tan和差公式为(1±1/√3)/(1∓1/√3)",
+        "分别有理化得2±√3，且√3>1保证分母非零"
+      ],
+      "alignment": "检测“两角和与差的正切公式”的关键依据：写成45°±30°；tan和差公式为(1±1/√3)/(1∓1/√3)；分别有理化得2±√3，且√3>1保证分母非零。检测范围以本题检测边界为限。",
+      "contrast": "若两角和为90°，分母可为0，结果无定义。",
+      "assessment": {
+        "objective": "能在本题条件下运用“两角和与差的正切公式”得出答案，并说明依据。",
+        "boundary": "检测正切和差公式及分母限制。",
+        "prerequisiteSkills": "两角和与差的正弦公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a73758922693b2fabf57aa44d6eedcbf9b64258ff258f97eb565fbf8321f01a9",
+        "answerCheck": "固定规格计算检查：正切和差值与分母非零。独立解答复审：正切和差分母1∓1/√3均正非0，有理化得2±√3，逆乘积1可作再检。",
+        "alignmentCheck": "检测“两角和与差的正切公式”的关键依据：写成45°±30°；tan和差公式为(1±1/√3)/(1∓1/√3)；分别有理化得2±√3，且√3>1保证分母非零。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正切和差公式及分母限制。 对照：若两角和为90°，分母可为0，结果无定义。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：和差角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-6-05",
+      "skillId": "full-m1-5-6-05",
+      "familyId": "full-m1-5-6-05",
+      "text": "把√3 sin x+cos x写成R sin(x+φ)，要求R>0、0<φ<π/2；求最大值与取得最大值的x。",
+      "answer": "2sin(x+π/6)；最大值2；x=π/3+2kπ，k∈Z。",
+      "steps": [
+        "设Rcosφ=√3、Rsinφ=1，平方相加得R=2",
+        "锐角条件给φ=π/6",
+        "sin(x+π/6)=1时x+π/6=π/2+2kπ"
+      ],
+      "alignment": "检测“辅助角公式 asinx+bcosx”的关键依据：设Rcosφ=√3、Rsinφ=1，平方相加得R=2；锐角条件给φ=π/6；sin(x+π/6)=1时x+π/6=π/2+2kπ。检测范围以本题检测边界为限。",
+      "contrast": "辅助角不能只凭交换系数猜成π/3。",
+      "assessment": {
+        "objective": "能在本题条件下运用“辅助角公式 asinx+bcosx”得出答案，并说明依据。",
+        "boundary": "检测辅助角构造、系数匹配与最值相位恢复。",
+        "prerequisiteSkills": "两角和与差的正弦公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f473e1aad1a8e70068e089f30569573f5b96c2a722a46e236f5f77883b0db39d",
+        "answerCheck": "固定规格计算检查：辅助角展开及极大值代入。独立解答复审：R平方为3+1=4，cosφ=√3/2、sinφ=1/2取π/6；最大相位解x=π/3+2kπ正确。",
+        "alignmentCheck": "检测“辅助角公式 asinx+bcosx”的关键依据：设Rcosφ=√3、Rsinφ=1，平方相加得R=2；锐角条件给φ=π/6；sin(x+π/6)=1时x+π/6=π/2+2kπ。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测辅助角构造、系数匹配与最值相位恢复。 对照：辅助角不能只凭交换系数猜成π/3。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：和差角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-7-01",
+      "skillId": "full-m1-5-7-01",
+      "familyId": "full-m1-5-7-01",
+      "text": "已知π/2<α<π且sinα=5/13，求sin2α，并用象限说明结果符号是否合理。",
+      "answer": "sin2α=-120/169；合理，π<2α<2π，正弦为负。",
+      "steps": [
+        "由平方关系及第二象限得cosα=-12/13",
+        "二倍角公式sin2α=2sinαcosα",
+        "代入得2·5/13·(-12/13)=-120/169"
+      ],
+      "alignment": "检测“二倍角的正弦公式”的关键依据：由平方关系及第二象限得cosα=-12/13；二倍角公式sin2α=2sinαcosα；代入得2·5/13·(-12/13)=-120/169。检测范围以本题检测边界为限。",
+      "contrast": "sin2α不是2sinα；漏掉cosα会误得10/13且符号为正，与正确的-120/169不符。",
+      "assessment": {
+        "objective": "能在本题条件下运用“二倍角的正弦公式”得出答案，并说明依据。",
+        "boundary": "检测正弦二倍角及原角象限的符号约束。",
+        "prerequisiteSkills": "两角和与差的正弦公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b35237c4072bf412c8937bc98c4cf25697982f07fb57ced86460519f6ce73fe7",
+        "answerCheck": "固定规格计算检查：二倍角精确值及平方和。独立解答复审：限定π/2<α<π后cos=−12/13且2α在(π,2π)，乘积−120/169为负；复核发现对照误称10/13超范围，最终已改为明确10/13的错误值及符号，现行内容核对通过。",
+        "alignmentCheck": "检测“二倍角的正弦公式”的关键依据：由平方关系及第二象限得cosα=-12/13；二倍角公式sin2α=2sinαcosα；代入得2·5/13·(-12/13)=-120/169。检测范围以本题检测边界为限。",
+        "bypassCheck": "检测正弦二倍角及原角象限的符号约束。 对照：sin2α不是2sinα；漏掉cosα会误得10/13且符号为正，与正确的-120/169不符。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：倍角与半角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-7-02",
+      "skillId": "full-m1-5-7-02",
+      "familyId": "full-m1-5-7-02",
+      "text": "已知 sinα=3/5，分别用两种二倍角余弦公式求 cos2α，说明是否需要知道α的象限。",
+      "answer": "cos2α=7/25；不需要。",
+      "steps": [
+        "由 cos2α=1−2sin²α 得 1−18/25=7/25。",
+        "又 cos²α=16/25，故 cos²α−sin²α=7/25；两式均只含平方。"
+      ],
+      "alignment": "会选用二倍角余弦公式并识别其等价形式；解答中由 cos2α=1−2sin²α 得 1−18/25=7/25。是本题的直接检测证据。",
+      "contrast": "若问 cosα 则有 ±4/5，象限信息就有必要。",
+      "assessment": {
+        "objective": "会选用二倍角余弦公式并识别其等价形式",
+        "boundary": "检测已知正弦求二倍角余弦；不覆盖含参方程",
+        "prerequisiteSkills": "同角平方关系、分数运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "cb1543a17c06dd438de975d3787a5e289dbb06147e8bf04c4a984f8a37d45afc",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号0。独立解答复审：两条公式均化为1-18/25=7/25；平方消除象限符号，题设不需补象限。",
+        "alignmentCheck": "会选用二倍角余弦公式并识别其等价形式；解答中由 cos2α=1−2sin²α 得 1−18/25=7/25。是本题的直接检测证据。",
+        "bypassCheck": "检测已知正弦求二倍角余弦；不覆盖含参方程 对照：若问 cosα 则有 ±4/5，象限信息就有必要。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：倍角与半角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-7-03",
+      "skillId": "full-m1-5-7-03",
+      "familyId": "full-m1-5-7-03",
+      "text": "已知 tanα=1/2，求 tan2α；若 tanβ=1，tan2β 是否存在？",
+      "answer": "tan2α=4/3；tan2β 不存在。",
+      "steps": [
+        "用 tan2α=2tanα/(1−tan²α)=1/(3/4)=4/3。",
+        "tanβ=1 时 β=π/4+kπ，2β=π/2+2kπ，余弦为0，正切无定义。"
+      ],
+      "alignment": "应用二倍角正切公式并检查分母限制；解答中用 tan2α=2tanα/(1−tan²α)=1/(3/4)=4/3。是本题的直接检测证据。",
+      "contrast": "把 tanα 改为2，答案为−4/3。",
+      "assessment": {
+        "objective": "应用二倍角正切公式并检查分母限制",
+        "boundary": "检测有定义与分母为零的对照；不覆盖复杂三角方程",
+        "prerequisiteSkills": "正切定义、分式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "10525539e194a7c63b836292127e4dce7dd48da41db9b16e769a2e1a98b9fb34",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号1。独立解答复审：2t/(1-t²)在t=1/2为4/3；t=1对应二倍角余弦0，确实无定义。",
+        "alignmentCheck": "应用二倍角正切公式并检查分母限制；解答中用 tan2α=2tanα/(1−tan²α)=1/(3/4)=4/3。是本题的直接检测证据。",
+        "bypassCheck": "检测有定义与分母为零的对照；不覆盖复杂三角方程 对照：把 tanα 改为2，答案为−4/3。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：倍角与半角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-7-04",
+      "skillId": "full-m1-5-7-04",
+      "familyId": "full-m1-5-7-04",
+      "text": "把 cos²x 写成含 cos2x 的式子；把 1−cos2x 写成正弦的平方；计算 sin²15°+cos²15°cos30°。",
+      "answer": "cos²x=(1+cos2x)/2；1−cos2x=2sin²x；原式=7/8。",
+      "steps": [
+        "由 cos2x=2cos²x−1 解出降幂式，并由 cos2x=1−2sin²x 得升幂式。",
+        "sin²15°=(2−√3)/4，cos²15°=(2+√3)/4。",
+        "代入 cos30°=√3/2，合并得(4−2√3+2√3+3)/8=7/8。"
+      ],
+      "alignment": "双向使用降幂和升幂关系；解答中由 cos2x=2cos²x−1 解出降幂式，并由 cos2x=1−2sin²x 得升幂式。是本题的直接检测证据。",
+      "contrast": "将末项换成 cos²15°cos60°，结果为(6−√3)/8。",
+      "assessment": {
+        "objective": "双向使用降幂和升幂关系",
+        "boundary": "检测平方与二倍角间转换，不覆盖高次幂的系统降幂",
+        "prerequisiteSkills": "二倍角余弦、特殊角值"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "834d5acd96d5b43afa5380eeb7fb790ab336952177c069cf313642b2150ec866",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号2。独立解答复审：代入15度平方值独立合并得(4-2√3+2√3+3)/8=7/8，两方向变形均正确。",
+        "alignmentCheck": "双向使用降幂和升幂关系；解答中由 cos2x=2cos²x−1 解出降幂式，并由 cos2x=1−2sin²x 得升幂式。是本题的直接检测证据。",
+        "bypassCheck": "检测平方与二倍角间转换，不覆盖高次幂的系统降幂 对照：将末项换成 cos²15°cos60°，结果为(6−√3)/8。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：倍角与半角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-7-05",
+      "skillId": "full-m1-5-7-05",
+      "familyId": "full-m1-5-7-05",
+      "text": "已知 π<α<3π/2 且 cosα=−3/5，求 sin(α/2)、cos(α/2)、tan(α/2)。",
+      "answer": "sin(α/2)=2√5/5，cos(α/2)=−√5/5，tan(α/2)=−2。",
+      "steps": [
+        "α/2∈(π/2,3π/4)，正弦为正、余弦为负。",
+        "半角平方分别为(1+3/5)/2=4/5及(1−3/5)/2=1/5。",
+        "取正确符号后相除得−2。"
+      ],
+      "alignment": "利用半角公式并由半角象限确定根号前符号；解答中α/2∈(π/2,3π/4)，正弦为正、余弦为负。是本题的直接检测证据。",
+      "contrast": "若0<α<π且cosα=−3/5，半角余弦改为正，正切为2。",
+      "assessment": {
+        "objective": "利用半角公式并由半角象限确定根号前符号",
+        "boundary": "检测三种半角值；不覆盖半角恒等变形的多种路径",
+        "prerequisiteSkills": "象限、平方根"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4da50cf937c24b074981742da8ed9eb8bf8ac1ac64a98d4749975c55c0f963e5",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号3。独立解答复审：α/2位于第二象限；平方值4/5和1/5分别取正、负根，商为-2。",
+        "alignmentCheck": "利用半角公式并由半角象限确定根号前符号；解答中α/2∈(π/2,3π/4)，正弦为正、余弦为负。是本题的直接检测证据。",
+        "bypassCheck": "检测三种半角值；不覆盖半角恒等变形的多种路径 对照：若0<α<π且cosα=−3/5，半角余弦改为正，正切为2。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：倍角与半角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-7-06",
+      "skillId": "full-m1-5-7-06",
+      "familyId": "full-m1-5-7-06",
+      "text": "分别计算 2sin75°cos15° 与 sin75°+sin15°，并写出所用的积化和差、和差化积步骤。",
+      "answer": "1+√3/2；√6/2。",
+      "steps": [
+        "2sin75°cos15°=sin90°+sin60°=1+√3/2。",
+        "sin75°+sin15°=2sin45°cos30°=√6/2。"
+      ],
+      "alignment": "分别实施积化和差与和差化积；解答中2sin75°cos15°=sin90°+sin60°=1+√3/2。是本题的直接检测证据。",
+      "contrast": "2cos75°cos15°=cos90°+cos60°=1/2。",
+      "assessment": {
+        "objective": "分别实施积化和差与和差化积",
+        "boundary": "各检测一个正弦型恒等式，不代表覆盖四类全部公式",
+        "prerequisiteSkills": "和差角公式、特殊角"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2da4be1d28322569450faebf17f3637aadada0f721d457e6fb9dce51c3847915",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号4。独立解答复审：积化和差为sin90+sin60；和差化积为2sin45cos30，两值吻合。",
+        "alignmentCheck": "分别实施积化和差与和差化积；解答中2sin75°cos15°=sin90°+sin60°=1+√3/2。是本题的直接检测证据。",
+        "bypassCheck": "各检测一个正弦型恒等式，不代表覆盖四类全部公式 对照：2cos75°cos15°=cos90°+cos60°=1/2。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：倍角与半角公式",
+            "url": "https://openstax.org/books/precalculus-2e/pages/a-basic-functions-and-identities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m1-5-8-01",
+      "skillId": "full-m1-5-8-01",
+      "familyId": "full-m1-5-8-01",
+      "text": "将 y=sin(2x) 的图像平移得到 y=sin(2x−π/3)，最少向左或向右平移多少？",
+      "answer": "最少向右平移 π/6。",
+      "steps": [
+        "sin(2x−π/3)=sin[2(x−π/6)]。",
+        "自变量替换为x−π/6表示右移π/6；周期为π，其他平移量可相差整数个π。"
+      ],
+      "alignment": "从相位变化求实际水平位移；解答中sin(2x−π/3)=sin[2(x−π/6)]。是本题的直接检测证据。",
+      "contrast": "若误右移π/3会得到sin(2x−2π/3)。",
+      "assessment": {
+        "objective": "从相位变化求实际水平位移",
+        "boundary": "固定角频率2，检测最短平移；不覆盖多次复合变换",
+        "prerequisiteSkills": "函数平移规则"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b291211e0f666773fe9e414678613005d72fe962980d020fd552d85960ce3082",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号5。独立解答复审：相位差-π/3除以角频率2得右移π/6；周期π，确为绝对值最小位移。",
+        "alignmentCheck": "从相位变化求实际水平位移；解答中sin(2x−π/3)=sin[2(x−π/6)]。是本题的直接检测证据。",
+        "bypassCheck": "固定角频率2，检测最短平移；不覆盖多次复合变换 对照：若误右移π/3会得到sin(2x−2π/3)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-8-02",
+      "skillId": "full-m1-5-8-02",
+      "familyId": "full-m1-5-8-02",
+      "text": "从 y=sin x 得到 y=sin3x，横坐标如何变化？求新周期及[0,2π]内完整周期数。",
+      "answer": "横坐标变为原来的1/3；周期2π/3；3个周期。",
+      "steps": [
+        "点(t,sin t)变为(t/3,sin t)。",
+        "T=2π/3；2π÷T=3。"
+      ],
+      "alignment": "把角频率与横向伸缩、周期联系起来；解答中点(t,sin t)变为(t/3,sin t)。是本题的直接检测证据。",
+      "contrast": "若y=sin(x/3)，横向伸长3倍，周期6π。",
+      "assessment": {
+        "objective": "把角频率与横向伸缩、周期联系起来",
+        "boundary": "只检测无相位的正频率变换",
+        "prerequisiteSkills": "正弦基本周期"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fb2e919c43724b3e9d955cf9276d0cee281a95c18f7a3762e20ed6dc62ea6a22",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号6。独立解答复审：横坐标缩至1/3，周期2π/3，在长度2π内有3周期。",
+        "alignmentCheck": "把角频率与横向伸缩、周期联系起来；解答中点(t,sin t)变为(t/3,sin t)。是本题的直接检测证据。",
+        "bypassCheck": "只检测无相位的正频率变换 对照：若y=sin(x/3)，横向伸长3倍，周期6π。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-8-03",
+      "skillId": "full-m1-5-8-03",
+      "familyId": "full-m1-5-8-03",
+      "text": "由 y=sin2x 得到 y=−3sin2x，说明点的变化，求振幅和值域。",
+      "answer": "(x,y)变为(x,−3y)；振幅3；值域[−3,3]。",
+      "steps": [
+        "纵坐标乘−3，先关于x轴反射再伸长3倍。",
+        "振幅为系数绝对值3；由−1≤sin2x≤1得值域。"
+      ],
+      "alignment": "区分振幅大小与负系数的反射作用；解答中纵坐标乘−3，先关于x轴反射再伸长3倍。是本题的直接检测证据。",
+      "contrast": "−3不是振幅；若加2则值域变为[−1,5]。",
+      "assessment": {
+        "objective": "区分振幅大小与负系数的反射作用",
+        "boundary": "检测振幅和纵向变化；不涉及竖直位移",
+        "prerequisiteSkills": "正弦值域、绝对值"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4002d84cb434b3e9349d091156b499da650d2918eaffd84cb3ecec7be4f01e7c",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号7。独立解答复审：纵坐标乘-3含反射，振幅应取绝对值3，范围[-3,3]。",
+        "alignmentCheck": "区分振幅大小与负系数的反射作用；解答中纵坐标乘−3，先关于x轴反射再伸长3倍。是本题的直接检测证据。",
+        "bypassCheck": "检测振幅和纵向变化；不涉及竖直位移 对照：−3不是振幅；若加2则值域变为[−1,5]。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-8-04",
+      "skillId": "full-m1-5-8-04",
+      "familyId": "full-m1-5-8-04",
+      "text": "从y=sin x出发：甲先左移π/4再把横坐标缩为1/2；乙先缩为1/2再左移π/4。写出两结果，比较是否相同。",
+      "answer": "甲 sin(2x+π/4)；乙 sin(2x+π/2)；不相同。",
+      "steps": [
+        "甲先得sin(x+π/4)，再替换x为2x得sin(2x+π/4)。",
+        "乙先得sin2x，再替换x为x+π/4得sin(2x+π/2)。",
+        "x=0时分别√2/2和1。"
+      ],
+      "alignment": "按顺序正确复合平移与伸缩；解答中甲先得sin(x+π/4)，再替换x为2x得sin(2x+π/4)。是本题的直接检测证据。",
+      "contrast": "甲最终相对sin2x左移π/8；乙左移π/4。",
+      "assessment": {
+        "objective": "按顺序正确复合平移与伸缩",
+        "boundary": "只检测两种指定顺序的区别",
+        "prerequisiteSkills": "函数自变量替换"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0223d2e3334d776eef83bbdf1e9eeec76f954a8abee4cb225a70992d21efc66d",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号8。独立解答复审：分别将x替换2x及x+π/4，两组合所得相位π/4、π/2不同，x=0可区分。",
+        "alignmentCheck": "按顺序正确复合平移与伸缩；解答中甲先得sin(x+π/4)，再替换x为2x得sin(2x+π/4)。是本题的直接检测证据。",
+        "bypassCheck": "只检测两种指定顺序的区别 对照：甲最终相对sin2x左移π/8；乙左移π/4。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-8-05",
+      "skillId": "full-m1-5-8-05",
+      "familyId": "full-m1-5-8-05",
+      "text": "某图像形如y=A sin(ωx+φ)，A>0、ω>0、−π<φ≤π，中线y=0，最大值3。相邻两个最高点横坐标为π/6、7π/6。求解析式。",
+      "answer": "y=3sin(2x+π/6)。",
+      "steps": [
+        "振幅A=3；相邻最高点距离π，故T=π，ω=2。",
+        "2·π/6+φ=π/2+2kπ，得φ=π/6+2kπ。",
+        "相位区间限定φ=π/6。"
+      ],
+      "alignment": "从峰高、峰间距、峰位置提取三个参数；解答中振幅A=3；相邻最高点距离π，故T=π，ω=2。是本题的直接检测证据。",
+      "contrast": "若两峰不保证相邻，频率不唯一。",
+      "assessment": {
+        "objective": "从峰高、峰间距、峰位置提取三个参数",
+        "boundary": "用文字给定准确图像特征；不检测读图测量误差",
+        "prerequisiteSkills": "周期公式、正弦最高点"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ef03ed156ff751a9db8dd5ed05852bc6af4f35581106e5c314b3d32e456ec718",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号9。独立解答复审：相邻最高点距离π确定ω=2；在π/6处峰值要求φ=π/6，限定区间给唯一值。",
+        "alignmentCheck": "从峰高、峰间距、峰位置提取三个参数；解答中振幅A=3；相邻最高点距离π，故T=π，ω=2。是本题的直接检测证据。",
+        "bypassCheck": "用文字给定准确图像特征；不检测读图测量误差 对照：若两峰不保证相邻，频率不唯一。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-8-06",
+      "skillId": "full-m1-5-8-06",
+      "familyId": "full-m1-5-8-06",
+      "text": "位移s(t)=4sin(5πt+π/3)厘米，t单位秒。写出振幅、周期、频率、t时相位、初相及t=1/15时相位。",
+      "answer": "4厘米；2/5秒；5/2赫兹；5πt+π/3；π/3；2π/3。",
+      "steps": [
+        "振幅|4|=4，角频率ω=5π。",
+        "T=2π/ω=2/5，频率1/T=5/2。",
+        "相位为括号整体，令t=0得初相π/3，令t=1/15得2π/3。"
+      ],
+      "alignment": "区分振幅、周期、频率、相位和初相；解答中振幅|4|=4，角频率ω=5π。是本题的直接检测证据。",
+      "contrast": "角频率5π与频率5/2不同，单位也不同。",
+      "assessment": {
+        "objective": "区分振幅、周期、频率、相位和初相",
+        "boundary": "仅对给定标准简谐表达式识别参数",
+        "prerequisiteSkills": "单位、周期公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "792e564d24de0a35cf30fae5f326a93ee7c236d34d014ec16c76426871ba7b2c",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号10。独立解答复审：ω=5π给T=2/5、f=5/2，代t=1/15相位确为2π/3。",
+        "alignmentCheck": "区分振幅、周期、频率、相位和初相；解答中振幅|4|=4，角频率ω=5π。是本题的直接检测证据。",
+        "bypassCheck": "仅对给定标准简谐表达式识别参数 对照：角频率5π与频率5/2不同，单位也不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-8-07",
+      "skillId": "full-m1-5-8-07",
+      "familyId": "full-m1-5-8-07",
+      "text": "一质点作简谐运动，振幅5厘米，周期4秒，t=0经过平衡点且向正方向运动。建立s(t)=A sin(ωt+φ)，求t=1秒位移。",
+      "answer": "s(t)=5sin(πt/2)厘米；s(1)=5厘米。",
+      "steps": [
+        "取A=5，ω=2π/4=π/2。",
+        "初始位移0且向正方向，取初相0。",
+        "代入t=1得到5sin(π/2)=5。"
+      ],
+      "alignment": "根据振幅、周期、初始运动方向建模；解答中取A=5，ω=2π/4=π/2。是本题的直接检测证据。",
+      "contrast": "若初始向负方向，模型可写−5sin(πt/2)。",
+      "assessment": {
+        "objective": "根据振幅、周期、初始运动方向建模",
+        "boundary": "理想简谐模型；不检测阻尼和受迫振动",
+        "prerequisiteSkills": "正弦图像、周期"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "05e1cc2463e2ee24f57c73c395286298ca1f8167c4a939f913c94a3bd31b87cc",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号11。独立解答复审：周期4给ω=π/2；初始过零且向正排除初相π，t=1为正峰5。",
+        "alignmentCheck": "根据振幅、周期、初始运动方向建模；解答中取A=5，ω=2π/4=π/2。是本题的直接检测证据。",
+        "bypassCheck": "理想简谐模型；不检测阻尼和受迫振动 对照：若初始向负方向，模型可写−5sin(πt/2)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-9-01",
+      "skillId": "full-m1-5-9-01",
+      "familyId": "full-m1-5-9-01",
+      "text": "半径2米的圆轮中心离地3米，座舱t=0在最低点，匀速6秒转一圈。求高度h(t)及t=2秒高度。",
+      "answer": "h(t)=3−2cos(πt/3)米；h(2)=4米。",
+      "steps": [
+        "以中心为中线3，振幅2，角速度2π/6=π/3。",
+        "初始最低点用负余弦，h=3−2cos(πt/3)。",
+        "h(2)=3−2(−1/2)=4。"
+      ],
+      "alignment": "将匀速圆周运动的竖直投影转为三角模型；解答中以中心为中线3，振幅2，角速度2π/6=π/3。是本题的直接检测证据。",
+      "contrast": "若起点最高，负余弦改正余弦。",
+      "assessment": {
+        "objective": "将匀速圆周运动的竖直投影转为三角模型",
+        "boundary": "只测高度，不测二维轨迹、变速旋转",
+        "prerequisiteSkills": "圆周周期、余弦"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "db9844b865fec51cef4572b18bc6dcf4ba80f8df985562bfad247ad0acb9f83a",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号12。独立解答复审：初始最低值1、中心3、半径2，负余弦式满足周期6；t=2为4。",
+        "alignmentCheck": "将匀速圆周运动的竖直投影转为三角模型；解答中以中心为中线3，振幅2，角速度2π/6=π/3。是本题的直接检测证据。",
+        "bypassCheck": "只测高度，不测二维轨迹、变速旋转 对照：若起点最高，负余弦改正余弦。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m1-5-9-02",
+      "skillId": "full-m1-5-9-02",
+      "familyId": "full-m1-5-9-02",
+      "text": "用理想周期模型：①潮位t=0最高8米、6小时后最低2米；②日温t=0最低10℃、12小时最高26℃；③交流电i(t)=6sin(100πt)安培。求前两模型（取最小正周期分别12、24小时），以及电流频率和峰值。",
+      "answer": "潮位5+3cos(πt/6)；温度18−8cos(πt/12)；电流50赫兹、峰值6安培。",
+      "steps": [
+        "潮位中线(8+2)/2=5、振幅3、ω=π/6，初始取正余弦。",
+        "温度中线18、振幅8、ω=π/12，初始取负余弦。",
+        "电流ω=100π，f=ω/(2π)=50，峰值6。"
+      ],
+      "alignment": "把潮汐、温度和交流电三个情境对应到周期参数；解答中潮位中线(8+2)/2=5、振幅3、ω=π/6，初始取正余弦。是本题的直接检测证据。",
+      "contrast": "仅知道最高最低时刻而不约定最小周期，可能有更高频模型。",
+      "assessment": {
+        "objective": "把潮汐、温度和交流电三个情境对应到周期参数",
+        "boundary": "题中数据为理想化假设；不声称真实潮汐、气温严格正弦",
+        "prerequisiteSkills": "振幅、中线、频率"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "34e6df791fcae4b1b4988c8d64f565f775a49d8a162287049939c4f2e87bbdd7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号13。独立解答复审：分别用最高最低均值和半差得到5±3、18±8；交流频率100π/(2π)=50。",
+        "alignmentCheck": "把潮汐、温度和交流电三个情境对应到周期参数；解答中潮位中线(8+2)/2=5、振幅3、ω=π/6，初始取正余弦。是本题的直接检测证据。",
+        "bypassCheck": "题中数据为理想化假设；不声称真实潮汐、气温严格正弦 对照：仅知道最高最低时刻而不约定最小周期，可能有更高频模型。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-6-1-01",
+      "skillId": "full-m2-6-1-01",
+      "familyId": "full-m2-6-1-01",
+      "text": "甲位移向东3米，乙位移向西3米，丙路程3米。哪些是向量？甲乙相等吗？说明依据。",
+      "answer": "甲、乙是向量；路程是标量；甲乙不相等。",
+      "steps": [
+        "位移同时含大小和方向，路程只给长度。",
+        "甲乙大小同为3但方向相反，因此不相等。"
+      ],
+      "alignment": "识别大小和方向共同确定向量；解答中位移同时含大小和方向，路程只给长度。是本题的直接检测证据。",
+      "contrast": "向东3米和另一位置向东3米可表示相等的自由向量。",
+      "assessment": {
+        "objective": "识别大小和方向共同确定向量",
+        "boundary": "只检测位移与路程的概念区分",
+        "prerequisiteSkills": "长度与方向"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6d4aff3d9ed10b9ab1ba278379d6aabd02b2b38b465b5ea07da5747c33924db6",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：位移含方向、路程为标量；东西相反所以同模不相等。",
+        "alignmentCheck": "识别大小和方向共同确定向量；解答中位移同时含大小和方向，路程只给长度。是本题的直接检测证据。",
+        "bypassCheck": "只检测位移与路程的概念区分 对照：向东3米和另一位置向东3米可表示相等的自由向量。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-1-02",
+      "skillId": "full-m2-6-1-02",
+      "familyId": "full-m2-6-1-02",
+      "text": "点A(1,2)、B(4,6)。用有向线段记号、坐标和长度分别表示从A到B的向量；BA是否同一向量？",
+      "answer": "AB（上加箭头）=(3,4)，|AB|=5；BA=(−3,−4)，不是同一向量。",
+      "steps": [
+        "从起点A指向终点B记为向量AB。",
+        "终点减起点得(3,4)，长度√(9+16)=5。",
+        "交换端点得到相反向量。"
+      ],
+      "alignment": "区分向量记号、坐标表示和模的标量表示；解答中从起点A指向终点B记为向量AB。是本题的直接检测证据。",
+      "contrast": "AB的模与BA的模相同，向量本身相反。",
+      "assessment": {
+        "objective": "区分向量记号、坐标表示和模的标量表示",
+        "boundary": "以二维坐标辅助表示，不测复杂作图",
+        "prerequisiteSkills": "坐标相减、勾股定理"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "17221b97f17e19d8c22449d84dbc46aff68f85b12c55499bf99c0783b34d6644",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号15。独立解答复审：终点减起点为(3,4)，反序为(-3,-4)，模5，与记号对应。",
+        "alignmentCheck": "区分向量记号、坐标表示和模的标量表示；解答中从起点A指向终点B记为向量AB。是本题的直接检测证据。",
+        "bypassCheck": "以二维坐标辅助表示，不测复杂作图 对照：AB的模与BA的模相同，向量本身相反。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-1-03",
+      "skillId": "full-m2-6-1-03",
+      "familyId": "full-m2-6-1-03",
+      "text": "向量a=(−6,8)，b=−a。求|a|、|b|、|a+b|，并判断|a+b|是否一定等于|a|+|b|。",
+      "answer": "10，10，0；不一定相等。",
+      "steps": [
+        "模是长度，|a|=√(36+64)=10，反向不改长度。",
+        "a+b=0，模0；两模和20，构成反例。"
+      ],
+      "alignment": "理解向量模为非负长度且不同于向量本身；解答中模是长度，|a|=√(36+64)=10，反向不改长度。是本题的直接检测证据。",
+      "contrast": "同向的a与2a满足|a+2a|=|a|+|2a|。",
+      "assessment": {
+        "objective": "理解向量模为非负长度且不同于向量本身",
+        "boundary": "检测模和反向向量；不证明一般三角不等式",
+        "prerequisiteSkills": "勾股定理、向量加法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b81ad1b8d0e01b04bc51590eaf68852ee860b4b830f06be565c8bf41211f11ff",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号16。独立解答复审：相反向量各模10但和0，提供不等于模之和的有效反例。",
+        "alignmentCheck": "理解向量模为非负长度且不同于向量本身；解答中模是长度，|a|=√(36+64)=10，反向不改长度。是本题的直接检测证据。",
+        "bypassCheck": "检测模和反向向量；不证明一般三角不等式 对照：同向的a与2a满足|a+2a|=|a|+|2a|。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-1-04",
+      "skillId": "full-m2-6-1-04",
+      "familyId": "full-m2-6-1-04",
+      "text": "a=(3,4)。求与a同向、反向的单位向量，并说明零向量能否通过除以自身模变成单位向量。",
+      "answer": "同向(3/5,4/5)，反向(−3/5,−4/5)；零向量不能。",
+      "steps": [
+        "|a|=5，同向单位向量a/5，反向取负。",
+        "二者模为1；零向量模0，不能作除数，也没有唯一确定方向。"
+      ],
+      "alignment": "构造单位向量并识别零向量限制；解答中|a|=5，同向单位向量a/5，反向取负。是本题的直接检测证据。",
+      "contrast": "(6/5,8/5)同向但模2，不是单位向量。",
+      "assessment": {
+        "objective": "构造单位向量并识别零向量限制",
+        "boundary": "二维非零向量标准化；不测一般向量空间",
+        "prerequisiteSkills": "模、分数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bdedc53e9dc51650899d1a28bb53688098c968654785fff5f78c2fd9e5206d3a",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号17。独立解答复审：单位化除以5得到正反单位向量；零模不能作除数且方向不确定。",
+        "alignmentCheck": "构造单位向量并识别零向量限制；解答中|a|=5，同向单位向量a/5，反向取负。是本题的直接检测证据。",
+        "bypassCheck": "二维非零向量标准化；不测一般向量空间 对照：(6/5,8/5)同向但模2，不是单位向量。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-1-05",
+      "skillId": "full-m2-6-1-05",
+      "familyId": "full-m2-6-1-05",
+      "text": "a=(2,−1)，b=(−4,2)，c=(2,−1)，o=(0,0)。判断b、c、o与a是否平行、是否相等，约定零向量与任意向量平行。",
+      "answer": "b平行不相等；c平行且相等；o平行不相等。",
+      "steps": [
+        "b=−2a，因此共线但反向且长度不同。",
+        "c=a；o按约定平行，而o≠a。"
+      ],
+      "alignment": "区分平行、同向及相等，并处理零向量约定；解答中b=−2a，因此共线但反向且长度不同。是本题的直接检测证据。",
+      "contrast": "平行不意味着相等，b提供反例。",
+      "assessment": {
+        "objective": "区分平行、同向及相等，并处理零向量约定",
+        "boundary": "只检测给定向量判断",
+        "prerequisiteSkills": "数乘、坐标相等"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "90d7bbc70b627c1fd54c951df13f4ab6545636a0de9877242521bb3f7a703d69",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号18。独立解答复审：b=-2a、c=a、o=0，依明示零向量平行约定分类全部正确。",
+        "alignmentCheck": "区分平行、同向及相等，并处理零向量约定；解答中b=−2a，因此共线但反向且长度不同。是本题的直接检测证据。",
+        "bypassCheck": "只检测给定向量判断 对照：平行不意味着相等，b提供反例。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-1-06",
+      "skillId": "full-m2-6-1-06",
+      "familyId": "full-m2-6-1-06",
+      "text": "从同一点画a向东、b向北偏西30°、c向西。求a与b、b与c的夹角，并说明为何不能选240°。",
+      "answer": "120°、60°；向量夹角规定在[0°,180°]。",
+      "steps": [
+        "b相对正东方向转过90°+30°=120°。",
+        "c方向180°，与b差60°。",
+        "超过180°的转角不是所定义的向量夹角。"
+      ],
+      "alignment": "把向量平移至共同起点后确定夹角范围；解答中b相对正东方向转过90°+30°=120°。是本题的直接检测证据。",
+      "contrast": "a与c夹角180°，同向非零向量夹角0°。",
+      "assessment": {
+        "objective": "把向量平移至共同起点后确定夹角范围",
+        "boundary": "只检测非零向量平面方向的夹角",
+        "prerequisiteSkills": "方位角"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c6067f1b1b22291f199ba7a7cb7de3e5b3591574cf3bfc52a29ac668ae7bd28c",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：北偏西30度相对东为120度，与西方向差60度；240度超定义范围。",
+        "alignmentCheck": "把向量平移至共同起点后确定夹角范围；解答中b相对正东方向转过90°+30°=120°。是本题的直接检测证据。",
+        "bypassCheck": "只检测非零向量平面方向的夹角 对照：a与c夹角180°，同向非零向量夹角0°。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-2-01",
+      "skillId": "full-m2-6-2-01",
+      "familyId": "full-m2-6-2-01",
+      "text": "A(0,0)、B(3,0)、C(3,4)。用三角形法则求向量AB+BC及其模，说明连接的是哪两个端点。",
+      "answer": "AB+BC=AC=(3,4)，模5；连接第一向量起点A和第二向量终点C。",
+      "steps": [
+        "AB与BC首尾衔接，三角形法则给出AC。",
+        "坐标和(3,0)+(0,4)=(3,4)，模√25=5。"
+      ],
+      "alignment": "用首尾连接实施向量加法；解答中AB与BC首尾衔接，三角形法则给出AC。是本题的直接检测证据。",
+      "contrast": "AB+CB不等于AC，因为两向量未按所给顺序首尾连接。",
+      "assessment": {
+        "objective": "用首尾连接实施向量加法",
+        "boundary": "指定三点的两向量相加",
+        "prerequisiteSkills": "向量表示、勾股定理"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c1d39b535e386807c64f94c87ea46ff4eca30a0ad66ab39275bda731b8a21de3",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号20。独立解答复审：首尾相接AB+BC=AC=(3,4)，模5，连接端点说明准确。",
+        "alignmentCheck": "用首尾连接实施向量加法；解答中AB与BC首尾衔接，三角形法则给出AC。是本题的直接检测证据。",
+        "bypassCheck": "指定三点的两向量相加 对照：AB+CB不等于AC，因为两向量未按所给顺序首尾连接。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量运算",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-2-02",
+      "skillId": "full-m2-6-2-02",
+      "familyId": "full-m2-6-2-02",
+      "text": "以O为坐标原点，OA=(4,0)、OB=(1,3)。补成平行四边形OACB（C为对角顶点），求OC和C坐标。",
+      "answer": "OC=(5,3)，C(5,3)，其中O取原点。",
+      "steps": [
+        "平行四边形法则：同起点两邻边之和为从该起点出发的对角线OC。",
+        "OC=OA+OB=(4+1,0+3)=(5,3)。"
+      ],
+      "alignment": "以同起点邻边和确定平行四边形对角线；解答中平行四边形法则：同起点两邻边之和为从该起点出发的对角线OC。是本题的直接检测证据。",
+      "contrast": "另一对角线AB=OB−OA=(−3,3)，不是两向量的和。",
+      "assessment": {
+        "objective": "以同起点邻边和确定平行四边形对角线",
+        "boundary": "O为原点；不涉及一般空间平行四边形",
+        "prerequisiteSkills": "坐标向量"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "97828077dfb6193fd4d01fcd2b6b7e2d4e1673af5371621dd1168df174c2bc4f",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号21。独立解答复审：对角顶点为两邻边坐标和(5,3)，原点条件题干明确。",
+        "alignmentCheck": "以同起点邻边和确定平行四边形对角线；解答中平行四边形法则：同起点两邻边之和为从该起点出发的对角线OC。是本题的直接检测证据。",
+        "bypassCheck": "O为原点；不涉及一般空间平行四边形 对照：另一对角线AB=OB−OA=(−3,3)，不是两向量的和。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量运算",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-2-03",
+      "skillId": "full-m2-6-2-03",
+      "familyId": "full-m2-6-2-03",
+      "text": "a=(2,1)，b=(−2,4)，c=(0,−4)。不用逐坐标连算，利用交换律与结合律简算a+b+c，并写出所用等式。",
+      "answer": "a+(b+c)=(0,1)；交换、结合后结果仍为(0,1)。",
+      "steps": [
+        "结合律给出(a+b)+c=a+(b+c)。",
+        "b+c=(−2,0)，所以a+(b+c)=(0,1)。",
+        "交换律允许调换求和次序。"
+      ],
+      "alignment": "用交换律与结合律重组向量和；解答中结合律给出(a+b)+c=a+(b+c)。是本题的直接检测证据。",
+      "contrast": "数量积不能随意套用向量加法的结合形式。",
+      "assessment": {
+        "objective": "用交换律与结合律重组向量和",
+        "boundary": "检测加法运算律，数乘与数量积不在范围内",
+        "prerequisiteSkills": "坐标加法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e241766fa1694b95c2b8c99ccd0a94d919a9ae6ac0f8c7bf13f296606a6c740c",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号22。独立解答复审：b+c=(-2,0)，再加a=(0,1)；结合律和交换律叙述均成立。",
+        "alignmentCheck": "用交换律与结合律重组向量和；解答中结合律给出(a+b)+c=a+(b+c)。是本题的直接检测证据。",
+        "bypassCheck": "检测加法运算律，数乘与数量积不在范围内 对照：数量积不能随意套用向量加法的结合形式。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量运算",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-2-04",
+      "skillId": "full-m2-6-2-04",
+      "familyId": "full-m2-6-2-04",
+      "text": "OA=(2,5)，OB=(−1,1)。用同起点向量减法法则求OA−OB，并说明几何方向。",
+      "answer": "OA−OB=BA=(3,4)，方向从B指向A。",
+      "steps": [
+        "同起点两向量之差从减向量终点指向被减向量终点。",
+        "OA−OB=(2−(−1),5−1)=(3,4)。"
+      ],
+      "alignment": "正确确定向量减法的方向；解答中同起点两向量之差从减向量终点指向被减向量终点。是本题的直接检测证据。",
+      "contrast": "OB−OA=AB=(−3,−4)。",
+      "assessment": {
+        "objective": "正确确定向量减法的方向",
+        "boundary": "检测同起点法则及坐标核验",
+        "prerequisiteSkills": "相反向量、减法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "99397a23ff98b4bffbb3cee4f823d0f69fa2ab228cde41c45ce1cb8cfc992cd2",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号23。独立解答复审：同起点被减向量减减向量为BA，坐标(3,4)，方向未倒置。",
+        "alignmentCheck": "正确确定向量减法的方向；解答中同起点两向量之差从减向量终点指向被减向量终点。是本题的直接检测证据。",
+        "bypassCheck": "检测同起点法则及坐标核验 对照：OB−OA=AB=(−3,−4)。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量运算",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-2-05",
+      "skillId": "full-m2-6-2-05",
+      "familyId": "full-m2-6-2-05",
+      "text": "a=(1,−2)，b=(3,1)。求−2a及其相对a的方向和长度倍数，再计算2(a+b)−2b。",
+      "answer": "−2a=(−2,4)，反向、模为原来的2倍；2(a+b)−2b=(2,−4)。",
+      "steps": [
+        "负数数乘使方向反转，模乘绝对值2。",
+        "分配律2(a+b)−2b=2a+2b−2b=2a=(2,−4)。"
+      ],
+      "alignment": "掌握数乘几何含义和分配律；解答中负数数乘使方向反转，模乘绝对值2。是本题的直接检测证据。",
+      "contrast": "0a=零向量，此时不能谈相同或相反方向。",
+      "assessment": {
+        "objective": "掌握数乘几何含义和分配律",
+        "boundary": "只测负数倍及一次分配，不测参数综合",
+        "prerequisiteSkills": "向量加减、模"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a087da979fc14722610699b44839ae68d50ec531e6a2ef6e330121efbfae0059",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号24。独立解答复审：-2a=(-2,4)反向且两倍模，分配律消2b后2a=(2,-4)。",
+        "alignmentCheck": "掌握数乘几何含义和分配律；解答中负数数乘使方向反转，模乘绝对值2。是本题的直接检测证据。",
+        "bypassCheck": "只测负数倍及一次分配，不测参数综合 对照：0a=零向量，此时不能谈相同或相反方向。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量运算",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-2-06",
+      "skillId": "full-m2-6-2-06",
+      "familyId": "full-m2-6-2-06",
+      "text": "非零向量a、b不共线，u=2a+tb，v=6a+3b。若u与v共线，求t并说明使用共线定理时的非零条件。",
+      "answer": "t=1；v≠0，可设u=λv。",
+      "steps": [
+        "a、b不共线使v=6a+3b非零。",
+        "共线定理得u=λv，比较独立向量系数2=6λ、t=3λ。",
+        "λ=1/3，t=1。"
+      ],
+      "alignment": "用共线定理转换为唯一数乘关系；解答中a、b不共线使v=6a+3b非零。是本题的直接检测证据。",
+      "contrast": "若a、b共线，就不能独立比较两项系数。",
+      "assessment": {
+        "objective": "用共线定理转换为唯一数乘关系",
+        "boundary": "检测两个独立基向量的系数法",
+        "prerequisiteSkills": "不共线向量线性表示"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f2a425e0309dd83883a6100e534c0517fa71acf284c60b785d69b6da066289b7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号25。独立解答复审：独立a、b保证v非零；系数比较λ=1/3进而t=1，没有遗漏零倍情况。",
+        "alignmentCheck": "用共线定理转换为唯一数乘关系；解答中a、b不共线使v=6a+3b非零。是本题的直接检测证据。",
+        "bypassCheck": "检测两个独立基向量的系数法 对照：若a、b共线，就不能独立比较两项系数。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量运算",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-2-07",
+      "skillId": "full-m2-6-2-07",
+      "familyId": "full-m2-6-2-07",
+      "text": "三角形ABC中D是BC中点，E在AD上且AE:ED=2:1。设AB=a、AC=b，求BE。",
+      "answer": "BE=−(2/3)a+(1/3)b。",
+      "steps": [
+        "中点给出AD=(a+b)/2。",
+        "AE=(2/3)AD=(a+b)/3。",
+        "BE=BA+AE=−a+(a+b)/3=−2a/3+b/3。"
+      ],
+      "alignment": "综合使用中点、数乘和首尾相加；解答中中点给出AD=(a+b)/2。是本题的直接检测证据。",
+      "contrast": "若E为AD中点，则BE=−3a/4+b/4。",
+      "assessment": {
+        "objective": "综合使用中点、数乘和首尾相加",
+        "boundary": "指定中线上的内分点；不测外分和参数轨迹",
+        "prerequisiteSkills": "中点向量、数乘"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a1cd5c515f4db8a8e962a5cfb1df0128a101f252cb01fb8a53280639d5f26f9f",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号26。独立解答复审：中线向量(a+b)/2再取2/3，减a得-2a/3+b/3，内分比例正确。",
+        "alignmentCheck": "综合使用中点、数乘和首尾相加；解答中中点给出AD=(a+b)/2。是本题的直接检测证据。",
+        "bypassCheck": "指定中线上的内分点；不测外分和参数轨迹 对照：若E为AD中点，则BE=−3a/4+b/4。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量运算",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-3-01",
+      "skillId": "full-m2-6-3-01",
+      "familyId": "full-m2-6-3-01",
+      "text": "e1=(1,1)，e2=(1,−1)。说明它们能作平面基底，并把v=(4,2)唯一表示成λe1+μe2；若改用e1和2e1有何问题？",
+      "answer": "能；v=3e1+e2；共线的e1、2e1不能作基底。",
+      "steps": [
+        "e1与e2不共线（行列式−2≠0），基本定理保证唯一表示。",
+        "λ+μ=4，λ−μ=2，解得3、1。",
+        "e1和2e1只能生成同一直线上的向量。"
+      ],
+      "alignment": "核查基底不共线条件和表示唯一性；解答中e1与e2不共线（行列式−2≠0），基本定理保证唯一表示。是本题的直接检测证据。",
+      "contrast": "用共线向量既可能无法表示，也可能表示不唯一。",
+      "assessment": {
+        "objective": "核查基底不共线条件和表示唯一性",
+        "boundary": "二维给定基底，不推广到高维",
+        "prerequisiteSkills": "二元一次方程"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5969a8490a6f4dd9ce6989edf7333c8cf0f7a798f82fe74cf6efbeeb2a902594",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号27。独立解答复审：基底行列式-2非零；联立λ+μ=4、λ-μ=2得3、1；共线替代无法张成平面。",
+        "alignmentCheck": "核查基底不共线条件和表示唯一性；解答中e1与e2不共线（行列式−2≠0），基本定理保证唯一表示。是本题的直接检测证据。",
+        "bypassCheck": "二维给定基底，不推广到高维 对照：用共线向量既可能无法表示，也可能表示不唯一。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量坐标",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-3-02",
+      "skillId": "full-m2-6-3-02",
+      "familyId": "full-m2-6-3-02",
+      "text": "正交单位基向量i向东、j向北。某位移向西3米再向北4米，写出正交分解、坐标及模。",
+      "answer": "−3i+4j；(−3,4)米；5米。",
+      "steps": [
+        "向西与i反向，东西分量为−3；向北分量为4。",
+        "a=−3i+4j，因此坐标(−3,4)。",
+        "正交单位基下模√(9+16)=5。"
+      ],
+      "alignment": "把位移分解为正交有符号分量；解答中向西与i反向，东西分量为−3；向北分量为4。是本题的直接检测证据。",
+      "contrast": "若基向量不正交，不能直接对系数用勾股公式。",
+      "assessment": {
+        "objective": "把位移分解为正交有符号分量",
+        "boundary": "基向量已正交且单位长；不测斜坐标系",
+        "prerequisiteSkills": "方向、勾股定理"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a04b3701c23dafc752582fbb3658557840a4f0c07b03c2ab24523c7ffaa11ce4",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号28。独立解答复审：向西分量-3、向北4，正交单位基保证模为5。",
+        "alignmentCheck": "把位移分解为正交有符号分量；解答中向西与i反向，东西分量为−3；向北分量为4。是本题的直接检测证据。",
+        "bypassCheck": "基向量已正交且单位长；不测斜坐标系 对照：若基向量不正交，不能直接对系数用勾股公式。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量坐标",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-3-03",
+      "skillId": "full-m2-6-3-03",
+      "familyId": "full-m2-6-3-03",
+      "text": "a=(2,−3)，b=(−1,4)。求a+b、a−b、3a−2b。",
+      "answer": "(1,1)、(3,−7)、(8,−17)。",
+      "steps": [
+        "按对应分量相加减，得(2−1,−3+4)及(2+1,−3−4)。",
+        "3a−2b=(6,−9)−(−2,8)=(8,−17)。"
+      ],
+      "alignment": "逐分量实施加、减、数乘运算；解答中按对应分量相加减，得(2−1,−3+4)及(2+1,−3−4)。是本题的直接检测证据。",
+      "contrast": "3(a−b)=(9,−21)，不等于3a−2b。",
+      "assessment": {
+        "objective": "逐分量实施加、减、数乘运算",
+        "boundary": "直接坐标运算，不检测几何建模",
+        "prerequisiteSkills": "有理数运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "80b47a39e385b75eb6c0398fb11bb320bfb7c422aca578d5f326efbc7111c1c3",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号29。独立解答复审：逐分量复算和(1,1)、差(3,-7)、组合(8,-17)一致。",
+        "alignmentCheck": "逐分量实施加、减、数乘运算；解答中按对应分量相加减，得(2−1,−3+4)及(2+1,−3−4)。是本题的直接检测证据。",
+        "bypassCheck": "直接坐标运算，不检测几何建模 对照：3(a−b)=(9,−21)，不等于3a−2b。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量坐标",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-3-04",
+      "skillId": "full-m2-6-3-04",
+      "familyId": "full-m2-6-3-04",
+      "text": "a=(t,2)，b=(3,−6)。求使a、b共线的t，并说明不能只比较纵坐标。",
+      "answer": "t=−1。",
+      "steps": [
+        "二维共线条件为t·(−6)−2·3=0。",
+        "−6t−6=0，t=−1，此时a=−b/3。"
+      ],
+      "alignment": "使用行列式形式判断二维共线；解答中二维共线条件为t·(−6)−2·3=0。是本题的直接检测证据。",
+      "contrast": "a=(0,2)与b=(0,−6)也共线，避免除以零坐标。",
+      "assessment": {
+        "objective": "使用行列式形式判断二维共线",
+        "boundary": "给定非零第二向量；不检测三点轨迹",
+        "prerequisiteSkills": "分量数乘"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f1fe5b549e064b47f36e49d513a51de095b34047c868e436c7af2555ea225316",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号30。独立解答复审：行列式-6t-6为0得-1，此时a=-b/3，充要条件满足。",
+        "alignmentCheck": "使用行列式形式判断二维共线；解答中二维共线条件为t·(−6)−2·3=0。是本题的直接检测证据。",
+        "bypassCheck": "给定非零第二向量；不检测三点轨迹 对照：a=(0,2)与b=(0,−6)也共线，避免除以零坐标。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量坐标",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-3-05",
+      "skillId": "full-m2-6-3-05",
+      "familyId": "full-m2-6-3-05",
+      "text": "A(−2,3)、B(4,−5)。用向量模的坐标公式求|AB|；若C在x轴且|AC|=5，求C。",
+      "answer": "|AB|=10；C(2,0)或C(−6,0)。",
+      "steps": [
+        "AB=(6,−8)，模√(36+64)=10。",
+        "令C=(x,0)，AC=(x+2,−3)，模平方满足(x+2)²+9=25。",
+        "x+2=±4，得x=2或−6。"
+      ],
+      "alignment": "把模转为坐标平方和并保留双解；解答中AB=(6,−8)，模√(36+64)=10。是本题的直接检测证据。",
+      "contrast": "只取x+2=4会漏掉C(−6,0)。",
+      "assessment": {
+        "objective": "把模转为坐标平方和并保留双解",
+        "boundary": "平面距离及单一轴上点；不测复杂轨迹",
+        "prerequisiteSkills": "勾股定理、平方方程"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7df99b5065f424336b9a3684d1a3ae7e121386fd6bbb08a45c49faab59d46cf4",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号31。独立解答复审：AB差(6,-8)模10；(x+2)²=16给2、-6，两轴上点均满足距离5。",
+        "alignmentCheck": "把模转为坐标平方和并保留双解；解答中AB=(6,−8)，模√(36+64)=10。是本题的直接检测证据。",
+        "bypassCheck": "平面距离及单一轴上点；不测复杂轨迹 对照：只取x+2=4会漏掉C(−6,0)。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量坐标",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-3-06",
+      "skillId": "full-m2-6-3-06",
+      "familyId": "full-m2-6-3-06",
+      "text": "a=(1,√3)，b=(−1,√3)。用坐标求两向量夹角。",
+      "answer": "60°。",
+      "steps": [
+        "a·b=−1+3=2；|a|=|b|=2。",
+        "cosθ=2/(2·2)=1/2，θ∈[0°,180°]，所以θ=60°。"
+      ],
+      "alignment": "由坐标数量积和模计算夹角；解答中a·b=−1+3=2；|a|=|b|=2。是本题的直接检测证据。",
+      "contrast": "把b换成−b，夹角变为120°。",
+      "assessment": {
+        "objective": "由坐标数量积和模计算夹角",
+        "boundary": "非零平面向量、特殊角",
+        "prerequisiteSkills": "数量积坐标式、反求角"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b00b1862a39c8eb26fcb7f39e484d9b83dc0367b10b35e0c47226fbe1660c156",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号32。独立解答复审：点积2，模乘积4，余弦1/2；非零向量夹角唯一为60度。",
+        "alignmentCheck": "由坐标数量积和模计算夹角；解答中a·b=−1+3=2；|a|=|b|=2。是本题的直接检测证据。",
+        "bypassCheck": "非零平面向量、特殊角 对照：把b换成−b，夹角变为120°。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：向量坐标",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-4-01",
+      "skillId": "full-m2-6-4-01",
+      "familyId": "full-m2-6-4-01",
+      "text": "非零向量a、b的模分别3、4，夹角120°。按定义求a·b，并判断该结果是向量还是实数。",
+      "answer": "−6，是实数。",
+      "steps": [
+        "数量积定义为|a||b|cosθ。",
+        "代入3·4·cos120°=12·(−1/2)=−6，结果为标量。"
+      ],
+      "alignment": "应用数量积定义并识别其结果类型；解答中数量积定义为|a||b|cosθ。是本题的直接检测证据。",
+      "contrast": "夹角60°时结果6；钝角时数量积可负。",
+      "assessment": {
+        "objective": "应用数量积定义并识别其结果类型",
+        "boundary": "指定模和夹角，不测坐标推导",
+        "prerequisiteSkills": "特殊角余弦"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7a04dcdf685078ee86c2026f3509c7e50f23bee080d9c77a10c6cec6f1731a10",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号33。独立解答复审：3×4×cos120=-6，数量积是实数而非向量。",
+        "alignmentCheck": "应用数量积定义并识别其结果类型；解答中数量积定义为|a||b|cosθ。是本题的直接检测证据。",
+        "bypassCheck": "指定模和夹角，不测坐标推导 对照：夹角60°时结果6；钝角时数量积可负。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：数量积",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-4-02",
+      "skillId": "full-m2-6-4-02",
+      "familyId": "full-m2-6-4-02",
+      "text": "|a|=6、|b|=4，夹角120°。求a在b方向上的数量投影、投影向量（用b表示）及a·b。",
+      "answer": "−3；−3b/4；−12。",
+      "steps": [
+        "有符号数量投影=|a|cos120°=−3。",
+        "沿b的单位向量为b/4，投影向量=−3b/4。",
+        "数量积=数量投影·|b|=−3·4=−12。"
+      ],
+      "alignment": "区分数量投影、投影向量与数量积；解答中有符号数量投影=|a|cos120°=−3。是本题的直接检测证据。",
+      "contrast": "投影的长度是3，不是−3；数量投影才可为负。",
+      "assessment": {
+        "objective": "区分数量投影、投影向量与数量积",
+        "boundary": "仅向非零b投影，明确有符号约定",
+        "prerequisiteSkills": "单位向量、余弦"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bfd104f0a305bacd655e9313798ce721c0ef62061c8837b786bc90a427f1aff2",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号34。独立解答复审：有符号投影6cos120=-3，乘单位b/4得投影向量，点积-12。",
+        "alignmentCheck": "区分数量投影、投影向量与数量积；解答中有符号数量投影=|a|cos120°=−3。是本题的直接检测证据。",
+        "bypassCheck": "仅向非零b投影，明确有符号约定 对照：投影的长度是3，不是−3；数量投影才可为负。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：数量积",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-4-03",
+      "skillId": "full-m2-6-4-03",
+      "familyId": "full-m2-6-4-03",
+      "text": "已知|a|=2，|b|=3，a·b=1。展开求(2a−b)·(a+b)，并说明是否可认为(a·b)a=a·(ba)这类写法都有意义。",
+      "answer": "结果0；数量积不是向量乘法，不能随意套结合律，ba未定义时该式无意义。",
+      "steps": [
+        "用分配律得2a·a+2a·b−b·a−b·b。",
+        "用交换律a·b=b·a，得2·4+1−9=0。",
+        "数量积结果是标量，必须检查每一步的运算类型。"
+      ],
+      "alignment": "正确运用数量积交换律、分配律并识别类型限制；解答中用分配律得2a·a+2a·b−b·a−b·b。是本题的直接检测证据。",
+      "contrast": "(a·b)c与a(b·c)一般不同。",
+      "assessment": {
+        "objective": "正确运用数量积交换律、分配律并识别类型限制",
+        "boundary": "展开一次双线性式；不涉及外积",
+        "prerequisiteSkills": "数量积、向量模平方"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "40cf19d998b1d418cf47e9e34c681e564c433c2a82406dcc01b04c7e85dd5bfa",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号35。独立解答复审：展开为2|a|²+a·b-|b|²=8+1-9=0；不合法结合的运算类型辨别合理。",
+        "alignmentCheck": "正确运用数量积交换律、分配律并识别类型限制；解答中用分配律得2a·a+2a·b−b·a−b·b。是本题的直接检测证据。",
+        "bypassCheck": "展开一次双线性式；不涉及外积 对照：(a·b)c与a(b·c)一般不同。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：数量积",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-4-04",
+      "skillId": "full-m2-6-4-04",
+      "familyId": "full-m2-6-4-04",
+      "text": "a=(−2,3)，b=(4,1)，求a·b与(2a+b)·b。",
+      "answer": "−5；7。",
+      "steps": [
+        "a·b=(−2)·4+3·1=−5。",
+        "2a+b=(0,7)，点乘b得0·4+7·1=7。"
+      ],
+      "alignment": "按坐标求数量积；解答中a·b=(−2)·4+3·1=−5。是本题的直接检测证据。",
+      "contrast": "a·b不是逐分量生成的新向量(−8,3)。",
+      "assessment": {
+        "objective": "按坐标求数量积",
+        "boundary": "二维整数坐标的直接数量积",
+        "prerequisiteSkills": "整数乘加"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4532923f14b7225e809fc3ea0e2399324424913384bb98c25f73555c7cf294a1",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号36。独立解答复审：点积-8+3=-5，2a+b=(0,7)，再点乘得7。",
+        "alignmentCheck": "按坐标求数量积；解答中a·b=(−2)·4+3·1=−5。是本题的直接检测证据。",
+        "bypassCheck": "二维整数坐标的直接数量积 对照：a·b不是逐分量生成的新向量(−8,3)。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：数量积",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-4-05",
+      "skillId": "full-m2-6-4-05",
+      "familyId": "full-m2-6-4-05",
+      "text": "|a|=3、|b|=2、a·b=−2，求|2a+b|。",
+      "answer": "2√8=4√2。",
+      "steps": [
+        "模平方=(2a+b)·(2a+b)=4|a|²+4a·b+|b|²。",
+        "代入36−8+4=32；模取非负平方根4√2。"
+      ],
+      "alignment": "通过自乘展开求和向量的模；解答中模平方=(2a+b)·(2a+b)=4|a|²+4a·b+|b|²。是本题的直接检测证据。",
+      "contrast": "|2a+b|一般不等于2|a|+|b|=8。",
+      "assessment": {
+        "objective": "通过自乘展开求和向量的模",
+        "boundary": "给定模与点积；不检测求角",
+        "prerequisiteSkills": "数量积分配律、根式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5e60b619039658ba8f7e6ecb914dddf936eaf002f9f1cb231ece3e7ff52ec4ba",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号37。独立解答复审：模平方36+4(-2)+4=32，非负根4√2，题设点积在可行区间内。",
+        "alignmentCheck": "通过自乘展开求和向量的模；解答中模平方=(2a+b)·(2a+b)=4|a|²+4a·b+|b|²。是本题的直接检测证据。",
+        "bypassCheck": "给定模与点积；不检测求角 对照：|2a+b|一般不等于2|a|+|b|=8。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：数量积",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-4-06",
+      "skillId": "full-m2-6-4-06",
+      "familyId": "full-m2-6-4-06",
+      "text": "|a|=|b|=2且|a−b|=2，求a与b的夹角。",
+      "answer": "60°。",
+      "steps": [
+        "|a−b|²=|a|²+|b|²−2a·b。",
+        "4=8−2a·b，故a·b=2。",
+        "cosθ=2/4=1/2，θ=60°。"
+      ],
+      "alignment": "由和差模反推数量积及夹角；解答中|a−b|²=|a|²+|b|²−2a·b。是本题的直接检测证据。",
+      "contrast": "若|a+b|=2则cosθ=−1/2，夹角120°。",
+      "assessment": {
+        "objective": "由和差模反推数量积及夹角",
+        "boundary": "等模特例，不涉及多参数角范围",
+        "prerequisiteSkills": "模平方展开"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d07dd1491d930b1bd7c89fbe665c61a50b9128b8fefe1294d93634dfbdd4017b",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号38。独立解答复审：差模平方4=8-2点积，得点积2、余弦1/2，角60度。",
+        "alignmentCheck": "由和差模反推数量积及夹角；解答中|a−b|²=|a|²+|b|²−2a·b。是本题的直接检测证据。",
+        "bypassCheck": "等模特例，不涉及多参数角范围 对照：若|a+b|=2则cosθ=−1/2，夹角120°。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：数量积",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-4-07",
+      "skillId": "full-m2-6-4-07",
+      "familyId": "full-m2-6-4-07",
+      "text": "a=(t,2)，b=(3,−6)。求a⊥b时t；再说明点积为0时若含零向量，不能据此定义其夹角为90°。",
+      "answer": "t=4；零向量没有确定方向，不能据此定义夹角。",
+      "steps": [
+        "对非零向量，垂直等价于a·b=0。",
+        "3t−12=0得t=4。",
+        "零向量与任意向量点积0，但夹角公式分母为0。"
+      ],
+      "alignment": "应用点积为零判垂直并识别夹角的非零要求；解答中对非零向量，垂直等价于a·b=0。是本题的直接检测证据。",
+      "contrast": "t=−1时两向量共线，绝非垂直。",
+      "assessment": {
+        "objective": "应用点积为零判垂直并识别夹角的非零要求",
+        "boundary": "本题a、b均非零，另检查零向量边界",
+        "prerequisiteSkills": "数量积坐标式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4d139431b66921c9e5ed3a6e43e34c70fa73217e73c2a0e2e80a6908ad2f4eb7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号39。独立解答复审：点积3t-12=0给4；所给a、b均非零，另述零向量角度限制正确。",
+        "alignmentCheck": "应用点积为零判垂直并识别夹角的非零要求；解答中对非零向量，垂直等价于a·b=0。是本题的直接检测证据。",
+        "bypassCheck": "本题a、b均非零，另检查零向量边界 对照：t=−1时两向量共线，绝非垂直。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：数量积",
+            "url": "https://openstax.org/books/precalculus-2e/pages/8-8-vectors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-6-5-01",
+      "skillId": "full-m2-6-5-01",
+      "familyId": "full-m2-6-5-01",
+      "text": "在△ABC中，BC=a、CA=b、AB=c。用向量AB与AC推导a²=b²+c²−2bc cosA，再求b=5、c=7、A=60°时a。",
+      "answer": "a²=b²+c²−2bc cosA；a=√39。",
+      "steps": [
+        "BC=AC−AB，故a²=|AC−AB|²。",
+        "展开为b²+c²−2AC·AB=b²+c²−2bc cosA。",
+        "代入25+49−35=39，a=√39。"
+      ],
+      "alignment": "从向量差的模平方推导余弦定理并应用；解答中BC=AC−AB，故a²=|AC−AB|²。是本题的直接检测证据。",
+      "contrast": "A=90°时余弦项为0，退化为勾股定理。",
+      "assessment": {
+        "objective": "从向量差的模平方推导余弦定理并应用",
+        "boundary": "只检测一顶角推导及两边夹角求第三边",
+        "prerequisiteSkills": "数量积、模平方"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f557ca62e2bb0eb104f3e026ba7cb325603d1d8ffe8a48ab20d0328ed841b96a",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号40。独立解答复审：BC=AC-AB展开产生余弦定理；25+49-35=39，边长√39。",
+        "alignmentCheck": "从向量差的模平方推导余弦定理并应用；解答中BC=AC−AB，故a²=|AC−AB|²。是本题的直接检测证据。",
+        "bypassCheck": "只检测一顶角推导及两边夹角求第三边 对照：A=90°时余弦项为0，退化为勾股定理。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-6-5-02",
+      "skillId": "full-m2-6-5-02",
+      "familyId": "full-m2-6-5-02",
+      "text": "三角形三边为5、7、8，求长度8所对角的余弦，并判断最大角为锐角、直角还是钝角。",
+      "answer": "cosC=1/7；最大角为锐角。",
+      "steps": [
+        "设c=8，则cosC=(5²+7²−8²)/(2·5·7)=10/70=1/7。",
+        "8是最大边，C是最大角；余弦正所以C锐角。"
+      ],
+      "alignment": "用余弦定理由三边判角；解答中设c=8，则cosC=(5²+7²−8²)/(2·5·7)=10/70=1/7。是本题的直接检测证据。",
+      "contrast": "若第三边9，余弦为−1/10，最大角钝角。",
+      "assessment": {
+        "objective": "用余弦定理由三边判角",
+        "boundary": "只检测三边求一角余弦和角型",
+        "prerequisiteSkills": "余弦符号、边角大小关系"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "67700a372d57ec6d37d798c13651d0782cc5494ba0d51e4955035d6f508af9f7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号41。独立解答复审：最大边8对角余弦(25+49-64)/70=1/7>0，最大角仍锐。",
+        "alignmentCheck": "用余弦定理由三边判角；解答中设c=8，则cosC=(5²+7²−8²)/(2·5·7)=10/70=1/7。是本题的直接检测证据。",
+        "bypassCheck": "只检测三边求一角余弦和角型 对照：若第三边9，余弦为−1/10，最大角钝角。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-6-5-03",
+      "skillId": "full-m2-6-5-03",
+      "familyId": "full-m2-6-5-03",
+      "text": "三角形ABC中边a、b、c分别对角A、B、C。用面积的三种写法推导a/sinA=b/sinB=c/sinC，再求A=30°、B=45°、a=4时b。",
+      "answer": "三比相等；b=4√2。",
+      "steps": [
+        "2S=bc sinA=ca sinB=ab sinC。",
+        "同除以abc得sinA/a=sinB/b=sinC/c，取倒数得正弦定理。",
+        "b=4sin45°/sin30°=4√2。"
+      ],
+      "alignment": "用面积关系推导正弦定理并按对边配对；解答中2S=bc sinA=ca sinB=ab sinC。是本题的直接检测证据。",
+      "contrast": "配错成a/sinB=b/sinA会得到错误值。",
+      "assessment": {
+        "objective": "用面积关系推导正弦定理并按对边配对",
+        "boundary": "推导以面积公式为前置；不另推外接圆2R形式",
+        "prerequisiteSkills": "三角形面积公式、分式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5f398636400ba45a1db3ac7e03d6c5fcb5e03040da0cc00d6cdbdba08fd8184c",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号42。独立解答复审：三面积式除abc给正弦比，再取倒数合法；b=4√2，三角形非退化。",
+        "alignmentCheck": "用面积关系推导正弦定理并按对边配对；解答中2S=bc sinA=ca sinB=ab sinC。是本题的直接检测证据。",
+        "bypassCheck": "推导以面积公式为前置；不另推外接圆2R形式 对照：配错成a/sinB=b/sinA会得到错误值。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-6-5-04",
+      "skillId": "full-m2-6-5-04",
+      "familyId": "full-m2-6-5-04",
+      "text": "△ABC中A=45°、B=60°、a=6，求C、b及外接圆直径2R（可用a/sinA=2R）。",
+      "answer": "C=75°，b=3√6，2R=6√2。",
+      "steps": [
+        "内角和给出C=180°−45°−60°=75°。",
+        "b=a sinB/sinA=6(√3/2)/(√2/2)=3√6。",
+        "2R=a/sinA=6√2。"
+      ],
+      "alignment": "用正弦定理在边角及外接圆半径间转换；解答中内角和给出C=180°−45°−60°=75°。是本题的直接检测证据。",
+      "contrast": "给定的是2R，半径R=3√2。",
+      "assessment": {
+        "objective": "用正弦定理在边角及外接圆半径间转换",
+        "boundary": "两角一边，解唯一；不检测SSA多解",
+        "prerequisiteSkills": "内角和、特殊角值"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "032f9705f568edbb53ba6f7cff4c0e829f78a9b5ddf1251231f1ac53e7e9fa30",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号43。独立解答复审：第三角75度，b=6sin60/sin45=3√6，外接圆直径6√2。",
+        "alignmentCheck": "用正弦定理在边角及外接圆半径间转换；解答中内角和给出C=180°−45°−60°=75°。是本题的直接检测证据。",
+        "bypassCheck": "两角一边，解唯一；不检测SSA多解 对照：给定的是2R，半径R=3√2。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-6-5-05",
+      "skillId": "full-m2-6-5-05",
+      "familyId": "full-m2-6-5-05",
+      "text": "已知A=30°、b=6。分别判断a=2、3、4、6时三角形解的个数，说明依据。",
+      "answer": "依次0、1、2、1个。",
+      "steps": [
+        "正弦定理给sinB=b sinA/a=3/a。",
+        "a=2时大于1无解；a=3时B=90°，一解。",
+        "a=4时B=arcsin(3/4)或180°−arcsin(3/4)，两者均小于150°，两解。",
+        "a=6时B=30°或150°，后者使C=0应舍，故一解。"
+      ],
+      "alignment": "用正弦定理和角和筛选SSA三角形个数；解答中正弦定理给sinB=b sinA/a=3/a。是本题的直接检测证据。",
+      "contrast": "a=b并不总有两个角解，需排除C=0。",
+      "assessment": {
+        "objective": "用正弦定理和角和筛选SSA三角形个数",
+        "boundary": "覆盖无解、一解、两解及退化角边界；不列出全部边长",
+        "prerequisiteSkills": "正弦值范围、三角形内角严格正"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6d49f941d547fbe33b055ef32947be8d5f2db80db0cb2cec476f0f7b6ef57776",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号44。独立解答复审：sinB=3/a：大于1无解、等于1一解；a=4两候选均小于150度；a=6的150度候选退化须删。",
+        "alignmentCheck": "用正弦定理和角和筛选SSA三角形个数；解答中正弦定理给sinB=b sinA/a=3/a。是本题的直接检测证据。",
+        "bypassCheck": "覆盖无解、一解、两解及退化角边界；不列出全部边长 对照：a=b并不总有两个角解，需排除C=0。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-6-5-06",
+      "skillId": "full-m2-6-5-06",
+      "familyId": "full-m2-6-5-06",
+      "text": "△ABC中AB=6、AC=8、A=30°，求面积；再用以AB为底的高复算。",
+      "answer": "面积12；对应高4。",
+      "steps": [
+        "S=(1/2)AB·AC sinA=(1/2)·6·8·(1/2)=12。",
+        "以AB为底，高h=8sin30°=4，S=(1/2)·6·4=12。"
+      ],
+      "alignment": "用两边夹角面积公式并与底高式联系；解答中S=(1/2)AB·AC sinA=(1/2)·6·8·(1/2)=12。是本题的直接检测证据。",
+      "contrast": "若夹角改150°面积仍12，但形状不同。",
+      "assessment": {
+        "objective": "用两边夹角面积公式并与底高式联系",
+        "boundary": "只测指定夹角，不测试海伦公式和外接圆面积式",
+        "prerequisiteSkills": "正弦、三角形面积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "922b8f518cc1dc2a77138ce3d4e07bd36c5054c693e8aeccc63ef8515a9dc109",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号45。独立解答复审：半积48乘sin30再除2得12，高8sin30=4，两种面积算法吻合。",
+        "alignmentCheck": "用两边夹角面积公式并与底高式联系；解答中S=(1/2)AB·AC sinA=(1/2)·6·8·(1/2)=12。是本题的直接检测证据。",
+        "bypassCheck": "只测指定夹角，不测试海伦公式和外接圆面积式 对照：若夹角改150°面积仍12，但形状不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-6-5-07",
+      "skillId": "full-m2-6-5-07",
+      "familyId": "full-m2-6-5-07",
+      "text": "测量河对岸点C，在同岸选A、B，AB=100米，∠CAB=45°、∠CBA=60°，三点共处水平面。求AC及C到直线AB的距离。",
+      "answer": "AC=50(3√2−√6)米；距离=50(3−√3)米。",
+      "steps": [
+        "C角=75°；正弦定理AC=100sin60°/sin75°。",
+        "sin75°=(√6+√2)/4，化简AC=50(3√2−√6)。",
+        "垂距h=AC sin45°=50(3−√3)。"
+      ],
+      "alignment": "从实测基线和视角建立三角形并求不可达距离；解答中C角=75°；正弦定理AC=100sin60°/sin75°。是本题的直接检测证据。",
+      "contrast": "AC是斜距，不能直接当成河岸垂距。",
+      "assessment": {
+        "objective": "从实测基线和视角建立三角形并求不可达距离",
+        "boundary": "理想水平测量且角度精确；不处理测量误差",
+        "prerequisiteSkills": "正弦定理、和角公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bca2893c9720cd5d6e8d2b3f7ef61a53b12694e693a23756121f4f26e36136d2",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号46。独立解答复审：100sin60/sin75有理化为50(3√2-√6)，再乘sin45得50(3-√3)。",
+        "alignmentCheck": "从实测基线和视角建立三角形并求不可达距离；解答中C角=75°；正弦定理AC=100sin60°/sin75°。是本题的直接检测证据。",
+        "bypassCheck": "理想水平测量且角度精确；不处理测量误差 对照：AC是斜距，不能直接当成河岸垂距。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-1-01",
+      "skillId": "full-m2-7-1-01",
+      "familyId": "full-m2-7-1-01",
+      "text": "已知i²=−1，求i³、i⁴、i²⁰²⁶及方程x²=−9的复数解。",
+      "answer": "−i，1，−1；x=±3i。",
+      "steps": [
+        "i³=i²i=−i，i⁴=(−1)²=1。",
+        "2026=4×506+2，故i²⁰²⁶=i²=−1。",
+        "(±3i)²=−9，解为±3i。"
+      ],
+      "alignment": "使用虚数单位定义及幂的四周期；解答中i³=i²i=−i，i⁴=(−1)²=1。是本题的直接检测证据。",
+      "contrast": "i²⁰²⁷=−i。",
+      "assessment": {
+        "objective": "使用虚数单位定义及幂的四周期",
+        "boundary": "正整数幂和简单二次方程，不测复数开方一般式",
+        "prerequisiteSkills": "整数幂、方程"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "64f806c7b7e683d5107fca9dd9dd44f1ec27c80a91eef9c904e0a784796bba84",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号47。独立解答复审：i幂模4循环，2026余2给-1；±3i平方均-9。",
+        "alignmentCheck": "使用虚数单位定义及幂的四周期；解答中i³=i²i=−i，i⁴=(−1)²=1。是本题的直接检测证据。",
+        "bypassCheck": "正整数幂和简单二次方程，不测复数开方一般式 对照：i²⁰²⁷=−i。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-1-02",
+      "skillId": "full-m2-7-1-02",
+      "familyId": "full-m2-7-1-02",
+      "text": "把(3−2i)+(−5+i)与7写成a+bi形式，指出a、b允许取何种数。",
+      "answer": "−2−i（a=−2,b=−1）；7+0i（a=7,b=0）；a、b为实数。",
+      "steps": [
+        "合并实数项3−5=−2、i系数−2+1=−1。",
+        "实数7可写7+0i，系数b允许为0。"
+      ],
+      "alignment": "把复数统一为实系数代数形式；解答中合并实数项3−5=−2、i系数−2+1=−1。是本题的直接检测证据。",
+      "contrast": "a+bi中的b是实数，不把bi整体称为b。",
+      "assessment": {
+        "objective": "把复数统一为实系数代数形式",
+        "boundary": "只测标准形式整理与实数嵌入",
+        "prerequisiteSkills": "同类项合并"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0d9122fc332d6e571e4d7118fce036619b4e3d0d570711496960e03e9a3b4ace",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号48。独立解答复审：实部合并3-5=-2、虚系数-2+1=-1，实数写零虚部符合代数形式。",
+        "alignmentCheck": "把复数统一为实系数代数形式；解答中合并实数项3−5=−2、i系数−2+1=−1。是本题的直接检测证据。",
+        "bypassCheck": "只测标准形式整理与实数嵌入 对照：a+bi中的b是实数，不把bi整体称为b。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-1-03",
+      "skillId": "full-m2-7-1-03",
+      "familyId": "full-m2-7-1-03",
+      "text": "z=(2−3i)(1+i)，求z的实部与虚部；“虚部是−i”是否正确？",
+      "answer": "z=5−i；实部5，虚部−1；“虚部是−i”错误。",
+      "steps": [
+        "展开2+2i−3i−3i²=5−i。",
+        "实部为不含i的实系数5，虚部是i的实系数−1。"
+      ],
+      "alignment": "从整理后的代数式识别实部与虚部；解答中展开2+2i−3i−3i²=5−i。是本题的直接检测证据。",
+      "contrast": "纯虚数−i的实部0、虚部−1。",
+      "assessment": {
+        "objective": "从整理后的代数式识别实部与虚部",
+        "boundary": "需一次乘法辅助；不检测含参分类",
+        "prerequisiteSkills": "i²=−1、乘法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0223fb44c7771379ec8514a9726059078ca690b8b2a677864574bfdbcb1c7ac8",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号49。独立解答复审：展开乘积为5-i，虚部是实数-1，不是-i。",
+        "alignmentCheck": "从整理后的代数式识别实部与虚部；解答中展开2+2i−3i−3i²=5−i。是本题的直接检测证据。",
+        "bypassCheck": "需一次乘法辅助；不检测含参分类 对照：纯虚数−i的实部0、虚部−1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-1-04",
+      "skillId": "full-m2-7-1-04",
+      "familyId": "full-m2-7-1-04",
+      "text": "对z=(m−1)+(m²−4)i，m为实数，分别求z为实数、纯虚数的m；z能否为0？纯虚数要求虚部非零。",
+      "answer": "实数m=±2；纯虚数m=1；不能为0。",
+      "steps": [
+        "实数要求m²−4=0，得±2。",
+        "纯虚数要求m−1=0且m²−4≠0，m=1时虚部−3，符合。",
+        "零复数需两部分同时0，但m=1不满足虚部0，故不能。"
+      ],
+      "alignment": "用实部虚部条件区分实数、纯虚数和零；解答中实数要求m²−4=0，得±2。是本题的直接检测证据。",
+      "contrast": "0是实数，但按本题约定不是纯虚数。",
+      "assessment": {
+        "objective": "用实部虚部条件区分实数、纯虚数和零",
+        "boundary": "单参数二次虚部；不讨论复参数",
+        "prerequisiteSkills": "方程、复数定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d31d78d0b89573e4a9a7d0c14e78fb723dee900cdcd0b01afa68d691036afe45",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号50。独立解答复审：虚部0得m=±2，实部0得m=1且虚部-3非零；两条件无共同解，不能为0。",
+        "alignmentCheck": "用实部虚部条件区分实数、纯虚数和零；解答中实数要求m²−4=0，得±2。是本题的直接检测证据。",
+        "bypassCheck": "单参数二次虚部；不讨论复参数 对照：0是实数，但按本题约定不是纯虚数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-1-05",
+      "skillId": "full-m2-7-1-05",
+      "familyId": "full-m2-7-1-05",
+      "text": "实数x、y满足(x+2y)+(2x−y)i=7+4i，求x、y。",
+      "answer": "x=3，y=2。",
+      "steps": [
+        "复数相等当且仅当实部与虚部分别相等。",
+        "列x+2y=7、2x−y=4，解得x=3、y=2。"
+      ],
+      "alignment": "把复数相等转为两个实方程；解答中复数相等当且仅当实部与虚部分别相等。是本题的直接检测证据。",
+      "contrast": "若x、y也允许复数，直接按此分离没有依据。",
+      "assessment": {
+        "objective": "把复数相等转为两个实方程",
+        "boundary": "限定x、y实数；不测复参数系数分离",
+        "prerequisiteSkills": "二元一次方程"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "937584aa1de73b32b887bbb099867a230f97e8b24da5d152a4352c9f3687a223",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号51。独立解答复审：方程x+2y=7、2x-y=4联立得3、2，代回两部吻合。",
+        "alignmentCheck": "把复数相等转为两个实方程；解答中复数相等当且仅当实部与虚部分别相等。是本题的直接检测证据。",
+        "bypassCheck": "限定x、y实数；不测复参数系数分离 对照：若x、y也允许复数，直接按此分离没有依据。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-2-01",
+      "skillId": "full-m2-7-2-01",
+      "familyId": "full-m2-7-2-01",
+      "text": "z1=3−4i，z2=−2+5i。求z1+z2、z1−z2及z2−z1。",
+      "answer": "1+i；5−9i；−5+9i。",
+      "steps": [
+        "相加分别合并实部和虚部：(3−2)+(−4+5)i。",
+        "相减注意括号：(3+2)+(−4−5)i=5−9i。",
+        "反序差取负得−5+9i。"
+      ],
+      "alignment": "逐部分加减并正确处理负号；解答中相加分别合并实部和虚部：(3−2)+(−4+5)i。是本题的直接检测证据。",
+      "contrast": "两种相减结果互为相反数，不是相同。",
+      "assessment": {
+        "objective": "逐部分加减并正确处理负号",
+        "boundary": "直接复数加减",
+        "prerequisiteSkills": "有理数运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b84c5af25a9f330b23adf8f5e7468afaee91757db6efe4dfc8bcd4de0252e2d7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号52。独立解答复审：直接分别加减两部得到1+i、5-9i，反序差为负值。",
+        "alignmentCheck": "逐部分加减并正确处理负号；解答中相加分别合并实部和虚部：(3−2)+(−4+5)i。是本题的直接检测证据。",
+        "bypassCheck": "直接复数加减 对照：两种相减结果互为相反数，不是相同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-2-02",
+      "skillId": "full-m2-7-2-02",
+      "familyId": "full-m2-7-2-02",
+      "text": "计算(2−3i)(1+4i)及(1+i)⁴。",
+      "answer": "14+5i；−4。",
+      "steps": [
+        "展开2+8i−3i−12i²=14+5i。",
+        "(1+i)²=2i，四次幂=(2i)²=−4。"
+      ],
+      "alignment": "展开复数乘法并使用i²=−1；解答中展开2+8i−3i−12i²=14+5i。是本题的直接检测证据。",
+      "contrast": "(1+i)²≠1+i²，不能漏掉2i交叉项。",
+      "assessment": {
+        "objective": "展开复数乘法并使用i²=−1",
+        "boundary": "二因式乘积与四次幂，不测三角形式",
+        "prerequisiteSkills": "分配律"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "902997de973a9f08ff9385333ba298dde0e610332e9231a4a2376a03b36c27c5",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号53。独立解答复审：乘积14+5i；(1+i)²=2i，再平方=-4。",
+        "alignmentCheck": "展开复数乘法并使用i²=−1；解答中展开2+8i−3i−12i²=14+5i。是本题的直接检测证据。",
+        "bypassCheck": "二因式乘积与四次幂，不测三角形式 对照：(1+i)²≠1+i²，不能漏掉2i交叉项。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-2-03",
+      "skillId": "full-m2-7-2-03",
+      "familyId": "full-m2-7-2-03",
+      "text": "z=−3+4i，求共轭z̄、z+z̄、zz̄，并说明为什么后二者为实数。",
+      "answer": "−3−4i；−6；25。",
+      "steps": [
+        "共轭保持实部、虚部反号。",
+        "z+z̄=−6，虚部相消。",
+        "zz̄=(−3)²+4²=25，等于模的平方。"
+      ],
+      "alignment": "通过共轭运算消去虚部；解答中共轭保持实部、虚部反号。是本题的直接检测证据。",
+      "contrast": "z−z̄=8i是纯虚数，本题不等于实数。",
+      "assessment": {
+        "objective": "通过共轭运算消去虚部",
+        "boundary": "给定代数形式；不测共轭方程组",
+        "prerequisiteSkills": "复数乘法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5fef9c211eee89ef1a01ad8b71ddb591a89f75c14959e3a99d1e6feaf6e6d9a2",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号54。独立解答复审：共轭为-3-4i，和-6、积9+16=25，虚部相消。",
+        "alignmentCheck": "通过共轭运算消去虚部；解答中共轭保持实部、虚部反号。是本题的直接检测证据。",
+        "bypassCheck": "给定代数形式；不测共轭方程组 对照：z−z̄=8i是纯虚数，本题不等于实数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-2-04",
+      "skillId": "full-m2-7-2-04",
+      "familyId": "full-m2-7-2-04",
+      "text": "计算(3+2i)/(1−i)，要求写出分母实数化步骤。",
+      "answer": "1/2+(5/2)i。",
+      "steps": [
+        "分子分母同乘分母共轭1+i。",
+        "分母(1−i)(1+i)=2，分子(3+2i)(1+i)=1+5i。",
+        "除以2得1/2+(5/2)i。"
+      ],
+      "alignment": "用共轭使复数分母实数化；解答中分子分母同乘分母共轭1+i。是本题的直接检测证据。",
+      "contrast": "乘以1−i不会使该分母实数化。",
+      "assessment": {
+        "objective": "用共轭使复数分母实数化",
+        "boundary": "分母非零，检测一次除法",
+        "prerequisiteSkills": "共轭、乘法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5b5e0602350d9e4e563c5125332df7868f87db73278ece2581d115c8beab3038",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号55。独立解答复审：乘共轭后分子1+5i、分母2，所得除法结果正确。",
+        "alignmentCheck": "用共轭使复数分母实数化；解答中分子分母同乘分母共轭1+i。是本题的直接检测证据。",
+        "bypassCheck": "分母非零，检测一次除法 对照：乘以1−i不会使该分母实数化。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-3-01",
+      "skillId": "full-m2-7-3-01",
+      "familyId": "full-m2-7-3-01",
+      "text": "在复平面中，点P(−2,3)对应哪个复数？复数w=4−i在第几象限？实轴、虚轴上的点各有什么系数特征？",
+      "answer": "P对应−2+3i；w在第四象限；实轴虚部0，虚轴实部0。",
+      "steps": [
+        "横坐标给实部、纵坐标给虚部。",
+        "w坐标(4,−1)，横正纵负为第四象限。",
+        "实轴y=0即虚部0；虚轴x=0即实部0（包括原点）。"
+      ],
+      "alignment": "建立复数与复平面点的对应；解答中横坐标给实部、纵坐标给虚部。是本题的直接检测证据。",
+      "contrast": "虚轴原点对应0，不能一律称虚轴所有点为纯虚数。",
+      "assessment": {
+        "objective": "建立复数与复平面点的对应",
+        "boundary": "检测象限与坐标轴；不测轨迹",
+        "prerequisiteSkills": "平面直角坐标"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7a8fd5cc37404b15b6c03b818bb2b462c51ffbd6989208c45d49bc3d9d4845b5",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：实部对应横轴、虚部纵轴，(4,-1)第四象限；虚轴含原点的说明合理。",
+        "alignmentCheck": "建立复数与复平面点的对应；解答中横坐标给实部、纵坐标给虚部。是本题的直接检测证据。",
+        "bypassCheck": "检测象限与坐标轴；不测轨迹 对照：虚轴原点对应0，不能一律称虚轴所有点为纯虚数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-3-02",
+      "skillId": "full-m2-7-3-02",
+      "familyId": "full-m2-7-3-02",
+      "text": "z1=1+2i、z2=4−2i对应P、Q。写出向量OP、PQ对应的复数，求PQ的长度。",
+      "answer": "OP对应1+2i；PQ对应3−4i；长度5。",
+      "steps": [
+        "OP由原点到P，其坐标(1,2)。",
+        "PQ=OQ−OP=(3,−4)，对应z2−z1=3−4i。",
+        "长度√(9+16)=5。"
+      ],
+      "alignment": "用复数表示平面向量及两点位移；解答中OP由原点到P，其坐标(1,2)。是本题的直接检测证据。",
+      "contrast": "PQ对应z2−z1，反序z1−z2表示QP。",
+      "assessment": {
+        "objective": "用复数表示平面向量及两点位移",
+        "boundary": "平面自由向量对应，未涉及旋转乘法",
+        "prerequisiteSkills": "坐标减法、模"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ea2b51efae533c84e1792093301fdb508dcb263b161d1e75752a39044274533d",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号57。独立解答复审：PQ对应z₂-z₁=3-4i，模5，起点终点未反置。",
+        "alignmentCheck": "用复数表示平面向量及两点位移；解答中OP由原点到P，其坐标(1,2)。是本题的直接检测证据。",
+        "bypassCheck": "平面自由向量对应，未涉及旋转乘法 对照：PQ对应z2−z1，反序z1−z2表示QP。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-7-3-03",
+      "skillId": "full-m2-7-3-03",
+      "familyId": "full-m2-7-3-03",
+      "text": "z=−5+12i，求|z|、|z̄|与|2z|，并解实数t使|t+3i|=5。",
+      "answer": "13，13，26；t=±4。",
+      "steps": [
+        "|z|=√(25+144)=13；共轭模不变，实数倍2使模加倍。",
+        "|t+3i|²=t²+9=25，得t²=16，t=±4。"
+      ],
+      "alignment": "应用复数模及其共轭、数乘性质；解答中|z|=√(25+144)=13；共轭模不变，实数倍2使模加倍。是本题的直接检测证据。",
+      "contrast": "复数模不是实部虚部之和：−5+12=7并非13。",
+      "assessment": {
+        "objective": "应用复数模及其共轭、数乘性质",
+        "boundary": "二维代数模与单参数方程；不测轨迹综合",
+        "prerequisiteSkills": "平方根、二次方程"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0fcb9c5e7ddda567fb3c2a8b96dbf790203029fe6aad100128f966f6e810c4a8",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号58。独立解答复审：模√169=13，共轭保模、数乘变26；t²+9=25得±4。",
+        "alignmentCheck": "应用复数模及其共轭、数乘性质；解答中|z|=√(25+144)=13；共轭模不变，实数倍2使模加倍。是本题的直接检测证据。",
+        "bypassCheck": "二维代数模与单参数方程；不测轨迹综合 对照：复数模不是实部虚部之和：−5+12=7并非13。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-1-01",
+      "skillId": "full-m2-8-1-01",
+      "familyId": "full-m2-8-1-01",
+      "text": "一个六棱柱有多少个顶点、棱、面？其侧面一定是矩形吗？说明一般棱柱必须具有的侧棱关系。",
+      "answer": "12个顶点、18条棱、8个面；侧面不一定矩形；侧棱互相平行且相等。",
+      "steps": [
+        "上下各6个顶点、6条底棱，另6条侧棱，故V=12、E=18。",
+        "两底面加6侧面共8面；一般侧面为平行四边形，直棱柱才都是矩形。"
+      ],
+      "alignment": "识别棱柱构成、计数与侧面结构；解答中上下各6个顶点、6条底棱，另6条侧棱，故V=12、E=18。是本题的直接检测证据。",
+      "contrast": "有两个平行面不自动保证是棱柱，还需相应侧棱平行等结构。",
+      "assessment": {
+        "objective": "识别棱柱构成、计数与侧面结构",
+        "boundary": "一般六棱柱，区分直棱柱；不测斜棱柱体积",
+        "prerequisiteSkills": "多边形、平行四边形"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d66c29541de275049ac68d4323f4d454cf2ab6161556469e5c5ea033e1ca1204",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号59。独立解答复审：六棱柱V=12,E=18,F=8，欧拉式12-18+8=2；一般侧面仅为平行四边形。",
+        "alignmentCheck": "识别棱柱构成、计数与侧面结构；解答中上下各6个顶点、6条底棱，另6条侧棱，故V=12、E=18。是本题的直接检测证据。",
+        "bypassCheck": "一般六棱柱，区分直棱柱；不测斜棱柱体积 对照：有两个平行面不自动保证是棱柱，还需相应侧棱平行等结构。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-1-02",
+      "skillId": "full-m2-8-1-02",
+      "familyId": "full-m2-8-1-02",
+      "text": "一个五棱锥有多少顶点、棱、面？所有侧面共同含哪个点？底面与侧面的形状分别是什么？",
+      "answer": "6个顶点、10条棱、6个面；共同含顶点；底面五边形、侧面三角形。",
+      "steps": [
+        "底面5顶点加一个锥顶得6。",
+        "5底棱加5侧棱得10；1底面加5侧面得6。",
+        "每个侧面由一条底边及锥顶构成三角形。"
+      ],
+      "alignment": "根据统一锥顶识别棱锥结构并计数；解答中底面5顶点加一个锥顶得6。是本题的直接检测证据。",
+      "contrast": "侧面均为三角形不表示侧面全为等腰三角形。",
+      "assessment": {
+        "objective": "根据统一锥顶识别棱锥结构并计数",
+        "boundary": "五棱锥，不限定正棱锥",
+        "prerequisiteSkills": "多边形顶点与边"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "82c3bfcd6abbc28a76244ddd04bf18767eb47c85691ae44293e2f6db599c36e7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号60。独立解答复审：五棱锥V=6,E=10,F=6，五个侧面均三角形并含锥顶。",
+        "alignmentCheck": "根据统一锥顶识别棱锥结构并计数；解答中底面5顶点加一个锥顶得6。是本题的直接检测证据。",
+        "bypassCheck": "五棱锥，不限定正棱锥 对照：侧面均为三角形不表示侧面全为等腰三角形。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-1-03",
+      "skillId": "full-m2-8-1-03",
+      "familyId": "full-m2-8-1-03",
+      "text": "用平行于正四棱锥底面的平面截去顶部小锥，得棱台，上底边2、下底边6。侧棱延长是否相交？上下底面积比与各侧面形状是什么？",
+      "answer": "侧棱延长交于原锥顶；面积比1:9；侧面为等腰梯形。",
+      "steps": [
+        "平行截面与底面相似，边比2:6=1:3，面积比1:9。",
+        "棱台来自同一正棱锥，所以侧棱延长汇于原顶点。",
+        "正棱锥的等腰三角形侧面被平行线截出等腰梯形。"
+      ],
+      "alignment": "区分棱台的平行截面、相似底面和共同锥顶；解答中平行截面与底面相似，边比2:6=1:3，面积比1:9。是本题的直接检测证据。",
+      "contrast": "任意两个平行四边形作底的多面体未必是棱台。",
+      "assessment": {
+        "objective": "区分棱台的平行截面、相似底面和共同锥顶",
+        "boundary": "正四棱台特例，不将一般棱台侧面说成等腰",
+        "prerequisiteSkills": "相似比、梯形"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9d3a068c4929baca471fd13aa98d7453c2c574ff94c17895466ae8503a4cb318",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：平行截面边比1:3、面积比1:9；正四棱锥保证等腰侧面，非一般棱台误推。",
+        "alignmentCheck": "区分棱台的平行截面、相似底面和共同锥顶；解答中平行截面与底面相似，边比2:6=1:3，面积比1:9。是本题的直接检测证据。",
+        "bypassCheck": "正四棱台特例，不将一般棱台侧面说成等腰 对照：任意两个平行四边形作底的多面体未必是棱台。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-1-04",
+      "skillId": "full-m2-8-1-04",
+      "familyId": "full-m2-8-1-04",
+      "text": "分别描述下列图形绕指定边旋转一周得到的几何体：①矩形绕一边；②直角三角形绕一直角边；③直角梯形绕垂直两底的腰。指出各自母线特点。",
+      "answer": "①圆柱；②圆锥；③圆台。圆柱母线平行且等长，圆锥母线相交于顶点，圆台母线延长相交于原锥顶。",
+      "steps": [
+        "矩形对边旋转形成圆柱侧面，半径不随高度变。",
+        "斜边旋转形成圆锥侧面，从顶点到圆周为母线。",
+        "梯形斜腰旋转形成圆台侧面，上下底半径不同，母线延长相交。"
+      ],
+      "alignment": "比较圆柱、圆锥、圆台的生成与母线结构；解答中矩形对边旋转形成圆柱侧面，半径不随高度变。是本题的直接检测证据。",
+      "contrast": "圆台不能仅凭“有上下两个圆”判断，还要有同一锥面结构。",
+      "assessment": {
+        "objective": "比较圆柱、圆锥、圆台的生成与母线结构",
+        "boundary": "规定非退化直角梯形且两底不等；不测表面积",
+        "prerequisiteSkills": "旋转体、直角图形"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0c818478ae6548417685ca178878353ff2613fbfc6373b6fb28bb0f425fee46f",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：绕指定轴旋转分别圆柱、圆锥、圆台，母线平行或延长共顶符合结构定义。",
+        "alignmentCheck": "比较圆柱、圆锥、圆台的生成与母线结构；解答中矩形对边旋转形成圆柱侧面，半径不随高度变。是本题的直接检测证据。",
+        "bypassCheck": "规定非退化直角梯形且两底不等；不测表面积 对照：圆台不能仅凭“有上下两个圆”判断，还要有同一锥面结构。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-1-05",
+      "skillId": "full-m2-8-1-05",
+      "familyId": "full-m2-8-1-05",
+      "text": "半径5的球被距球心3的平面截得圆，求截面圆半径；该截面是否为大圆？何时截面为大圆？",
+      "answer": "半径4；不是大圆；平面经过球心时为大圆。",
+      "steps": [
+        "球心到截面平面的垂足是截面圆心。",
+        "球半径、圆半径、球心到平面距离组成直角三角形，r²+3²=5²，r=4。",
+        "大圆半径等于球半径，要求距离0。"
+      ],
+      "alignment": "识别球截面及大圆条件；解答中球心到截面平面的垂足是截面圆心。是本题的直接检测证据。",
+      "contrast": "距离5时相切为一个点，不能仍称半径正的圆。",
+      "assessment": {
+        "objective": "识别球截面及大圆条件",
+        "boundary": "给定球与非切截平面；不测球面距离",
+        "prerequisiteSkills": "勾股定理"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6cf7ec12ef32ef6d556b524cce2a4f7e87dc75fb5bb66e3d440e3800f77b2048",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号63。独立解答复审：截面半径√(25-9)=4，平面未过球心不是大圆，距离0才给半径5。",
+        "alignmentCheck": "识别球截面及大圆条件；解答中球心到截面平面的垂足是截面圆心。是本题的直接检测证据。",
+        "bypassCheck": "给定球与非切截平面；不测球面距离 对照：距离5时相切为一个点，不能仍称半径正的圆。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-2-01",
+      "skillId": "full-m2-8-2-01",
+      "familyId": "full-m2-8-2-01",
+      "text": "用斜二测画水平矩形OABC，OA沿x轴长6，OC沿y轴长4。取x′轴水平、y′轴与其夹角45°。给出画图后的两邻边长度、夹角及实际面积与图上面积。",
+      "answer": "图上6和2，夹角45°；实际面积24，图上面积6√2。",
+      "steps": [
+        "斜二测规则保留x方向长度，y方向长度缩半。",
+        "故O′A′=6、O′C′=2，夹角45°。",
+        "实际6×4=24，图上平行四边形面积6×2sin45°=6√2。"
+      ],
+      "alignment": "实施斜二测方向与长度规则并区分实际量和图示量；解答中斜二测规则保留x方向长度，y方向长度缩半。是本题的直接检测证据。",
+      "contrast": "图上的邻边夹角45°不代表实际矩形角为45°。",
+      "assessment": {
+        "objective": "实施斜二测方向与长度规则并区分实际量和图示量",
+        "boundary": "采用45°和y缩半的指定约定；图示面积不作真实面积",
+        "prerequisiteSkills": "平行四边形面积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b276b25bf218add08b2ccee574bb63bdc0a7169f793512c8e9d7cd97bbbf7380",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号64。独立解答复审：斜二测保6、将4缩2，面积6×2sin45=6√2，实际24不混同。",
+        "alignmentCheck": "实施斜二测方向与长度规则并区分实际量和图示量；解答中斜二测规则保留x方向长度，y方向长度缩半。是本题的直接检测证据。",
+        "bypassCheck": "采用45°和y缩半的指定约定；图示面积不作真实面积 对照：图上的邻边夹角45°不代表实际矩形角为45°。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-2-02",
+      "skillId": "full-m2-8-2-02",
+      "familyId": "full-m2-8-2-02",
+      "text": "画长方体直观图：底面长6、宽4、高3，采用x′水平、y′与x′夹45°、z′竖直的斜二测约定。列出三方向画图长度、构造步骤及看不见的棱如何表示。",
+      "answer": "x′向6、y′向2、z′向3；先底面平行四边形，再各顶点竖直画高3，连接对应顶点；不可见棱用虚线。",
+      "steps": [
+        "水平底面的x向不缩、y向缩半，得6、2。",
+        "从底面四顶点向z′作等长3的平行线段，再连上底。",
+        "保持对应棱平行；选定观察方向后以虚线表示遮挡棱。"
+      ],
+      "alignment": "根据斜二测规则构造完整长方体直观图；解答中水平底面的x向不缩、y向缩半，得6、2。是本题的直接检测证据。",
+      "contrast": "不能把竖直高度也缩为1.5，约定只缩y方向。",
+      "assessment": {
+        "objective": "根据斜二测规则构造完整长方体直观图",
+        "boundary": "用操作步骤检测作图规则，未提供实际手绘图评分",
+        "prerequisiteSkills": "平行线、斜二测规则"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "187d72ef2578d96ce7013d9db055b199c4c4ec4ea7c92657a5f248b1a3afc1ee",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：三个绘制长度6、2、3符合斜二测规则，连接对应点成平行棱并按遮挡用虚线。",
+        "alignmentCheck": "根据斜二测规则构造完整长方体直观图；解答中水平底面的x向不缩、y向缩半，得6、2。是本题的直接检测证据。",
+        "bypassCheck": "用操作步骤检测作图规则，未提供实际手绘图评分 对照：不能把竖直高度也缩为1.5，约定只缩y方向。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-01",
+      "skillId": "full-m2-8-3-01",
+      "familyId": "full-m2-8-3-01",
+      "text": "求三个几何体的表面积：①底边2、高3的正四棱柱；②底边4、侧面斜高3的正四棱锥；③上底边2、下底边4、侧面梯形高3的正四棱台。",
+      "answer": "32；40；56。",
+      "steps": [
+        "①两底面积2×4，侧面积底周长8乘高3，合计32。",
+        "②底16，四个三角形面积4×(4×3/2)=24，合计40。",
+        "③两底4+16，四个梯形面积4×[(2+4)×3/2]=36，合计56。"
+      ],
+      "alignment": "按底面与侧面展开计算柱、锥、台的表面积；解答中①两底面积2×4，侧面积底周长8乘高3，合计32。是本题的直接检测证据。",
+      "contrast": "棱锥的侧面斜高不是其竖直高，不能互换。",
+      "assessment": {
+        "objective": "按底面与侧面展开计算柱、锥、台的表面积",
+        "boundary": "均为正四棱体，斜高已给；不测一般多边形或组合体",
+        "prerequisiteSkills": "三角形与梯形面积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fff2f1ca03c23fecb6864e3c0d5637b8e5b15fca9e3f3bc231d3689380fd9300",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号66。独立解答复审：三体表面积独立分底面与侧面重算为8+24=32、16+24=40、20+36=56。",
+        "alignmentCheck": "按底面与侧面展开计算柱、锥、台的表面积；解答中①两底面积2×4，侧面积底周长8乘高3，合计32。是本题的直接检测证据。",
+        "bypassCheck": "均为正四棱体，斜高已给；不测一般多边形或组合体 对照：棱锥的侧面斜高不是其竖直高，不能互换。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-02",
+      "skillId": "full-m2-8-3-02",
+      "familyId": "full-m2-8-3-02",
+      "text": "求总表面积：①半径2、高3的圆柱；②底半径3、母线5的圆锥；③上下半径1和3、母线4的圆台。",
+      "answer": "20π；24π；26π。",
+      "steps": [
+        "圆柱2πr²+2πrh=8π+12π=20π。",
+        "圆锥πr²+πrl=9π+15π=24π。",
+        "圆台πr²+πR²+π(r+R)l=π+9π+16π=26π。"
+      ],
+      "alignment": "区分三个旋转体的侧面积并加齐底面；解答中圆柱2πr²+2πrh=8π+12π=20π。是本题的直接检测证据。",
+      "contrast": "圆锥只有一个底；圆台有两个底，不能只加大底。",
+      "assessment": {
+        "objective": "区分三个旋转体的侧面积并加齐底面",
+        "boundary": "检测完整封闭表面；不测试缺底容器和组合接面",
+        "prerequisiteSkills": "圆面积、母线"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8c70b57369dba7ac2ed122dd925b6f8b817ea4d904c6be3832442ecad7f45a6a",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号67。独立解答复审：圆柱8π+12π，圆锥9π+15π，圆台10π+16π，均计算总封闭表面。",
+        "alignmentCheck": "区分三个旋转体的侧面积并加齐底面；解答中圆柱2πr²+2πrh=8π+12π=20π。是本题的直接检测证据。",
+        "bypassCheck": "检测完整封闭表面；不测试缺底容器和组合接面 对照：圆锥只有一个底；圆台有两个底，不能只加大底。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-03",
+      "skillId": "full-m2-8-3-03",
+      "familyId": "full-m2-8-3-03",
+      "text": "球半径由3增大为6，分别求表面积及表面积倍数；若表面积为100π，求半径。",
+      "answer": "36π、144π，4倍；半径5。",
+      "steps": [
+        "S=4πR²，代入3、6分别得36π和144π。",
+        "面积比=(6/3)²=4。",
+        "4πR²=100π得R²=25，半径取正5。"
+      ],
+      "alignment": "应用球表面积与半径平方的关系；解答中S=4πR²，代入3、6分别得36π和144π。是本题的直接检测证据。",
+      "contrast": "半径翻倍面积变4倍，体积则变8倍。",
+      "assessment": {
+        "objective": "应用球表面积与半径平方的关系",
+        "boundary": "完整球面，不检测球冠",
+        "prerequisiteSkills": "平方比例"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "980db166b8065d850d749dfb732cf1e357a06a3207b2c76982134b8916990a0b",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号68。独立解答复审：球面积4πR²在3、6为36π、144π，半径倍2使面积倍4，反解半径5。",
+        "alignmentCheck": "应用球表面积与半径平方的关系；解答中S=4πR²，代入3、6分别得36π和144π。是本题的直接检测证据。",
+        "bypassCheck": "完整球面，不检测球冠 对照：半径翻倍面积变4倍，体积则变8倍。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-04",
+      "skillId": "full-m2-8-3-04",
+      "familyId": "full-m2-8-3-04",
+      "text": "底面积分别为12的棱柱、棱锥，高均为5；另有棱台上底面积4、下底面积16、高3。分别求体积。",
+      "answer": "60、20、28。",
+      "steps": [
+        "棱柱V=Sh=12×5=60；棱锥V=Sh/3=20。",
+        "棱台V=h(S上+S下+√(S上S下))/3。",
+        "代入3(4+16+8)/3=28。"
+      ],
+      "alignment": "并列应用棱柱、棱锥、棱台体积公式；解答中棱柱V=Sh=12×5=60；棱锥V=Sh/3=20。是本题的直接检测证据。",
+      "contrast": "棱台体积不是两底面积平均乘高，本例平均法得30会错。",
+      "assessment": {
+        "objective": "并列应用棱柱、棱锥、棱台体积公式",
+        "boundary": "底面积和垂直高已知；不测求高过程",
+        "prerequisiteSkills": "根式、底高概念"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1977733a87e59fc0d4b5db3537e156b3e62c4f0352edd1dd627ed94f546c4cd0",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号69。独立解答复审：柱60、锥20；台h/3乘4+16+8为28，根号交叉项未漏。",
+        "alignmentCheck": "并列应用棱柱、棱锥、棱台体积公式；解答中棱柱V=Sh=12×5=60；棱锥V=Sh/3=20。是本题的直接检测证据。",
+        "bypassCheck": "底面积和垂直高已知；不测求高过程 对照：棱台体积不是两底面积平均乘高，本例平均法得30会错。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-05",
+      "skillId": "full-m2-8-3-05",
+      "familyId": "full-m2-8-3-05",
+      "text": "求体积：①半径2、高6圆柱；②半径2、高6圆锥；③上下半径1、2，高3圆台。",
+      "answer": "24π；8π；7π。",
+      "steps": [
+        "圆柱πr²h=π×4×6=24π。",
+        "圆锥πr²h/3=8π。",
+        "圆台πh(r²+rR+R²)/3=π(1+2+4)=7π。"
+      ],
+      "alignment": "应用圆柱、圆锥和圆台体积公式；解答中圆柱πr²h=π×4×6=24π。是本题的直接检测证据。",
+      "contrast": "圆台中间项为rR，不能漏项。",
+      "assessment": {
+        "objective": "应用圆柱、圆锥和圆台体积公式",
+        "boundary": "高均为垂直高；不考母线换高",
+        "prerequisiteSkills": "圆面积、体积公式"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0af6ca6a6c3f71d4ce63b8ecfefc3ae0b6e761e670ecbf5bb9a5bea060e21427",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号70。独立解答复审：圆柱24π、圆锥8π；圆台π×3/3乘1+2+4=7π。",
+        "alignmentCheck": "应用圆柱、圆锥和圆台体积公式；解答中圆柱πr²h=π×4×6=24π。是本题的直接检测证据。",
+        "bypassCheck": "高均为垂直高；不考母线换高 对照：圆台中间项为rR，不能漏项。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-06",
+      "skillId": "full-m2-8-3-06",
+      "familyId": "full-m2-8-3-06",
+      "text": "实心球半径3，熔成半径1的小球，忽略损耗，可制多少个？写出大球体积。",
+      "answer": "大球36π；27个。",
+      "steps": [
+        "球体积V=4πR³/3，大球得36π。",
+        "小球体积4π/3，个数36π÷(4π/3)=27。"
+      ],
+      "alignment": "利用球体积及半径立方比；解答中球体积V=4πR³/3，大球得36π。是本题的直接检测证据。",
+      "contrast": "不能用表面积比9来算球数。",
+      "assessment": {
+        "objective": "利用球体积及半径立方比",
+        "boundary": "假设完全熔铸无损；不考虑材料空隙",
+        "prerequisiteSkills": "体积、比例"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e0863ccc252ac3476f74c3f75a288370682674e1c3fa90c1bcd41845251b1363",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号71。独立解答复审：大球36π，小球4π/3，无损体积比27，假设明确。",
+        "alignmentCheck": "利用球体积及半径立方比；解答中球体积V=4πR³/3，大球得36π。是本题的直接检测证据。",
+        "bypassCheck": "假设完全熔铸无损；不考虑材料空隙 对照：不能用表面积比9来算球数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-07",
+      "skillId": "full-m2-8-3-07",
+      "familyId": "full-m2-8-3-07",
+      "text": "三棱锥P-ABC中底面ABC面积12，P到底面距离6。若面PAB面积18，求C到平面PAB的距离。",
+      "answer": "4。",
+      "steps": [
+        "先以ABC作底，体积V=12×6/3=24。",
+        "同一三棱锥改以PAB作底，24=18d/3。",
+        "解d=4。"
+      ],
+      "alignment": "通过同一三棱锥的等积换底求距离；解答中先以ABC作底，体积V=12×6/3=24。是本题的直接检测证据。",
+      "contrast": "换底时对应顶点必须换为C，不能仍使用P的原高6。",
+      "assessment": {
+        "objective": "通过同一三棱锥的等积换底求距离",
+        "boundary": "两个底面积已给；不涉及符号距离",
+        "prerequisiteSkills": "棱锥体积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9d4991e75bbb76015918eda6a6d7e9365283cde032eb4f7ba2a009d9e5ef4a26",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号72。独立解答复审：原底体积12×6/3=24，换底18后高24×3/18=4。",
+        "alignmentCheck": "通过同一三棱锥的等积换底求距离；解答中先以ABC作底，体积V=12×6/3=24。是本题的直接检测证据。",
+        "bypassCheck": "两个底面积已给；不涉及符号距离 对照：换底时对应顶点必须换为C，不能仍使用P的原高6。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-3-08",
+      "skillId": "full-m2-8-3-08",
+      "familyId": "full-m2-8-3-08",
+      "text": "边长4的正方体，从一个顶点沿三条相交棱各截取长度2，切去以该顶点和三个截点组成的三棱锥。求剩余体积。",
+      "answer": "188/3。",
+      "steps": [
+        "正方体体积4³=64。",
+        "被切三棱锥可取两条长2且垂直的边组成底面，面积2。",
+        "第三条长2边垂直底面，锥体积2×2/3=4/3。",
+        "剩余64−4/3=188/3。"
+      ],
+      "alignment": "先识别被割去的简单体再作体积差；解答中正方体体积4³=64。是本题的直接检测证据。",
+      "contrast": "截下部分不是边长2的小正方体。",
+      "assessment": {
+        "objective": "先识别被割去的简单体再作体积差",
+        "boundary": "一次顶角切割，三截点均在相邻棱上",
+        "prerequisiteSkills": "三角形面积、棱锥体积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4da44109355dc7fa6b8ad1de89df878a64162371215901a88f45bf10590e2b4c",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号73。独立解答复审：切下三互垂长2的三棱锥体积2³/6=4/3，余64-4/3=188/3。",
+        "alignmentCheck": "先识别被割去的简单体再作体积差；解答中正方体体积4³=64。是本题的直接检测证据。",
+        "bypassCheck": "一次顶角切割，三截点均在相邻棱上 对照：截下部分不是边长2的小正方体。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-4-01",
+      "skillId": "full-m2-8-4-01",
+      "familyId": "full-m2-8-4-01",
+      "text": "A、B、C不共线且都在平面α内。①为何AB整条直线在α内？②另一个平面β也含A、B、C，是否可与α不同？③若β≠α且只知共同含A、B两点，它们的交线是哪条？",
+      "answer": "①两点确定的直线在该平面内；②不可，β=α；③直线AB。",
+      "steps": [
+        "由直线两点在平面内推出直线包含于平面。",
+        "不共线三点确定唯一平面，故第二问两平面重合。",
+        "两个不同平面若有公共点，则有且只有一条经过该点的公共直线；已含AB，所以交线为AB。"
+      ],
+      "alignment": "分别在情境中使用三个平面基本事实；解答中由直线两点在平面内推出直线包含于平面。是本题的直接检测证据。",
+      "contrast": "三个点若共线则不能唯一确定平面。",
+      "assessment": {
+        "objective": "分别在情境中使用三个平面基本事实",
+        "boundary": "仅检测事实调用与唯一性，不证明公理",
+        "prerequisiteSkills": "点线面记号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f81d78f017c31c25ca4c84b35680c8a5bb507c9962e99470780e524632ec22b1",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：两点得面内直线、非共线三点唯一平面、不同平面公共两点确定交线，三公理运用吻合。",
+        "alignmentCheck": "分别在情境中使用三个平面基本事实；解答中由直线两点在平面内推出直线包含于平面。是本题的直接检测证据。",
+        "bypassCheck": "仅检测事实调用与唯一性，不证明公理 对照：三个点若共线则不能唯一确定平面。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-4-02",
+      "skillId": "full-m2-8-4-02",
+      "familyId": "full-m2-8-4-02",
+      "text": "直线l与平面α有两个不同公共点A、B，M是l上任意点。证明M∈α；若只有一个公共点是否仍可这样推断？",
+      "answer": "M∈α；只有一个公共点时不能推出l⊂α。",
+      "steps": [
+        "A、B是l上的两个不同点且都在α中。",
+        "由直线在平面内的基本事实，l⊂α，因此M∈α。",
+        "过平面上一点但不在平面内的斜线可与其仅交一点。"
+      ],
+      "alignment": "使用两点在平面内推出整条直线在平面内；解答中A、B是l上的两个不同点且都在α中。是本题的直接检测证据。",
+      "contrast": "z轴与z=0平面仅交原点，却不在平面内。",
+      "assessment": {
+        "objective": "使用两点在平面内推出整条直线在平面内",
+        "boundary": "明确两点不同；只测包含性而非其他位置关系",
+        "prerequisiteSkills": "集合包含、直线唯一性"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0bc4fc89093a4ceb036a0af8e923602cb5a356f50e423c835edf52688de41127",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：两个不同公共点推整线包含于面，一点反例可取穿面斜线，边界完整。",
+        "alignmentCheck": "使用两点在平面内推出整条直线在平面内；解答中A、B是l上的两个不同点且都在α中。是本题的直接检测证据。",
+        "bypassCheck": "明确两点不同；只测包含性而非其他位置关系 对照：z轴与z=0平面仅交原点，却不在平面内。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-4-03",
+      "skillId": "full-m2-8-4-03",
+      "familyId": "full-m2-8-4-03",
+      "text": "A、B、C不共线，D是AB上一点且D≠A。证明通过A、C、D的平面与通过A、B、C的平面相同；若D=A会发生什么？",
+      "answer": "两个平面相同；D=A时A、C、D不能唯一确定平面。",
+      "steps": [
+        "D∈AB且AB在平面ABC内，因此D也在该平面。",
+        "因C不在AB上且D≠A，A、C、D不共线，确定唯一平面。",
+        "平面ABC已包含这三点，所以两个平面相同。"
+      ],
+      "alignment": "使用不共线三点确定平面的存在唯一性；解答中D∈AB且AB在平面ABC内，因此D也在该平面。是本题的直接检测证据。",
+      "contrast": "两个不同点只确定一条直线，可通过无穷多个平面。",
+      "assessment": {
+        "objective": "使用不共线三点确定平面的存在唯一性",
+        "boundary": "只测点集确定平面，D限制不可删除",
+        "prerequisiteSkills": "直线在平面内"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "733b340b48f6d7557997ba11d5807334557a9925a6d08a76fcb5cce541b6e452",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：D在AB且不等A保证A,C,D不共线；D=A则只有两不同点，平面不唯一。",
+        "alignmentCheck": "使用不共线三点确定平面的存在唯一性；解答中D∈AB且AB在平面ABC内，因此D也在该平面。是本题的直接检测证据。",
+        "bypassCheck": "只测点集确定平面，D限制不可删除 对照：两个不同点只确定一条直线，可通过无穷多个平面。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-4-04",
+      "skillId": "full-m2-8-4-04",
+      "familyId": "full-m2-8-4-04",
+      "text": "不同平面α、β相交于l，A、B分别是两个平面共有的不同点。证明A、B、l共线（即A、B都在l上）；是否可能另有公共点C不在l上？",
+      "answer": "A、B都在l上；不可能有公共点C不在l上。",
+      "steps": [
+        "两平面的公共点都属于其公共交线l，故A、B∈l。",
+        "若C为公共点且不在l，则A、B、C不共线。",
+        "二平面都含这三个点必重合，与不同矛盾。"
+      ],
+      "alignment": "运用两平面唯一交线定位公共点；解答中两平面的公共点都属于其公共交线l，故A、B∈l。是本题的直接检测证据。",
+      "contrast": "重合平面共有整个平面，不能称只有一条交线。",
+      "assessment": {
+        "objective": "运用两平面唯一交线定位公共点",
+        "boundary": "两个平面必须不同；不考虑重合情形",
+        "prerequisiteSkills": "基本事实、反证法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5330ac1cdabc8c540093abe7c39a7683c3ef70dd2c6441037d84105bc60d30dd",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：交线包含全部公共点；若有线外公共C则三非共线点迫使两面重合，矛盾。",
+        "alignmentCheck": "运用两平面唯一交线定位公共点；解答中两平面的公共点都属于其公共交线l，故A、B∈l。是本题的直接检测证据。",
+        "bypassCheck": "两个平面必须不同；不考虑重合情形 对照：重合平面共有整个平面，不能称只有一条交线。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-4-05",
+      "skillId": "full-m2-8-4-05",
+      "familyId": "full-m2-8-4-05",
+      "text": "在正方体ABCD-A1B1C1D1中，依次判断A与底面ABCD、A1与底面、AB与底面、AA1与底面、A1B1与底面、两个底面的位置关系。",
+      "answer": "A在面内；A1在面外；AB在面内；AA1与面相交于A；A1B1平行于面；上下底面平行。",
+      "steps": [
+        "按标准正方体对应顶点，上底点均不在下底面。",
+        "AB两端在底面，整线在面内；AA1只交于A。",
+        "A1B1位于与底面平行的上底面，所以与下底面无公共点。"
+      ],
+      "alignment": "区分点面、线面、面面的位置关系；解答中按标准正方体对应顶点，上底点均不在下底面。是本题的直接检测证据。",
+      "contrast": "AB在面内不能叫作AB平行于该面；平行要求无公共点。",
+      "assessment": {
+        "objective": "区分点面、线面、面面的位置关系",
+        "boundary": "只测正方体中的典型关系，不含全部任意空间构型",
+        "prerequisiteSkills": "正方体结构"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1c2840ce4df5e2be9d9a419f8460d26b5e537e9f991bea9e6f5b03e30a4fd3e5",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：正方体面内点、面外点、包含直线、单点相交与平行的六项分类准确。",
+        "alignmentCheck": "区分点面、线面、面面的位置关系；解答中按标准正方体对应顶点，上底点均不在下底面。是本题的直接检测证据。",
+        "bypassCheck": "只测正方体中的典型关系，不含全部任意空间构型 对照：AB在面内不能叫作AB平行于该面；平行要求无公共点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-4-06",
+      "skillId": "full-m2-8-4-06",
+      "familyId": "full-m2-8-4-06",
+      "text": "在正方体ABCD-A1B1C1D1中，判断AB与CC1是否异面，并用“不共面”说明；仅说不相交是否足够？",
+      "answer": "异面；不相交还可能平行，单独不相交不够。",
+      "steps": [
+        "AB与CC1方向分别水平底边与竖直，不平行。",
+        "它们无交点；若共面，两条共面不平行直线应相交，矛盾。",
+        "故二者不同在一个平面内，是异面直线。"
+      ],
+      "alignment": "以不共面本质判定异面，排除平行混淆；解答中AB与CC1方向分别水平底边与竖直，不平行。是本题的直接检测证据。",
+      "contrast": "AB与CD不相交但平行，不是异面。",
+      "assessment": {
+        "objective": "以不共面本质判定异面，排除平行混淆",
+        "boundary": "正方体指定两直线，不涉及复杂异面证明",
+        "prerequisiteSkills": "平面两直线位置关系"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "880303f637c571f90baa1b6dd2974faa2a742d844ac784860ce8fe8ad002785c",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：AB与CC₁方向不平行且不相交，共面假设会迫使相交，从而证明异面。",
+        "alignmentCheck": "以不共面本质判定异面，排除平行混淆；解答中AB与CC1方向分别水平底边与竖直，不平行。是本题的直接检测证据。",
+        "bypassCheck": "正方体指定两直线，不涉及复杂异面证明 对照：AB与CD不相交但平行，不是异面。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-5-01",
+      "skillId": "full-m2-8-5-01",
+      "familyId": "full-m2-8-5-01",
+      "text": "四面体ABCD中，M、N分别为AB、AC中点。证明MN∥平面BCD，明确判定定理的三个条件。",
+      "answer": "MN∥平面BCD。",
+      "steps": [
+        "在△ABC中，中位线MN∥BC。",
+        "BC⊂平面BCD；MN⊂平面ABC且MN∥两面的交线BC，因此MN与平面BCD无交点，特别地MN不在该面内。",
+        "由面外直线平行于面内直线，得MN∥平面BCD。"
+      ],
+      "alignment": "用面外直线与面内直线平行判定线面平行；解答中在△ABC中，中位线MN∥BC。是本题的直接检测证据。",
+      "contrast": "若漏掉MN在面外，面内直线也可能平行BC。",
+      "assessment": {
+        "objective": "用面外直线与面内直线平行判定线面平行",
+        "boundary": "非退化四面体，检测中位线型判定",
+        "prerequisiteSkills": "中位线、平面交线"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "515031afc55c560777d23793d059cb0704b9e91e0a88d66c2a0de375c54474a8",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：中位线MN平行BC，两个面交于BC且MN不交BC，从而不交目标面，判定三条件明确。",
+        "alignmentCheck": "用面外直线与面内直线平行判定线面平行；解答中在△ABC中，中位线MN∥BC。是本题的直接检测证据。",
+        "bypassCheck": "非退化四面体，检测中位线型判定 对照：若漏掉MN在面外，面内直线也可能平行BC。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-5-02",
+      "skillId": "full-m2-8-5-02",
+      "familyId": "full-m2-8-5-02",
+      "text": "l∥平面α，l⊂平面β，α∩β=m。证明l∥m，并指出为什么不能断言l平行于α内每一条直线。",
+      "answer": "l∥m；α内其他方向直线可能与l异面。",
+      "steps": [
+        "l、m共面于β。",
+        "若l与m相交，则交点属于α，违背l∥α；因此两共面直线不相交，l∥m。",
+        "例如z=1平面内x向直线平行z=0面，却不平行该面内y轴。"
+      ],
+      "alignment": "利用含平行线的截面交线得到线线平行；解答中l、m共面于β。是本题的直接检测证据。",
+      "contrast": "“线平行面”不等价于“线平行面内所有线”。",
+      "assessment": {
+        "objective": "利用含平行线的截面交线得到线线平行",
+        "boundary": "两平面相交、β包含l；不覆盖平面重合",
+        "prerequisiteSkills": "共面直线的位置关系"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "48e111b6b2ca55c3ca554b31739420185a766b188675e22eafd2253b4187454b",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：l、m同在β且不交，推出平行；α内另方向直线可与l异面，反例坐标有效。",
+        "alignmentCheck": "利用含平行线的截面交线得到线线平行；解答中l、m共面于β。是本题的直接检测证据。",
+        "bypassCheck": "两平面相交、β包含l；不覆盖平面重合 对照：“线平行面”不等价于“线平行面内所有线”。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-5-03",
+      "skillId": "full-m2-8-5-03",
+      "familyId": "full-m2-8-5-03",
+      "text": "四面体PABC中，D、E、F分别是PA、PB、PC中点。证明平面DEF∥平面ABC，并说明两组线为什么必须相交。",
+      "answer": "平面DEF∥平面ABC；相交条件保证控制两个独立方向，仅两组互相平行的平行线不充分。",
+      "steps": [
+        "DE∥AB，DF∥AC，均由三角形中位线得到。",
+        "DE、DF在面DEF内相交于D，AB、AC在面ABC内相交于A。",
+        "面内两条相交直线分别平行另一面内两条相交直线，故两面平行。",
+        "相交条件确保控制两个独立方向。反例：两个相交平面可各取两条平行于它们交线的平行线，两组逐一平行仍不能推出面面平行。"
+      ],
+      "alignment": "由两组相交直线的平行关系判定面面平行；解答中DE∥AB，DF∥AC，均由三角形中位线得到。是本题的直接检测证据。",
+      "contrast": "只用一组平行线不足，两个相交平面也可各有互相平行的线。",
+      "assessment": {
+        "objective": "由两组相交直线的平行关系判定面面平行",
+        "boundary": "非退化四面体的中点截面；不证明一般空间仿射性质",
+        "prerequisiteSkills": "中位线、相交直线"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "90ea3f4a0ec40fdcbdb06236eeec21abd2609888db8beca25dfb109e77afc03e",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：两组中位线分别平行且分别相交满足判定；补充了两个相交平面也可各含两条平行交线的直线，说明相交条件不能删除，现已答全题干。",
+        "alignmentCheck": "由两组相交直线的平行关系判定面面平行；解答中DE∥AB，DF∥AC，均由三角形中位线得到。是本题的直接检测证据。",
+        "bypassCheck": "非退化四面体的中点截面；不证明一般空间仿射性质 对照：只用一组平行线不足，两个相交平面也可各有互相平行的线。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-5-04",
+      "skillId": "full-m2-8-5-04",
+      "familyId": "full-m2-8-5-04",
+      "text": "平面α∥β，平面γ分别交α、β于l、m，证明l∥m。",
+      "answer": "l∥m。",
+      "steps": [
+        "l、m同在γ内，所以共面。",
+        "若相交于P，则P同时在α、β内，与α∥β无公共点矛盾。",
+        "两共面且不相交直线平行。"
+      ],
+      "alignment": "把平行平面的截线转为平行直线；解答中l、m同在γ内，所以共面。是本题的直接检测证据。",
+      "contrast": "如果α、β不平行，截线可能相交。",
+      "assessment": {
+        "objective": "把平行平面的截线转为平行直线",
+        "boundary": "假定截面确与两面相交；不讨论γ平行两面",
+        "prerequisiteSkills": "平行的定义、反证法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1deadfeb98c64dcd3b4ea310505591662df958ee972b8d201cf01e35e0f62609",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：截线共处γ，若交则产生α、β公共点，与面平行矛盾，证明完整。",
+        "alignmentCheck": "把平行平面的截线转为平行直线；解答中l、m同在γ内，所以共面。是本题的直接检测证据。",
+        "bypassCheck": "假定截面确与两面相交；不讨论γ平行两面 对照：如果α、β不平行，截线可能相交。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-5-05",
+      "skillId": "full-m2-8-5-05",
+      "familyId": "full-m2-8-5-05",
+      "text": "三棱柱ABC-A1B1C1中，M、N为AA1、BB1中点。证明MN∥AB，并证明MN∥平面A1B1C1。",
+      "answer": "MN∥AB，且MN∥上底面。",
+      "steps": [
+        "侧面ABB1A1是平行四边形，其中连接两侧边中点的MN平行AB及A1B1。",
+        "MN不在上底面内（中点M不在该面），A1B1在上底面内。",
+        "用线面平行判定得MN∥上底面。"
+      ],
+      "alignment": "完成中点线到线线平行再到线面平行的转化；解答中侧面ABB1A1是平行四边形，其中连接两侧边中点的MN平行AB及A1B1。是本题的直接检测证据。",
+      "contrast": "把M改为A1、N为B1时直线在上底面内，不再称平行该面。",
+      "assessment": {
+        "objective": "完成中点线到线线平行再到线面平行的转化",
+        "boundary": "棱柱侧面中点构型；不涵盖全部平行综合",
+        "prerequisiteSkills": "平行四边形、中点、线面判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3e3baaeeac22c6ed09213b17ff1090fd84c579a33a083d529350c5635e2d2c93",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：平行四边形侧面两侧中点连线平行上下对应边，中点不在上底，再用线面平行判定。",
+        "alignmentCheck": "完成中点线到线线平行再到线面平行的转化；解答中侧面ABB1A1是平行四边形，其中连接两侧边中点的MN平行AB及A1B1。是本题的直接检测证据。",
+        "bypassCheck": "棱柱侧面中点构型；不涵盖全部平行综合 对照：把M改为A1、N为B1时直线在上底面内，不再称平行该面。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-6-01",
+      "skillId": "full-m2-8-6-01",
+      "familyId": "full-m2-8-6-01",
+      "text": "在四棱锥P-ABCD中，底面ABCD是矩形，已知PA⊥AB、PA⊥AD。证明PA⊥平面ABCD，并说明若仅有PA⊥AB是否足够。",
+      "answer": "PA⊥底面；仅垂直AB不够。",
+      "steps": [
+        "AB与AD都在底面，且相交于A。",
+        "PA同时垂直两条相交直线，满足线面垂直判定定理。",
+        "仅垂直一条线不能控制另一个方向，例如底面内AD就垂直AB却不垂直底面。"
+      ],
+      "alignment": "使用平面内两相交线判定线面垂直；解答中AB与AD都在底面，且相交于A。是本题的直接检测证据。",
+      "contrast": "若两条被垂直线平行，也不足以判定垂直整个平面。",
+      "assessment": {
+        "objective": "使用平面内两相交线判定线面垂直",
+        "boundary": "矩形底面的指定两邻边；不需已知PA长度",
+        "prerequisiteSkills": "矩形、线面垂直判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b3fc19230d2e2729f6cfd9b114064c21d2b183e8ed9f0b02784bfedd714f0f6d",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：AB、AD在底面相交且均垂直PA，满足线面垂直判定；单一方向不足的面内反例有效。",
+        "alignmentCheck": "使用平面内两相交线判定线面垂直；解答中AB与AD都在底面，且相交于A。是本题的直接检测证据。",
+        "bypassCheck": "矩形底面的指定两邻边；不需已知PA长度 对照：若两条被垂直线平行，也不足以判定垂直整个平面。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-6-02",
+      "skillId": "full-m2-8-6-02",
+      "familyId": "full-m2-8-6-02",
+      "text": "已知l⊥平面α，m也垂直α。①l与α内任意直线n有何方向关系？②l、m若不同，是什么关系？解释。",
+      "answer": "①垂直（方向夹角90°）；②平行。",
+      "steps": [
+        "线面垂直的性质保证l垂直面内所有直线的方向，即使与某线不相交也如此。",
+        "同一平面的两条垂线方向均为平面法向方向。",
+        "若l、m不同，则平行。"
+      ],
+      "alignment": "应用线面垂直的两个基本性质；解答中线面垂直的性质保证l垂直面内所有直线的方向，即使与某线不相交也如此。是本题的直接检测证据。",
+      "contrast": "“垂直面内所有线”不要求垂线与每条线实际相交。",
+      "assessment": {
+        "objective": "应用线面垂直的两个基本性质",
+        "boundary": "非重合垂线作平行结论；包含异面直线方向垂直",
+        "prerequisiteSkills": "线面垂直定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6872288ecfb7cd79580baf1a161efe2cbd55950d9331aae102b851bec9e86684",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：法向与面内每个方向垂直，不要求直线相交；同面不同垂线方向平行，包含异面方向约定清楚。",
+        "alignmentCheck": "应用线面垂直的两个基本性质；解答中线面垂直的性质保证l垂直面内所有直线的方向，即使与某线不相交也如此。是本题的直接检测证据。",
+        "bypassCheck": "非重合垂线作平行结论；包含异面直线方向垂直 对照：“垂直面内所有线”不要求垂线与每条线实际相交。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-6-03",
+      "skillId": "full-m2-8-6-03",
+      "familyId": "full-m2-8-6-03",
+      "text": "四面体PABC中PA⊥平面ABC。证明平面PAB⊥平面ABC；同时平面PAC是否也垂直底面？",
+      "answer": "两侧面PAB、PAC都垂直平面ABC。",
+      "steps": [
+        "PA在平面PAB内且PA⊥平面ABC。",
+        "一个平面含有另一平面的垂线，即可判定两平面垂直。",
+        "PA也在平面PAC内，同理得第二结论。"
+      ],
+      "alignment": "用包含另一平面垂线判定面面垂直；解答中PA在平面PAB内且PA⊥平面ABC。是本题的直接检测证据。",
+      "contrast": "面PBC不含PA，不能仅凭同一理由推出它也垂直底面。",
+      "assessment": {
+        "objective": "用包含另一平面垂线判定面面垂直",
+        "boundary": "非退化四面体，两侧面确含PA",
+        "prerequisiteSkills": "线面垂直、面包含直线"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "309bea8839f8ace5ed2ed6ccbbf6103ff4384f6ec4c5e3d768fd9ec05073a13d",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：两个侧面都包含底面的垂线PA，分别满足面面垂直判定，非退化前提保证平面存在。",
+        "alignmentCheck": "用包含另一平面垂线判定面面垂直；解答中PA在平面PAB内且PA⊥平面ABC。是本题的直接检测证据。",
+        "bypassCheck": "非退化四面体，两侧面确含PA 对照：面PBC不含PA，不能仅凭同一理由推出它也垂直底面。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-6-04",
+      "skillId": "full-m2-8-6-04",
+      "familyId": "full-m2-8-6-04",
+      "text": "平面α⊥β，交线为l。α内直线m垂直l。证明m⊥β；α内任意直线都垂直β吗？",
+      "answer": "m⊥β；并非α内任意直线均垂直β。",
+      "steps": [
+        "两面垂直时，在其中一面内垂直交线的直线垂直另一面。",
+        "本题m⊂α且m⊥l，满足性质定理，故m⊥β。",
+        "交线l本身就在β内，不能垂直β，构成反例。"
+      ],
+      "alignment": "准确调用面面垂直性质中的面内与垂直交线条件；解答中两面垂直时，在其中一面内垂直交线的直线垂直另一面。是本题的直接检测证据。",
+      "contrast": "斜于交线的面内直线一般也不垂直另一个面。",
+      "assessment": {
+        "objective": "准确调用面面垂直性质中的面内与垂直交线条件",
+        "boundary": "只测性质定理，不另测二面角计算",
+        "prerequisiteSkills": "面面垂直、交线"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5b449290888855429541cec2707e925f4dac820f372cfcfc9fd4d3a0deaf2027",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：m在α且垂直交线，按垂直平面性质得到m⊥β；交线本身反证任意线都垂直。",
+        "alignmentCheck": "准确调用面面垂直性质中的面内与垂直交线条件；解答中两面垂直时，在其中一面内垂直交线的直线垂直另一面。是本题的直接检测证据。",
+        "bypassCheck": "只测性质定理，不另测二面角计算 对照：斜于交线的面内直线一般也不垂直另一个面。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-6-05",
+      "skillId": "full-m2-8-6-05",
+      "familyId": "full-m2-8-6-05",
+      "text": "正方体ABCD-A1B1C1D1中，证明AC⊥平面BDD1B1，并推出AC⊥BD1。",
+      "answer": "两结论成立。",
+      "steps": [
+        "正方形对角线AC⊥BD；又BB1⊥底面，所以AC⊥BB1（按方向夹角）。",
+        "BD与BB1在面BDD1B1内相交于B，故AC⊥该平面。",
+        "BD1在该面内，由线面垂直性质得AC⊥BD1。"
+      ],
+      "alignment": "串联线线垂直、线面判定和线面性质；解答中正方形对角线AC⊥BD；又BB1⊥底面，所以AC⊥BB1（按方向夹角）。是本题的直接检测证据。",
+      "contrast": "一般非正方形底面中AC未必垂直BD，链条第一步可能失败。",
+      "assessment": {
+        "objective": "串联线线垂直、线面判定和线面性质",
+        "boundary": "正方体的对角截面构型；不推广一般长方体对角线",
+        "prerequisiteSkills": "正方形对角线、垂直判定"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9b8cd87a79daa0558b77e4f5f56cecd57399753bb1f532575450ad12592f3d7a",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：AC垂直BD与竖棱BB₁两个相交面内方向，故垂直截面，再推其中BD₁。",
+        "alignmentCheck": "串联线线垂直、线面判定和线面性质；解答中正方形对角线AC⊥BD；又BB1⊥底面，所以AC⊥BB1（按方向夹角）。是本题的直接检测证据。",
+        "bypassCheck": "正方体的对角截面构型；不推广一般长方体对角线 对照：一般非正方形底面中AC未必垂直BD，链条第一步可能失败。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-7-01",
+      "skillId": "full-m2-8-7-01",
+      "familyId": "full-m2-8-7-01",
+      "text": "单位正方体ABCD-A1B1C1D1中求AB与B1C的异面直线所成角，要求通过平移到同一点说明。",
+      "answer": "90°。",
+      "steps": [
+        "把AB平移为DC，DC与B1C相交于C，故可在C比较两直线的方向。",
+        "DC垂直侧面BCC1B1的方向：它与该面内BC、CC1两个相交方向均垂直。",
+        "B1C在该侧面内，所以DC与B1C所成角90°，即原异面直线所成角。"
+      ],
+      "alignment": "以DC平行AB，把AB与B1C的异面直线角转为C点处DC与B1C的直线角，再由侧面垂直关系得90°。",
+      "contrast": "不能用两条异面线不存在交点来否定它们有所成角。",
+      "assessment": {
+        "objective": "通过平行移动把异面直线角转为可比较方向角",
+        "boundary": "特殊正方体直角情形；不测一般非特殊角",
+        "prerequisiteSkills": "空间平行与垂直"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5a0d7654f73d642882eab55d8a883f32144ef32022e95e86de3e3288c72ef566",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号90。独立解答复审：AB平移到DC，后者为侧面BCC₁B₁法向，因此与侧面内B₁C垂直，90度正确。",
+        "alignmentCheck": "以DC平行AB，把AB与B1C的异面直线角转为C点处DC与B1C的直线角，再由侧面垂直关系得90°。",
+        "bypassCheck": "特殊正方体直角情形；不测一般非特殊角 对照：不能用两条异面线不存在交点来否定它们有所成角。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-7-02",
+      "skillId": "full-m2-8-7-02",
+      "familyId": "full-m2-8-7-02",
+      "text": "PA垂直平面ABC，PA=3，AB=4。求PB与平面ABC所成角的正弦，并说明PB在底面的射影是哪条线。",
+      "answer": "射影AB；所成角为∠PBA，正弦3/5。",
+      "steps": [
+        "P投影为A，B在底面上，其投影仍是B，因此PB射影为AB。",
+        "直角三角形PAB中PB=√(9+16)=5。",
+        "线面角∠PBA的sin=PA/PB=3/5。"
+      ],
+      "alignment": "找到斜线射影并计算线面角；解答中P投影为A，B在底面上，其投影仍是B，因此PB射影为AB。是本题的直接检测证据。",
+      "contrast": "∠APB是余角，其正弦4/5，不是所求线面角。",
+      "assessment": {
+        "objective": "找到斜线射影并计算线面角",
+        "boundary": "垂足已知的非垂直斜线；不测寻找垂足的复杂题",
+        "prerequisiteSkills": "勾股定理、正弦"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a53a974c88c5910267b99f52ea404c01e6767ee7b8519f11b7a90a7501adc443",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号91。独立解答复审：P投影A、B不动，PB投影AB；直角三角形3、4、5给正弦3/5。",
+        "alignmentCheck": "找到斜线射影并计算线面角；解答中P投影为A，B在底面上，其投影仍是B，因此PB射影为AB。是本题的直接检测证据。",
+        "bypassCheck": "垂足已知的非垂直斜线；不测寻找垂足的复杂题 对照：∠APB是余角，其正弦4/5，不是所求线面角。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-7-03",
+      "skillId": "full-m2-8-7-03",
+      "familyId": "full-m2-8-7-03",
+      "text": "二面角以直线l为棱。O∈l，两半平面内分别取OA⊥l、OB⊥l，且A、B在各自指定半平面。若OA=OB=2、AB=2√3，求此二面角。",
+      "answer": "120°。",
+      "steps": [
+        "两条射线从同一棱上点出发且均垂直棱，∠AOB是指定二面角的平面角。",
+        "余弦定理cos∠AOB=(4+4−12)/(2·2·2)=−1/2。",
+        "角度范围[0°,180°]，所以120°。"
+      ],
+      "alignment": "构造二面角平面角并保留钝角信息；解答中两条射线从同一棱上点出发且均垂直棱，∠AOB是指定二面角的平面角。是本题的直接检测证据。",
+      "contrast": "若把OB反向取点，则角变60°，对应另一二面角。",
+      "assessment": {
+        "objective": "构造二面角平面角并保留钝角信息",
+        "boundary": "半平面方向已指定，不能自动取锐角",
+        "prerequisiteSkills": "垂直、余弦定理"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "860c21f42ffaf48a2aca6914c6308a391f2dbffb66391ba6fd835b9b5e5bdb4f",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号92。独立解答复审：指定垂棱射线给平面角，余弦(4+4-12)/8=-1/2，必须保留120度非取锐角。",
+        "alignmentCheck": "构造二面角平面角并保留钝角信息；解答中两条射线从同一棱上点出发且均垂直棱，∠AOB是指定二面角的平面角。是本题的直接检测证据。",
+        "bypassCheck": "半平面方向已指定，不能自动取锐角 对照：若把OB反向取点，则角变60°，对应另一二面角。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-8-7-04",
+      "skillId": "full-m2-8-7-04",
+      "familyId": "full-m2-8-7-04",
+      "text": "正四棱锥P-ABCD底面边长6，侧棱PA=5，O为底面中心。求P到底面距离，说明为什么不能取PA=5。",
+      "answer": "√7。",
+      "steps": [
+        "正棱锥顶点到底面的垂足为底面中心O。",
+        "OA为底面对角线一半，即3√2。",
+        "直角三角形POA中PO²=25−18=7，故距离√7。",
+        "PA是斜线段，不能作为点面垂距。"
+      ],
+      "alignment": "识别点面距离必须取垂线段；解答中正棱锥顶点到底面的垂足为底面中心O。是本题的直接检测证据。",
+      "contrast": "若侧面斜高给5，则使用底边中点到O为3，距离会是4。",
+      "assessment": {
+        "objective": "识别点面距离必须取垂线段",
+        "boundary": "正四棱锥，垂足由对称结构确定",
+        "prerequisiteSkills": "正方形对角线、勾股定理"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0e7bf9fcc2d01e0b90f15ef72e28087169450ec461845fe25bb550a26c1cfd6d",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号93。独立解答复审：底面中心到顶点距离3√2，侧棱5给高√(25-18)=√7，非斜高误代。",
+        "alignmentCheck": "识别点面距离必须取垂线段；解答中正棱锥顶点到底面的垂足为底面中心O。是本题的直接检测证据。",
+        "bypassCheck": "正四棱锥，垂足由对称结构确定 对照：若侧面斜高给5，则使用底边中点到O为3，距离会是4。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-1-01",
+      "skillId": "full-m2-9-1-01",
+      "familyId": "full-m2-9-1-01",
+      "text": "从编号1到8的8人中不放回随机抽2人，每个两人子集等可能。求某人入选概率，并判断“先固定选1号，再从其余7人抽1人”是否简单随机抽样。",
+      "answer": "入选概率1/4；固定选1号的方案不是简单随机抽样。",
+      "steps": [
+        "总样本数C(8,2)=28，含某一人的样本数7，概率7/28=1/4。",
+        "固定选1号后，含1号的子集才可能出现，其他子集概率0，不满足等可能。"
+      ],
+      "alignment": "用固定容量子集等可能识别简单随机抽样；解答中总样本数C(8,2)=28，含某一人的样本数7，概率7/28=1/4。是本题的直接检测证据。",
+      "contrast": "仅让每个人边缘概率相同仍不必保证所有二人组合等可能。",
+      "assessment": {
+        "objective": "用固定容量子集等可能识别简单随机抽样",
+        "boundary": "总体小且完全列举；不讨论有放回抽样定义差异",
+        "prerequisiteSkills": "组合计数或枚举"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "59988d61587655937980603be39fbd560e9f2630e7025e3e74c211c557eedff2",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号94。独立解答复审：28个二人子集中含某人7个，概率1/4；预固定1号让部分子集零概率故不简单随机。",
+        "alignmentCheck": "用固定容量子集等可能识别简单随机抽样；解答中总样本数C(8,2)=28，含某一人的样本数7，概率7/28=1/4。是本题的直接检测证据。",
+        "bypassCheck": "总体小且完全列举；不讨论有放回抽样定义差异 对照：仅让每个人边缘概率相同仍不必保证所有二人组合等可能。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-1-02",
+      "skillId": "full-m2-9-1-02",
+      "familyId": "full-m2-9-1-02",
+      "text": "用抽签法从30名学生中选5人，设计不放回抽签流程，并求任一学生入选概率。若签有不同大小会有什么问题？",
+      "answer": "编号1—30、制成形状大小相同的签、充分混匀、不放回抽5签、按编号选人；概率1/6；签不同大小可能破坏等可能。",
+      "steps": [
+        "每人一签且编号唯一，保证总体一一对应。",
+        "签外观一致并充分混匀，连续不放回取5签，得到5名不同学生。",
+        "对称性给每人入选概率5/30=1/6。"
+      ],
+      "alignment": "给出可执行且公平的抽签法；解答中每人一签且编号唯一，保证总体一一对应。是本题的直接检测证据。",
+      "contrast": "抽后放回可能重复同一人，不能直接得到5名不同学生。",
+      "assessment": {
+        "objective": "给出可执行且公平的抽签法",
+        "boundary": "不放回抽5名；不保证现实中混匀自动完美",
+        "prerequisiteSkills": "编号、概率对称性"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d7a934e11cb9e499474a6e20f2f440c34b26982b3944fd8aaa69b312d396e0fe",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号95。独立解答复审：相同签、混匀、不放回抽5的设计保证理想对称性，入选率5/30=1/6。",
+        "alignmentCheck": "给出可执行且公平的抽签法；解答中每人一签且编号唯一，保证总体一一对应。是本题的直接检测证据。",
+        "bypassCheck": "不放回抽5名；不保证现实中混匀自动完美 对照：抽后放回可能重复同一人，不能直接得到5名不同学生。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-1-03",
+      "skillId": "full-m2-9-1-03",
+      "familyId": "full-m2-9-1-03",
+      "text": "20人编号00—19，需抽4人。按两位一组依次读随机数字序列：23，07，07，18，02，25，19，04。采用不放回随机数法，写出选中的编号和舍弃原因。",
+      "answer": "07、18、02、19；23、25越界，第二个07重复，选满后停止。",
+      "steps": [
+        "依次保留00—19内尚未选过的编号。",
+        "23舍；07收；07重复舍；18、02收；25舍；19收。",
+        "此时满4人，04不再读取。"
+      ],
+      "alignment": "实施随机数法的分组、范围、去重和停止规则；解答中依次保留00—19内尚未选过的编号。是本题的直接检测证据。",
+      "contrast": "重复编号不能当成新增一人。",
+      "assessment": {
+        "objective": "实施随机数法的分组、范围、去重和停止规则",
+        "boundary": "假定数字组独立均匀；不测随机数发生器质量",
+        "prerequisiteSkills": "整数编号、集合去重"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9ddef1ba4a5de2ce19d8a1cc281d3a62b2199c0dc743d4a3c897d7a20fe545a7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号96。独立解答复审：逐组筛掉23、重复07、25，四个保留07、18、02、19，取足后停止。",
+        "alignmentCheck": "实施随机数法的分组、范围、去重和停止规则；解答中依次保留00—19内尚未选过的编号。是本题的直接检测证据。",
+        "bypassCheck": "假定数字组独立均匀；不测随机数发生器质量 对照：重复编号不能当成新增一人。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-1-04",
+      "skillId": "full-m2-9-1-04",
+      "familyId": "full-m2-9-1-04",
+      "text": "学校三个年级人数240、180、180，按比例分层随机抽60人。各年级抽多少人？各学生入选概率多少？每层内部应怎样抽？",
+      "answer": "24、18、18人；均为1/10；每层分别简单随机抽样。",
+      "steps": [
+        "总体600人，抽样比60/600=1/10。",
+        "各层乘抽样比得到24、18、18，合计60。",
+        "在每层内部独立按相应人数随机抽，层内每人概率相同。"
+      ],
+      "alignment": "确定比例分配并保留层内随机性；解答中总体600人，抽样比60/600=1/10。是本题的直接检测证据。",
+      "contrast": "每层都抽20人会使三个年级入选比例不同。",
+      "assessment": {
+        "objective": "确定比例分配并保留层内随机性",
+        "boundary": "按比例分层，人数恰为整数；不涉及最优非比例分配",
+        "prerequisiteSkills": "比例、简单随机抽样"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e73f22b1a0eed20dd293151dbb38ed526d568156ae088e62bb79f61554e57692",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号97。独立解答复审：总体600、样本60，比例1/10给24、18、18，层内简单随机保证个体相同率。",
+        "alignmentCheck": "确定比例分配并保留层内随机性；解答中总体600人，抽样比60/600=1/10。是本题的直接检测证据。",
+        "bypassCheck": "按比例分层，人数恰为整数；不涉及最优非比例分配 对照：每层都抽20人会使三个年级入选比例不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-1-05",
+      "skillId": "full-m2-9-1-05",
+      "familyId": "full-m2-9-1-05",
+      "text": "120件产品按1—120编号，系统抽样抽12件。随机起点为7，写出全部入样编号。若生产缺陷每10件周期性出现，需警惕什么？",
+      "answer": "7,17,27,37,47,57,67,77,87,97,107,117；间隔10可能与缺陷周期重合，样本失去代表性。",
+      "steps": [
+        "抽样间隔k=120/12=10；起点应从1—10等可能选择，本次为7。",
+        "入样编号为7+10j，j=0,…,11。",
+        "若周期恰为10，始终只观察同一周期位置，可能系统性漏看或高估缺陷。"
+      ],
+      "alignment": "执行系统抽样并识别周期排序风险；解答中抽样间隔k=120/12=10；起点应从1—10等可能选择，本次为7。是本题的直接检测证据。",
+      "contrast": "随机起点并不能消除与周期同频造成的风险。",
+      "assessment": {
+        "objective": "执行系统抽样并识别周期排序风险",
+        "boundary": "总体容量整除样本量；不涉及非整数间隔调整",
+        "prerequisiteSkills": "等差数列、随机起点"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0d33e95d082fbb1260ef210962b08a87e7b6a58d6b0bb7039b0bf84bc94e2846",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号98。独立解答复审：间隔10、起点7依次至117共12项；周期性缺陷与间隔同频可能偏离代表性，未夸大必然偏差。",
+        "alignmentCheck": "执行系统抽样并识别周期排序风险；解答中抽样间隔k=120/12=10；起点应从1—10等可能选择，本次为7。是本题的直接检测证据。",
+        "bypassCheck": "总体容量整除样本量；不涉及非整数间隔调整 对照：随机起点并不能消除与周期同频造成的风险。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-2-01",
+      "skillId": "full-m2-9-2-01",
+      "familyId": "full-m2-9-2-01",
+      "text": "40个观测值落入区间[0,10)、[10,20)、[20,40]的频数分别8、12、20。绘制频率分布直方图应取各矩形高度多少？为什么不能直接用频率作高度？",
+      "answer": "高度0.02、0.03、0.025；面积代表频率，组距不等须除以组距。",
+      "steps": [
+        "频率为8/40=0.2，12/40=0.3，20/40=0.5。",
+        "高度=频率/组距，组距10、10、20，得0.02、0.03、0.025。",
+        "三个面积分别0.2、0.3、0.5，总和1。"
+      ],
+      "alignment": "由不等组距数据确定直方图高度与面积意义；解答中频率为8/40=0.2，12/40=0.3，20/40=0.5。是本题的直接检测证据。",
+      "contrast": "直接取0.2、0.3、0.5作高度会使面积比例失真。",
+      "assessment": {
+        "objective": "由不等组距数据确定直方图高度与面积意义",
+        "boundary": "给出绘图关键数值，未评分实际手绘质量",
+        "prerequisiteSkills": "频率、矩形面积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0260b818cdb51aeb00a033c265ed9ded9d6c5ff0d4f3f595fe6afa963f35ce1c",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号99。独立解答复审：频数除40再除组距，三高0.02、0.03、0.025；各面积和1，宽度20组正确处理。",
+        "alignmentCheck": "由不等组距数据确定直方图高度与面积意义；解答中频率为8/40=0.2，12/40=0.3，20/40=0.5。是本题的直接检测证据。",
+        "bypassCheck": "给出绘图关键数值，未评分实际手绘质量 对照：直接取0.2、0.3、0.5作高度会使面积比例失真。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-2-02",
+      "skillId": "full-m2-9-2-02",
+      "familyId": "full-m2-9-2-02",
+      "text": "等组距区间[0,10)、[10,20)、[20,30)的频率为0.2、0.5、0.3。以频率/组距为纵轴绘制频率分布折线图，列出需连接的三个中点；若两端补零高度点，其坐标如何取？",
+      "answer": "(5,0.02)、(15,0.05)、(25,0.03)；补(−5,0)、(35,0)。",
+      "steps": [
+        "组中值为5、15、25，直方图高度为0.02、0.05、0.03。",
+        "依横坐标递增顺序连接各矩形上边中点。",
+        "按相同组距在两端外侧各增一组，其组中值−5、35，对应高度0。"
+      ],
+      "alignment": "从直方图组中值与高度构造频率分布折线；解答中组中值为5、15、25，直方图高度为0.02、0.05、0.03。是本题的直接检测证据。",
+      "contrast": "点应取组中值，不是0、10、20这些组端点。",
+      "assessment": {
+        "objective": "从直方图组中值与高度构造频率分布折线",
+        "boundary": "明确纵轴密度及等组距约定；不与以频数为纵轴的折线混用",
+        "prerequisiteSkills": "直方图、组中值"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "561ffcd48a897751ffaf113d6ef590f5b9a81ed711c3c758664479c41647df3b",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号100。独立解答复审：三个组中值5、15、25，按密度高度连接；两端同组距外延中心-5、35正确。",
+        "alignmentCheck": "从直方图组中值与高度构造频率分布折线；解答中组中值为5、15、25，直方图高度为0.02、0.05、0.03。是本题的直接检测证据。",
+        "bypassCheck": "明确纵轴密度及等组距约定；不与以频数为纵轴的折线混用 对照：点应取组中值，不是0、10、20这些组端点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-2-03",
+      "skillId": "full-m2-9-2-03",
+      "familyId": "full-m2-9-2-03",
+      "text": "把数据12、18、21、21、25、30作茎叶图（十位为茎、个位为叶），再从图读出样本量和最大值，重复21如何表示？",
+      "answer": "1|2 8；2|1 1 5；3|0。样本量6，最大值30；21的叶1须写两次。",
+      "steps": [
+        "按十位分组，保留个位且同茎内从小到大排列。",
+        "12、18归茎1；21、21、25归茎2；30归茎3。",
+        "叶共6片；最高茎3的叶0对应30。"
+      ],
+      "alignment": "绘制和读取茎叶图并保留重复值；解答中按十位分组，保留个位且同茎内从小到大排列。是本题的直接检测证据。",
+      "contrast": "把21只写一次会丢失频数信息。",
+      "assessment": {
+        "objective": "绘制和读取茎叶图并保留重复值",
+        "boundary": "非负两位整数；不涉及负数或小数茎叶约定",
+        "prerequisiteSkills": "十进制位值、排序"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ad806095a1585215e6e01382781e3028a683c5258cbc6a385a75efcb674bdf71",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号101。独立解答复审：三茎叶为1|2,8；2|1,1,5；3|0，重复叶保留，样本量6最大30。",
+        "alignmentCheck": "绘制和读取茎叶图并保留重复值；解答中按十位分组，保留个位且同茎内从小到大排列。是本题的直接检测证据。",
+        "bypassCheck": "非负两位整数；不涉及负数或小数茎叶约定 对照：把21只写一次会丢失频数信息。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-3-01",
+      "skillId": "full-m2-9-3-01",
+      "familyId": "full-m2-9-3-01",
+      "text": "求数据2、2、3、3、4、5的众数；删除一个2后众数是什么？众数是否一定唯一？",
+      "answer": "原众数2和3；删除一个2后众数3；不一定唯一。",
+      "steps": [
+        "原频数：2出现2次，3出现2次，其余各1次。",
+        "最大频数并列，所以众数为2和3。",
+        "删一个2后3频数仍2而其余各1，众数唯一为3。"
+      ],
+      "alignment": "按最高频数识别众数与并列众数；解答中原频数：2出现2次，3出现2次，其余各1次。是本题的直接检测证据。",
+      "contrast": "平均数不一定是数据里出现最多的值。",
+      "assessment": {
+        "objective": "按最高频数识别众数与并列众数",
+        "boundary": "离散小样本；不讨论连续密度峰值估计",
+        "prerequisiteSkills": "频数计数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bdc5bc5d55d7184a0c33369a5c1535bea5972203fa77275769793c5501e6bea7",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号102。独立解答复审：2与3频数同为2故双众数；删除一个2后只3保持最大频数。",
+        "alignmentCheck": "按最高频数识别众数与并列众数；解答中原频数：2出现2次，3出现2次，其余各1次。是本题的直接检测证据。",
+        "bypassCheck": "离散小样本；不讨论连续密度峰值估计 对照：平均数不一定是数据里出现最多的值。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-3-02",
+      "skillId": "full-m2-9-3-02",
+      "familyId": "full-m2-9-3-02",
+      "text": "求9、2、4、4、7的中位数；添加100后中位数如何变化？",
+      "answer": "原中位数4；添加后5.5。",
+      "steps": [
+        "排序得2、4、4、7、9，5个数的中间第3个为4。",
+        "添加后2、4、4、7、9、100，共6个，中位数为第3与第4项平均(4+7)/2=5.5。"
+      ],
+      "alignment": "按奇偶样本量选择中位位置；解答中排序得2、4、4、7、9，5个数的中间第3个为4。是本题的直接检测证据。",
+      "contrast": "不能把最大值100直接当成中位数变化幅度。",
+      "assessment": {
+        "objective": "按奇偶样本量选择中位位置",
+        "boundary": "小样本排序；不测组距数据中位估算",
+        "prerequisiteSkills": "排序、平均"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "769174d9dc31e2ae488ef75e612b27b9a12eb7ac0858b360059c3b8031a0f216",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号103。独立解答复审：排序奇数第3为4，增100后中间第3、4为4、7，均值5.5。",
+        "alignmentCheck": "按奇偶样本量选择中位位置；解答中排序得2、4、4、7、9，5个数的中间第3个为4。是本题的直接检测证据。",
+        "bypassCheck": "小样本排序；不测组距数据中位估算 对照：不能把最大值100直接当成中位数变化幅度。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-3-03",
+      "skillId": "full-m2-9-3-03",
+      "familyId": "full-m2-9-3-03",
+      "text": "甲组10人平均成绩72，乙组30人平均成绩84，求合并平均成绩；把两均值直接平均为何不对？",
+      "answer": "81；组人数不同，应按人数加权。",
+      "steps": [
+        "总分=10×72+30×84=720+2520=3240。",
+        "总人数40，平均3240/40=81。",
+        "(72+84)/2=78把两组赋同权，与人数比例1:3不符。"
+      ],
+      "alignment": "按组容量加权恢复总体平均数；解答中总分=10×72+30×84=720+2520=3240。是本题的直接检测证据。",
+      "contrast": "人数若相等才可直接平均两均值。",
+      "assessment": {
+        "objective": "按组容量加权恢复总体平均数",
+        "boundary": "已知精确组均值与人数；不处理四舍五入误差",
+        "prerequisiteSkills": "平均数、总量"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4cfe354f44c51d6498bada5f6fb804326cabd27e039870fbcd22f6fc75447f3b",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号104。独立解答复审：总分720+2520=3240，除40得81；直接均值78忽略样本量不等。",
+        "alignmentCheck": "按组容量加权恢复总体平均数；解答中总分=10×72+30×84=720+2520=3240。是本题的直接检测证据。",
+        "bypassCheck": "已知精确组均值与人数；不处理四舍五入误差 对照：人数若相等才可直接平均两均值。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-3-04",
+      "skillId": "full-m2-9-3-04",
+      "familyId": "full-m2-9-3-04",
+      "text": "求样本−3、5、5、8的极差。所有数据加10、乘−2后（两种独立变换），极差各是多少？",
+      "answer": "11；加10后11；乘−2后22。",
+      "steps": [
+        "原极差=最大8−最小(−3)=11。",
+        "加常数后最大最小同增10，差不变。",
+        "乘−2后数据6、−10、−10、−16，极差6−(−16)=22。"
+      ],
+      "alignment": "计算极差并处理平移与负数缩放；解答中原极差=最大8−最小(−3)=11。是本题的直接检测证据。",
+      "contrast": "乘负数会交换大小次序，但极差始终非负。",
+      "assessment": {
+        "objective": "计算极差并处理平移与负数缩放",
+        "boundary": "两种变换分别实施；不检测离群值稳健性",
+        "prerequisiteSkills": "最大最小、有理数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1b52729829792651f7342d0534ba93ac6bbbd01ecf3fdd3c85485a1a5c8df3a3",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号105。独立解答复审：原极差8-(-3)=11，平移不变，负倍数取绝对值2故22。",
+        "alignmentCheck": "计算极差并处理平移与负数缩放；解答中原极差=最大8−最小(−3)=11。是本题的直接检测证据。",
+        "bypassCheck": "两种变换分别实施；不检测离群值稳健性 对照：乘负数会交换大小次序，但极差始终非负。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-3-05",
+      "skillId": "full-m2-9-3-05",
+      "familyId": "full-m2-9-3-05",
+      "text": "数据1、3、5、7，用方差s²=(1/n)Σ(x−平均数)²求方差、标准差；把每个数变为2x+1后再求。",
+      "answer": "原方差5、标准差√5；新方差20、标准差2√5。",
+      "steps": [
+        "原平均4，偏差−3、−1、1、3，平方和20，除4得5。",
+        "新均值9，新偏差为原偏差2倍，方差乘4得20。",
+        "标准差是非负平方根，分别√5、2√5。"
+      ],
+      "alignment": "按指定分母算方差标准差并使用线性变换性质；解答中原平均4，偏差−3、−1、1、3，平方和20，除4得5。是本题的直接检测证据。",
+      "contrast": "加1不改变方差，乘2才使方差乘4。",
+      "assessment": {
+        "objective": "按指定分母算方差标准差并使用线性变换性质",
+        "boundary": "采用高中描述方差分母n，不是无偏估计n−1",
+        "prerequisiteSkills": "平均数、平方根"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4a79214ddfec64cad31267452c2be4dfc6df415dc92613ca6ce77b7c972dc136",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号106。独立解答复审：偏差平方和20除n=4得5，新偏差倍2故方差20、标准差2√5；约定分母n明确。",
+        "alignmentCheck": "按指定分母算方差标准差并使用线性变换性质；解答中原平均4，偏差−3、−1、1、3，平方和20，除4得5。是本题的直接检测证据。",
+        "bypassCheck": "采用高中描述方差分母n，不是无偏估计n−1 对照：加1不改变方差，乘2才使方差乘4。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-3-06",
+      "skillId": "full-m2-9-3-06",
+      "familyId": "full-m2-9-3-06",
+      "text": "排序数据2、4、6、8、10、12、14、16。采用规则：np非整数取第⌈np⌉项；np整数取第np项与下一项的平均。求25%、60%、75%分位数。",
+      "answer": "5、10、13。",
+      "steps": [
+        "n=8；25%位置8×0.25=2为整数，取第2、3项平均(4+6)/2=5。",
+        "60%位置4.8，取第5项10。",
+        "75%位置6为整数，取第6、7项平均(12+14)/2=13。"
+      ],
+      "alignment": "根据明确约定计算整数和非整数位置的百分位数；解答中n=8；25%位置8×0.25=2为整数，取第2、3项平均(4+6)/2=5。是本题的直接检测证据。",
+      "contrast": "60%位置4.8不能直接在第4与第5项线性插值，本题规则不同。",
+      "assessment": {
+        "objective": "根据明确约定计算整数和非整数位置的百分位数",
+        "boundary": "约定已给；不同软件插值定义可能产生不同结果",
+        "prerequisiteSkills": "排序、取整"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "198d3927e5b9eca047382bfa925c9d2d5109eabcfa45c9fa5371602f6bc5d89f",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号107。独立解答复审：按题设分位数算法，位置2、4.8、6分别得到5、10、13，未混软件插值。",
+        "alignmentCheck": "根据明确约定计算整数和非整数位置的百分位数；解答中n=8；25%位置8×0.25=2为整数，取第2、3项平均(4+6)/2=5。是本题的直接检测证据。",
+        "bypassCheck": "约定已给；不同软件插值定义可能产生不同结果 对照：60%位置4.8不能直接在第4与第5项线性插值，本题规则不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-9-3-07",
+      "skillId": "full-m2-9-3-07",
+      "familyId": "full-m2-9-3-07",
+      "text": "数据1、2、3、4、5、6、7、8、9、20。采用上下半样本各自中位数确定Q1、Q3，并以1.5IQR规则标离群值，箱须画到非离群的最远数据。给出箱体两端、中位线、两须端及离群点。",
+      "answer": "Q1=3，Q2=5.5，Q3=8；IQR=5；须端1和9；离群点20。",
+      "steps": [
+        "下半1至5中位数3，上半6、7、8、9、20中位数8，全样本中位数(5+6)/2=5.5。",
+        "IQR=8−3=5，围栏为3−7.5=−4.5与8+7.5=15.5。",
+        "20越过上围栏；其余不越，故须到1、9，20单独标点。"
+      ],
+      "alignment": "把四分位数、箱体、须和离群点组合成箱线图；解答中下半1至5中位数3，上半6、7、8、9、20中位数8，全样本中位数(5+6)/2=5.5。是本题的直接检测证据。",
+      "contrast": "上须不是15.5围栏，也不是离群值20，而是最大非离群观测9。",
+      "assessment": {
+        "objective": "把四分位数、箱体、须和离群点组合成箱线图",
+        "boundary": "已明确四分位数及箱须约定；不混用最小最大作须的版本",
+        "prerequisiteSkills": "中位数、四分位距"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d8d09818be39af4ca9916c5af8e1b868bab921a866ba7a863462d32af684a65e",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号108。独立解答复审：上下半中位数3、8、全中位5.5，IQR5，围栏[-4.5,15.5]只排20，须至1、9。",
+        "alignmentCheck": "把四分位数、箱体、须和离群点组合成箱线图；解答中下半1至5中位数3，上半6、7、8、9、20中位数8，全样本中位数(5+6)/2=5.5。是本题的直接检测证据。",
+        "bypassCheck": "已明确四分位数及箱须约定；不混用最小最大作须的版本 对照：上须不是15.5围栏，也不是离群值20，而是最大非离群观测9。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-1-01",
+      "skillId": "full-m2-10-1-01",
+      "familyId": "full-m2-10-1-01",
+      "text": "抛掷一枚硬币两次，按顺序用H、T记结果。列出样本空间、事件A“恰一次正面”、必然事件及不可能事件各一个。",
+      "answer": "Ω={HH,HT,TH,TT}；A={HT,TH}；必然事件“正面次数至多2”；不可能事件“出现3次正面”。",
+      "steps": [
+        "把两次结果按先后配对，得到4个基本结果。",
+        "恰一次H的是HT、TH。",
+        "至多2次覆盖全部Ω；3次H对应空集。"
+      ],
+      "alignment": "列出有顺序样本空间并用子集表示随机事件；解答中把两次结果按先后配对，得到4个基本结果。是本题的直接检测证据。",
+      "contrast": "HT与TH应分开，因为两次先后不同。",
+      "assessment": {
+        "objective": "列出有顺序样本空间并用子集表示随机事件",
+        "boundary": "两次硬币试验；列样本空间不需要公平性",
+        "prerequisiteSkills": "集合、顺序"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6df8337811ea832d3c6f6180a9b8ac4c497f4b0c99faf0433f14a7549252702d",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：两次有序硬币空间4点，恰一次H为2点，必然与不可能事件分别全集与空集。",
+        "alignmentCheck": "列出有顺序样本空间并用子集表示随机事件；解答中把两次结果按先后配对，得到4个基本结果。是本题的直接检测证据。",
+        "bypassCheck": "两次硬币试验；列样本空间不需要公平性 对照：HT与TH应分开，因为两次先后不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-1-02",
+      "skillId": "full-m2-10-1-02",
+      "familyId": "full-m2-10-1-02",
+      "text": "掷一次六面骰子。A={1,2}，B={3,4}，C={3,4,5,6}。判断A与B、A与C是否互斥、是否对立。",
+      "answer": "A与B互斥但不对立；A与C既互斥又对立。",
+      "steps": [
+        "A∩B=∅，所以互斥；但并集遗漏5、6，不是全集。",
+        "A∩C=∅且A∪C=Ω，所以C恰为A的补集，二者对立。"
+      ],
+      "alignment": "以交集为空和并集为全集区分互斥与对立；解答中A∩B=∅，所以互斥；但并集遗漏5、6，不是全集。是本题的直接检测证据。",
+      "contrast": "所有对立事件互斥，但互斥事件不一定对立。",
+      "assessment": {
+        "objective": "以交集为空和并集为全集区分互斥与对立",
+        "boundary": "离散有限样本空间；不涉及概率零集",
+        "prerequisiteSkills": "集合交并补"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4c1cced108d5f0e825bb7e41b7dd6b95386226d36854c2425d5de0e5ff36c5e8",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：A与B交空但并非全，A与C交空并全，区分互斥与对立正确。",
+        "alignmentCheck": "以交集为空和并集为全集区分互斥与对立；解答中A∩B=∅，所以互斥；但并集遗漏5、6，不是全集。是本题的直接检测证据。",
+        "bypassCheck": "离散有限样本空间；不涉及概率零集 对照：所有对立事件互斥，但互斥事件不一定对立。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-1-03",
+      "skillId": "full-m2-10-1-03",
+      "familyId": "full-m2-10-1-03",
+      "text": "掷一次六面骰子，A为偶数，B为大于3。写出A∪B、A∩B，并说明各自对应的文字事件。",
+      "answer": "并集{2,4,5,6}，偶数或大于3；交集{4,6}，既是偶数又大于3。",
+      "steps": [
+        "A={2,4,6}，B={4,5,6}。",
+        "并集保留至少属于一个集合的元素，得到2、4、5、6。",
+        "交集保留同时属于两集合的元素，得到4、6。"
+      ],
+      "alignment": "把“或”“且”对应到并交运算；解答中A={2,4,6}，B={4,5,6}。是本题的直接检测证据。",
+      "contrast": "概率相加时4、6会被重复计算，需要减交集。",
+      "assessment": {
+        "objective": "把“或”“且”对应到并交运算",
+        "boundary": "有限样本的直接事件运算",
+        "prerequisiteSkills": "集合符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8a51514630f485baf21d6994ca505a35efea0dd6e7bc609e6dd7d31b996ecfeb",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：并集2,4,5,6，交集4,6，文字或/且对应正确。",
+        "alignmentCheck": "把“或”“且”对应到并交运算；解答中A={2,4,6}，B={4,5,6}。是本题的直接检测证据。",
+        "bypassCheck": "有限样本的直接事件运算 对照：概率相加时4、6会被重复计算，需要减交集。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-1-04",
+      "skillId": "full-m2-10-1-04",
+      "familyId": "full-m2-10-1-04",
+      "text": "同时掷两枚可区分的公平六面骰子，各结果独立，求点数和为5的概率。说明为什么把和2至12看成11个等可能结果不对。",
+      "answer": "1/9；各点数和对应的基本结果数不同，不等可能。",
+      "steps": [
+        "有序数对(i,j)共36个，独立公平保证等可能。",
+        "和5对应(1,4),(2,3),(3,2),(4,1)，共4个。",
+        "概率4/36=1/9；和2仅1个数对，和7有6个，因此和值不等可能。"
+      ],
+      "alignment": "识别古典概型的有限等可能基本结果；解答中有序数对(i,j)共36个，独立公平保证等可能。是本题的直接检测证据。",
+      "contrast": "如果骰子不公平，不能直接用有利数除总数。",
+      "assessment": {
+        "objective": "识别古典概型的有限等可能基本结果",
+        "boundary": "独立公平且两骰可区分；不处理偏骰",
+        "prerequisiteSkills": "有序对、计数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "27677d5b54e3b82080793e66c7b925a9f2e11cf11170e5044d8124a3c1b89013",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号112。独立解答复审：独立公平可区分骰子36个等可能有序对，和5有4个故1/9；和值并不等概率。",
+        "alignmentCheck": "识别古典概型的有限等可能基本结果；解答中有序数对(i,j)共36个，独立公平保证等可能。是本题的直接检测证据。",
+        "bypassCheck": "独立公平且两骰可区分；不处理偏骰 对照：如果骰子不公平，不能直接用有利数除总数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-1-05",
+      "skillId": "full-m2-10-1-05",
+      "familyId": "full-m2-10-1-05",
+      "text": "两两互斥事件A、B、C的概率分别0.2、0.35、0.1，求至少一个发生的概率和均不发生的概率。若仅知两事件各概率0.6，能否断言它们互斥？",
+      "answer": "0.65；0.35；不能，两概率和1.2>1，二者不可能互斥。",
+      "steps": [
+        "三事件两两互斥，并事件概率=0.2+0.35+0.1=0.65。",
+        "其补事件概率1−0.65=0.35。",
+        "若各0.6又互斥，并概率应1.2，违反概率≤1。"
+      ],
+      "alignment": "使用互斥加法公式并检验适用前提；解答中三事件两两互斥，并事件概率=0.2+0.35+0.1=0.65。是本题的直接检测证据。",
+      "contrast": "不互斥时直接相加会把共同发生部分重算。",
+      "assessment": {
+        "objective": "使用互斥加法公式并检验适用前提",
+        "boundary": "三事件“两两互斥”是条件；不涉及一般容斥多项式",
+        "prerequisiteSkills": "概率界、对立事件"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "597535b90d0135c7c982ba0e3350747e440011867689adf124841f8edabc750d",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号113。独立解答复审：两两互斥概率相加0.65，补0.35；两0.6事件不可能互斥，否则并概率超1。",
+        "alignmentCheck": "使用互斥加法公式并检验适用前提；解答中三事件两两互斥，并事件概率=0.2+0.35+0.1=0.65。是本题的直接检测证据。",
+        "bypassCheck": "三事件“两两互斥”是条件；不涉及一般容斥多项式 对照：不互斥时直接相加会把共同发生部分重算。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-1-06",
+      "skillId": "full-m2-10-1-06",
+      "familyId": "full-m2-10-1-06",
+      "text": "独立掷公平六面骰子3次，求至少一次出现6的概率，要求先找对立事件。",
+      "answer": "91/216。",
+      "steps": [
+        "“至少一次6”的对立事件是“三次都不是6”。",
+        "后者概率(5/6)³=125/216。",
+        "所求1−125/216=91/216。"
+      ],
+      "alignment": "用对立事件将至少一次转为一次也无；解答中“至少一次6”的对立事件是“三次都不是6”。是本题的直接检测证据。",
+      "contrast": "“至多一次6”不是“至少一次6”的对立事件，因为恰一次重叠。",
+      "assessment": {
+        "objective": "用对立事件将至少一次转为一次也无",
+        "boundary": "独立同分布三次试验；独立性为计算前置",
+        "prerequisiteSkills": "独立乘法、补事件"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "532c239e657d78c7373ddca5ba3f0f94da47912022842a8f14951d0ec5126de8",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号114。独立解答复审：补事件全非6概率125/216，减1得到91/216，独立条件已给。",
+        "alignmentCheck": "用对立事件将至少一次转为一次也无；解答中“至少一次6”的对立事件是“三次都不是6”。是本题的直接检测证据。",
+        "bypassCheck": "独立同分布三次试验；独立性为计算前置 对照：“至多一次6”不是“至少一次6”的对立事件，因为恰一次重叠。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-1-07",
+      "skillId": "full-m2-10-1-07",
+      "familyId": "full-m2-10-1-07",
+      "text": "某硬币试抛100次得正面56次，另独立试抛900次得正面441次。求合并正面频率。能否据此证明正面概率恰等于该频率，或保证下次1000次更接近真实概率？",
+      "answer": "合并频率0.497；两种断言都不能。",
+      "steps": [
+        "合并正面数56+441=497，总次数1000，频率0.497。",
+        "频率是本次样本比例，是概率的估计而非证明相等。",
+        "大数规律描述大量重复下的稳定趋势，不保证每一批样本单调更接近。"
+      ],
+      "alignment": "计算合并频率并区分概率和频率的统计含义；解答中合并正面数56+441=497，总次数1000，频率0.497。是本题的直接检测证据。",
+      "contrast": "不能直接平均0.56和0.49，因为两批次数不同。",
+      "assessment": {
+        "objective": "计算合并频率并区分概率和频率的统计含义",
+        "boundary": "不推断硬币一定公平；不做置信区间或显著性检验",
+        "prerequisiteSkills": "频率、样本随机性"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "22ab28ee6a6681a65e380dc9a62a1a1c1f8bcd259036c11e61ca58fc242f862f",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号115。独立解答复审：合并497/1000=0.497；频率不是确定概率且新批误差非单调，表述无过度推断。",
+        "alignmentCheck": "计算合并频率并区分概率和频率的统计含义；解答中合并正面数56+441=497，总次数1000，频率0.497。是本题的直接检测证据。",
+        "bypassCheck": "不推断硬币一定公平；不做置信区间或显著性检验 对照：不能直接平均0.56和0.49，因为两批次数不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m2-10-2-01",
+      "skillId": "full-m2-10-2-01",
+      "familyId": "full-m2-10-2-01",
+      "text": "已知P(A)=0.4、P(B)=0.5、P(A∩B)=0.2。按定义判断A、B独立吗？它们互斥吗？",
+      "answer": "独立；不互斥。",
+      "steps": [
+        "P(A)P(B)=0.4×0.5=0.2，等于交概率，所以独立。",
+        "交概率0.2>0，存在共同发生结果，故不互斥。"
+      ],
+      "alignment": "用概率乘积等式识别独立并区别互斥；解答中P(A)P(B)=0.4×0.5=0.2，等于交概率，所以独立。是本题的直接检测证据。",
+      "contrast": "两个概率均正的互斥事件不独立。",
+      "assessment": {
+        "objective": "用概率乘积等式识别独立并区别互斥",
+        "boundary": "给定精确概率；不需要由频数统计估计",
+        "prerequisiteSkills": "事件交、概率乘法"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0bf9baba69fdd857baf840320e63487694b444dfd2a824fa67ba2767b22000bc",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号116。独立解答复审：交概率0.2等于0.4×0.5所以独立；正交概率排除互斥。",
+        "alignmentCheck": "用概率乘积等式识别独立并区别互斥；解答中P(A)P(B)=0.4×0.5=0.2，等于交概率，所以独立。是本题的直接检测证据。",
+        "bypassCheck": "给定精确概率；不需要由频数统计估计 对照：两个概率均正的互斥事件不独立。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：事件独立与互斥",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-10-2-02",
+      "skillId": "full-m2-10-2-02",
+      "familyId": "full-m2-10-2-02",
+      "text": "公平掷一枚六面骰子。A={2,4,6}，B={1,2,3}，C={1,2,3,4}。判断A与B、A与C是否独立。",
+      "answer": "A与B不独立；A与C独立。",
+      "steps": [
+        "P(A)=1/2，P(B)=1/2；A∩B={2}，概率1/6≠1/4。",
+        "P(C)=2/3，A∩C={2,4}，概率1/3=(1/2)(2/3)。"
+      ],
+      "alignment": "从有限样本的集合计数判断独立性；解答中P(A)=1/2，P(B)=1/2；A∩B={2}，概率1/6≠1/4。是本题的直接检测证据。",
+      "contrast": "独立不一定要求来自两次物理试验。",
+      "assessment": {
+        "objective": "从有限样本的集合计数判断独立性",
+        "boundary": "单次骰子中两个事件也可独立；不依赖“试验不同”直觉",
+        "prerequisiteSkills": "古典概率、独立定义"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "287186a5ff154b8f152ac682be7d55e9e5fbc501aecd2427d5848b6d09f5c9ff",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号117。独立解答复审：A∩B仅2，1/6不等1/4；A∩C为2,4，1/3等(1/2)(2/3)，判断正确。",
+        "alignmentCheck": "从有限样本的集合计数判断独立性；解答中P(A)=1/2，P(B)=1/2；A∩B={2}，概率1/6≠1/4。是本题的直接检测证据。",
+        "bypassCheck": "单次骰子中两个事件也可独立；不依赖“试验不同”直觉 对照：独立不一定要求来自两次物理试验。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：事件独立与互斥",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m2-10-2-03",
+      "skillId": "full-m2-10-2-03",
+      "familyId": "full-m2-10-2-03",
+      "text": "甲、乙独立命中目标的概率为0.8、0.6，各射击一次。求两人都中、恰一人中、至少一人中的概率。",
+      "answer": "0.48；0.44；0.92。",
+      "steps": [
+        "都中为0.8×0.6=0.48。",
+        "恰一人中分互斥两类：0.8×0.4+0.2×0.6=0.44。",
+        "至少一人中=1−0.2×0.4=0.92。"
+      ],
+      "alignment": "结合独立乘法、互斥加法和对立事件；解答中都中为0.8×0.6=0.48。是本题的直接检测证据。",
+      "contrast": "恰一人与至少一人不同，后者还包括都中。",
+      "assessment": {
+        "objective": "结合独立乘法、互斥加法和对立事件",
+        "boundary": "独立是明示条件，不推广到相关射击",
+        "prerequisiteSkills": "事件分类、概率四则"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "58bdc20c92aff4b5b3e283f6309e32b4298e81c548367c47f11d761d0ad96dbc",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号118。独立解答复审：独立四格为0.48、0.32、0.12、0.08，恰一0.44、至少一0.92。",
+        "alignmentCheck": "结合独立乘法、互斥加法和对立事件；解答中都中为0.8×0.6=0.48。是本题的直接检测证据。",
+        "bypassCheck": "独立是明示条件，不推广到相关射击 对照：恰一人与至少一人不同，后者还包括都中。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：事件独立与互斥",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-1-1-01",
+      "skillId": "full-m3-1-1-01",
+      "familyId": "full-m3-1-1-01",
+      "text": "长方体ABCD-A1B1C1D1中，向量AA1和CC1是否相等？AA1和A1A是否相等？这些向量可平移到共同起点比较吗？",
+      "answer": "AA1=CC1；AA1≠A1A且二者相反；可平移。",
+      "steps": [
+        "两条对应竖直棱方向相同且长度相等，故向量相等。",
+        "交换起终点使方向相反，非零向量不等于其相反向量。",
+        "空间自由向量由大小与方向确定，平移不改变它。"
+      ],
+      "alignment": "把平面自由向量概念延伸到空间；解答中两条对应竖直棱方向相同且长度相等，故向量相等。是本题的直接检测证据。",
+      "contrast": "不同起点不妨碍两向量相等。",
+      "assessment": {
+        "objective": "把平面自由向量概念延伸到空间",
+        "boundary": "长方体中非零边向量，不讨论作用点固定的力矩",
+        "prerequisiteSkills": "向量大小、方向"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fe264991c646e27cd7c1d25ebc854343dfa13f13aa69f2723d0a352d05daa08b",
+        "answerCheck": "逻辑辅助检查（非自动证明）：纯推理题，未执行数值计算；以下给出独立逻辑复审依据。独立解答复审：长方体对应侧棱等向等长，反序相反；自由向量可平移比较，边界避免力矩混淆。",
+        "alignmentCheck": "把平面自由向量概念延伸到空间；解答中两条对应竖直棱方向相同且长度相等，故向量相等。是本题的直接检测证据。",
+        "bypassCheck": "长方体中非零边向量，不讨论作用点固定的力矩 对照：不同起点不妨碍两向量相等。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-1-02",
+      "skillId": "full-m3-1-1-02",
+      "familyId": "full-m3-1-1-02",
+      "text": "平行六面体ABCD-A1B1C1D1中，设AB=a、AD=b、AA1=c，M为BC1中点。用a、b、c表示AM和D1M。",
+      "answer": "AM=a+(b+c)/2；D1M=a−(b+c)/2。",
+      "steps": [
+        "以A为起点，AB=a，AC1=a+b+c。",
+        "中点位置AM=(AB+AC1)/2=a+b/2+c/2。",
+        "AD1=b+c，所以D1M=AM−AD1=a−b/2−c/2。"
+      ],
+      "alignment": "用空间向量线性运算表示中点和位移；解答中以A为起点，AB=a，AC1=a+b+c。是本题的直接检测证据。",
+      "contrast": "若M改为AC1中点，AM=(a+b+c)/2，a系数不同。",
+      "assessment": {
+        "objective": "用空间向量线性运算表示中点和位移",
+        "boundary": "一般平行六面体，不需三方向正交",
+        "prerequisiteSkills": "平行六面体、中点向量"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1092384579e5de184107989c901e22c6bf0ebf1966b8e0a4200ddeb4100e6f13",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号120。独立解答复审：B位置a、C₁位置a+b+c，中点a+(b+c)/2，减D₁=b+c得后式。",
+        "alignmentCheck": "用空间向量线性运算表示中点和位移；解答中以A为起点，AB=a，AC1=a+b+c。是本题的直接检测证据。",
+        "bypassCheck": "一般平行六面体，不需三方向正交 对照：若M改为AC1中点，AM=(a+b+c)/2，a系数不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-1-03",
+      "skillId": "full-m3-1-1-03",
+      "familyId": "full-m3-1-1-03",
+      "text": "空间向量a=(1,2,2)，b=(2,−1,2)。求a·b和夹角余弦，并判断是否垂直。",
+      "answer": "a·b=4；cosθ=4/9；不垂直。",
+      "steps": [
+        "空间点积为三个对应分量乘积之和，2−2+4=4。",
+        "两模均√9=3，cosθ=4/(3×3)=4/9。",
+        "点积非0，所以不垂直。"
+      ],
+      "alignment": "把数量积扩展到三维坐标并用于夹角；解答中空间点积为三个对应分量乘积之和，2−2+4=4。是本题的直接检测证据。",
+      "contrast": "只算前两维会误得0，遗漏第三维。",
+      "assessment": {
+        "objective": "把数量积扩展到三维坐标并用于夹角",
+        "boundary": "两非零向量，答案保留余弦值",
+        "prerequisiteSkills": "平面点积、平方根"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9467ed5ad80361508c7b8b50b3e93618cdc2d2476e69369b2909737ec3a94990",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号121。独立解答复审：三维点积2-2+4=4，两模3，余弦4/9非垂直。",
+        "alignmentCheck": "把数量积扩展到三维坐标并用于夹角；解答中空间点积为三个对应分量乘积之和，2−2+4=4。是本题的直接检测证据。",
+        "bypassCheck": "两非零向量，答案保留余弦值 对照：只算前两维会误得0，遗漏第三维。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-1-04",
+      "skillId": "full-m3-1-1-04",
+      "familyId": "full-m3-1-1-04",
+      "text": "a=(1,0,1)，b=(0,1,1)，c=(2,3,k)，d=(2,0,2)。求c与a、b共面的k，并判断d与a是否共线。",
+      "answer": "k=5；d与a共线，d=2a。",
+      "steps": [
+        "a、b不共线；共面条件是c=λa+μb。",
+        "前两分量得λ=2、μ=3，第三分量k=λ+μ=5。",
+        "d=(2,0,2)=2a，满足共线条件。"
+      ],
+      "alignment": "分别应用空间向量共线和共面条件；解答中a、b不共线；共面条件是c=λa+μb。是本题的直接检测证据。",
+      "contrast": "k=4时c不在a、b张成的平面中。",
+      "assessment": {
+        "objective": "分别应用空间向量共线和共面条件",
+        "boundary": "以向量可平移共面为定义；不混同四个点共面",
+        "prerequisiteSkills": "线性组合"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d1c450332f725bf0fa38780b8de788d73e56f8ed7ab36fa8c60659aa14e13b44",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号122。独立解答复审：共面独立系数由前两维确定2与3，第三维强制k=5；d=2a共线。",
+        "alignmentCheck": "分别应用空间向量共线和共面条件；解答中a、b不共线；共面条件是c=λa+μb。是本题的直接检测证据。",
+        "bypassCheck": "以向量可平移共面为定义；不混同四个点共面 对照：k=4时c不在a、b张成的平面中。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-1-05",
+      "skillId": "full-m3-1-1-05",
+      "familyId": "full-m3-1-1-05",
+      "text": "e1=(1,0,0)，e2=(0,1,0)，e3=(1,1,1)。证明它们可作空间基底，并唯一表示v=(3,4,2)；若e3改为(1,1,0)呢？",
+      "answer": "原基底成立，v=e1+2e2+2e3；更改后共面，不能作空间基底。",
+      "steps": [
+        "e1、e2张成z=0面，而原e3的z=1，不共面，满足空间向量基本定理。",
+        "设v=xe1+ye2+ze3，第三坐标z=2，再得x=1、y=2。",
+        "更改后三向量都在z=0面，无法表示v的z=2。"
+      ],
+      "alignment": "检验三向量不共面及表示唯一性；解答中e1、e2张成z=0面，而原e3的z=1，不共面，满足空间向量基本定理。是本题的直接检测证据。",
+      "contrast": "三个两两不共线的向量仍可能共面，因此条件不足。",
+      "assessment": {
+        "objective": "检验三向量不共面及表示唯一性",
+        "boundary": "明确基底不要求正交单位；不测高维基底",
+        "prerequisiteSkills": "空间线性运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "725002b688cc120b642f1ad453fef70406b043bdfaf68a855d26f1513cd1869b",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号123。独立解答复审：第三基向量有非零z分量所以不共面；v=1e₁+2e₂+2e₃；改后不能生成z=2。",
+        "alignmentCheck": "检验三向量不共面及表示唯一性；解答中e1、e2张成z=0面，而原e3的z=1，不共面，满足空间向量基本定理。是本题的直接检测证据。",
+        "bypassCheck": "明确基底不要求正交单位；不测高维基底 对照：三个两两不共线的向量仍可能共面，因此条件不足。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-1-06",
+      "skillId": "full-m3-1-1-06",
+      "familyId": "full-m3-1-1-06",
+      "text": "在空间直角坐标系中P=(−2,3,4)。写出P在xy、yz、xz平面的正投影，以及关于xy平面的对称点。",
+      "answer": "(−2,3,0)、(0,3,4)、(−2,0,4)；对称点(−2,3,−4)。",
+      "steps": [
+        "投影到某坐标平面保持面内两坐标，把法向坐标置0。",
+        "依次置z、x、y为0得到三投影。",
+        "关于xy面对称只改变z符号，故为(−2,3,−4)。"
+      ],
+      "alignment": "识别空间坐标三轴及坐标平面的投影与对称；解答中投影到某坐标平面保持面内两坐标，把法向坐标置0。是本题的直接检测证据。",
+      "contrast": "投影点z=0与对称点z=−4不同。",
+      "assessment": {
+        "objective": "识别空间坐标三轴及坐标平面的投影与对称",
+        "boundary": "指定标准正交坐标系；不测旋转坐标系",
+        "prerequisiteSkills": "平面投影、对称"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2bbf1beeceab62840621cc470c3078f8a9f1bca8eeba0bf4f70341952b0d7957",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号124。独立解答复审：三个投影分别置z、x、y为0；关于xy面对称只反转z，坐标均正确。",
+        "alignmentCheck": "识别空间坐标三轴及坐标平面的投影与对称；解答中投影到某坐标平面保持面内两坐标，把法向坐标置0。是本题的直接检测证据。",
+        "bypassCheck": "指定标准正交坐标系；不测旋转坐标系 对照：投影点z=0与对称点z=−4不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-1-07",
+      "skillId": "full-m3-1-1-07",
+      "familyId": "full-m3-1-1-07",
+      "text": "a=(2,−1,3)，b=(−1,4,2)。求a+b、2a−3b、a·b。",
+      "answer": "(1,3,5)；(7,−14,0)；0。",
+      "steps": [
+        "三维加法逐分量得(2−1,−1+4,3+2)。",
+        "数乘再减得(4,−2,6)−(−3,12,6)=(7,−14,0)。",
+        "点积2(−1)+(−1)4+3×2=0。"
+      ],
+      "alignment": "实施三维加减、数乘、数量积；解答中三维加法逐分量得(2−1,−1+4,3+2)。是本题的直接检测证据。",
+      "contrast": "向量和是向量，数量积结果0是实数。",
+      "assessment": {
+        "objective": "实施三维加减、数乘、数量积",
+        "boundary": "纯坐标计算，不检测空间建模",
+        "prerequisiteSkills": "有理数运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f7fc2ff486d08b26a0aa1da4b7f248220931a50e88ce0a5ee1d63ee7f795b597",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号125。独立解答复审：分量和(1,3,5)、线性组合(7,-14,0)，点积-2-4+6=0。",
+        "alignmentCheck": "实施三维加减、数乘、数量积；解答中三维加法逐分量得(2−1,−1+4,3+2)。是本题的直接检测证据。",
+        "bypassCheck": "纯坐标计算，不检测空间建模 对照：向量和是向量，数量积结果0是实数。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-1-08",
+      "skillId": "full-m3-1-1-08",
+      "familyId": "full-m3-1-1-08",
+      "text": "A=(−1,2,3)、B=(3,−1,15)，求AB距离；求线段AB中点到A的距离。",
+      "answer": "AB=13；中点到A距离13/2。",
+      "steps": [
+        "坐标差B−A=(4,−3,12)。",
+        "距离√(16+9+144)=√169=13。",
+        "中点(1,1/2,9)，到A的差是(2,−3/2,6)，长度为13/2。"
+      ],
+      "alignment": "使用三维两点距离公式并核查中点长度；解答中坐标差B−A=(4,−3,12)。是本题的直接检测证据。",
+      "contrast": "不能只算平面xy距离5，z差12不可忽略。",
+      "assessment": {
+        "objective": "使用三维两点距离公式并核查中点长度",
+        "boundary": "欧氏正交坐标；不测曲面最短路",
+        "prerequisiteSkills": "平方根、中点"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f4c910877b9ab28cf98ea287b4a5ab14e62ee806fe234b5efd3bb9272c797c4d",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号126。独立解答复审：位移(4,-3,12)模√169=13，中点位移半倍故距离13/2。",
+        "alignmentCheck": "使用三维两点距离公式并核查中点长度；解答中坐标差B−A=(4,−3,12)。是本题的直接检测证据。",
+        "bypassCheck": "欧氏正交坐标；不测曲面最短路 对照：不能只算平面xy距离5，z差12不可忽略。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-2-01",
+      "skillId": "full-m3-1-2-01",
+      "familyId": "full-m3-1-2-01",
+      "text": "空间直线l通过A=(1,2,0)、B=(3,1,4)。给出一个方向向量，并判断(−4,2,−8)和(0,0,0)能否作其方向向量。",
+      "answer": "可取(2,−1,4)；(−4,2,−8)可以；零向量不可以。",
+      "steps": [
+        "AB=B−A=(2,−1,4)，非零且沿l。",
+        "(−4,2,−8)=−2AB，非零倍数仍表示同一直线方向。",
+        "零向量没有确定方向，不能作方向向量。"
+      ],
+      "alignment": "构造直线方向向量及识别非零倍数等价性；解答中AB=B−A=(2,−1,4)，非零且沿l。是本题的直接检测证据。",
+      "contrast": "方向向量不唯一，但不能任取不成比例的向量。",
+      "assessment": {
+        "objective": "构造直线方向向量及识别非零倍数等价性",
+        "boundary": "两点必须不同；不检测直线参数方程",
+        "prerequisiteSkills": "坐标相减、数乘"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3fa8f0dd7846088a54f015bac694f245567f0289cdaedb19cda34c4827122d11",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号127。独立解答复审：方向差(2,-1,4)，给定(-4,2,-8)为-2倍；零向量不可表示确定方向。",
+        "alignmentCheck": "构造直线方向向量及识别非零倍数等价性；解答中AB=B−A=(2,−1,4)，非零且沿l。是本题的直接检测证据。",
+        "bypassCheck": "两点必须不同；不检测直线参数方程 对照：方向向量不唯一，但不能任取不成比例的向量。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-2-02",
+      "skillId": "full-m3-1-2-02",
+      "familyId": "full-m3-1-2-02",
+      "text": "平面内有两个不共线方向向量u=(1,0,1)、v=(0,2,1)。求一个法向量，并验证。",
+      "answer": "可取n=(−2,−1,2)。",
+      "steps": [
+        "设n=(x,y,z)，垂直u、v给出x+z=0、2y+z=0。",
+        "取z=2，则x=−2、y=−1，得到非零n。",
+        "n·u=−2+2=0，n·v=−2+2=0，因此垂直整个平面。"
+      ],
+      "alignment": "联立两个点积为零求平面法向量；解答中设n=(x,y,z)，垂直u、v给出x+z=0、2y+z=0。是本题的直接检测证据。",
+      "contrast": "只垂直u的一条非零向量未必也垂直v。",
+      "assessment": {
+        "objective": "联立两个点积为零求平面法向量",
+        "boundary": "需两不共线面内向量；法向量不唯一",
+        "prerequisiteSkills": "数量积、二元条件"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "03bcfaa1cc837da957772ff593b2b85ea0a32c53494333a6813134722e497fbd",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号128。独立解答复审：(-2,-1,2)点乘两面内独立向量均0且非零，是有效法向量。",
+        "alignmentCheck": "联立两个点积为零求平面法向量；解答中设n=(x,y,z)，垂直u、v给出x+z=0、2y+z=0。是本题的直接检测证据。",
+        "bypassCheck": "需两不共线面内向量；法向量不唯一 对照：只垂直u的一条非零向量未必也垂直v。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-2-03",
+      "skillId": "full-m3-1-2-03",
+      "familyId": "full-m3-1-2-03",
+      "text": "平面α:x+2y−z=0，β:2x+4y−2z=6。直线l过P=(1,0,0)，方向d=(2,−1,0)。用向量判断l与α、α与β是否平行，并排除包含或重合。",
+      "answer": "l∥α；α∥β。",
+      "steps": [
+        "α法向n=(1,2,−1)，d·n=2−2=0；P不在α，故l在面外且平行α。",
+        "β法向为2n，两法向平行。",
+        "β等价x+2y−z=3，与α常数不同，所以两面不同且平行。"
+      ],
+      "alignment": "用方向与法向关系证明线面、面面平行并排除重合；解答中α法向n=(1,2,−1)，d·n=2−2=0；P不在α，故l在面外且平行α。是本题的直接检测证据。",
+      "contrast": "若P在α，则l在α内；点积为0本身不足判面外平行。",
+      "assessment": {
+        "objective": "用方向与法向关系证明线面、面面平行并排除重合",
+        "boundary": "显式平面方程与参数直线；不覆盖任意几何建系",
+        "prerequisiteSkills": "数量积、法向量"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "123bffbeba6d17588b358d613fddafa27c0c22902536c336a4bdb450b264677e",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号129。独立解答复审：方向点积0加点不在面排除包含；两面法向倍数2但常数归一后0、3不同，确平行。",
+        "alignmentCheck": "用方向与法向关系证明线面、面面平行并排除重合；解答中α法向n=(1,2,−1)，d·n=2−2=0；P不在α，故l在面外且平行α。是本题的直接检测证据。",
+        "bypassCheck": "显式平面方程与参数直线；不覆盖任意几何建系 对照：若P在α，则l在α内；点积为0本身不足判面外平行。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-2-04",
+      "skillId": "full-m3-1-2-04",
+      "familyId": "full-m3-1-2-04",
+      "text": "平面α:x+2y+2z=0，β:2x−y=1。直线l方向为(2,4,4)。用向量判断l⊥α及α⊥β是否成立。",
+      "answer": "两者均成立。",
+      "steps": [
+        "α法向n=(1,2,2)，l方向=2n，故l垂直α。",
+        "β法向m=(2,−1,0)，n·m=2−2=0。",
+        "两平面法向垂直，因此平面α与β垂直。"
+      ],
+      "alignment": "分别用方向与法向平行、两法向垂直证明垂直；解答中α法向n=(1,2,2)，l方向=2n，故l垂直α。是本题的直接检测证据。",
+      "contrast": "l垂直α要求方向平行法向，不能写成点积0。",
+      "assessment": {
+        "objective": "分别用方向与法向平行、两法向垂直证明垂直",
+        "boundary": "方向和法向均非零；不检测线线相交条件",
+        "prerequisiteSkills": "法向量、点积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c8282d79566d37d0ea65093d786ff0c2278deb84f24892843d95d688cb323a57",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号130。独立解答复审：线方向为α法向2倍，线面垂直；两个法向点积2-2=0，面面垂直。",
+        "alignmentCheck": "分别用方向与法向平行、两法向垂直证明垂直；解答中α法向n=(1,2,2)，l方向=2n，故l垂直α。是本题的直接检测证据。",
+        "bypassCheck": "方向和法向均非零；不检测线线相交条件 对照：l垂直α要求方向平行法向，不能写成点积0。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-3-01",
+      "skillId": "full-m3-1-3-01",
+      "familyId": "full-m3-1-3-01",
+      "text": "l1过原点、方向a=(1,1,0)；l2过(0,0,1)、方向b=(1,0,1)。证明它们异面并求所成角。",
+      "answer": "异面；所成角60°。",
+      "steps": [
+        "两方向不成比例；令(t,t,0)=(s,0,1+s)，第二坐标迫使t=0，第一坐标s=0而第三坐标矛盾，因此不相交，是异面。",
+        "两模均√2，|a·b|=1。",
+        "异面线角θ∈(0°,90°]，cosθ=1/2，所以60°。"
+      ],
+      "alignment": "以方向向量计算异面直线锐角或直角；解答中两方向不成比例；令(t,t,0)=(s,0,1+s)，第二坐标迫使t=0，第一坐标s=0而第三坐标矛盾，因此不相交，是异面。是本题的直接检测证据。",
+      "contrast": "把b换成−b，向量夹角120°但直线所成角仍60°。",
+      "assessment": {
+        "objective": "以方向向量计算异面直线锐角或直角",
+        "boundary": "同时检查确实异面；不把向量钝角直接当线角",
+        "prerequisiteSkills": "空间参数坐标、点积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "59fa2a2f4aacf813f8bb5e0b98df724afea8ee8c484bc34a78c7d8e817bab199",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号131。独立解答复审：直线参数联立第二坐标t=0、第一s=0与第三0=1矛盾，确异面；点积1模积2给60度。",
+        "alignmentCheck": "以方向向量计算异面直线锐角或直角；解答中两方向不成比例；令(t,t,0)=(s,0,1+s)，第二坐标迫使t=0，第一坐标s=0而第三坐标矛盾，因此不相交，是异面。是本题的直接检测证据。",
+        "bypassCheck": "同时检查确实异面；不把向量钝角直接当线角 对照：把b换成−b，向量夹角120°但直线所成角仍60°。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-3-02",
+      "skillId": "full-m3-1-3-02",
+      "familyId": "full-m3-1-3-02",
+      "text": "直线方向d=(1,2,2)，平面α法向n=(0,0,1)。求直线与平面所成角θ的正弦与余弦。",
+      "answer": "sinθ=2/3；cosθ=√5/3。",
+      "steps": [
+        "线面角是直线方向与法向夹角的余角（取非负）。",
+        "sinθ=|d·n|/(|d||n|)=2/3。",
+        "θ∈[0°,90°]，cosθ=√(1−4/9)=√5/3。"
+      ],
+      "alignment": "将法向夹角转成线面角正弦；解答中线面角是直线方向与法向夹角的余角（取非负）。是本题的直接检测证据。",
+      "contrast": "2/3是线面角正弦，不是余弦。",
+      "assessment": {
+        "objective": "将法向夹角转成线面角正弦",
+        "boundary": "法向给定且非零，不测平面方程求法向",
+        "prerequisiteSkills": "点积、余角关系"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3ca4efacafdfc0598a2ebc5b72c37fc96ba655a8e29cb610f7f26303cc765ac8",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号132。独立解答复审：方向法向投影比2/3是线面角正弦，取非负余弦√5/3。",
+        "alignmentCheck": "将法向夹角转成线面角正弦；解答中线面角是直线方向与法向夹角的余角（取非负）。是本题的直接检测证据。",
+        "bypassCheck": "法向给定且非零，不测平面方程求法向 对照：2/3是线面角正弦，不是余弦。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-3-03",
+      "skillId": "full-m3-1-3-03",
+      "familyId": "full-m3-1-3-03",
+      "text": "以x轴为棱，半平面α由x轴及y≥0、z=0的点构成，半平面β由点(x,t,√3t)、t≥0构成。求指定二面角，可选用棱上原点到两面内的垂棱向量。",
+      "answer": "60°。",
+      "steps": [
+        "在原点取u=(0,1,0)指向α，v=(0,1,√3)指向β，两者均垂直x轴。",
+        "它们位于指定半平面，因此二面角等于两向量夹角。",
+        "cosθ=(u·v)/(|u||v|)=1/2，θ=60°。"
+      ],
+      "alignment": "用垂棱向量求指定二面角并匹配半平面；解答中在原点取u=(0,1,0)指向α，v=(0,1,√3)指向β，两者均垂直x轴。是本题的直接检测证据。",
+      "contrast": "若β取t≤0，二面角变120°。",
+      "assessment": {
+        "objective": "用垂棱向量求指定二面角并匹配半平面",
+        "boundary": "直接给坐标半平面；不把无向两平面锐角代替指定二面角",
+        "prerequisiteSkills": "点积、二面角平面角"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a37392cb1acdcd7562381fbd5e7272a2f452e23c82d23828ef9bac73cf416882",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号133。独立解答复审：指定两半面垂棱向量(0,1,0)、(0,1,√3)夹角余弦1/2，得60度。",
+        "alignmentCheck": "用垂棱向量求指定二面角并匹配半平面；解答中在原点取u=(0,1,0)指向α，v=(0,1,√3)指向β，两者均垂直x轴。是本题的直接检测证据。",
+        "bypassCheck": "直接给坐标半平面；不把无向两平面锐角代替指定二面角 对照：若β取t≤0，二面角变120°。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-3-04",
+      "skillId": "full-m3-1-3-04",
+      "familyId": "full-m3-1-3-04",
+      "text": "以x轴为棱，第一半平面z=0、y≥0，第二半平面由(x,−t,√3t)、t≥0给出。求二面角余弦并判断锐钝；为何不能对最终余弦一律取绝对值？",
+      "answer": "cosθ=−1/2，为120°钝角；取绝对值会误报相邻的60°二面角。",
+      "steps": [
+        "分别取垂棱且指向指定半平面的u=(0,1,0)、v=(0,−1,√3)。",
+        "u·v=−1，模积2，cosθ=−1/2。",
+        "指定二面角可为钝角，法向朝向或半平面选择须核实，不能消去负号。"
+      ],
+      "alignment": "判断指定二面角余弦的正负并避免法向角混淆；解答中分别取垂棱且指向指定半平面的u=(0,1,0)、v=(0,−1,√3)。是本题的直接检测证据。",
+      "contrast": "若第二面改为(x,t,√3t)，余弦才变为+1/2。",
+      "assessment": {
+        "objective": "判断指定二面角余弦的正负并避免法向角混淆",
+        "boundary": "知识点的“正负”指余弦符号；普通二面角本身取[0°,180°]，不是负角",
+        "prerequisiteSkills": "垂棱向量、点积"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1acb2ead7492b64f0347718c7b38055ba69f347b374dea1967e26f5348b0c0dd",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号134。独立解答复审：第二射线y负给点积-1、模积2，余弦-1/2即120度；绝对值会丢失指定半面信息。",
+        "alignmentCheck": "判断指定二面角余弦的正负并避免法向角混淆；解答中分别取垂棱且指向指定半平面的u=(0,1,0)、v=(0,−1,√3)。是本题的直接检测证据。",
+        "bypassCheck": "知识点的“正负”指余弦符号；普通二面角本身取[0°,180°]，不是负角 对照：若第二面改为(x,t,√3t)，余弦才变为+1/2。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-3-05",
+      "skillId": "full-m3-1-3-05",
+      "familyId": "full-m3-1-3-05",
+      "text": "求P=(2,1,3)到平面α:2x−y+2z−3=0的距离，写出使用的法向量和一个面内点。",
+      "answer": "距离2；法向量(2,−1,2)，面内点Q=(0,1,2)。",
+      "steps": [
+        "Q满足0−1+4−3=0，故在面内；n=(2,−1,2)，|n|=3。",
+        "QP=(2,0,1)，QP·n=6。",
+        "距离d=|QP·n|/|n|=6/3=2。"
+      ],
+      "alignment": "用点与面内点的位移在法向上投影求点面距；解答中Q满足0−1+4−3=0，故在面内；n=(2,−1,2)，|n|=3。是本题的直接检测证据。",
+      "contrast": "点P若移到另一侧，点积可为负，但距离仍非负。",
+      "assessment": {
+        "objective": "用点与面内点的位移在法向上投影求点面距",
+        "boundary": "已给平面方程；使用绝对值得到非负距离",
+        "prerequisiteSkills": "法向量、投影"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "da322939b95be92defad58462c880c67c7263c553e8fd90c9b82c10b68f00f04",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号135。独立解答复审：Q=(0,1,2)确在面上，QP点积6、法向模3，距离2；直接平面公式也得|4-1+6-3|/3=2。",
+        "alignmentCheck": "用点与面内点的位移在法向上投影求点面距；解答中Q满足0−1+4−3=0，故在面内；n=(2,−1,2)，|n|=3。是本题的直接检测证据。",
+        "bypassCheck": "已给平面方程；使用绝对值得到非负距离 对照：点P若移到另一侧，点积可为负，但距离仍非负。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-1-3-06",
+      "skillId": "full-m3-1-3-06",
+      "familyId": "full-m3-1-3-06",
+      "text": "α:x+2y+2z=0；直线l过P=(3,0,0)，方向d=(2,−1,0)；β:x+2y+2z=6。先验证平行，再求l到α、β到α的距离。",
+      "answer": "l∥α，β∥α；距离分别1、2。",
+      "steps": [
+        "n=(1,2,2)，n·d=0，且P不在α，所以l∥α；β与α法向相同、常数不同，两面平行。",
+        "线面距可取P到α：|3|/|n|=3/3=1。",
+        "两平行面距离=|6−0|/3=2。"
+      ],
+      "alignment": "把平行线面、平行面面距离转为法向投影；解答中n=(1,2,2)，n·d=0，且P不在α，所以l∥α；β与α法向相同、常数不同，两面平行。是本题的直接检测证据。",
+      "contrast": "非平行直线与面相交时，线上任取点的点面距不是线面距。",
+      "assessment": {
+        "objective": "把平行线面、平行面面距离转为法向投影",
+        "boundary": "先证明平行，若相交则距离为0，不能直接套常数差",
+        "prerequisiteSkills": "点面距离、法向量"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "886f9870e0320e26e4329d3cde208d60bd52b12212592f7f79b5eeec614811a2",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号136。独立解答复审：线方向与法向正交、过点在面外；同法向两平面不同，归一法向长度3给距离1、2。",
+        "alignmentCheck": "把平行线面、平行面面距离转为法向投影；解答中n=(1,2,2)，n·d=0，且P不在α，所以l∥α；β与α法向相同、常数不同，两面平行。是本题的直接检测证据。",
+        "bypassCheck": "先证明平行，若相交则距离为0，不能直接套常数差 对照：非平行直线与面相交时，线上任取点的点面距不是线面距。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-1-01",
+      "skillId": "full-m3-2-1-01",
+      "familyId": "full-m3-2-1-01",
+      "text": "求直线y=−√3x+2及直线x=4的倾斜角，并给出倾斜角的取值范围。",
+      "answer": "120°、90°；范围[0°,180°)。",
+      "steps": [
+        "非竖直线斜率k=tanα。",
+        "tanα=−√3且α∈[0°,180°)，故α=120°，不能取−60°。",
+        "竖直线与x轴正方向成90°。"
+      ],
+      "alignment": "按取值范围确定直线倾斜角并处理竖直线；解答中非竖直线斜率k=tanα。是本题的直接检测证据。",
+      "contrast": "水平直线的倾斜角0°，不取180°。",
+      "assessment": {
+        "objective": "按取值范围确定直线倾斜角并处理竖直线",
+        "boundary": "非水平负斜率和竖直情形；不测方向角360°体系",
+        "prerequisiteSkills": "正切、坐标直线"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0dd92b94f86b8d79c73d07ffd06a6f16e4f0074ede02f031e7fa4eb6deeb8abb",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号137。独立解答复审：tan倾角=-√3且范围[0,180)给120度，竖直90度；未误取-60度。",
+        "alignmentCheck": "按取值范围确定直线倾斜角并处理竖直线；解答中非竖直线斜率k=tanα。是本题的直接检测证据。",
+        "bypassCheck": "非水平负斜率和竖直情形；不测方向角360°体系 对照：水平直线的倾斜角0°，不取180°。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-1-02",
+      "skillId": "full-m3-2-1-02",
+      "familyId": "full-m3-2-1-02",
+      "text": "直线倾斜角分别0°、45°、135°、90°，求各自斜率。倾斜角增大时斜率是否在整个[0°,180°)都递增？",
+      "answer": "0、1、−1、不存在；不是整个区间都递增。",
+      "steps": [
+        "除90°外，k=tanα，按特殊角得到0、1、−1。",
+        "90°为竖直线，tan无定义。",
+        "45°<135°但1>−1，跨过90°不保持递增。"
+      ],
+      "alignment": "将倾斜角对应到斜率并识别定义域断点；解答中除90°外，k=tanα，按特殊角得到0、1、−1。是本题的直接检测证据。",
+      "contrast": "可以说tan在(90°,180°)内递增，但不能跨越间断点。",
+      "assessment": {
+        "objective": "将倾斜角对应到斜率并识别定义域断点",
+        "boundary": "只比较指定角，未证明每个连续分支的单调性",
+        "prerequisiteSkills": "特殊角正切"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ae1e1f26699286a3e68370569de82ebd8b32fb98aff53902c3979e36d5c4bd18",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号138。独立解答复审：四角斜率0、1、-1、无定义；45<135但斜率1>-1构成全区间递增反例。",
+        "alignmentCheck": "将倾斜角对应到斜率并识别定义域断点；解答中除90°外，k=tanα，按特殊角得到0、1、−1。是本题的直接检测证据。",
+        "bypassCheck": "只比较指定角，未证明每个连续分支的单调性 对照：可以说tan在(90°,180°)内递增，但不能跨越间断点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-1-03",
+      "skillId": "full-m3-2-1-03",
+      "familyId": "full-m3-2-1-03",
+      "text": "A=(−2,5)，B=(4,−1)，C=(−2,−3)。求AB和AC斜率；若D=(t,2)且AD斜率为−1，求t。",
+      "answer": "AB斜率−1；AC斜率不存在；t=1。",
+      "steps": [
+        "AB斜率=(−1−5)/(4−(−2))=−6/6=−1。",
+        "AC横坐标差0，竖直线无斜率。",
+        "AD斜率(2−5)/(t+2)=−1，需t≠−2，解得t+2=3，所以t=1。"
+      ],
+      "alignment": "使用两点斜率公式并检查横坐标差非零；解答中AB斜率=(−1−5)/(4−(−2))=−6/6=−1。是本题的直接检测证据。",
+      "contrast": "纵坐标相等会斜率0；横坐标相等则不存在，二者不同。",
+      "assessment": {
+        "objective": "使用两点斜率公式并检查横坐标差非零",
+        "boundary": "平面两点与单参数求解，明确竖直例外",
+        "prerequisiteSkills": "分式、一次方程"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "378efa648396a069369b0b62a4bf004da54e6060936e9fb2a696f956988f894d",
+        "answerCheck": "固定规格计算检查：固定题目规格中的主要计算重算；具体表达式见verify-batch-2.py对应ck序号139。独立解答复审：AB=-6/6=-1、AC分母0；AD差商-3/(t+2)=-1得到t=1，满足非零分母限制。",
+        "alignmentCheck": "使用两点斜率公式并检查横坐标差非零；解答中AB斜率=(−1−5)/(4−(−2))=−6/6=−1。是本题的直接检测证据。",
+        "bypassCheck": "平面两点与单参数求解，明确竖直例外 对照：纵坐标相等会斜率0；横坐标相等则不存在，二者不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-2-01",
+      "skillId": "full-m3-2-2-01",
+      "familyId": "full-m3-2-2-01",
+      "text": "直线过P(2,-1)，斜率为3，写出点斜式；过P且平行y轴的直线能否写成该形式？",
+      "answer": "y+1=3(x-2)；竖直线为x=2，不能使用有限斜率的点斜式。",
+      "steps": [
+        "把(x₀,y₀,k)=(2,-1,3)代入y-y₀=k(x-x₀)",
+        "平行y轴时所有点横坐标为2，斜率不存在"
+      ],
+      "alignment": "本题通过由已知点和斜率列点斜式并识别竖直线例外检测“点斜式方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若k=0，点斜式仍适用，得到y=-1。",
+      "assessment": {
+        "objective": "由已知点和斜率列点斜式并识别竖直线例外",
+        "boundary": "检测一个非竖直实例及竖直例外，不覆盖含参数直线族",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "38fbd21c7e0eed346b6c7ac343918695ddde3a55d8e633f0b1115a4988f024fd",
+        "answerCheck": "固定规格计算检查：两点差商与点斜式。独立解答复审：将P代回左、右均0，方向向量(1,3)斜率3；竖直线所有横坐标2，确不能用有限斜率形式。",
+        "alignmentCheck": "本题通过由已知点和斜率列点斜式并识别竖直线例外检测“点斜式方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一个非竖直实例及竖直例外，不覆盖含参数直线族 对照：若k=0，点斜式仍适用，得到y=-1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-2-02",
+      "skillId": "full-m3-2-2-02",
+      "familyId": "full-m3-2-2-02",
+      "text": "某直线斜率为-2，在y轴上的截距为6。写方程并求它在x轴上的截距。",
+      "answer": "y=-2x+6；横截距为3。",
+      "steps": [
+        "斜截式y=kx+b给出y=-2x+6",
+        "令y=0，得x=3"
+      ],
+      "alignment": "本题通过由斜率与纵截距写方程并区分截距检测“斜截式方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "纵截距是6，不是交点(0,6)的长度问题；若b=-6，截距可为负。",
+      "assessment": {
+        "objective": "由斜率与纵截距写方程并区分截距",
+        "boundary": "仅检测斜截式与两轴截距，不代表所有形式互化",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e30b330eb537046d069d98883aea90f67f4eb0fbf640deb059ea2ceaa6f72966",
+        "answerCheck": "固定规格计算检查：解横轴截点。独立解答复审：把y=0代入-2x+6得到x=3，把x=0代入得纵截距6，符号及截距均吻合。",
+        "alignmentCheck": "本题通过由斜率与纵截距写方程并区分截距检测“斜截式方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测斜截式与两轴截距，不代表所有形式互化 对照：纵截距是6，不是交点(0,6)的长度问题；若b=-6，截距可为负。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-2-03",
+      "skillId": "full-m3-2-2-03",
+      "familyId": "full-m3-2-2-03",
+      "text": "求过A(-1,2)、B(3,10)的直线，先写两点式；另求过C(2,1)、D(2,5)的直线。",
+      "answer": "(y-2)/8=(x+1)/4，化为y=2x+4；CD为x=2。",
+      "steps": [
+        "计算y差8、x差4并代入两点式",
+        "交叉相乘得y-2=2(x+1)",
+        "C、D横坐标相同，直接列x=2"
+      ],
+      "alignment": "本题通过使用两点式并处理同横坐标情况检测“两点式方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若两点相同，则不能唯一确定直线。",
+      "assessment": {
+        "objective": "使用两点式并处理同横坐标情况",
+        "boundary": "检测两点均不同坐标和竖直线，不涉及重合点",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2601d94426c6de8cd2edf77fdbad7563eddfe7b89d65a05738e518da2c81611e",
+        "answerCheck": "固定规格计算检查：独立求两点斜率截距。独立解答复审：纵横差为8、4，斜率2，过(-1,2)推出截距4；C、D横坐标均2，竖直例外正确。",
+        "alignmentCheck": "本题通过使用两点式并处理同横坐标情况检测“两点式方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两点均不同坐标和竖直线，不涉及重合点 对照：若两点相同，则不能唯一确定直线。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-2-04",
+      "skillId": "full-m3-2-2-04",
+      "familyId": "full-m3-2-2-04",
+      "text": "直线在x、y轴上的截距分别为-3、4，写截距式和一般式。过原点的直线能否照用x/a+y/b=1？",
+      "answer": "x/(-3)+y/4=1；4x-3y+12=0。过原点时不能照用非零a、b的截距式。",
+      "steps": [
+        "代入a=-3,b=4",
+        "乘12并移项得到4x-3y+12=0",
+        "过原点的截距为0或轴重合，分母条件不满足"
+      ],
+      "alignment": "本题通过用有向截距列截距式并辨别零截距限制检测“截距式方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "截距-3是带符号的坐标，不应改成3。",
+      "assessment": {
+        "objective": "用有向截距列截距式并辨别零截距限制",
+        "boundary": "仅检测非零截距以及过原点例外",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f6baaecc80fea881395b15c4973cd9dce48ffc1294d41ece64825dc7c5efecb7",
+        "answerCheck": "固定规格计算检查：消去截距式分母。独立解答复审：乘12得-4x+3y=12，整体乘-1后是4x-3y+12=0；两截距分别-3、4，过原点例外成立。",
+        "alignmentCheck": "本题通过用有向截距列截距式并辨别零截距限制检测“截距式方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测非零截距以及过原点例外 对照：截距-3是带符号的坐标，不应改成3。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-2-05",
+      "skillId": "full-m3-2-2-05",
+      "familyId": "full-m3-2-2-05",
+      "text": "判断2x-3y+6=0、0x+0y+1=0、4x-8=0、5y+10=0哪些表示直线，并写出后两条的方向。",
+      "answer": "第一、三、四个表示直线；第二个无解。第三个x=2为竖直线，第四个y=-2为水平线。",
+      "steps": [
+        "一般式Ax+By+C=0要求A、B不同时为0",
+        "第二个变为1=0",
+        "后两式分别除以4、5得到x=2、y=-2"
+      ],
+      "alignment": "本题通过检验一般式的系数条件并包含竖直水平线检测“一般式方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若A=B=C=0，则是整个平面，也不是一条直线。",
+      "assessment": {
+        "objective": "检验一般式的系数条件并包含竖直水平线",
+        "boundary": "检测退化方程与三类简单直线",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "15b01d3dbc5a2181ef956e4466cb7f588f6b831633fc938e0a07c2876023fb2f",
+        "answerCheck": "逻辑辅助检查（非自动证明）：逐式检查系数条件，并以各式解集形状交叉判断。。独立解答复审：第二式为矛盾1=0，其余至少一个一次项系数非零；后两式约为x=2和y=-2。",
+        "alignmentCheck": "本题通过检验一般式的系数条件并包含竖直水平线检测“一般式方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测退化方程与三类简单直线 对照：若A=B=C=0，则是整个平面，也不是一条直线。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-2-06",
+      "skillId": "full-m3-2-2-06",
+      "familyId": "full-m3-2-2-06",
+      "text": "将2x+3y-6=0化为斜截式、截距式、过点(0,2)的点斜式和过两截点的两点式。",
+      "answer": "y=-2x/3+2；x/3+y/2=1；y-2=-(2/3)x；(y-2)/(0-2)=(x-0)/(3-0)。",
+      "steps": [
+        "解出y得斜率-2/3、纵截距2",
+        "令y=0得横截距3",
+        "用点(0,2)与斜率写点斜式",
+        "用(0,2)、(3,0)写两点式"
+      ],
+      "alignment": "本题通过把同一直线在四种形式间等价转换检测“方程形式互化”；解答中的相应计算或论证是评分依据。",
+      "contrast": "竖直线x=3不能化成斜截式。",
+      "assessment": {
+        "objective": "把同一直线在四种形式间等价转换",
+        "boundary": "检测斜率与两截距均存在的实例",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3de20de39aa68d211b220242005c0f23385c6d5f0c17da462275709d3834fd6d",
+        "answerCheck": "固定规格计算检查：四种形式消分母后同零点集。独立解答复审：四种形式逐一乘去分母都回到2x+3y-6=0；点(0,2)和(3,0)均在原直线上。",
+        "alignmentCheck": "本题通过把同一直线在四种形式间等价转换检测“方程形式互化”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测斜率与两截距均存在的实例 对照：竖直线x=3不能化成斜截式。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-3-01",
+      "skillId": "full-m3-2-3-01",
+      "familyId": "full-m3-2-3-01",
+      "text": "求2x+y=7与x-y=2的交点。",
+      "answer": "交点为(3,1)。",
+      "steps": [
+        "两方程相加得3x=9",
+        "x=3代入x-y=2得y=1",
+        "代回两原式检验"
+      ],
+      "alignment": "本题通过联立直线方程求交点并验证检测“两直线交点坐标”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若第二条换成4x+2y=15，则无交点。",
+      "assessment": {
+        "objective": "联立直线方程求交点并验证",
+        "boundary": "仅检测唯一交点情形",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e54c23175179c84962177dc3320c42cf8497149a0c08ff377a395720779f6a18",
+        "answerCheck": "固定规格计算检查：符号联立两直线。独立解答复审：将(3,1)代回2x+y=7及x-y=2均成立，系数矩阵行列式-3非零保证唯一。",
+        "alignmentCheck": "本题通过联立直线方程求交点并验证检测“两直线交点坐标”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测唯一交点情形 对照：若第二条换成4x+2y=15，则无交点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-3-02",
+      "skillId": "full-m3-2-3-02",
+      "familyId": "full-m3-2-3-02",
+      "text": "以l:2x-y+1=0为参照，判断m:4x-2y+3=0、n:x+2y-5=0、p:4x-2y+2=0的关系。",
+      "answer": "m与l平行；n与l垂直；p与l重合。",
+      "steps": [
+        "l斜率2，m斜率2但常数项不成同一倍数，故平行",
+        "n斜率-1/2，乘积为-1",
+        "p整体为l的2倍，故重合"
+      ],
+      "alignment": "本题通过使用一般式系数区分平行重合和垂直检测“两直线平行/垂直的条件”；解答中的相应计算或论证是评分依据。",
+      "contrast": "斜率相等不能直接断言两条不同直线平行，必须排除重合。",
+      "assessment": {
+        "objective": "使用一般式系数区分平行重合和垂直",
+        "boundary": "检测给定直线之间关系，不覆盖空间直线",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c3a4ac811a8d3d1709ebb325e79f56c4521a0ed5cf07892d41f431b05e270b08",
+        "answerCheck": "固定规格计算检查：法向量点积及平行常数比。独立解答复审：参照线法向量(2,-1)，与(1,2)点积0；m系数比例2但常数比例不符，p全部比例2，三类区分正确。",
+        "alignmentCheck": "本题通过使用一般式系数区分平行重合和垂直检测“两直线平行/垂直的条件”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测给定直线之间关系，不覆盖空间直线 对照：斜率相等不能直接断言两条不同直线平行，必须排除重合。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-3-03",
+      "skillId": "full-m3-2-3-03",
+      "familyId": "full-m3-2-3-03",
+      "text": "求P(1,-2)到3x+4y-10=0的距离。",
+      "answer": "距离为3。",
+      "steps": [
+        "分子取|3×1+4×(-2)-10|=15",
+        "分母为√(3²+4²)=5",
+        "相除得3"
+      ],
+      "alignment": "本题通过正确代入点到直线距离并保留绝对值检测“点到直线的距离公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "分子原值为-15，但距离不能为负。",
+      "assessment": {
+        "objective": "正确代入点到直线距离并保留绝对值",
+        "boundary": "检测一个非轴向直线，不含距离最值",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fb5dcd544f9546d43c7a05bf1296dc9836aaccd0d328b5d503a4be8b36a4ed58",
+        "answerCheck": "固定规格计算检查：垂足与距离交叉算。独立解答复审：独立计算带符号表达式3-8-10=-15，法向量模5，所以距离15/5=3。",
+        "alignmentCheck": "本题通过正确代入点到直线距离并保留绝对值检测“点到直线的距离公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一个非轴向直线，不含距离最值 对照：分子原值为-15，但距离不能为负。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-3-04",
+      "skillId": "full-m3-2-3-04",
+      "familyId": "full-m3-2-3-04",
+      "text": "求3x+4y-5=0与6x+8y+10=0之间的距离。",
+      "answer": "距离为2。",
+      "steps": [
+        "第二式除以2化为3x+4y+5=0",
+        "距离为|5-(-5)|/√(3²+4²)=2"
+      ],
+      "alignment": "本题通过统一法向系数后计算平行线间距检测“平行线间的距离”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能直接用原常数10与-5相减，因为原法向系数尚未统一。",
+      "assessment": {
+        "objective": "统一法向系数后计算平行线间距",
+        "boundary": "仅检测两条已给平行直线",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4eb793f29c96d0b2509bd54dc2a72d506c5e372a175a6df466f8f2f92f9619f7",
+        "answerCheck": "固定规格计算检查：取第一条线上点测到第二条距离。独立解答复审：两线统一为3x+4y-5=0与3x+4y+5=0，常数差10除以模5得到2。",
+        "alignmentCheck": "本题通过统一法向系数后计算平行线间距检测“平行线间的距离”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测两条已给平行直线 对照：不能直接用原常数10与-5相减，因为原法向系数尚未统一。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-3-05",
+      "skillId": "full-m3-2-3-05",
+      "familyId": "full-m3-2-3-05",
+      "text": "求P(3,1)关于直线x+y-2=0的对称点Q。",
+      "answer": "Q=(1,-1)。",
+      "steps": [
+        "设Q=(u,v)，中点满足(3+u)/2+(1+v)/2=2，故u+v=0",
+        "PQ平行法向量(1,1)，故u-3=v-1",
+        "联立得u=1,v=-1"
+      ],
+      "alignment": "本题通过用中点在线上与连线垂直求轴对称点检测“对称问题”；解答中的相应计算或论证是评分依据。",
+      "contrast": "关于y=x的对称才是直接交换横纵坐标。",
+      "assessment": {
+        "objective": "用中点在线上与连线垂直求轴对称点",
+        "boundary": "检测点关于非轴向直线对称，不含最短路径",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "dff223f41726424c2494694a47958381fa618b8f6532b18274ecdc1c2cb42e8d",
+        "answerCheck": "固定规格计算检查：中点在线与连线垂直。独立解答复审：P与Q的中点(2,0)在线x+y=2上，PQ向量(-2,-2)平行该线法向量，确为镜像。",
+        "alignmentCheck": "本题通过用中点在线上与连线垂直求轴对称点检测“对称问题”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测点关于非轴向直线对称，不含最短路径 对照：关于y=x的对称才是直接交换横纵坐标。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-4-01",
+      "skillId": "full-m3-2-4-01",
+      "familyId": "full-m3-2-4-01",
+      "text": "圆心C(2,-3)，圆经过P(5,1)，求圆的标准方程。",
+      "answer": "(x-2)²+(y+3)²=25。",
+      "steps": [
+        "半径平方CP²=(5-2)²+(1+3)²=25",
+        "代入(x-a)²+(y-b)²=r²"
+      ],
+      "alignment": "本题通过由圆心和圆上一点建立标准方程检测“圆的标准方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "(y+3)²对应圆心纵坐标-3，不能读成3。",
+      "assessment": {
+        "objective": "由圆心和圆上一点建立标准方程",
+        "boundary": "检测中心半径式，不含三点定圆",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "19d168cc5cb4be7c91a0c41fab90cdf7c47eca4c864a7fda915f0ec694a68380",
+        "answerCheck": "固定规格计算检查：圆心半径复算。独立解答复审：CP位移(3,4)的平方模25，标准式中心符号是x-2、y+3，回代P左侧25。",
+        "alignmentCheck": "本题通过由圆心和圆上一点建立标准方程检测“圆的标准方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测中心半径式，不含三点定圆 对照：(y+3)²对应圆心纵坐标-3，不能读成3。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-4-02",
+      "skillId": "full-m3-2-4-02",
+      "familyId": "full-m3-2-4-02",
+      "text": "讨论x²+y²-4x+6y+F=0在什么F范围表示实圆，并求圆心；F=13时是什么图形？",
+      "answer": "F<13时为圆，圆心(2,-3)，半径√(13-F)；F=13时仅点(2,-3)。",
+      "steps": [
+        "配方为(x-2)²+(y+3)²=13-F",
+        "右侧正为圆，零为一点，负无实点"
+      ],
+      "alignment": "本题通过判别一般圆方程的实圆与退化条件检测“圆的一般方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若F>13，不能把虚数半径当作平面实圆。",
+      "assessment": {
+        "objective": "判别一般圆方程的实圆与退化条件",
+        "boundary": "检测二次项同系数的标准一般式",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9c2df43136f63e2925c9f0cd5d3054ce5c0502d22e39f96521cf5758498b6bdb",
+        "answerCheck": "固定规格计算检查：配方法恒等式。独立解答复审：完整配方常数补4+9=13，半径平方13-F；大于、等于、小于零三种几何情形逻辑完整。",
+        "alignmentCheck": "本题通过判别一般圆方程的实圆与退化条件检测“圆的一般方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测二次项同系数的标准一般式 对照：若F>13，不能把虚数半径当作平面实圆。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-4-03",
+      "skillId": "full-m3-2-4-03",
+      "familyId": "full-m3-2-4-03",
+      "text": "将x²+y²+6x-8y-11=0化为标准式，写圆心和半径。",
+      "answer": "(x+3)²+(y-4)²=36；圆心(-3,4)，半径6。",
+      "steps": [
+        "移常数得x²+6x+y²-8y=11",
+        "左右补9与16，得平方和36",
+        "按标准式读取圆心半径"
+      ],
+      "alignment": "本题通过完整补平方把一般圆方程化为标准式检测“配方法化一般式为标准式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "半径不是36，应取正平方根6。",
+      "assessment": {
+        "objective": "完整补平方把一般圆方程化为标准式",
+        "boundary": "仅检测配方计算，不涉及参数分类",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "76cd63376a9c507ebfdafcd87cfbd37ee86c5ebdc73de150b66051afc72ad8a4",
+        "answerCheck": "固定规格计算检查：标准式独立展开。独立解答复审：将平方和展开得到x²+y²+6x-8y+25=36，移项恰还原原式；半径为正6。",
+        "alignmentCheck": "本题通过完整补平方把一般圆方程化为标准式检测“配方法化一般式为标准式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测配方计算，不涉及参数分类 对照：半径不是36，应取正平方根6。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-4-04",
+      "skillId": "full-m3-2-4-04",
+      "familyId": "full-m3-2-4-04",
+      "text": "圆(x-1)²+(y+2)²=25，判断A(1,1)、B(4,2)、C(7,-2)与圆的位置关系。",
+      "answer": "A在圆内，B在圆上，C在圆外。",
+      "steps": [
+        "三点到圆心(1,-2)距离平方分别为9、25、36",
+        "依次与半径平方25比较"
+      ],
+      "alignment": "本题通过以距离平方和半径平方判断内外及圆上检测“点与圆的位置关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "判定应相对于圆心，而非原点求距离。",
+      "assessment": {
+        "objective": "以距离平方和半径平方判断内外及圆上",
+        "boundary": "仅检测三个定点的位置关系",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f98af184bde7c828858c32d3536685f6d818939e4b49c958ce35399d48fb4aa7",
+        "answerCheck": "固定规格计算检查：逐点距离平方。独立解答复审：三点相对中心位移分别(0,3)、(3,4)、(6,0)，平方模9、25、36，内上外正确。",
+        "alignmentCheck": "本题通过以距离平方和半径平方判断内外及圆上检测“点与圆的位置关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测三个定点的位置关系 对照：判定应相对于圆心，而非原点求距离。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-5-01",
+      "skillId": "full-m3-2-5-01",
+      "familyId": "full-m3-2-5-01",
+      "text": "圆x²+y²=9与直线x=t的位置关系随实数t怎样变化？",
+      "answer": "|t|<3相交；|t|=3相切；|t|>3相离。",
+      "steps": [
+        "圆心到x=t距离为|t|",
+        "将该距离与半径3比较",
+        "相交时交点为(t,±√(9-t²))"
+      ],
+      "alignment": "本题通过用圆心距与半径分类直线圆位置检测“直线与圆的位置关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "t=-3同样相切，不能只保留t=3。",
+      "assessment": {
+        "objective": "用圆心距与半径分类直线圆位置",
+        "boundary": "检测一族平行直线全部三类位置",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8aa109211e69502cf0aaf528268b530a5064687c975f9c5e4099cb17e541ca43",
+        "answerCheck": "固定规格计算检查：检查y平方正零负对应实交点数。独立解答复审：将x=t消元得y²=9-t²，正零负直接对应2、1、0个交点，阈值|t|=3正确。",
+        "alignmentCheck": "本题通过用圆心距与半径分类直线圆位置检测“直线与圆的位置关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一族平行直线全部三类位置 对照：t=-3同样相切，不能只保留t=3。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-5-02",
+      "skillId": "full-m3-2-5-02",
+      "familyId": "full-m3-2-5-02",
+      "text": "求圆x²+y²=25在P(3,4)处的切线。",
+      "answer": "3x+4y=25。",
+      "steps": [
+        "先验证3²+4²=25",
+        "半径OP向量(3,4)是切线法向量",
+        "列3(x-3)+4(y-4)=0并化简"
+      ],
+      "alignment": "本题通过求圆上点切线并利用垂直半径检测“圆的切线方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若给定P(3,5)，点不在圆上，不能直接使用此切点公式。",
+      "assessment": {
+        "objective": "求圆上点切线并利用垂直半径",
+        "boundary": "仅检测指定切点，不涵盖圆外点两条切线",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5e0dedabcb03328b8f3061dae5c7007b7c2e76bcb3787663963293388ccbd4c9",
+        "answerCheck": "固定规格计算检查：圆切线联立判别式。独立解答复审：切线含P，因为9+16=25；其法向量(3,4)正是半径方向，切点及垂直性同时核实。",
+        "alignmentCheck": "本题通过求圆上点切线并利用垂直半径检测“圆的切线方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测指定切点，不涵盖圆外点两条切线 对照：若给定P(3,5)，点不在圆上，不能直接使用此切点公式。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-5-03",
+      "skillId": "full-m3-2-5-03",
+      "familyId": "full-m3-2-5-03",
+      "text": "直线3x+4y=15截圆x²+y²=25所得弦长是多少？",
+      "answer": "弦长为8。",
+      "steps": [
+        "圆心距d=15/5=3，小于r=5",
+        "半弦长√(25-9)=4",
+        "全弦长2×4=8"
+      ],
+      "alignment": "本题通过利用垂径定理计算圆弦长检测“弦长公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若常数改为25，直线相切，不能称为有两个不同端点的弦。",
+      "assessment": {
+        "objective": "利用垂径定理计算圆弦长",
+        "boundary": "仅检测相交时的定长弦",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bd5e14aa392f3d78eea62b8f42516e512e851720bdfdf659a0787a882819c5ef",
+        "answerCheck": "固定规格计算检查：联立圆线再算两交点距离。独立解答复审：圆心到线距离3，半径5，与半弦构成3-4-5三角形，弦长2×4=8。",
+        "alignmentCheck": "本题通过利用垂径定理计算圆弦长检测“弦长公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测相交时的定长弦 对照：若常数改为25，直线相切，不能称为有两个不同端点的弦。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-2-5-04",
+      "skillId": "full-m3-2-5-04",
+      "familyId": "full-m3-2-5-04",
+      "text": "两圆半径分别5、2，圆心距d依次为8、7、5、3、1。逐一判断位置关系。",
+      "answer": "依次为外离、外切、相交、内切、内含。",
+      "steps": [
+        "半径和7、差3",
+        "d>7外离，d=7外切",
+        "3<d<7相交，d=3内切，d<3内含"
+      ],
+      "alignment": "本题通过比较圆心距与半径和差分类两圆关系检测“圆与圆的位置关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "半径相等且圆心距0时为重合，应另行处理。",
+      "assessment": {
+        "objective": "比较圆心距与半径和差分类两圆关系",
+        "boundary": "检测不等半径圆的五类位置，不含重合圆",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a9894c18c7860f380347d8facbab8078875ca2b26eaec380ec4d044c10d75421",
+        "answerCheck": "逻辑辅助检查（非自动证明）：把五个d逐个代入与3、7的比较，五种区间及端点各命中一次。。独立解答复审：半径和7、差3；给出的8、7、5、3、1依次落在五个互斥位置范围，未混淆内外切。",
+        "alignmentCheck": "本题通过比较圆心距与半径和差分类两圆关系检测“圆与圆的位置关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测不等半径圆的五类位置，不含重合圆 对照：半径相等且圆心距0时为重合，应另行处理。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-3-1-01",
+      "skillId": "full-m3-3-1-01",
+      "familyId": "full-m3-3-1-01",
+      "text": "F₁(-3,0)、F₂(3,0)，动点P满足PF₁+PF₂=10。写轨迹方程；若和改成6或4会怎样？",
+      "answer": "和10时x²/25+y²/16=1；和6时为线段F₁F₂；和4时无点。",
+      "steps": [
+        "焦距6，2a=10>6，a=5,c=3,b²=25-9=16",
+        "由三角不等式距离和至少6",
+        "等号恰在焦点间线段"
+      ],
+      "alignment": "本题通过依据距离和与焦距比较判断椭圆及退化检测“椭圆的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "距离和必须严格大于焦距才得到非退化椭圆。",
+      "assessment": {
+        "objective": "依据距离和与焦距比较判断椭圆及退化",
+        "boundary": "检测定义条件，不要求一般旋转椭圆",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b704a1cfae7735410514e2ca4e4a5943af9574425e5e7cdf8a5fa5250fc2633b",
+        "answerCheck": "固定规格计算检查：椭圆端点焦距和。独立解答复审：距离和10给a=5，焦半距3给b²=16；距离和最小为6且等号在焦点线段，和4不可能。",
+        "alignmentCheck": "本题通过依据距离和与焦距比较判断椭圆及退化检测“椭圆的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测定义条件，不要求一般旋转椭圆 对照：距离和必须严格大于焦距才得到非退化椭圆。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：椭圆定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-1-02",
+      "skillId": "full-m3-3-1-02",
+      "familyId": "full-m3-3-1-02",
+      "text": "椭圆焦点为(0,±4)，长轴长10，求标准方程。",
+      "answer": "x²/9+y²/25=1。",
+      "steps": [
+        "长半轴a=5，焦半距c=4",
+        "b²=a²-c²=9",
+        "焦点在y轴，把a²放在y²下方"
+      ],
+      "alignment": "本题通过区分焦轴方向并写椭圆标准式检测“椭圆的标准方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "分母较大者对应长轴，不是永远放在x²下。",
+      "assessment": {
+        "objective": "区分焦轴方向并写椭圆标准式",
+        "boundary": "检测中心原点、轴与坐标轴重合的椭圆",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f0adf1f1d5435a19e9f1708255b24359c4280cc9d954959a4e2a30d097c861f9",
+        "answerCheck": "固定规格计算检查：椭圆半轴焦参数。独立解答复审：长轴长10使a=5，焦点在y轴，c=4得b²=9；分母方向正确。",
+        "alignmentCheck": "本题通过区分焦轴方向并写椭圆标准式检测“椭圆的标准方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测中心原点、轴与坐标轴重合的椭圆 对照：分母较大者对应长轴，不是永远放在x²下。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：椭圆定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-1-03",
+      "skillId": "full-m3-3-1-03",
+      "familyId": "full-m3-3-1-03",
+      "text": "对x²/36+y²/20=1，写x、y范围、对称轴和中心、四顶点、长短轴长及焦点。",
+      "answer": "x∈[-6,6]，y∈[-2√5,2√5]；对称轴为两坐标轴，中心原点；顶点(±6,0)、(0,±2√5)；长轴12，短轴4√5；焦点(±4,0)。",
+      "steps": [
+        "非负平方项给出坐标范围",
+        "方程只含平方，换x或y符号均不变",
+        "令另一坐标0求顶点",
+        "a=6,b=2√5,c=√(36-20)=4"
+      ],
+      "alignment": "本题通过从椭圆方程读取范围对称性顶点轴长焦点检测“椭圆的几何性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "长轴是12，不是半长轴6。",
+      "assessment": {
+        "objective": "从椭圆方程读取范围对称性顶点轴长焦点",
+        "boundary": "检测轴对齐标准椭圆的主要几何性质",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a4b801956abbaa5de27a383e6454a58755b82c00d67f7a727f109ea3b215c878",
+        "answerCheck": "固定规格计算检查：几何参数及顶点代入。独立解答复审：由36与20读a=6,b=2√5，c²=16；各轴长为半轴两倍，范围及中心与平方对称性一致。",
+        "alignmentCheck": "本题通过从椭圆方程读取范围对称性顶点轴长焦点检测“椭圆的几何性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测轴对齐标准椭圆的主要几何性质 对照：长轴是12，不是半长轴6。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：椭圆定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-1-04",
+      "skillId": "full-m3-3-1-04",
+      "familyId": "full-m3-3-1-04",
+      "text": "椭圆E₁:x²/25+y²/16=1与E₂:x²/25+y²/9=1，分别求离心率，哪个更扁？",
+      "answer": "e₁=3/5，e₂=4/5；E₂更扁。",
+      "steps": [
+        "E₁中c=√(25-16)=3，e=c/a=3/5",
+        "E₂中c=4，e=4/5",
+        "相同a下E₂短半轴更小"
+      ],
+      "alignment": "本题通过计算椭圆离心率并比较扁平程度检测“离心率”；解答中的相应计算或论证是评分依据。",
+      "contrast": "椭圆离心率在0与1之间，不能用a/c。",
+      "assessment": {
+        "objective": "计算椭圆离心率并比较扁平程度",
+        "boundary": "检测离心率定义与同长轴椭圆比较",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "de37f5d76eff5de23ff772b7ddc29471da4d87738faa63b04d6e0696d82ea779",
+        "answerCheck": "固定规格计算检查：两离心率平方。独立解答复审：相同a=5时，b分别4、3而c分别3、4，离心率3/5和4/5；第二椭圆短轴较小确实更扁。",
+        "alignmentCheck": "本题通过计算椭圆离心率并比较扁平程度检测“离心率”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测离心率定义与同长轴椭圆比较 对照：椭圆离心率在0与1之间，不能用a/c。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：椭圆定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-1-05",
+      "skillId": "full-m3-3-1-05",
+      "familyId": "full-m3-3-1-05",
+      "text": "椭圆x²/25+y²/9=1上点P满足∠F₁PF₂=90°，求三角形PF₁F₂面积。",
+      "answer": "面积为9。",
+      "steps": [
+        "设两焦距u,v>0，由定义u+v=10",
+        "焦距为2√(25-9)=8，直角条件给u²+v²=64",
+        "100=64+2uv，故uv=18，面积uv/2=9",
+        "u,v=5±√7均为正，能构成斜边8的直角三角形"
+      ],
+      "alignment": "本题通过把焦距和与勾股关系结合求焦点三角形面积检测“焦点三角形问题”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若改为x²/25+y²/16=1，焦距6小于10/√2，不存在这样的直角焦点三角形。",
+      "assessment": {
+        "objective": "把焦距和与勾股关系结合求焦点三角形面积",
+        "boundary": "仅检测存在的直角焦点三角形",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fec132396f7b33a9ac235cea3210e6de86a01714139cd2996f7c4cd715328de5",
+        "answerCheck": "固定规格计算检查：独立焦距解重算面积与存在性。独立解答复审：以焦距8为斜边，两直角边u+v=10且平方和64，所以uv=18、面积9；根5±√7为正，配置可实现。",
+        "alignmentCheck": "本题通过把焦距和与勾股关系结合求焦点三角形面积检测“焦点三角形问题”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测存在的直角焦点三角形 对照：若改为x²/25+y²/16=1，焦距6小于10/√2，不存在这样的直角焦点三角形。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：椭圆定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-2-01",
+      "skillId": "full-m3-3-2-01",
+      "familyId": "full-m3-3-2-01",
+      "text": "F₁(-5,0)、F₂(5,0)，轨迹满足|PF₁-PF₂|=6，求方程；去掉绝对值改成PF₁-PF₂=6时取哪支？",
+      "answer": "x²/9-y²/16=1；无绝对值且差为6时取右支x≥3。",
+      "steps": [
+        "2a=6、c=5，b²=c²-a²=16",
+        "右侧点离左焦点更远，故差为正",
+        "顶点(3,0)对应距离8、2"
+      ],
+      "alignment": "本题通过依据距离差绝对值及焦距判断双曲线检测“双曲线的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若差的绝对值等于10则退化为两条射线，若大于10无点。",
+      "assessment": {
+        "objective": "依据距离差绝对值及焦距判断双曲线",
+        "boundary": "检测完整双支和单支条件，不含旋转",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3e3d45ff45e3ac71fdd50b84f591ced3a24601a5efa6cddd3b13b5a25fe9e431",
+        "answerCheck": "固定规格计算检查：左右顶点距离差。独立解答复审：绝对距离差6给a=3，c=5给b=4；右顶点到左焦点8、到右焦点2，故有向差正的支为右支。",
+        "alignmentCheck": "本题通过依据距离差绝对值及焦距判断双曲线检测“双曲线的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测完整双支和单支条件，不含旋转 对照：若差的绝对值等于10则退化为两条射线，若大于10无点。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：双曲线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-2-02",
+      "skillId": "full-m3-3-2-02",
+      "familyId": "full-m3-3-2-02",
+      "text": "双曲线焦点(0,±5)，实轴长6，求标准方程。",
+      "answer": "y²/9-x²/16=1。",
+      "steps": [
+        "a=3,c=5，b²=c²-a²=16",
+        "实轴沿y轴，所以y²项为正"
+      ],
+      "alignment": "本题通过由实轴方向及参数建立双曲线标准式检测“双曲线的标准方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "双曲线不是将椭圆的b²=a²-c²直接照搬。",
+      "assessment": {
+        "objective": "由实轴方向及参数建立双曲线标准式",
+        "boundary": "检测中心原点且焦点在y轴的情形",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5eb0618ace1d2f3c66c5e6582f4a54d143e040e1986efff0d855eaff4731b1de",
+        "answerCheck": "固定规格计算检查：双曲线c平方减a平方。独立解答复审：实轴长6给a=3，c=5给b²=16；焦点位于y轴故正项是y²/9。",
+        "alignmentCheck": "本题通过由实轴方向及参数建立双曲线标准式检测“双曲线的标准方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测中心原点且焦点在y轴的情形 对照：双曲线不是将椭圆的b²=a²-c²直接照搬。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：双曲线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-2-03",
+      "skillId": "full-m3-3-2-03",
+      "familyId": "full-m3-3-2-03",
+      "text": "对x²/9-y²/16=1，写范围、对称轴及中心、顶点、焦点、实轴长和虚轴长。",
+      "answer": "x≤-3或x≥3，y∈R；对称轴为x轴和y轴，中心原点；顶点(±3,0)，焦点(±5,0)，实轴6，虚轴8。",
+      "steps": [
+        "x²/9=1+y²/16≥1得到x范围",
+        "任意y均可得到实数x",
+        "平方项确定对称性",
+        "a=3,b=4,c=5，读取各几何量"
+      ],
+      "alignment": "本题通过读取双曲线范围对称性顶点焦点与实虚轴检测“双曲线的几何性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "虚轴端点(0,±4)不在双曲线上。",
+      "assessment": {
+        "objective": "读取双曲线范围对称性顶点焦点与实虚轴",
+        "boundary": "检测标准双曲线，不涉及平移",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "87f251676712a62b62046e53222e3013e69a57852d18a2517778d9a80d82a4da",
+        "answerCheck": "固定规格计算检查：双曲线焦距与顶点。独立解答复审：x²=9(1+y²/16)保证|x|≥3且任何实y可取，c²=9+16=25，实虚轴长度6、8正确。",
+        "alignmentCheck": "本题通过读取双曲线范围对称性顶点焦点与实虚轴检测“双曲线的几何性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测标准双曲线，不涉及平移 对照：虚轴端点(0,±4)不在双曲线上。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：双曲线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-2-04",
+      "skillId": "full-m3-3-2-04",
+      "familyId": "full-m3-3-2-04",
+      "text": "求x²/9-y²/4=1和y²/9-x²/4=1的渐近线。",
+      "answer": "前者y=±2x/3；后者y=±3x/2。",
+      "steps": [
+        "前者令x²/9-y²/4=0，分解得y=±2x/3",
+        "后者令y²/9-x²/4=0，得y=±3x/2"
+      ],
+      "alignment": "本题通过从双曲线二次齐次项求渐近线并辨轴向检测“双曲线的渐近线”；解答中的相应计算或论证是评分依据。",
+      "contrast": "渐近线一般不与双曲线相交，不能把常数1保留后称其为直线。",
+      "assessment": {
+        "objective": "从双曲线二次齐次项求渐近线并辨轴向",
+        "boundary": "检测两种标准方向，未覆盖平移",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8ab8d38936e385bb8b5e2474cf9e07b5dc4da4228b50f3e4e301eebbc161cd89",
+        "answerCheck": "固定规格计算检查：渐近线消二次项。独立解答复审：分别解齐次二次式得到斜率±2/3和±3/2；轴向交换后斜率倒置正确。",
+        "alignmentCheck": "本题通过从双曲线二次齐次项求渐近线并辨轴向检测“双曲线的渐近线”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两种标准方向，未覆盖平移 对照：渐近线一般不与双曲线相交，不能把常数1保留后称其为直线。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：双曲线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-2-05",
+      "skillId": "full-m3-3-2-05",
+      "familyId": "full-m3-3-2-05",
+      "text": "双曲线x²/a²-y²/b²=1（a,b>0）的渐近线为y=±2x，求离心率。",
+      "answer": "e=√5。",
+      "steps": [
+        "渐近线斜率绝对值b/a=2",
+        "c²=a²+b²，故e²=c²/a²=1+4=5",
+        "e取正"
+      ],
+      "alignment": "本题通过由渐近线求双曲线离心率并说明范围检测“双曲线的离心率”；解答中的相应计算或论证是评分依据。",
+      "contrast": "双曲线离心率大于1；√(1-4)是误套椭圆公式。",
+      "assessment": {
+        "objective": "由渐近线求双曲线离心率并说明范围",
+        "boundary": "检测焦点在x轴的比例参数",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "99be2a9994ce66d176ad4808653ac7b8c78d5d303b93a8b79f1e0ea1a6b9e8cb",
+        "answerCheck": "固定规格计算检查：渐近线比例得到离心率。独立解答复审：b/a=2使c²/a²=1+4=5，离心率取正√5，满足双曲线e>1。",
+        "alignmentCheck": "本题通过由渐近线求双曲线离心率并说明范围检测“双曲线的离心率”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测焦点在x轴的比例参数 对照：双曲线离心率大于1；√(1-4)是误套椭圆公式。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：双曲线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-3-01",
+      "skillId": "full-m3-3-3-01",
+      "familyId": "full-m3-3-3-01",
+      "text": "动点P到F(2,0)与直线x=-2距离相等，求轨迹，并说明平方变形是否添根。",
+      "answer": "y²=8x；没有添根。",
+      "steps": [
+        "列√((x-2)²+y²)=|x+2|",
+        "两端非负，可等价平方得y²=8x",
+        "该式推出x≥0，代回两非负距离相等"
+      ],
+      "alignment": "本题通过把点到焦点与准线等距翻译成抛物线方程检测“抛物线的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若焦点在准线上，等距轨迹不再是非退化抛物线。",
+      "assessment": {
+        "objective": "把点到焦点与准线等距翻译成抛物线方程",
+        "boundary": "仅检测焦点不在准线上的轴对齐情形",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3bef8aacdcd5551c9c2780cf2eb0c224fa6a1d7a5dfd42048b63a37f470f001c",
+        "answerCheck": "固定规格计算检查：等距方程平方差。独立解答复审：两距离均非负，平方不会改真假；展开(x-2)²+y²=(x+2)²得到y²=8x，且由此x≥0可反推。",
+        "alignmentCheck": "本题通过把点到焦点与准线等距翻译成抛物线方程检测“抛物线的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测焦点不在准线上的轴对齐情形 对照：若焦点在准线上，等距轨迹不再是非退化抛物线。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：抛物线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-3-02",
+      "skillId": "full-m3-3-3-02",
+      "familyId": "full-m3-3-3-02",
+      "text": "分别写y²=-12x与x²=-8y的焦点、准线与开口方向。",
+      "answer": "前者F(-3,0)，准线x=3，向左；后者F(0,-2)，准线y=2，向下。",
+      "steps": [
+        "前者2p=12,p=6，焦距顶点p/2=3",
+        "后者2p=8,p=4，焦距顶点2",
+        "根据负号确定负轴方向"
+      ],
+      "alignment": "本题通过辨识四种方向的抛物线标准式与焦点准线检测“抛物线的标准方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "y²=2px中的p不是焦点横坐标，而是焦点到准线距离。",
+      "assessment": {
+        "objective": "辨识四种方向的抛物线标准式与焦点准线",
+        "boundary": "检测两种负方向，并明确2p系数",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "64de0753c523a31ce74ec882b56a67e0deb56b54ed60c57502cf455dfeb33469",
+        "answerCheck": "固定规格计算检查：两种负轴点的焦线距离。独立解答复审：按顶点到焦点为二次项系数绝对值的四分之一，分别为3和2；负号决定左和下，准线在相反侧。",
+        "alignmentCheck": "本题通过辨识四种方向的抛物线标准式与焦点准线检测“抛物线的标准方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两种负方向，并明确2p系数 对照：y²=2px中的p不是焦点横坐标，而是焦点到准线距离。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：抛物线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-3-03",
+      "skillId": "full-m3-3-3-03",
+      "familyId": "full-m3-3-3-03",
+      "text": "对y²=12x，写范围、顶点、对称轴、焦点、准线和离心率。",
+      "answer": "x≥0，y∈R；顶点(0,0)，对称轴x轴；焦点(3,0)，准线x=-3，离心率1。",
+      "steps": [
+        "由x=y²/12得范围与顶点",
+        "y变号方程不变，关于x轴对称",
+        "2p=12得p=6，焦点p/2=3",
+        "焦点距与准线距恒等，故e=1"
+      ],
+      "alignment": "本题通过描述抛物线范围顶点对称轴焦点准线和离心率检测“抛物线的几何性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "抛物线不关于y轴对称，也没有对称中心。",
+      "assessment": {
+        "objective": "描述抛物线范围顶点对称轴焦点准线和离心率",
+        "boundary": "仅检测一个标准抛物线",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8c0a239ebe80222b49510589e37cd44d66d8412995a3c1247b9382ba39b076fc",
+        "answerCheck": "固定规格计算检查：焦点参数与样例等距。独立解答复审：y²=12x给焦点横坐标12/4=3，准线x=-3；定义保证离心率1，范围和对称轴均匹配。",
+        "alignmentCheck": "本题通过描述抛物线范围顶点对称轴焦点准线和离心率检测“抛物线的几何性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测一个标准抛物线 对照：抛物线不关于y轴对称，也没有对称中心。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：抛物线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-3-04",
+      "skillId": "full-m3-3-3-04",
+      "familyId": "full-m3-3-3-04",
+      "text": "求y²=16x的通径端点与长度。",
+      "answer": "端点(4,8)、(4,-8)，通径长16。",
+      "steps": [
+        "2p=16,p=8，焦点(4,0)",
+        "通径所在直线x=4",
+        "代入得y²=64，端点纵坐标±8，长度16"
+      ],
+      "alignment": "本题通过求过焦点垂直对称轴弦的端点和长度检测“抛物线的通径”；解答中的相应计算或论证是评分依据。",
+      "contrast": "通径长度为2p，不是p或p/2。",
+      "assessment": {
+        "objective": "求过焦点垂直对称轴弦的端点和长度",
+        "boundary": "仅检测通径，不含任意焦点弦",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "88aeb1e5a3a692b3edbe330096f32b5c99b4c1420cf164885c6943cb9abc1f3c",
+        "answerCheck": "固定规格计算检查：通径两端点代回。独立解答复审：焦点x=4，通径代x=4得到y²=64；上下两点距离16，非半通径8。",
+        "alignmentCheck": "本题通过求过焦点垂直对称轴弦的端点和长度检测“抛物线的通径”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测通径，不含任意焦点弦 对照：通径长度为2p，不是p或p/2。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：抛物线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-3-05",
+      "skillId": "full-m3-3-3-05",
+      "familyId": "full-m3-3-3-05",
+      "text": "P在y²=8x上，F为焦点。求PF+P到直线x=6的距离的最小值及取到最小值的P范围。",
+      "answer": "最小值8；当0≤x≤6且y²=8x时均取到。",
+      "steps": [
+        "F(2,0)、准线x=-2，所以PF=x+2",
+        "另一个距离为|x-6|",
+        "在0≤x≤6时和为8，在x>6时为2x-4>8"
+      ],
+      "alignment": "本题通过运用抛物线定义把焦点距离转为到准线距离检测“抛物线定义的应用”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能把点到直线距离写成x-6而不取绝对值。",
+      "assessment": {
+        "objective": "运用抛物线定义把焦点距离转为到准线距离",
+        "boundary": "检测带竖线距离的最小值，不含复杂折线路径",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "703c141fada442a5ce92a77ffb678ba388ab8c98995cf614d1266831a6acfab6",
+        "answerCheck": "固定规格计算检查：焦点距加竖线距分段。独立解答复审：用定义替换PF为x+2；x≥0时加|x-6|，0至6恒8，超过6递增为2x-4，取等点范围完整。",
+        "alignmentCheck": "本题通过运用抛物线定义把焦点距离转为到准线距离检测“抛物线定义的应用”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测带竖线距离的最小值，不含复杂折线路径 对照：不能把点到直线距离写成x-6而不取绝对值。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：抛物线定义与方程",
+            "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m3-3-4-01",
+      "skillId": "full-m3-3-4-01",
+      "familyId": "full-m3-3-4-01",
+      "text": "讨论y=t与x²/9+y²/4=1的位置关系。",
+      "answer": "|t|<2相交，|t|=2相切，|t|>2相离。",
+      "steps": [
+        "代入得x²=9(1-t²/4)",
+        "右侧正有两根，零有一根，负无实根",
+        "边界切点为(0,±2)"
+      ],
+      "alignment": "本题通过联立方程用判别式分类直线与椭圆检测“直线与椭圆的位置关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能把只有一个交点的结论不加检查地推广给双曲线的渐近方向。",
+      "assessment": {
+        "objective": "联立方程用判别式分类直线与椭圆",
+        "boundary": "检测水平参数直线，不涉及斜率参数",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9cfedabe27f2508f16186c948b2d41abac2c71d4e15e2a45bd558614108b7285",
+        "answerCheck": "固定规格计算检查：消元得到实根条件。独立解答复审：代入y=t后x²=9(1-t²/4)，右端符号给出准确的二交、一交、无交分类。",
+        "alignmentCheck": "本题通过联立方程用判别式分类直线与椭圆检测“直线与椭圆的位置关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测水平参数直线，不涉及斜率参数 对照：不能把只有一个交点的结论不加检查地推广给双曲线的渐近方向。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-3-4-02",
+      "skillId": "full-m3-3-4-02",
+      "familyId": "full-m3-3-4-02",
+      "text": "双曲线x²-y²=1，分别求与y=x、y=x-1、x=1、y=0的交点，并判断一交点是否必为切线。",
+      "answer": "依次无交点、(1,0)、(1,0)、(±1,0)；一交点不必为切线，y=x-1不是切线，x=1才是。",
+      "steps": [
+        "y=x代入得0=1",
+        "y=x-1代入得2x-1=1，得(1,0)",
+        "x=1给y²=0，y=0给x²=1",
+        "在(1,0)处切线为x=1，可由隐式求导或顶点切线性质得出"
+      ],
+      "alignment": "本题通过识别双曲线直线联立的二次退化与交点数检测“直线与双曲线的位置关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "与渐近线平行的直线可只有一个交点却不相切。",
+      "assessment": {
+        "objective": "识别双曲线直线联立的二次退化与交点数",
+        "boundary": "检测渐近方向及普通相交和相切实例",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7dc20a4715d2c82d00f1c53bfff03e50d7f19222bd188c44a79346dedb4575ba",
+        "answerCheck": "固定规格计算检查：双曲线四条直线交点集。独立解答复审：逐条消元得到0=1、x=1、y=0、x=±1；双曲线右顶点切线为竖直，故平行渐近线的一交线不能误称相切。",
+        "alignmentCheck": "本题通过识别双曲线直线联立的二次退化与交点数检测“直线与双曲线的位置关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测渐近方向及普通相交和相切实例 对照：与渐近线平行的直线可只有一个交点却不相切。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-3-4-03",
+      "skillId": "full-m3-3-4-03",
+      "familyId": "full-m3-3-4-03",
+      "text": "对y²=4x，判断x=t（t<0、t=0、t>0）及y=1的交点数；y=1是否切线？",
+      "answer": "x=t分别0、1、2个交点，t=0时为切线；y=1仅有(1/4,1)，但不是切线。",
+      "steps": [
+        "代入x=t得y²=4t",
+        "代入y=1得x=1/4",
+        "以y为参数x=y²/4，在y=1处dx/dy=1/2，切线为y-1=2(x-1/4)，不等于y=1"
+      ],
+      "alignment": "本题通过区分抛物线轴向一交点和真正相切检测“直线与抛物线的位置关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "抛物线与平行对称轴的直线可有一个交点而不相切。",
+      "assessment": {
+        "objective": "区分抛物线轴向一交点和真正相切",
+        "boundary": "检测竖直与水平直线族",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "eef23db0e9a5211b852916e682008ad7c5730a1d7c66765d4f8d41fcb572d8ec",
+        "answerCheck": "固定规格计算检查：轴向单交点与切线斜率。独立解答复审：竖线代入给y²=4t；水平线y=1仅一交但该点切线斜率2，水平斜率0，反例可靠。",
+        "alignmentCheck": "本题通过区分抛物线轴向一交点和真正相切检测“直线与抛物线的位置关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测竖直与水平直线族 对照：抛物线与平行对称轴的直线可有一个交点而不相切。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-3-4-04",
+      "skillId": "full-m3-3-4-04",
+      "familyId": "full-m3-3-4-04",
+      "text": "直线y=x截椭圆x²/9+y²/4=1于A、B，求AB。",
+      "answer": "AB=12√26/13。",
+      "steps": [
+        "代入得13x²/36=1，所以x=±6/√13",
+        "横坐标差12/√13",
+        "弦长√(1+1²)×12/√13=12√26/13"
+      ],
+      "alignment": "本题通过用根差与斜率计算圆锥曲线弦长检测“弦长公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只算横坐标差会漏乘√(1+k²)。",
+      "assessment": {
+        "objective": "用根差与斜率计算圆锥曲线弦长",
+        "boundary": "检测一条非竖直椭圆弦",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5194430fc309f7a558b723db8e23f898a1a08cfa15a04f2d3063cd7e508f11f1",
+        "answerCheck": "固定规格计算检查：求真实交点并算弦长。独立解答复审：交点是±(6/√13,6/√13)，向量差的长度12√2/√13=12√26/13，化简无误。",
+        "alignmentCheck": "本题通过用根差与斜率计算圆锥曲线弦长检测“弦长公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一条非竖直椭圆弦 对照：只算横坐标差会漏乘√(1+k²)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-3-4-05",
+      "skillId": "full-m3-3-4-05",
+      "familyId": "full-m3-3-4-05",
+      "text": "椭圆x²/9+y²/4=1的一条弦中点为M(1,1)，求弦所在直线，并验证确有两个交点。",
+      "answer": "直线4x+9y-13=0。",
+      "steps": [
+        "端点方程相减得(x₁-x₂)(x₁+x₂)/9+(y₁-y₂)(y₁+y₂)/4=0",
+        "由中点坐标得2Δx/9+2Δy/4=0，故k=-4/9",
+        "过M列y-1=-4(x-1)/9",
+        "令端点M±t(9,-4)，代入得13t²=23/36，有两个非零相反实根"
+      ],
+      "alignment": "本题通过以点差法求中点弦斜率并验证弦存在检测“中点弦问题（点差法）”；解答中的相应计算或论证是评分依据。",
+      "contrast": "点差法给必要方向；仍须验证相交，不能把椭圆外点当弦中点。",
+      "assessment": {
+        "objective": "以点差法求中点弦斜率并验证弦存在",
+        "boundary": "检测给定内点中点的非竖直椭圆弦",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1c8b6341cdc0ea052ebe943c1224fd69726864a6d41670abfe7cbe552b4d2627",
+        "answerCheck": "固定规格计算检查：中点方向参数代入消去一次项。独立解答复审：M±t(9,-4)代入椭圆左侧为13/36+13t²，故t²=23/468>0；两交点均值M，所求线真为弦而非虚设。",
+        "alignmentCheck": "本题通过以点差法求中点弦斜率并验证弦存在检测“中点弦问题（点差法）”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测给定内点中点的非竖直椭圆弦 对照：点差法给必要方向；仍须验证相交，不能把椭圆外点当弦中点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-3-4-06",
+      "skillId": "full-m3-3-4-06",
+      "familyId": "full-m3-3-4-06",
+      "text": "P(x,y)在x²/9+y²/4=1上，求2x+3y范围及取等点。",
+      "answer": "范围[-6√2,6√2]；最大值点(3/√2,√2)，最小值点(-3/√2,-√2)。",
+      "steps": [
+        "令u=x/3,v=y/2，则u²+v²=1",
+        "2x+3y=6(u+v)，由(u+v)²≤2得界",
+        "u=v=±1/√2时取到"
+      ],
+      "alignment": "本题通过把椭圆上的线性量转成单位圆求范围检测“圆锥曲线的最值与范围”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能单独把x、y都取各自最大值，因为(3,2)不在椭圆上。",
+      "assessment": {
+        "objective": "把椭圆上的线性量转成单位圆求范围",
+        "boundary": "仅检测一个线性目标，未覆盖距离乘积类最值",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "df7c7c2f882fa3fb20324b400618e3263f5f17a81b59241a6dc56ffc7da154d3",
+        "answerCheck": "固定规格计算检查：极值取等点真实在椭圆上。独立解答复审：柯西界(u+v)²≤2且u²+v²=1，目标6(u+v)；等号u=v=±1/√2对应列出的点，均代回椭圆成立。",
+        "alignmentCheck": "本题通过把椭圆上的线性量转成单位圆求范围检测“圆锥曲线的最值与范围”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测一个线性目标，未覆盖距离乘积类最值 对照：不能单独把x、y都取各自最大值，因为(3,2)不在椭圆上。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m3-3-4-07",
+      "skillId": "full-m3-3-4-07",
+      "familyId": "full-m3-3-4-07",
+      "text": "Q在圆x²+y²=16上运动，A(2,0)固定，P为AQ中点。求P轨迹，并说明所求圆上每点都可得到。",
+      "answer": "(x-1)²+y²=4。",
+      "steps": [
+        "设P(x,y)，由中点关系Q=(2x-2,2y)",
+        "代入Q的圆得(2x-2)²+4y²=16",
+        "化为(x-1)²+y²=4",
+        "反之任一满足该式的P所对应Q在原圆，且P确为中点"
+      ],
+      "alignment": "本题通过用关联点代换求轨迹并证明反向可达检测“轨迹方程的求法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只写代入后的必要方程而不说明反向，可能遗漏轨迹充分性。",
+      "assessment": {
+        "objective": "用关联点代换求轨迹并证明反向可达",
+        "boundary": "检测圆上动点中点轨迹，不含排除点限制",
+        "prerequisiteSkills": "坐标代入、解方程、距离与平方运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "813eb49fcb56cb202db9f96dcac6e9847e0e1581ae66f60f3ba1aecf8f02d574",
+        "answerCheck": "固定规格计算检查：中点关联消元。独立解答复审：中点逆像Q=(2x-2,2y)唯一；代回圆得到(x-1)²+y²=4，逆构造证明没有多点或漏点。",
+        "alignmentCheck": "本题通过用关联点代换求轨迹并证明反向可达检测“轨迹方程的求法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测圆上动点中点轨迹，不含排除点限制 对照：只写代入后的必要方程而不说明反向，可能遗漏轨迹充分性。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-1-01",
+      "skillId": "full-m4-4-1-01",
+      "familyId": "full-m4-4-1-01",
+      "text": "分类：A为2,4,6,8四项；B为aₙ=1/n（n≥1）；C为cₙ=5（n≥1）；D为dₙ=(-1)ⁿ（n≥1）。各自有限还是无限？递增、递减、常数还是摆动？D的第2项与第4项相同是否矛盾？",
+      "answer": "A有限递增；B无限递减；C无限常数；D无限摆动。D第2、4项均为1，不矛盾。",
+      "steps": [
+        "A有4项且依次增大",
+        "B对所有正整数定义且1/(n+1)<1/n",
+        "C每项相同",
+        "D交替为-1、1",
+        "数列允许不同位置出现相同数值"
+      ],
+      "alignment": "本题通过按项数和变化规律分类数列并理解项的位置检测“数列的定义与分类”；解答中的相应计算或论证是评分依据。",
+      "contrast": "数列强调次序，交换有限数列的项通常得到不同数列。",
+      "assessment": {
+        "objective": "按项数和变化规律分类数列并理解项的位置",
+        "boundary": "检测有限无限、递增递减常数摆动实例",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e950f126b8236731d3754b75d5f7e605155547adeb69953f157d416cf05bcc81",
+        "answerCheck": "逻辑辅助检查（非自动证明）：按相邻差检查：A差2，B差-1/[n(n+1)]，C差0，D差交替正负。。独立解答复审：四列长度及递推差分别明确：有限4项、1/n差负、恒5、交替±1；数列按位置编号所以重复值合法。",
+        "alignmentCheck": "本题通过按项数和变化规律分类数列并理解项的位置检测“数列的定义与分类”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测有限无限、递增递减常数摆动实例 对照：数列强调次序，交换有限数列的项通常得到不同数列。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-1-02",
+      "skillId": "full-m4-4-1-02",
+      "familyId": "full-m4-4-1-02",
+      "text": "aₙ=3n²-2（n为正整数），求a₄，并判断25、26是否为数列中的项。",
+      "answer": "a₄=46；25为第3项；26不是该数列的项。",
+      "steps": [
+        "代n=4得48-2=46",
+        "令3n²-2=25得n²=9，取正整数3",
+        "令3n²-2=26得n²=28/3，无正整数解"
+      ],
+      "alignment": "本题通过由通项求项并用正整数下标检验成员检测“通项公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "数列下标只取正整数，实数方程有根不代表是数列项。",
+      "assessment": {
+        "objective": "由通项求项并用正整数下标检验成员",
+        "boundary": "检测明确给定通项，不由有限项唯一猜公式",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c93f34363d20b5daa71d0a15e3313c08045d351a0f74af39fb02e5490020aceb",
+        "answerCheck": "固定规格计算检查：通项成员检查。独立解答复审：第4项3×16-2=46；25对应n²=9只取正n=3；26对应28/3非整数平方，不能入列。",
+        "alignmentCheck": "本题通过由通项求项并用正整数下标检验成员检测“通项公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测明确给定通项，不由有限项唯一猜公式 对照：数列下标只取正整数，实数方程有根不代表是数列项。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-1-03",
+      "skillId": "full-m4-4-1-03",
+      "familyId": "full-m4-4-1-03",
+      "text": "a₁=2，aₙ₊₁=2aₙ+1，求a₂、a₃，并验证aₙ=3·2ⁿ⁻¹-1满足此递推和初值。",
+      "answer": "a₂=5，a₃=11；所给通项满足条件。",
+      "steps": [
+        "由初值得a₂=2×2+1=5、a₃=2×5+1=11",
+        "通项在n=1时为2",
+        "2(3·2ⁿ⁻¹-1)+1=3·2ⁿ-1，等于通项中的aₙ₊₁"
+      ],
+      "alignment": "本题通过连同初始条件使用递推并验证通项检测“递推公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只给递推关系而不给初值一般不能确定唯一数列。",
+      "assessment": {
+        "objective": "连同初始条件使用递推并验证通项",
+        "boundary": "检测一阶线性递推的简单实例",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "da7953aefa31e718aa2008d4abf959b92e29dc08e10f742ceba317074153d625",
+        "answerCheck": "固定规格计算检查：递推逐项与给定闭式比对。独立解答复审：从2递推两次得5、11；候选通项初值2，下一项减去2倍本项恒1，符合整条递推。",
+        "alignmentCheck": "本题通过连同初始条件使用递推并验证通项检测“递推公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一阶线性递推的简单实例 对照：只给递推关系而不给初值一般不能确定唯一数列。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-1-04",
+      "skillId": "full-m4-4-1-04",
+      "familyId": "full-m4-4-1-04",
+      "text": "数列aₙ=(-1)ⁿ⁻¹n，求S₄、S₅及S₅-S₄，并说明最后一个量是哪一项。",
+      "answer": "S₄=-2，S₅=3，S₅-S₄=5=a₅。",
+      "steps": [
+        "前五项1,-2,3,-4,5",
+        "S₄=1-2+3-4=-2",
+        "S₅=-2+5=3",
+        "两前缀相消只剩a₅"
+      ],
+      "alignment": "本题通过正确理解前n项和并区分单项检测“前n项和Sn”；解答中的相应计算或论证是评分依据。",
+      "contrast": "S₅不是a₅：本题3≠5。",
+      "assessment": {
+        "objective": "正确理解前n项和并区分单项",
+        "boundary": "仅检测有限求和与记号",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f1ca287233c74da29e8195a8bb975fe57a55ef337b2885020e528a2d893072fc",
+        "answerCheck": "固定规格计算检查：真实加总交错数列。独立解答复审：按带符号项逐加1-2+3-4=-2，再加5得3；相邻前缀之差5正是第5项。",
+        "alignmentCheck": "本题通过正确理解前n项和并区分单项检测“前n项和Sn”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测有限求和与记号 对照：S₅不是a₅：本题3≠5。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-1-05",
+      "skillId": "full-m4-4-1-05",
+      "familyId": "full-m4-4-1-05",
+      "text": "某数列Sₙ=n²+2（n≥1），求aₙ。",
+      "answer": "a₁=3；n≥2时aₙ=2n-1。",
+      "steps": [
+        "首项a₁=S₁=3",
+        "n≥2时aₙ=Sₙ-Sₙ₋₁=n²-(n-1)²=2n-1",
+        "差分表达式在n=1得1，与真实首项不同"
+      ],
+      "alignment": "本题通过由前n项和求通项并单独检查首项检测“an与Sn的关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能擅自把S₀代入n²+2得到2；空和S₀应为0。",
+      "assessment": {
+        "objective": "由前n项和求通项并单独检查首项",
+        "boundary": "检测首项不能直接沿用差分公式的情形",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7dd4f0b36f1733b69c240ec315111135494234c95bf09594007657e08369abd0",
+        "answerCheck": "固定规格计算检查：分段首项和差分恢复前缀和。独立解答复审：S₁=3；差分n²-(n-1)²=2n-1仅可在n≥2使用，首项独立条件已保留。",
+        "alignmentCheck": "本题通过由前n项和求通项并单独检查首项检测“an与Sn的关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测首项不能直接沿用差分公式的情形 对照：不能擅自把S₀代入n²+2得到2；空和S₀应为0。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-2-01",
+      "skillId": "full-m4-4-2-01",
+      "familyId": "full-m4-4-2-01",
+      "text": "aₙ=5-2n、bₙ=n²、cₙ=7（n≥1），哪些为等差数列？写公差并说明依据。",
+      "answer": "aₙ是，d=-2；bₙ不是；cₙ是，d=0。",
+      "steps": [
+        "aₙ₊₁-aₙ=-2恒定",
+        "bₙ₊₁-bₙ=2n+1随n变化",
+        "cₙ₊₁-cₙ=0恒定"
+      ],
+      "alignment": "本题通过以全体相邻差恒定识别等差数列检测“等差数列的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "公差可以为负或零，不必为正。",
+      "assessment": {
+        "objective": "以全体相邻差恒定识别等差数列",
+        "boundary": "检测常数数列与非等差反例",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ae6d7b65c12943ffff5947c6a446e60b29960d1cb3d4b6b2d3c0a2b5298be08e",
+        "answerCheck": "逻辑辅助检查（非自动证明）：b的前两次差为3与5，已构成非等差反例；其余差恒等式对任意n成立。。独立解答复审：三列后项减前项依次-2、2n+1、0；中间随n改变，其余包括常数列都是等差。",
+        "alignmentCheck": "本题通过以全体相邻差恒定识别等差数列检测“等差数列的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测常数数列与非等差反例 对照：公差可以为负或零，不必为正。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-2-02",
+      "skillId": "full-m4-4-2-02",
+      "familyId": "full-m4-4-2-02",
+      "text": "等差数列a₃=7、a₈=22，求a₁、d、a₁₂。",
+      "answer": "a₁=1，d=3，a₁₂=34。",
+      "steps": [
+        "a₈-a₃=5d=15得d=3",
+        "a₁=a₃-2d=1",
+        "a₁₂=1+11×3=34"
+      ],
+      "alignment": "本题通过用等差通项由两项反求首项公差与指定项检测“等差数列通项公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "下标差8-3=5，不是把两端都数进去得到6。",
+      "assessment": {
+        "objective": "用等差通项由两项反求首项公差与指定项",
+        "boundary": "检测两条线性条件，未含参数分类",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7d799c929a348302f6db38e718fc9e3701fb0355341025ef92191e0c8efe262c",
+        "answerCheck": "固定规格计算检查：等差数列条件和指定项。独立解答复审：跨5个下标差15，故d=3；反推a₁=7-6=1，a₁₂=1+33=34，两个已知值回代吻合。",
+        "alignmentCheck": "本题通过用等差通项由两项反求首项公差与指定项检测“等差数列通项公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两条线性条件，未含参数分类 对照：下标差8-3=5，不是把两端都数进去得到6。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-2-03",
+      "skillId": "full-m4-4-2-03",
+      "familyId": "full-m4-4-2-03",
+      "text": "若x+1、2x-1、4x-5依次成等差数列，求x及等差中项。",
+      "answer": "x=2；三个数为3,3,3，等差中项为3。",
+      "steps": [
+        "中项的2倍等于两端和：2(2x-1)=(x+1)+(4x-5)",
+        "解4x-2=5x-4得x=2",
+        "代入得3,3,3"
+      ],
+      "alignment": "本题通过通过两端平均求等差中项并解决参数检测“等差中项”；解答中的相应计算或论证是评分依据。",
+      "contrast": "等差中项不要求三项互异；公差0合法。",
+      "assessment": {
+        "objective": "通过两端平均求等差中项并解决参数",
+        "boundary": "检测三个数按给定次序成等差",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "16731d7246dd59111540923fa3f211517c3fd69ca5dbe6560ba16ff905d5eea8",
+        "answerCheck": "固定规格计算检查：中项方程符号求解。独立解答复审：中项条件展开4x-2=5x-4得x=2；三个表达式均为3，零公差是合法等差。",
+        "alignmentCheck": "本题通过通过两端平均求等差中项并解决参数检测“等差中项”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测三个数按给定次序成等差 对照：等差中项不要求三项互异；公差0合法。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-2-04",
+      "skillId": "full-m4-4-2-04",
+      "familyId": "full-m4-4-2-04",
+      "text": "等差数列a₁=4，d=3，求S₂₀。",
+      "answer": "S₂₀=650。",
+      "steps": [
+        "a₂₀=4+19×3=61",
+        "S₂₀=20(4+61)/2=650"
+      ],
+      "alignment": "本题通过运用等差前n项和并正确确定末项检测“等差数列前n项和”；解答中的相应计算或论证是评分依据。",
+      "contrast": "末项是4+19d，不是4+20d。",
+      "assessment": {
+        "objective": "运用等差前n项和并正确确定末项",
+        "boundary": "检测直接求和，不涵盖最大前缀和",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "acd8a163351a6fed91285bff43239ad498320dd95d4d3d06a7b11bc4071621f8",
+        "answerCheck": "固定规格计算检查：逐项求和。独立解答复审：第20项4+57=61，20项均值(4+61)/2=65/2，总和650。",
+        "alignmentCheck": "本题通过运用等差前n项和并正确确定末项检测“等差数列前n项和”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测直接求和，不涵盖最大前缀和 对照：末项是4+19d，不是4+20d。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-2-05",
+      "skillId": "full-m4-4-2-05",
+      "familyId": "full-m4-4-2-05",
+      "text": "等差数列中a₃+a₉=28，求a₅+a₇及a₆。",
+      "answer": "a₅+a₇=28，a₆=14。",
+      "steps": [
+        "3+9=5+7=6+6=12",
+        "按通项aᵣ+aₛ=2a₁+(r+s-2)d，三者相等",
+        "2a₆=28"
+      ],
+      "alignment": "本题通过按下标和相等转移等差项和检测“等差数列下标和性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "非等差数列如aₙ=n²中下标和相同并不保证项和相同。",
+      "assessment": {
+        "objective": "按下标和相等转移等差项和",
+        "boundary": "检测两项和性质，不涵盖任意数列",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ab0fc0243ea34c2b24fea3b1b2ec8cf2823c6e968529f3f58202dd7a52157cd7",
+        "answerCheck": "固定规格计算检查：下标和代数恒等式。独立解答复审：下标和12使两项和恒2a₁+10d=2a₆；故28与14由题设唯一决定，不需要单独求d。",
+        "alignmentCheck": "本题通过按下标和相等转移等差项和检测“等差数列下标和性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两项和性质，不涵盖任意数列 对照：非等差数列如aₙ=n²中下标和相同并不保证项和相同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-2-06",
+      "skillId": "full-m4-4-2-06",
+      "familyId": "full-m4-4-2-06",
+      "text": "等差数列前5项和为20，第6至10项和为45，求第11至15项和，并求原数列公差。",
+      "answer": "第三段和70；公差1。",
+      "steps": [
+        "每段5项，相邻段每项下标增加5，每项增加5d，总和增加25d",
+        "45-20=25d得d=1",
+        "下一段和45+25=70"
+      ],
+      "alignment": "本题通过运用等长连续片段和构成等差数列检测“等差数列片段和性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "片段长度不等时不能直接套用等差片段和性质。",
+      "assessment": {
+        "objective": "运用等长连续片段和构成等差数列",
+        "boundary": "检测连续不重叠等长片段",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a92392077a9283bf46eba14fac1e9e541d95b21596cfdefe59a4cf2aa28f5f79",
+        "answerCheck": "固定规格计算检查：原数列重建片段和。独立解答复审：对应五项各差5d，使相邻片段和差25d=25，故d=1，第三段45+25=70。",
+        "alignmentCheck": "本题通过运用等长连续片段和构成等差数列检测“等差数列片段和性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测连续不重叠等长片段 对照：片段长度不等时不能直接套用等差片段和性质。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-3-01",
+      "skillId": "full-m4-4-3-01",
+      "familyId": "full-m4-4-3-01",
+      "text": "判断2,6,18,54；1,-1,1,-1；1,0,0,0是否为等比数列，若是写公比。",
+      "answer": "前两列是，公比分别3、-1；第三列不是。",
+      "steps": [
+        "前者每个后项除以前项都为3",
+        "第二列比均为-1",
+        "第三列出现0作分母，相邻项比不能定义为同一非零常数"
+      ],
+      "alignment": "本题通过以非零常比识别等比数列并排除含零情形检测“等比数列的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "按本题采用的高中定义，等比数列各项非零且公比非零。",
+      "assessment": {
+        "objective": "以非零常比识别等比数列并排除含零情形",
+        "boundary": "检测正负公比与零项限制，按高中等比定义",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f2f00fee19c3e9ee64791c47a95aa625bc2307ba3a57603238ddd759f9000fb9",
+        "answerCheck": "逻辑辅助检查（非自动证明）：直接检查三次相邻比，前两列全相等；第三列第二次比0/0未定义。。独立解答复审：两列相邻商恒3、-1；含零列后两步商无定义，按注明的高中非零公比定义不能称等比。",
+        "alignmentCheck": "本题通过以非零常比识别等比数列并排除含零情形检测“等比数列的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测正负公比与零项限制，按高中等比定义 对照：按本题采用的高中定义，等比数列各项非零且公比非零。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-3-02",
+      "skillId": "full-m4-4-3-02",
+      "familyId": "full-m4-4-3-02",
+      "text": "正项等比数列a₂=6、a₅=162，求公比q、首项和a₆。",
+      "answer": "q=3，a₁=2，a₆=486。",
+      "steps": [
+        "a₅/a₂=q³=27，得q=3",
+        "a₁=6/3=2",
+        "a₆=162×3=486"
+      ],
+      "alignment": "本题通过由非相邻项求等比公比并注意符号条件检测“等比数列通项公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若已知间隔为偶数幂，且无正项条件，公比可能有正负两个值。",
+      "assessment": {
+        "objective": "由非相邻项求等比公比并注意符号条件",
+        "boundary": "检测正项数列排除负公比分支",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d67813f49befc6d64255c05922816fcfef5607a2bfe91753aa3a24e542a01f83",
+        "answerCheck": "固定规格计算检查：等比三指定项。独立解答复审：跨三项比162/6=27=q³，所以q=3，首项2，第6项162×3=486，正项一致。",
+        "alignmentCheck": "本题通过由非相邻项求等比公比并注意符号条件检测“等比数列通项公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测正项数列排除负公比分支 对照：若已知间隔为偶数幂，且无正项条件，公比可能有正负两个值。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-3-03",
+      "skillId": "full-m4-4-3-03",
+      "familyId": "full-m4-4-3-03",
+      "text": "在3与12之间插入一个实数G，使3,G,12成等比数列。求G及对应公比。",
+      "answer": "G=6时q=2；G=-6时q=-2。",
+      "steps": [
+        "由G/3=12/G且G≠0得G²=36",
+        "两实根±6均需保留",
+        "分别计算q=G/3"
+      ],
+      "alignment": "本题通过求等比中项并保留正负两种可能检测“等比中项”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若要求正的等比中项，才只保留6。",
+      "assessment": {
+        "objective": "求等比中项并保留正负两种可能",
+        "boundary": "检测非零实数两端及次序",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4708f514403dd7541a293d04be9132f224f49fee9856b20329f5cb6e3f1c5948",
+        "answerCheck": "固定规格计算检查：正负等比中项均满足。独立解答复审：G²=36产生±6且都非零；公比分别±2，三项分别3、6、12和3、-6、12都满足定义。",
+        "alignmentCheck": "本题通过求等比中项并保留正负两种可能检测“等比中项”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测非零实数两端及次序 对照：若要求正的等比中项，才只保留6。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-3-04",
+      "skillId": "full-m4-4-3-04",
+      "familyId": "full-m4-4-3-04",
+      "text": "求首项为3的等比数列前6项和：（1）q=1；（2）q=-2。",
+      "answer": "（1）18；（2）-63。",
+      "steps": [
+        "q=1时六项均3，和18",
+        "q=-2时S₆=3[1-(-2)⁶]/[1-(-2)]=3(1-64)/3=-63"
+      ],
+      "alignment": "本题通过分公比等于1与不等于1求等比和检测“等比数列前n项和”；解答中的相应计算或论证是评分依据。",
+      "contrast": "q=1时分式公式分母为0，须单独处理。",
+      "assessment": {
+        "objective": "分公比等于1与不等于1求等比和",
+        "boundary": "检测求和公式边界及负公比",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bcaa1bb7fbdbb11bcaf8ce35648eeaeb9ebdf1cf201528542883a63421d4059f",
+        "answerCheck": "固定规格计算检查：逐项等比求和。独立解答复审：q=1直接6×3=18；q=-2列出3,-6,12,-24,48,-96，逐加=-63，特殊分支处理正确。",
+        "alignmentCheck": "本题通过分公比等于1与不等于1求等比和检测“等比数列前n项和”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测求和公式边界及负公比 对照：q=1时分式公式分母为0，须单独处理。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-3-05",
+      "skillId": "full-m4-4-3-05",
+      "familyId": "full-m4-4-3-05",
+      "text": "正项等比数列a₂a₈=81，求a₄a₆及a₅。",
+      "answer": "a₄a₆=81，a₅=9。",
+      "steps": [
+        "2+8=4+6=5+5，故三种积均为a₁²q⁸",
+        "a₅²=81",
+        "因各项为正，a₅=9"
+      ],
+      "alignment": "本题通过用等比下标和性质求项积并确定符号检测“等比数列下标和性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "无正项条件时a₅也可能为-9。",
+      "assessment": {
+        "objective": "用等比下标和性质求项积并确定符号",
+        "boundary": "检测项积性质与正项条件",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2126c9c9218d4535e4dc6a4d395e958069e2d41ac1543857c29649bdf37834b5",
+        "answerCheck": "固定规格计算检查：下标积恒等式。独立解答复审：两个下标和均10使积相同，a₅²=81；正项条件排除-9，仅9。",
+        "alignmentCheck": "本题通过用等比下标和性质求项积并确定符号检测“等比数列下标和性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测项积性质与正项条件 对照：无正项条件时a₅也可能为-9。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-4-01",
+      "skillId": "full-m4-4-4-01",
+      "familyId": "full-m4-4-4-01",
+      "text": "分别求Σ从k=1到20(2k-1)及Σ从k=0到5 3ᵏ。",
+      "answer": "分别为400、364。",
+      "steps": [
+        "第一式为首项1末项39的20项等差和，得20(1+39)/2=400",
+        "第二式为首项1公比3的6项等比和，得(3⁶-1)/(3-1)=364"
+      ],
+      "alignment": "本题通过辨认可直接套用等差及等比求和的形式检测“公式法求和”；解答中的相应计算或论证是评分依据。",
+      "contrast": "第二个求和从0开始，共6项，不是5项。",
+      "assessment": {
+        "objective": "辨认可直接套用等差及等比求和的形式",
+        "boundary": "检测两种标准公式法，不涉及复合技巧",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fb731317b8c3bfa29b09302e76d3de13eb85eb76cdc4ccbc34881a896db664b5",
+        "answerCheck": "固定规格计算检查：独立逐项累加。独立解答复审：前20个奇数求和400；第二和1+3+9+27+81+243=364，与公式结果一致。",
+        "alignmentCheck": "本题通过辨认可直接套用等差及等比求和的形式检测“公式法求和”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两种标准公式法，不涉及复合技巧 对照：第二个求和从0开始，共6项，不是5项。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-4-02",
+      "skillId": "full-m4-4-4-02",
+      "familyId": "full-m4-4-4-02",
+      "text": "求Sₙ=Σ从k=1到n 1/[k(k+1)]，并求S₉。",
+      "answer": "Sₙ=n/(n+1)，S₉=9/10。",
+      "steps": [
+        "1/[k(k+1)]=1/k-1/(k+1)",
+        "写和为(1-1/2)+(1/2-1/3)+…+(1/n-1/(n+1))",
+        "中间抵消剩1-1/(n+1)"
+      ],
+      "alignment": "本题通过分解相邻因子分式并完成首尾消项检测“裂项相消法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "裂项后应保留尾项，不能把所有分数都消成1。",
+      "assessment": {
+        "objective": "分解相邻因子分式并完成首尾消项",
+        "boundary": "检测1/[n(n+1)]型裂项",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "688d45eed372f6a13e3cbfc0572d2eca248b56a46ce6b6d625029f817e6bfb9a",
+        "answerCheck": "固定规格计算检查：裂项恒等式及前缀和。独立解答复审：拆分1/k-1/(k+1)回通分得1/[k(k+1)]；求和端点剩1-1/(n+1)，n=9得9/10。",
+        "alignmentCheck": "本题通过分解相邻因子分式并完成首尾消项检测“裂项相消法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测1/[n(n+1)]型裂项 对照：裂项后应保留尾项，不能把所有分数都消成1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-4-03",
+      "skillId": "full-m4-4-4-03",
+      "familyId": "full-m4-4-4-03",
+      "text": "求Sₙ=Σ从k=1到n k·2ᵏ。",
+      "answer": "Sₙ=(n-1)2ⁿ⁺¹+2。",
+      "steps": [
+        "写2Sₙ=1·2²+2·2³+…+n·2ⁿ⁺¹",
+        "两式相减得Sₙ= n·2ⁿ⁺¹-(2¹+2²+…+2ⁿ)",
+        "等比和为2ⁿ⁺¹-2，故Sₙ=(n-1)2ⁿ⁺¹+2"
+      ],
+      "alignment": "本题通过用错位相减求等差乘等比型和并保留末端检测“错位相减法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "错位相减应单独处理最高次项n·2ⁿ⁺¹，不可漏掉。",
+      "assessment": {
+        "objective": "用错位相减求等差乘等比型和并保留末端",
+        "boundary": "检测Σk·2ᵏ实例",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f7b955a2507101c0011bab65e5e00d0ee4e5a269f954c23fa56566c048b21d6d",
+        "answerCheck": "固定规格计算检查：错位和初值递推恒等式。独立解答复审：独立作2S-S时中间系数差为-1，末端n2^(n+1)，得到n2^(n+1)-(2^(n+1)-2)，公式及首项n=1均吻合。",
+        "alignmentCheck": "本题通过用错位相减求等差乘等比型和并保留末端检测“错位相减法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测Σk·2ᵏ实例 对照：错位相减应单独处理最高次项n·2ⁿ⁺¹，不可漏掉。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-4-04",
+      "skillId": "full-m4-4-4-04",
+      "familyId": "full-m4-4-4-04",
+      "text": "aₙ=2n+3ⁿ，求前n项和。",
+      "answer": "Sₙ=n(n+1)+(3ⁿ⁺¹-3)/2。",
+      "steps": [
+        "按加法把Σ(2k+3ᵏ)拆成2Σk+Σ3ᵏ",
+        "前者为n(n+1)，后者为3(3ⁿ-1)/2",
+        "相加化简"
+      ],
+      "alignment": "本题通过拆分混合通项后分别求和检测“分组求和法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "原数列一般不是等差或等比，不能直接对整个aₙ套一种公式。",
+      "assessment": {
+        "objective": "拆分混合通项后分别求和",
+        "boundary": "检测一个等差与等比叠加数列",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "bd8ad960566215b0eeba6a73d52173d792085bf0cc12f6b667a9624b9181a82a",
+        "answerCheck": "固定规格计算检查：分组求和多组前缀检查。独立解答复审：加法分组后2Σk=n(n+1)，从1起的几何和是(3^(n+1)-3)/2，起始下标及常数正确。",
+        "alignmentCheck": "本题通过拆分混合通项后分别求和检测“分组求和法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一个等差与等比叠加数列 对照：原数列一般不是等差或等比，不能直接对整个aₙ套一种公式。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-4-05",
+      "skillId": "full-m4-4-4-05",
+      "familyId": "full-m4-4-4-05",
+      "text": "不用现成求和公式，利用倒序相加求7+10+13+…+64。",
+      "answer": "总和为710。",
+      "steps": [
+        "由7+3(n-1)=64得n=20",
+        "正序与倒序相加每对都是7+64=71",
+        "2S=20×71，S=710"
+      ],
+      "alignment": "本题通过通过倒序配对形成恒定和检测“倒序相加法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "倒序相加计算的是两倍总和，最后要除以2。",
+      "assessment": {
+        "objective": "通过倒序配对形成恒定和",
+        "boundary": "检测一般等差求和公式的推导而非背诵",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0c289eecd6444220760c331cfade580c021879c5953032a53712123962b5e457",
+        "answerCheck": "固定规格计算检查：逐项累计原序列。独立解答复审：解7+3(n-1)=64得20项，正倒各位置和71，2S=1420，结果710。",
+        "alignmentCheck": "本题通过通过倒序配对形成恒定和检测“倒序相加法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一般等差求和公式的推导而非背诵 对照：倒序相加计算的是两倍总和，最后要除以2。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-5-01",
+      "skillId": "full-m4-4-5-01",
+      "familyId": "full-m4-4-5-01",
+      "text": "命题P(n)：2ⁿ≥n+1（n≥1）。完成数学归纳法；解释只验证n=1,2,3为什么不够。",
+      "answer": "命题对所有正整数成立；有限个验证不能覆盖无限多个n。",
+      "steps": [
+        "基础n=1时2=2",
+        "假设k≥1时2ᵏ≥k+1",
+        "则2ᵏ⁺¹≥2k+2≥k+2，因为k≥0，所以P(k+1)成立",
+        "由基础及递推得到所有n"
+      ],
+      "alignment": "本题通过区分归纳基础与归纳递推并识别缺步检测“数学归纳法的原理与步骤”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若只证明P(k)⇒P(k+1)而无起点，也不能启动归纳链。",
+      "assessment": {
+        "objective": "区分归纳基础与归纳递推并识别缺步",
+        "boundary": "检测归纳逻辑，不以少量验证代替证明",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "96262fe2907a4ffc966b8c287eb35700b8c3db76bcb754f8af03c11f9b5051d1",
+        "answerCheck": "逻辑辅助检查（非自动证明）：复核递推所需差(2k+2)-(k+2)=k≥1，且基础等式成立。。独立解答复审：基础n=1成立；归纳假设推出下一项≥2k+2≥k+2，后一个差为k≥1；基础与传递齐全，不能以样本替代。",
+        "alignmentCheck": "本题通过区分归纳基础与归纳递推并识别缺步检测“数学归纳法的原理与步骤”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测归纳逻辑，不以少量验证代替证明 对照：若只证明P(k)⇒P(k+1)而无起点，也不能启动归纳链。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-5-02",
+      "skillId": "full-m4-4-5-02",
+      "familyId": "full-m4-4-5-02",
+      "text": "用数学归纳法证明1²+2²+…+n²=n(n+1)(2n+1)/6。",
+      "answer": "恒等式对所有正整数n成立。",
+      "steps": [
+        "n=1时两边均1",
+        "假设n=k成立",
+        "加(k+1)²后为k(k+1)(2k+1)/6+(k+1)²",
+        "提出(k+1)/6，括号为2k²+7k+6=(k+2)(2k+3)",
+        "得到(k+1)(k+2)[2(k+1)+1]/6",
+        "因此归纳成立"
+      ],
+      "alignment": "本题通过归纳证明平方和恒等式并展示关键因式分解检测“数学归纳法证明恒等式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "归纳步必须加上新项(k+1)²，不能只把n机械替换成k+1。",
+      "assessment": {
+        "objective": "归纳证明平方和恒等式并展示关键因式分解",
+        "boundary": "检测一个恒等式的完整归纳链",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6b0c6903ed5d24dcae6431a9a70de7ad4d8f645dc1904070ab027f51bafc7f58",
+        "answerCheck": "固定规格计算检查：归纳步符号恒等式。独立解答复审：归纳一步通分后因子2k²+7k+6=(k+2)(2k+3)，正好是下一n的目标式，基础1也正确。",
+        "alignmentCheck": "本题通过归纳证明平方和恒等式并展示关键因式分解检测“数学归纳法证明恒等式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一个恒等式的完整归纳链 对照：归纳步必须加上新项(k+1)²，不能只把n机械替换成k+1。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-4-5-03",
+      "skillId": "full-m4-4-5-03",
+      "familyId": "full-m4-4-5-03",
+      "text": "用数学归纳法证明对所有整数n≥4，2ⁿ≥n²，并说明何时等号成立。",
+      "answer": "n≥4成立；仅n=4取等号。",
+      "steps": [
+        "n=4时16=16",
+        "假设k≥4时2ᵏ≥k²，则2ᵏ⁺¹≥2k²",
+        "2k²-(k+1)²=k²-2k-1=(k-1)²-2>0（k≥4）",
+        "故下一步严格大于(k+1)²",
+        "归纳后n>4都严格"
+      ],
+      "alignment": "本题通过在正确起点上归纳证明严格不等式检测“数学归纳法证明不等式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "起点不能随意改成3，因为2³=8<9。",
+      "assessment": {
+        "objective": "在正确起点上归纳证明严格不等式",
+        "boundary": "检测n≥4的指数与平方比较",
+        "prerequisiteSkills": "代数运算、数列下标与求和符号"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3186ec8ea0f9d7fce36bc414632d84344e466440ac2b993a9e48e2ae49082b2b",
+        "answerCheck": "固定规格计算检查：归纳不等式关键差因式分解。独立解答复审：从k≥4有2k²-(k+1)²=(k-1)²-2≥7>0，故以后每步严格；唯一等号在初始4。",
+        "alignmentCheck": "本题通过在正确起点上归纳证明严格不等式检测“数学归纳法证明不等式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测n≥4的指数与平方比较 对照：起点不能随意改成3，因为2³=8<9。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-1-01",
+      "skillId": "full-m4-5-1-01",
+      "familyId": "full-m4-5-1-01",
+      "text": "位移s(t)=t²+3t（米），求t=1至t=4秒内的平均速度。",
+      "answer": "平均速度为8米/秒。",
+      "steps": [
+        "s(1)=4，s(4)=28",
+        "位移差24，时间差3",
+        "平均变化率24/3=8"
+      ],
+      "alignment": "本题通过按自变量增量计算函数平均变化率检测“平均变化率”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能用s(4)/4=7，因为本题起点不是t=0。",
+      "assessment": {
+        "objective": "按自变量增量计算函数平均变化率",
+        "boundary": "检测指定区间，不等同于瞬时变化率",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "11cfd2f9b21dda98e4856dc7fd321f237ad496e53fddbae1beedd32d60d77d8e",
+        "answerCheck": "固定规格计算检查：位移差商。独立解答复审：位移s(4)=28、s(1)=4，差24除时间3为8；没有混成端点瞬时导数。",
+        "alignmentCheck": "本题通过按自变量增量计算函数平均变化率检测“平均变化率”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测指定区间，不等同于瞬时变化率 对照：不能用s(4)/4=7，因为本题起点不是t=0。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：导数定义",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-1-02",
+      "skillId": "full-m4-5-1-02",
+      "familyId": "full-m4-5-1-02",
+      "text": "s(t)=t³（米），以差商极限求t=2秒的瞬时速度。",
+      "answer": "瞬时速度为12米/秒。",
+      "steps": [
+        "从2到2+h的平均速度为[(2+h)³-8]/h，h≠0",
+        "展开化为12+6h+h²",
+        "令h→0，极限为12"
+      ],
+      "alignment": "本题通过由小时间段平均速度极限求瞬时速度检测“瞬时变化率”；解答中的相应计算或论证是评分依据。",
+      "contrast": "h=0不能直接代入原差商，须先化简或求极限。",
+      "assessment": {
+        "objective": "由小时间段平均速度极限求瞬时速度",
+        "boundary": "检测一项运动模型，突出趋近过程",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e12053cccfdd9e41963d31e85326cfaae4da55d3db705ddf0a19f125f4d6c886",
+        "answerCheck": "固定规格计算检查：由差商计算极限。独立解答复审：对(2+h)³减8除h展开得12+6h+h²，h→0后12；差商前提h≠0保留。",
+        "alignmentCheck": "本题通过由小时间段平均速度极限求瞬时速度检测“瞬时变化率”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一项运动模型，突出趋近过程 对照：h=0不能直接代入原差商，须先化简或求极限。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：导数定义",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-1-03",
+      "skillId": "full-m4-5-1-03",
+      "familyId": "full-m4-5-1-03",
+      "text": "用定义求f(x)=x²在x=1处导数；判断g(x)=|x|在x=0处是否可导。",
+      "answer": "f′(1)=2；g在0不可导。",
+      "steps": [
+        "f差商[(1+h)²-1]/h=2+h，极限2",
+        "g差商|h|/h，h>0为1、h<0为-1",
+        "左右极限不同故不存在导数"
+      ],
+      "alignment": "本题通过按导数定义计算并检验左右极限检测“导数的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "函数连续不保证可导，|x|在0连续却不可导。",
+      "assessment": {
+        "objective": "按导数定义计算并检验左右极限",
+        "boundary": "检测多项式导数与绝对值不可导例外",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "58b2a0b8536568313f0ab3cee919b3868055dc997ee545633300b1c7701a7b67",
+        "answerCheck": "固定规格计算检查：平方导数及绝对值左右导数。独立解答复审：平方函数差商2+h趋2；绝对值差商两侧为±1，不能因函数连续而判可导。",
+        "alignmentCheck": "本题通过按导数定义计算并检验左右极限检测“导数的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测多项式导数与绝对值不可导例外 对照：函数连续不保证可导，|x|在0连续却不可导。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：导数定义",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-1-04",
+      "skillId": "full-m4-5-1-04",
+      "familyId": "full-m4-5-1-04",
+      "text": "已知f(2)=3、f′(2)=-4。求曲线在x=2处切线斜率与方程；能否断言从x=2到x=3的割线斜率也为-4？",
+      "answer": "切线斜率-4，方程y-3=-4(x-2)；不能断言割线斜率也为-4。",
+      "steps": [
+        "导数就是指定点的切线斜率",
+        "由点(2,3)写点斜式",
+        "导数为局部极限，有限区间差商未被确定"
+      ],
+      "alignment": "本题通过把给定导数解释为切线斜率并区分割线检测“导数的几何意义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "f(x)=3-4(x-2)+(x-2)²满足条件，但到x=3的割线斜率为-3。",
+      "assessment": {
+        "objective": "把给定导数解释为切线斜率并区分割线",
+        "boundary": "检测导数几何意义与切线基本方程",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e3bb84d9acd4634fbdb7879ce5df90fcc5ddf8ee2e3d4da2d35286331c9357d2",
+        "answerCheck": "固定规格计算检查：构造反例验证有限割线不同。独立解答复审：点斜式通过(2,3)且斜率-4；可用f(x)=3-4(x-2)+(x-2)²反例使2到3割线斜率-3，故不能断言割线也-4。",
+        "alignmentCheck": "本题通过把给定导数解释为切线斜率并区分割线检测“导数的几何意义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测导数几何意义与切线基本方程 对照：f(x)=3-4(x-2)+(x-2)²满足条件，但到x=3的割线斜率为-3。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：导数定义",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-1-05",
+      "skillId": "full-m4-5-1-05",
+      "familyId": "full-m4-5-1-05",
+      "text": "求y=x³-2x在横坐标为1处的切线方程。",
+      "answer": "y=x-2。",
+      "steps": [
+        "切点纵坐标1-2=-1",
+        "导数y′=3x²-2，在x=1时斜率1",
+        "点斜式y+1=x-1，得y=x-2"
+      ],
+      "alignment": "本题通过求指定点处切线并检验点是否在曲线上检测“切线方程的求法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "过点(1,1)作切线属于另一问题，不能把外点直接作为切点。",
+      "assessment": {
+        "objective": "求指定点处切线并检验点是否在曲线上",
+        "boundary": "检测已知横坐标切线，不含过外点切线",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e8fe08ab505d79824a6dc7583062c6f9912b75ab38e67bfddad0c636df17b10e",
+        "answerCheck": "固定规格计算检查：切点导数及差因式分解。独立解答复审：原函数在1为-1，导数3x²-2在1为1，切线y+1=x-1即y=x-2。",
+        "alignmentCheck": "本题通过求指定点处切线并检验点是否在曲线上检测“切线方程的求法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测已知横坐标切线，不含过外点切线 对照：过点(1,1)作切线属于另一问题，不能把外点直接作为切点。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：导数定义",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-2-01",
+      "skillId": "full-m4-5-2-01",
+      "familyId": "full-m4-5-2-01",
+      "text": "分别求x⁵、1/x、√x、eˣ、2ˣ、ln x、sin x、cos x、常数7的导数，并写1/x、√x、ln x导数的适用域。",
+      "answer": "5x⁴；-1/x²（x≠0）；1/(2√x)（x>0）；eˣ；2ˣln2；1/x（x>0）；cos x；-sin x；0。",
+      "steps": [
+        "幂函数用(xᵅ)′=αxᵅ⁻¹，分别取5,-1,1/2",
+        "指数与对数分别按基本公式",
+        "正弦导数余弦，余弦导数为负正弦",
+        "常数变化率0",
+        "分母与原函数定义域限制需同时保留"
+      ],
+      "alignment": "本题通过调用幂指数对数三角函数及常数导数检测“基本初等函数的导数公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "√x在0处不能使用有限导数公式；2ˣ导数不能漏ln2。",
+      "assessment": {
+        "objective": "调用幂指数对数三角函数及常数导数",
+        "boundary": "检测列出的常见基本函数，未覆盖反三角函数",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7bd2c3db32562f89407769a699d42ca661cc368c26aa0112a952cf6ff6233cb7",
+        "answerCheck": "固定规格计算检查：九种基本函数逐项符号求导。独立解答复审：逐式核对九项基本导数：幂、指数、对数、三角及常数均正确；√x导数排除0、ln域保留x>0。",
+        "alignmentCheck": "本题通过调用幂指数对数三角函数及常数导数检测“基本初等函数的导数公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测列出的常见基本函数，未覆盖反三角函数 对照：√x在0处不能使用有限导数公式；2ˣ导数不能漏ln2。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：求导法则",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-2-02",
+      "skillId": "full-m4-5-2-02",
+      "familyId": "full-m4-5-2-02",
+      "text": "求f(x)=3x⁴-2x²+5x-7的导数及f′(-1)。",
+      "answer": "f′(x)=12x³-4x+5；f′(-1)=-3。",
+      "steps": [
+        "每项分别求导得到12x³、-4x、5、0",
+        "保留加减号相加",
+        "代入-1得-12+4+5=-3"
+      ],
+      "alignment": "本题通过逐项运用导数线性法则检测“导数的加减法法则”；解答中的相应计算或论证是评分依据。",
+      "contrast": "常数-7导数为0，不是-7。",
+      "assessment": {
+        "objective": "逐项运用导数线性法则",
+        "boundary": "检测常数倍加减，不包含乘除法",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "75cc42e6ab4e615a5c6856fd0d53d9f35b73d929d482f92dab96ba98529e9f4b",
+        "answerCheck": "固定规格计算检查：独立符号求导代值。独立解答复审：导数12x³-4x+5代入-1得-12+4+5=-3，常数-7求导消失。",
+        "alignmentCheck": "本题通过逐项运用导数线性法则检测“导数的加减法法则”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测常数倍加减，不包含乘除法 对照：常数-7导数为0，不是-7。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：求导法则",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-2-03",
+      "skillId": "full-m4-5-2-03",
+      "familyId": "full-m4-5-2-03",
+      "text": "求f(x)=(x²+1)eˣ的导数及f′(0)。",
+      "answer": "f′(x)=eˣ(x+1)²；f′(0)=1。",
+      "steps": [
+        "乘积法则给2xeˣ+(x²+1)eˣ",
+        "合并为eˣ(x²+2x+1)=eˣ(x+1)²",
+        "代x=0得1"
+      ],
+      "alignment": "本题通过应用乘积求导且两项齐全检测“导数的乘法法则”；解答中的相应计算或论证是评分依据。",
+      "contrast": "错误的f′=2xeˣ漏掉第二项，在x=0会错误给0。",
+      "assessment": {
+        "objective": "应用乘积求导且两项齐全",
+        "boundary": "检测多项式乘指数函数",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "691e8495db562d4662639a559fbf8e46fd3c54e44d1aeaf816f2bf8051784d21",
+        "answerCheck": "固定规格计算检查：乘积符号求导。独立解答复审：乘积求导为e^x(2x+x²+1)=e^x(x+1)²，代0得1，未遗漏其中一项。",
+        "alignmentCheck": "本题通过应用乘积求导且两项齐全检测“导数的乘法法则”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测多项式乘指数函数 对照：错误的f′=2xeˣ漏掉第二项，在x=0会错误给0。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：求导法则",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-2-04",
+      "skillId": "full-m4-5-2-04",
+      "familyId": "full-m4-5-2-04",
+      "text": "求f(x)=(x+1)/(x-2)的导数，并写适用域。",
+      "answer": "f′(x)=-3/(x-2)²，x≠2。",
+      "steps": [
+        "商法则分子为1·(x-2)-(x+1)·1=-3",
+        "分母为(x-2)²",
+        "原分母不为0要求x≠2"
+      ],
+      "alignment": "本题通过使用商法则并保留原定义域检测“导数的除法法则”；解答中的相应计算或论证是评分依据。",
+      "contrast": "商的导数不是分子导数除以分母导数。",
+      "assessment": {
+        "objective": "使用商法则并保留原定义域",
+        "boundary": "检测简单有理函数导数",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "09f7c55deb2bebc0052725d3f4f76f2c5d8963d4f45811d9b7dd98d6a697910d",
+        "answerCheck": "固定规格计算检查：商符号求导。独立解答复审：商法则分子(x-2)-(x+1)=-3；平方分母且禁值2，等同分离常数1+3/(x-2)独立求导。",
+        "alignmentCheck": "本题通过使用商法则并保留原定义域检测“导数的除法法则”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测简单有理函数导数 对照：商的导数不是分子导数除以分母导数。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：求导法则",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-2-05",
+      "skillId": "full-m4-5-2-05",
+      "familyId": "full-m4-5-2-05",
+      "text": "求f(x)=(3x²-1)⁴和g(x)=ln(1+x²)的导数。",
+      "answer": "f′(x)=24x(3x²-1)³；g′(x)=2x/(1+x²)，两者定义域均为R。",
+      "steps": [
+        "f外层四次幂导数4u³，内层导数6x，相乘得24x(3x²-1)³",
+        "g外层ln u导数1/u，内层导数2x，故得分式",
+        "1+x²恒正"
+      ],
+      "alignment": "本题通过识别内外层并保留链式因子检测“复合函数求导（链式法则）”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只写4(3x²-1)³是漏乘内层导数。",
+      "assessment": {
+        "objective": "识别内外层并保留链式因子",
+        "boundary": "检测平方复合与对数复合",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "84e27b11744112e641478eaa68e2417f779362cacd34616fd81afccb6b4a964a",
+        "answerCheck": "固定规格计算检查：两项复合函数求导。独立解答复审：第一函数外层4次与内层导数6x相乘得24x；第二真数1+x²恒正，链式结果2x/(1+x²)全实有效。",
+        "alignmentCheck": "本题通过识别内外层并保留链式因子检测“复合函数求导（链式法则）”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测平方复合与对数复合 对照：只写4(3x²-1)³是漏乘内层导数。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：链式法则",
+            "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m4-5-3-01",
+      "skillId": "full-m4-5-3-01",
+      "familyId": "full-m4-5-3-01",
+      "text": "f(x)=x³。求导并判断其在R上的单调性；命题“严格递增函数处处导数大于0”是否正确？",
+      "answer": "f′=3x²≥0，f在R严格递增；该命题错误，因为f′(0)=0。",
+      "steps": [
+        "对x₁<x₂，有x₂³-x₁³=(x₂-x₁)(x₂²+x₁x₂+x₁²)>0",
+        "因此严格递增",
+        "但在0导数为0，构成反例"
+      ],
+      "alignment": "本题通过区分导数符号判单调的充分条件与误逆命题检测“导数与单调性的关系”；解答中的相应计算或论证是评分依据。",
+      "contrast": "导数恒为0的一整个区间对应常数，和单个点导数为0不同。",
+      "assessment": {
+        "objective": "区分导数符号判单调的充分条件与误逆命题",
+        "boundary": "检测零导数孤立点不破坏严格递增",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "11e6204d7e06fc78c9d6e3f1661945aad1b0710bac5d9e8d0e7b49cc9bbc5b01",
+        "answerCheck": "逻辑辅助检查（非自动证明）：二次因子=(x₂+x₁/2)²+3x₁²/4，除两数同为0外为正，而x₁<x₂排除该情形。。独立解答复审：x₂³-x₁³除正差得到x₂²+x₁x₂+x₁²，除非两数同为0否则严格正，而x₁<x₂排除该例；导数在0为0确是反例。",
+        "alignmentCheck": "本题通过区分导数符号判单调的充分条件与误逆命题检测“导数与单调性的关系”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测零导数孤立点不破坏严格递增 对照：导数恒为0的一整个区间对应常数，和单个点导数为0不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-3-02",
+      "skillId": "full-m4-5-3-02",
+      "familyId": "full-m4-5-3-02",
+      "text": "求f(x)=x³-3x的单调区间。",
+      "answer": "递增区间(-∞,-1]、[1,+∞)；递减区间[-1,1]（用开区间表述也可）。",
+      "steps": [
+        "f′=3(x-1)(x+1)，零点±1",
+        "在x<-1、x>1时导数正，在-1<x<1时负",
+        "按符号给出单调区间"
+      ],
+      "alignment": "本题通过通过导数零点分区判断增减检测“用导数求单调区间”；解答中的相应计算或论证是评分依据。",
+      "contrast": "两个递增区间不能合并成一个跨过(-1,1)的区间。",
+      "assessment": {
+        "objective": "通过导数零点分区判断增减",
+        "boundary": "检测三次多项式全定义域单调区间",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e70a3899f8764dc69fbb4b3640f894e227a7cbb748cc7fde96becbf4ec815af8",
+        "answerCheck": "固定规格计算检查：导数符号区间。独立解答复审：导数3(x²-1)的符号外正内负，±1处加入端点不破坏严格单调；三个区间正确。",
+        "alignmentCheck": "本题通过通过导数零点分区判断增减检测“用导数求单调区间”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测三次多项式全定义域单调区间 对照：两个递增区间不能合并成一个跨过(-1,1)的区间。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-3-03",
+      "skillId": "full-m4-5-3-03",
+      "familyId": "full-m4-5-3-03",
+      "text": "分别判断f(x)=x³在0、g(x)=(x-1)²在1是否有极值，说明理由。",
+      "answer": "f在0无极值；g在1有极小值0。",
+      "steps": [
+        "任意0的邻域内，负x有x³<0，正x有x³>0，所以0既不大于也不小于邻域所有值",
+        "对g，任意x都有(x-1)²≥0，且x=1取0，因此也是局部极小"
+      ],
+      "alignment": "本题通过依据邻域而非导数零值判定局部极值检测“函数极值的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "f′(0)=0仅是驻点，不能独自推出极值。",
+      "assessment": {
+        "objective": "依据邻域而非导数零值判定局部极值",
+        "boundary": "检测局部与全局区别以及驻点非极值",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a1c8de4c370cf06e26486f1913bcfbf85da3ae226f0e776bb8c7251accdecdaa",
+        "answerCheck": "逻辑辅助检查（非自动证明）：选任意ε>0取±ε/2，f值分居0两侧；g的非负平方提供完整邻域证明。。独立解答复审：x³在0任意邻域两侧值一正一负故无极值；平方在1取0，附近其他点严格正，极小成立。",
+        "alignmentCheck": "本题通过依据邻域而非导数零值判定局部极值检测“函数极值的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测局部与全局区别以及驻点非极值 对照：f′(0)=0仅是驻点，不能独自推出极值。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-3-04",
+      "skillId": "full-m4-5-3-04",
+      "familyId": "full-m4-5-3-04",
+      "text": "求f(x)=x³-3x²+2的极值。",
+      "answer": "x=0处极大值2；x=2处极小值-2。",
+      "steps": [
+        "f′=3x(x-2)，驻点0、2",
+        "导数符号依次+、-、+",
+        "在0由正变负是极大，在2由负变正是极小",
+        "f(0)=2，f(2)=8-12+2=-2"
+      ],
+      "alignment": "本题通过通过导数变号识别极大极小并求函数值检测“用导数求极值”；解答中的相应计算或论证是评分依据。",
+      "contrast": "极值点是横坐标或曲线点，极值是函数值，须区分。",
+      "assessment": {
+        "objective": "通过导数变号识别极大极小并求函数值",
+        "boundary": "检测两个驻点的完整判别",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ca81b13f1200b6ffe0f5fa10cccddcc0dd8f1946c44d0ffe21c8f4ce7287a66a",
+        "answerCheck": "固定规格计算检查：驻点与函数值。独立解答复审：导数3x(x-2)的三段符号+,-,+，0从增到减、2从减到增；代值2和-2正确。",
+        "alignmentCheck": "本题通过通过导数变号识别极大极小并求函数值检测“用导数求极值”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两个驻点的完整判别 对照：极值点是横坐标或曲线点，极值是函数值，须区分。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-3-05",
+      "skillId": "full-m4-5-3-05",
+      "familyId": "full-m4-5-3-05",
+      "text": "求f(x)=x³-3x在[-2,3]上的最大、最小值。",
+      "answer": "最大值18，在x=3取到；最小值-2，在x=-2、1取到。",
+      "steps": [
+        "f′=3x²-3，区间内驻点±1",
+        "候选值f(-2)=-2、f(-1)=2、f(1)=-2、f(3)=18",
+        "比较四值得到结论"
+      ],
+      "alignment": "本题通过比较闭区间端点与内部驻点求最值检测“用导数求最值”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只比较两个极值会漏掉端点x=3处最大值18。",
+      "assessment": {
+        "objective": "比较闭区间端点与内部驻点求最值",
+        "boundary": "检测连续可导函数的闭区间最值",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "cf834eeceaba772a79d2778c3eae4f3042ddcb5092fd85500291fd62106be885",
+        "answerCheck": "固定规格计算检查：全体最值候选点。独立解答复审：闭区间候选-2,-1,1,3的值为-2,2,-2,18，最小值确在端点-2和内部1同时取到。",
+        "alignmentCheck": "本题通过比较闭区间端点与内部驻点求最值检测“用导数求最值”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测连续可导函数的闭区间最值 对照：只比较两个极值会漏掉端点x=3处最大值18。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-3-06",
+      "skillId": "full-m4-5-3-06",
+      "familyId": "full-m4-5-3-06",
+      "text": "f(x)=x³-ax，a∈R。（1）使f在R单调递增的a范围；（2）若x=1是极小值点，求a。",
+      "answer": "（1）a≤0；（2）a=3。",
+      "steps": [
+        "f′=3x²-a，若a≤0处处非负，且不会在区间恒零，所以严格递增",
+        "若a>0，在0附近f′<0，排除",
+        "极值点必要条件f′(1)=0得a=3，此时导数在1左负右正，确为极小"
+      ],
+      "alignment": "本题通过将给定全域单调性和极值条件转化为参数条件检测“已知单调性/极值求参数”；解答中的相应计算或论证是评分依据。",
+      "contrast": "仅令导数为0不够，应补变号检验。",
+      "assessment": {
+        "objective": "将给定全域单调性和极值条件转化为参数条件",
+        "boundary": "检测同一函数的两个独立参数问法",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "769bea08ba8e89f98dba1b7f3a4b7ea54236ed2b984359a72199a59c6dcb8269",
+        "answerCheck": "固定规格计算检查：极值参数与导数全域最小值。独立解答复审：a≤0时导数≥0且无恒零区间，或直接差分证明严格增；a>0导数0附近负。x=1驻点给a=3且符号由负转正。",
+        "alignmentCheck": "本题通过将给定全域单调性和极值条件转化为参数条件检测“已知单调性/极值求参数”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测同一函数的两个独立参数问法 对照：仅令导数为0不够，应补变号检验。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-4-01",
+      "skillId": "full-m4-5-4-01",
+      "familyId": "full-m4-5-4-01",
+      "text": "求实数a，使x²-4x+7≥a对所有x∈[0,3]成立。",
+      "answer": "a≤3。",
+      "steps": [
+        "设f=x²-4x+7，f′=2x-4",
+        "在[0,2]减、[2,3]增",
+        "最小值f(2)=3",
+        "要所有值都≥a，等价a≤最小值3"
+      ],
+      "alignment": "本题通过把对所有自变量成立转成函数最小值约束检测“恒成立问题的最值法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若误用最大值7，会让a=7在x=2时失效。",
+      "assessment": {
+        "objective": "把对所有自变量成立转成函数最小值约束",
+        "boundary": "检测一元二次恒成立，不含参数交叉复杂情形",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3943b031fbfc131ebab5f90831591d2e3bf62643e2eeccea682061275ea0c112",
+        "answerCheck": "固定规格计算检查：配方精确确定最小值。独立解答复审：配方(x-2)²+3给区间内最低3，所以恒≥a等价a≤3，导数过程也覆盖此最小点。",
+        "alignmentCheck": "本题通过把对所有自变量成立转成函数最小值约束检测“恒成立问题的最值法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测一元二次恒成立，不含参数交叉复杂情形 对照：若误用最大值7，会让a=7在x=2时失效。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-4-02",
+      "skillId": "full-m4-5-4-02",
+      "familyId": "full-m4-5-4-02",
+      "text": "求a，使存在x∈[0,3]满足x²-4x+7>a。",
+      "answer": "a<7。",
+      "steps": [
+        "f′=2x-4，内部驻点为最小点2",
+        "端点f(0)=7、f(3)=4，故最大值7",
+        "存在f(x)>a等价最大值7>a"
+      ],
+      "alignment": "本题通过把存在性不等式转成最大值条件并处理严格号检测“存在性问题”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若改为f(x)≥a，则边界a=7应纳入。",
+      "assessment": {
+        "objective": "把存在性不等式转成最大值条件并处理严格号",
+        "boundary": "检测闭区间至少一个解的严格不等式",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a43d24025e945230fb5eb2a19464dbcdfe80de5993cb555acc8aac59c49fa42a",
+        "answerCheck": "固定规格计算检查：存在题端点与驻点值。独立解答复审：区间端点及驻点值为7、4、3，最大7；存在严格大于a要求a<7，a=7不能取。",
+        "alignmentCheck": "本题通过把存在性不等式转成最大值条件并处理严格号检测“存在性问题”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测闭区间至少一个解的严格不等式 对照：若改为f(x)≥a，则边界a=7应纳入。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-4-03",
+      "skillId": "full-m4-5-4-03",
+      "familyId": "full-m4-5-4-03",
+      "text": "用导数证明ln x≤x-1（x>0），并指出等号条件。",
+      "answer": "不等式成立，当且仅当x=1等号成立。",
+      "steps": [
+        "设h(x)=x-1-ln x，定义域x>0",
+        "h′=1-1/x=(x-1)/x",
+        "在(0,1)负、(1,+∞)正，所以h在1取唯一最小值",
+        "h(1)=0，故h≥0"
+      ],
+      "alignment": "本题通过构造差函数用导数证明对数不等式及等号检测“构造函数证明不等式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "x≤0时ln x在实数范围无定义，不可省略定义域。",
+      "assessment": {
+        "objective": "构造差函数用导数证明对数不等式及等号",
+        "boundary": "检测x>0的一条基础不等式",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fc2a583bae1efdff184602cd8ce32604393fce781c6a1ea2432ba92d45ca4e76",
+        "answerCheck": "固定规格计算检查：对数差函数导数。独立解答复审：辅助函数导数(x-1)/x在正域中符号随x-1，唯一最小x=1且值0，证明和等号必要充分。",
+        "alignmentCheck": "本题通过构造差函数用导数证明对数不等式及等号检测“构造函数证明不等式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测x>0的一条基础不等式 对照：x≤0时ln x在实数范围无定义，不可省略定义域。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-4-04",
+      "skillId": "full-m4-5-4-04",
+      "familyId": "full-m4-5-4-04",
+      "text": "不直接解方程，求f(x)=x³-3x+1的实零点个数，并各给一个互不重叠的长度1开区间。",
+      "answer": "有3个实零点，分别在(-2,-1)、(0,1)、(1,2)。",
+      "steps": [
+        "f′=3(x²-1)，在(-∞,-1)递增、(-1,1)递减、(1,+∞)递增",
+        "f(-2)=-1、f(-1)=3、f(0)=1、f(1)=-1、f(2)=3",
+        "连续性给三个区间各至少一个零点，严格单调给每段至多一个"
+      ],
+      "alignment": "本题通过用单调区间与极值结合连续性判断零点数检测“导数研究函数零点”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只检查异号可保证至少一个，不能单独保证唯一。",
+      "assessment": {
+        "objective": "用单调区间与极值结合连续性判断零点数",
+        "boundary": "检测确定三次函数零点数和隔离区间",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1fa55bf18f5adc685045dc629de56eb1f3780de136b6b22bd0dcad89ef2461fb",
+        "answerCheck": "固定规格计算检查：函数指定隔离端点值。独立解答复审：独立代入-2,-1,0,1,2为-1,3,1,-1,3，三隔离区间异号；三个单调段至多各一根，全部3根无遗漏。",
+        "alignmentCheck": "本题通过用单调区间与极值结合连续性判断零点数检测“导数研究函数零点”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测确定三次函数零点数和隔离区间 对照：只检查异号可保证至少一个，不能单独保证唯一。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m4-5-4-05",
+      "skillId": "full-m4-5-4-05",
+      "familyId": "full-m4-5-4-05",
+      "text": "用40米围栏围成矩形，四边均需围栏。求最大面积及边长，要求用导数说明。",
+      "answer": "边长均10米，最大面积100平方米。",
+      "steps": [
+        "设一边x米，另一边20-x，需0<x<20",
+        "面积A=x(20-x)",
+        "A′=20-2x，在x<10时正，x>10时负",
+        "因此x=10唯一最大，面积100"
+      ],
+      "alignment": "本题通过建立约束目标定义域并用导数求现实最优检测“实际优化问题”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若一边靠墙不需围栏，约束将改变，本题结论不能直接套用。",
+      "assessment": {
+        "objective": "建立约束目标定义域并用导数求现实最优",
+        "boundary": "检测固定周长矩形面积模型",
+        "prerequisiteSkills": "函数定义域、代数变形、极限或基本求导"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b3c4a8c0e7c022c90d7475808d0fd02a57539f53e7c87a019c99b6e2c3712780",
+        "answerCheck": "固定规格计算检查：约束目标导数极大位置。独立解答复审：周长约束给另一边20-x，面积差100-A=(x-10)²≥0；导数20-2x两侧变号，10×10最大100。",
+        "alignmentCheck": "本题通过建立约束目标定义域并用导数求现实最优检测“实际优化问题”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测固定周长矩形面积模型 对照：若一边靠墙不需围栏，约束将改变，本题结论不能直接套用。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-1-01",
+      "skillId": "full-m5-6-1-01",
+      "familyId": "full-m5-6-1-01",
+      "text": "展览可选3场讲座之一或4场工作坊之一，每人恰参加一场且各场不同。共有多少选择？",
+      "answer": "7种。",
+      "steps": [
+        "按讲座或工作坊分两类",
+        "一场活动只属于其中一类，互不重叠",
+        "选择总数3+4=7"
+      ],
+      "alignment": "本题通过识别互斥类别并按加法计数检测“分类加法计数原理”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若要求一场讲座加一场工作坊，则需乘法，结果12。",
+      "assessment": {
+        "objective": "识别互斥类别并按加法计数",
+        "boundary": "仅检测恰选一种且类别不重叠的情形",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "efd4fe8f684fb4acc9752838efd5a6142c85cf34dc750544e6e7bf4ccba35d0f",
+        "answerCheck": "固定规格计算检查：列举互斥活动。独立解答复审：恰选一场且两类场次不重叠，集合并基数3+4=7，加法而非乘法。",
+        "alignmentCheck": "本题通过识别互斥类别并按加法计数检测“分类加法计数原理”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测恰选一种且类别不重叠的情形 对照：若要求一场讲座加一场工作坊，则需乘法，结果12。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-1-02",
+      "skillId": "full-m5-6-1-02",
+      "familyId": "full-m5-6-1-02",
+      "text": "午餐必须选1份主食、1份配菜、1杯饮料，分别有3、4、2种，任意组合都可。共有几种套餐？",
+      "answer": "24种。",
+      "steps": [
+        "每份主食可配4种菜，得到12种二元搭配",
+        "每种再配2种饮料",
+        "总数3×4×2=24"
+      ],
+      "alignment": "本题通过把完整方案拆成有序步骤并相乘检测“分步乘法计数原理”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若“任选其中一种”则不能把三步相乘。",
+      "assessment": {
+        "objective": "把完整方案拆成有序步骤并相乘",
+        "boundary": "检测各步骤选择数固定的情况",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d521a8202349701fa16c7bc9924b74bc2e765cd41038ebe760bbf220a11fda02",
+        "answerCheck": "固定规格计算检查：笛卡尔积穷举。独立解答复审：全部三个选择必须同时完成，笛卡尔积大小3×4×2=24，任意组合条件避免禁配。",
+        "alignmentCheck": "本题通过把完整方案拆成有序步骤并相乘检测“分步乘法计数原理”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测各步骤选择数固定的情况 对照：若“任选其中一种”则不能把三步相乘。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-1-03",
+      "skillId": "full-m5-6-1-03",
+      "familyId": "full-m5-6-1-03",
+      "text": "礼盒有两种配置：A型从3种笔中选1支并从4种本中选1本；B型从2种杯中选1个并从5种贴纸中选1张。物品均不同，求可做多少种礼盒。",
+      "answer": "22种。",
+      "steps": [
+        "A类按步骤选得3×4=12",
+        "B类得2×5=10",
+        "两类物品组成不同，不重叠，所以相加为22"
+      ],
+      "alignment": "本题通过先按互斥方案分类再在类内分步检测“两个原理的综合应用”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能把3、4、2、5全部相乘，那表示四类物品都必须选。",
+      "assessment": {
+        "objective": "先按互斥方案分类再在类内分步",
+        "boundary": "检测组合型加乘，条件充分列明",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "87b12ca5f34a5920f698796815531a7ee16c610b3e62bb8f09c512228cacfb7b",
+        "answerCheck": "固定规格计算检查：两类笛卡尔积分别穷举。独立解答复审：两类各自是3×4=12和2×5=10，物品类型不同确保无重叠，和22。",
+        "alignmentCheck": "本题通过先按互斥方案分类再在类内分步检测“两个原理的综合应用”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测组合型加乘，条件充分列明 对照：不能把3、4、2、5全部相乘，那表示四类物品都必须选。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-01",
+      "skillId": "full-m5-6-2-01",
+      "familyId": "full-m5-6-2-01",
+      "text": "从A、B、C三名学生中选班长和副班长各1名且不能兼任。列出所有安排；若改为选两名普通代表，为什么计数改变？",
+      "answer": "任职6种：AB、AC、BA、BC、CA、CB（前者班长）。普通代表3组：{A,B}、{A,C}、{B,C}。",
+      "steps": [
+        "职位不同，AB与BA是不同排列",
+        "依次列首人及另一个人",
+        "普通代表无顺序，每对换序合并，所以6/2=3"
+      ],
+      "alignment": "本题通过识别有序选取并展示换序产生不同结果检测“排列的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "是否考虑顺序取决于任务角色，不取决于文字中有没有“排列”二字。",
+      "assessment": {
+        "objective": "识别有序选取并展示换序产生不同结果",
+        "boundary": "检测排列概念，不以公式背诵替代",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "41650bdbeaf4dfcd4d0b86536a9a6f95dec40ffa5e8b83797864ba0954b965fd",
+        "answerCheck": "固定规格计算检查：排列及组合穷举。独立解答复审：有职位选法3×2=6，列出的六个有序对穷尽；无职位把换序合并，3个二元素子集。",
+        "alignmentCheck": "本题通过识别有序选取并展示换序产生不同结果检测“排列的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测排列概念，不以公式背诵替代 对照：是否考虑顺序取决于任务角色，不取决于文字中有没有“排列”二字。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-02",
+      "skillId": "full-m5-6-2-02",
+      "familyId": "full-m5-6-2-02",
+      "text": "7名学生竞选三个不同职务，每人最多任一个，所有学生都可胜任。多少种任职安排？",
+      "answer": "210种。",
+      "steps": [
+        "依次给第一、第二、第三职务选人，选择数7、6、5",
+        "A₇³=7!/(7-3)!=7×6×5=210"
+      ],
+      "alignment": "本题通过按不重复选取的排列数公式计算检测“排列数公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若允许同一人兼任，才是7³；本题明确不允许。",
+      "assessment": {
+        "objective": "按不重复选取的排列数公式计算",
+        "boundary": "检测选取部分元素的有序分配",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a2ec455e99faf8814cacdc8e7062be6510babfa2d3f060e71aa8f14b2a267883",
+        "answerCheck": "固定规格计算检查：职务安排穷举。独立解答复审：三个不同职务有序无放回，7×6×5=210，不能除以3!。",
+        "alignmentCheck": "本题通过按不重复选取的排列数公式计算检测“排列数公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测选取部分元素的有序分配 对照：若允许同一人兼任，才是7³；本题明确不允许。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-03",
+      "skillId": "full-m5-6-2-03",
+      "familyId": "full-m5-6-2-03",
+      "text": "4本不同书排一行有多少种？计算5!/3!与0!。",
+      "answer": "24种；5!/3!=20；0!=1。",
+      "steps": [
+        "第一至第四位置分别4、3、2、1种，合计4!=24",
+        "5!/3!=5×4=20",
+        "空集合只有一种排列（什么都不排），约定0!=1"
+      ],
+      "alignment": "本题通过理解全排列阶乘并正确处理空阶乘检测“全排列与阶乘”；解答中的相应计算或论证是评分依据。",
+      "contrast": "0!不是0，否则组合与排列公式在边界会失效。",
+      "assessment": {
+        "objective": "理解全排列阶乘并正确处理空阶乘",
+        "boundary": "检测四个互异元素全排列及0!约定",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9e880a2c85de13d3d8381d092195159d1c86e4df930f83eb954e37eafee79ba3",
+        "answerCheck": "固定规格计算检查：四书全排列与阶乘。独立解答复审：4件全排列24，阶乘消去3!后5×4=20；空排列只有一种使0!=1一致。",
+        "alignmentCheck": "本题通过理解全排列阶乘并正确处理空阶乘检测“全排列与阶乘”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测四个互异元素全排列及0!约定 对照：0!不是0，否则组合与排列公式在边界会失效。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-04",
+      "skillId": "full-m5-6-2-04",
+      "familyId": "full-m5-6-2-04",
+      "text": "从A、B、C、D中选2人组普通小组，无组长。列出全部小组并说明AB和BA是否不同。",
+      "answer": "6组：AB、AC、AD、BC、BD、CD；AB和BA是同一组。",
+      "steps": [
+        "小组仅由成员决定，顺序无关",
+        "固定字母较小者在前避免重复",
+        "共列6组"
+      ],
+      "alignment": "本题通过识别无序子集与有序安排的差异检测“组合的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若组内再设组长，则每组有2种分工，共12种。",
+      "assessment": {
+        "objective": "识别无序子集与有序安排的差异",
+        "boundary": "检测组合定义及小集合列举",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a8633e116aaa9574032af7377de948337add286ba9e6ba8fa4152eeb807b1165",
+        "answerCheck": "固定规格计算检查：二人组穷举。独立解答复审：四选二枚举AB、AC、AD、BC、BD、CD无重复共6，交换书写不改变组员。",
+        "alignmentCheck": "本题通过识别无序子集与有序安排的差异检测“组合的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测组合定义及小集合列举 对照：若组内再设组长，则每组有2种分工，共12种。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-05",
+      "skillId": "full-m5-6-2-05",
+      "familyId": "full-m5-6-2-05",
+      "text": "从8本不同书中任选3本赠送给一个班，不区分顺序，有多少种选法？",
+      "answer": "56种。",
+      "steps": [
+        "先考虑有序取3本：8×7×6",
+        "同一组三本可排3!=6种",
+        "C₈³=(8×7×6)/6=56"
+      ],
+      "alignment": "本题通过运用组合数公式处理无序选择检测“组合数公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "分给三个不同的人是一种不同任务，要考虑书与人的对应。",
+      "assessment": {
+        "objective": "运用组合数公式处理无序选择",
+        "boundary": "检测单次等资格抽取",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e4032643b52ce80ef9bd2dfd31028fbb5dd85bec686bf098b45f6fc841a26119",
+        "answerCheck": "固定规格计算检查：八选三穷举。独立解答复审：有序三书8×7×6=336，每个无序子集6种顺序，除后56。",
+        "alignmentCheck": "本题通过运用组合数公式处理无序选择检测“组合数公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测单次等资格抽取 对照：分给三个不同的人是一种不同任务，要考虑书与人的对应。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-06",
+      "skillId": "full-m5-6-2-06",
+      "familyId": "full-m5-6-2-06",
+      "text": "不展开阶乘，求C₁₂³与C₁₂⁹的关系，并化简C₈³+C₈⁴；用选人解释后一式。",
+      "answer": "C₁₂³=C₁₂⁹；C₈³+C₈⁴=C₉⁴=126。",
+      "steps": [
+        "从12人选3人与留下9人一一对应",
+        "从9人选4人，固定一位特殊者，含他有C₈³种，不含有C₈⁴种",
+        "两类互斥且穷尽"
+      ],
+      "alignment": "本题通过使用组合对称与帕斯卡恒等式检测“组合数性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "帕斯卡相加要求上标相邻且下标相同，不能随意拼接。",
+      "assessment": {
+        "objective": "使用组合对称与帕斯卡恒等式",
+        "boundary": "检测两条常见组合数性质",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "81872ef0d7d6b1bfb4c756e06b00589819ae608219ba9156c8e6ea38cbf466b8",
+        "answerCheck": "固定规格计算检查：组合性质数值检查。独立解答复审：补集对应证明12选3与选9相等；8选3=56、8选4=70，和126确等9选4。",
+        "alignmentCheck": "本题通过使用组合对称与帕斯卡恒等式检测“组合数性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两条常见组合数性质 对照：帕斯卡相加要求上标相邻且下标相同，不能随意拼接。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-07",
+      "skillId": "full-m5-6-2-07",
+      "familyId": "full-m5-6-2-07",
+      "text": "A、B、C、D、E五人排一行，A与B必须相邻，有几种？",
+      "answer": "48种。",
+      "steps": [
+        "把AB作为一个块，连同C,D,E共4个单位，全排列4!",
+        "块内有AB和BA两种",
+        "合计4!×2=48"
+      ],
+      "alignment": "本题通过将必须相邻元素捆为块并乘内部排列检测“相邻问题（捆绑法）”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只算4!会漏掉块内BA顺序。",
+      "assessment": {
+        "objective": "将必须相邻元素捆为块并乘内部排列",
+        "boundary": "检测两名指定人相邻的线性排列",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9f519c62263325b37fc16b96d721bb68eabbfb417c59a834ff04b09d191a8e87",
+        "answerCheck": "固定规格计算检查：五人排列过滤相邻。独立解答复审：捆绑AB后4个不同单位有24种，内部2序，共48；全排列穷举也得到48。",
+        "alignmentCheck": "本题通过将必须相邻元素捆为块并乘内部排列检测“相邻问题（捆绑法）”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两名指定人相邻的线性排列 对照：只算4!会漏掉块内BA顺序。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-08",
+      "skillId": "full-m5-6-2-08",
+      "familyId": "full-m5-6-2-08",
+      "text": "A、B、C、D、E五人排一行，A与B不能相邻，有几种？",
+      "answer": "72种。",
+      "steps": [
+        "先排列C,D,E，有3!种",
+        "产生4个空位，选2个不同空放A、B，有C₄²×2!种",
+        "合计6×6×2=72"
+      ],
+      "alignment": "本题通过先排其余元素再插空使指定元素不相邻检测“不相邻问题（插空法）”；解答中的相应计算或论证是评分依据。",
+      "contrast": "同一空隙放两人会相邻，插空时必须选不同空。",
+      "assessment": {
+        "objective": "先排其余元素再插空使指定元素不相邻",
+        "boundary": "检测两个指定人的不相邻排列",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b60d19885323da2d1dc90fd3f7e6d71d793c83947f19dd7f4ad23940e4234e19",
+        "answerCheck": "固定规格计算检查：五人排列过滤非相邻。独立解答复审：总排列120减相邻48=72，与3!乘从4空位有序选2的12种得到72一致。",
+        "alignmentCheck": "本题通过先排其余元素再插空使指定元素不相邻检测“不相邻问题（插空法）”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两个指定人的不相邻排列 对照：同一空隙放两人会相邻，插空时必须选不同空。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-09",
+      "skillId": "full-m5-6-2-09",
+      "familyId": "full-m5-6-2-09",
+      "text": "将A、B、C、D分成两个无名称的二人组，有多少种？若两组分别负责甲、乙任务，又有多少种？",
+      "answer": "无名称分组3种；有任务分配6种。",
+      "steps": [
+        "先选两人C₄²=6",
+        "无名两组交换不产生新方案，除以2!得3",
+        "有甲乙标签时选甲组就唯一确定乙组，不再除2"
+      ],
+      "alignment": "本题通过区分无标签分组和有标签分配并去重检测“分组分配问题”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能把所有分组问题都机械除以组数阶乘，需看标签和组大小。",
+      "assessment": {
+        "objective": "区分无标签分组和有标签分配并去重",
+        "boundary": "检测四人等分为两组及分配到两任务",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "63cea106b2434b7b527d80b6e6a6a9f2c9f06c8fb9e79248669635b11e637764",
+        "answerCheck": "固定规格计算检查：无标签分组去重。独立解答复审：固定含A的那组，搭档有B,C,D三选，故无标签3；再赋甲乙两标签得到6。",
+        "alignmentCheck": "本题通过区分无标签分组和有标签分配并去重检测“分组分配问题”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测四人等分为两组及分配到两任务 对照：不能把所有分组问题都机械除以组数阶乘，需看标签和组大小。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-2-10",
+      "skillId": "full-m5-6-2-10",
+      "familyId": "full-m5-6-2-10",
+      "text": "8个完全相同小球分给甲乙丙。（1）每人至少1个；（2）允许0个。各有几种？",
+      "answer": "（1）21种；（2）45种。",
+      "steps": [
+        "至少1个时在8球的7个间隙选2个隔板，C₇²=21",
+        "允许0个时设每人所得加1，总量变11且每人至少1个，故C₁₀²=45"
+      ],
+      "alignment": "本题通过将正整数与非负整数分配分别转成隔板检测“隔板法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若球彼此不同，隔板法的同类物品前提不满足。",
+      "assessment": {
+        "objective": "将正整数与非负整数分配分别转成隔板",
+        "boundary": "检测同类物品给有标签对象，无上界限制",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1876f6aa36bf0c3b7716ff78cf3936ba27f87cded32d5f603bde65de6dfe1b55",
+        "answerCheck": "固定规格计算检查：正整数非负整数三元组全枚举。独立解答复审：独立枚举非负整数三元组和8得45；要求各≥1后相当非负和5，计21，隔板答案一致。",
+        "alignmentCheck": "本题通过将正整数与非负整数分配分别转成隔板检测“隔板法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测同类物品给有标签对象，无上界限制 对照：若球彼此不同，隔板法的同类物品前提不满足。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-3-01",
+      "skillId": "full-m5-6-3-01",
+      "familyId": "full-m5-6-3-01",
+      "text": "展开(2x-1)⁴。",
+      "answer": "16x⁴-32x³+24x²-8x+1。",
+      "steps": [
+        "二项式系数1,4,6,4,1",
+        "各项分别(2x)⁴、4(2x)³(-1)、6(2x)²、4(2x)(-1)³、1",
+        "计算后合并得到展开式"
+      ],
+      "alignment": "本题通过完整展开二项式并处理负号与幂次检测“二项式定理的展开式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "负号随(-1)的幂变化，不是所有非首项都为负。",
+      "assessment": {
+        "objective": "完整展开二项式并处理负号与幂次",
+        "boundary": "检测四次二项式展开",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "61424b881c4ccd096302f71e382d75f589a078e1cc71563c28ffea025872a94a",
+        "answerCheck": "固定规格计算检查：符号展开四次二项式。独立解答复审：用二项式系数逐项乘2的幂及负号，得到16,-32,24,-8,1；展开回代x=0和1均正确。",
+        "alignmentCheck": "本题通过完整展开二项式并处理负号与幂次检测“二项式定理的展开式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测四次二项式展开 对照：负号随(-1)的幂变化，不是所有非首项都为负。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-3-02",
+      "skillId": "full-m5-6-3-02",
+      "familyId": "full-m5-6-3-02",
+      "text": "求(x²+1/x)⁶展开式的常数项（x≠0）。",
+      "answer": "常数项为15。",
+      "steps": [
+        "第r+1项为C₆ʳ(x²)⁶⁻ʳ(1/x)ʳ=C₆ʳx¹²⁻³ʳ",
+        "常数要求12-3r=0，得r=4",
+        "系数C₆⁴=15"
+      ],
+      "alignment": "本题通过使用通项定位指定幂次并计算系数检测“通项公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "r从0开始，常数项是第5项，不是第4项。",
+      "assessment": {
+        "objective": "使用通项定位指定幂次并计算系数",
+        "boundary": "检测含正负幂的有限展开",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "64e9121b34aac12f3bb8bbee37d164dd83d79cf711db200ff98e9ef861f0472d",
+        "answerCheck": "固定规格计算检查：Laurent多项式常数项。独立解答复审：一般幂次2(6-r)-r=12-3r为0只在r=4，系数6选4=15，x≠0确保原式有效。",
+        "alignmentCheck": "本题通过使用通项定位指定幂次并计算系数检测“通项公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测含正负幂的有限展开 对照：r从0开始，常数项是第5项，不是第4项。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-3-03",
+      "skillId": "full-m5-6-3-03",
+      "familyId": "full-m5-6-3-03",
+      "text": "在(1-2x)⁵中，含x³项的二项式系数和实际系数分别是多少？写出该项。",
+      "answer": "二项式系数10；实际系数-80；该项-80x³。",
+      "steps": [
+        "通项C₅ʳ(-2x)ʳ",
+        "x³对应r=3",
+        "C₅³=10，乘(-2)³=-8得实际系数-80"
+      ],
+      "alignment": "本题通过区分二项式系数与实际项系数检测“系数与二项式系数的区别”；解答中的相应计算或论证是评分依据。",
+      "contrast": "二项式系数只取组合数，实际系数还包括被展开项本身的系数幂。",
+      "assessment": {
+        "objective": "区分二项式系数与实际项系数",
+        "boundary": "检测同一项的两种系数",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "ca7177b9c43c695b8225bcd393bc3fe610bb08c8e2d7fc8b546aaabf5172b198",
+        "answerCheck": "固定规格计算检查：实际系数与组合数。独立解答复审：x³来自选三次(-2x)，组合数10乘负因子-8得-80，两种系数明确区分。",
+        "alignmentCheck": "本题通过区分二项式系数与实际项系数检测“系数与二项式系数的区别”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测同一项的两种系数 对照：二项式系数只取组合数，实际系数还包括被展开项本身的系数幂。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-3-04",
+      "skillId": "full-m5-6-3-04",
+      "familyId": "full-m5-6-3-04",
+      "text": "(a+b)⁸的二项式系数共有几个？哪些相等？最大值在哪一项？总和多少？",
+      "answer": "9个；第1与9、第2与8、第3与7、第4与6项系数对应相等；第5项最大70；总和256。",
+      "steps": [
+        "系数为C₈ʳ，r=0至8共9个",
+        "由C₈ʳ=C₈⁸⁻ʳ得对称",
+        "系数依次1,8,28,56,70,56,28,8,1",
+        "最大70",
+        "令a=b=1得总和2⁸=256"
+      ],
+      "alignment": "本题通过运用二项式系数对称性中间最大值与总和检测“二项式系数的性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "这里问二项式系数性质；若是(1-3x)⁸的实际系数，最大项位置未必照搬。",
+      "assessment": {
+        "objective": "运用二项式系数对称性中间最大值与总和",
+        "boundary": "检测n=8的一行系数三属性",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "fa7f03eb4e552b83ef747ec399a352c3c0b7c5335f02ad75e8a9be50d0888d04",
+        "answerCheck": "固定规格计算检查：整行二项系数。独立解答复审：第8行组合数共9项，序列1,8,28,56,70,56,28,8,1对称，和256且中央最大70。",
+        "alignmentCheck": "本题通过运用二项式系数对称性中间最大值与总和检测“二项式系数的性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测n=8的一行系数三属性 对照：这里问二项式系数性质；若是(1-3x)⁸的实际系数，最大项位置未必照搬。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-6-3-05",
+      "skillId": "full-m5-6-3-05",
+      "familyId": "full-m5-6-3-05",
+      "text": "设(2x-1)⁵=Σ从k=0到5 aₖxᵏ，求全部系数和、偶次幂系数和、奇次幂系数和。",
+      "answer": "全部1；偶次幂系数和-121；奇次幂系数和122。",
+      "steps": [
+        "取x=1得E+O=1",
+        "取x=-1得E-O=(-3)⁵=-243",
+        "相加相减得到E=-121,O=122"
+      ],
+      "alignment": "本题通过通过取1和负1求总系数与奇偶系数和检测“赋值法求系数和”；解答中的相应计算或论证是评分依据。",
+      "contrast": "系数和是带符号相加，不是绝对值之和。",
+      "assessment": {
+        "objective": "通过取1和负1求总系数与奇偶系数和",
+        "boundary": "检测多项式实际系数的代数和",
+        "prerequisiteSkills": "有限集合计数、阶乘与组合数"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "28a9e60ca2cfeea258d473f3ea7c59ec0bf08e3dc9015bfe35288d40474db9c6",
+        "answerCheck": "固定规格计算检查：展开后分别累加奇偶系数。独立解答复审：x=1得1、x=-1得-243，解偶和+奇和与偶和-奇和得到-121及122；实际系数可为负。",
+        "alignmentCheck": "本题通过通过取1和负1求总系数与奇偶系数和检测“赋值法求系数和”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测多项式实际系数的代数和 对照：系数和是带符号相加，不是绝对值之和。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-1-01",
+      "skillId": "full-m5-7-1-01",
+      "familyId": "full-m5-7-1-01",
+      "text": "掷一枚公平六面骰，已知结果是偶数，求结果大于3的概率。",
+      "answer": "2/3。",
+      "steps": [
+        "设A为偶数{2,4,6}，B为大于3{4,5,6}",
+        "交集为{4,6}",
+        "P(B|A)=(2/6)/(3/6)=2/3"
+      ],
+      "alignment": "本题通过按条件事件缩小样本空间计算条件概率检测“条件概率的定义”；解答中的相应计算或论证是评分依据。",
+      "contrast": "直接算P(B)=1/2忽略了已知偶数这个条件。",
+      "assessment": {
+        "objective": "按条件事件缩小样本空间计算条件概率",
+        "boundary": "检测等可能骰子条件，条件概率非零",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "b6df99bc71944fe648a47eee5d676ac5bfb7683c2e7d9a78eb01757db6c7565c",
+        "answerCheck": "固定规格计算检查：条件骰子穷举。独立解答复审：条件样本空间{2,4,6}，大于3仅{4,6}，条件概率2/3，条件事件非零。",
+        "alignmentCheck": "本题通过按条件事件缩小样本空间计算条件概率检测“条件概率的定义”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测等可能骰子条件，条件概率非零 对照：直接算P(B)=1/2忽略了已知偶数这个条件。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-1-02",
+      "skillId": "full-m5-7-1-02",
+      "familyId": "full-m5-7-1-02",
+      "text": "袋内3红2蓝，依次不放回取2球，求先红后蓝的概率。",
+      "answer": "3/10。",
+      "steps": [
+        "第一球红概率3/5",
+        "在已红条件下剩2红2蓝，第二球蓝概率2/4",
+        "联合概率(3/5)(2/4)=3/10"
+      ],
+      "alignment": "本题通过用条件概率乘法计算不放回联合事件检测“乘法公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "第二次蓝概率不能仍机械使用2/5。",
+      "assessment": {
+        "objective": "用条件概率乘法计算不放回联合事件",
+        "boundary": "检测相依两次抽取，不假定独立",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "54f920d94639f93c224620a2631f2cf6d57cbef1eb001d3f9d924dd464d7ec93",
+        "answerCheck": "固定规格计算检查：不放回有序球标号穷举。独立解答复审：先红3/5后蓝2/4，不放回的分母确从5减为4；相乘6/20=3/10。",
+        "alignmentCheck": "本题通过用条件概率乘法计算不放回联合事件检测“乘法公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测相依两次抽取，不假定独立 对照：第二次蓝概率不能仍机械使用2/5。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-1-03",
+      "skillId": "full-m5-7-1-03",
+      "familyId": "full-m5-7-1-03",
+      "text": "一批零件60%来自甲厂、40%来自乙厂；各厂次品率分别2%、5%。随机取一件，次品概率多少？",
+      "answer": "0.032，即3.2%。",
+      "steps": [
+        "按甲乙来源划分整个样本空间",
+        "次品概率=0.6×0.02+0.4×0.05",
+        "计算0.012+0.020=0.032"
+      ],
+      "alignment": "本题通过按完整互斥来源分解事件计算全概率检测“全概率公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能把2%与5%简单平均为3.5%，因两厂占比不同。",
+      "assessment": {
+        "objective": "按完整互斥来源分解事件计算全概率",
+        "boundary": "检测两来源模型，给定条件概率",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6687a310ffd32f060b301cf0807138eef2109625a6aeb911b976cf9f70f696c2",
+        "answerCheck": "固定规格计算检查：精确有理数全概率。独立解答复审：两来源互斥穷尽，次品贡献0.012和0.020相加0.032，非简单平均2%与5%。",
+        "alignmentCheck": "本题通过按完整互斥来源分解事件计算全概率检测“全概率公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两来源模型，给定条件概率 对照：不能把2%与5%简单平均为3.5%，因两厂占比不同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-1-04",
+      "skillId": "full-m5-7-1-04",
+      "familyId": "full-m5-7-1-04",
+      "text": "某批零件60%来自甲厂、40%来自乙厂，次品率分别2%、5%。已知抽到次品，求它来自乙厂的概率。",
+      "answer": "5/8，即62.5%。",
+      "steps": [
+        "次品总概率0.6×0.02+0.4×0.05=0.032",
+        "乙厂且次品概率0.4×0.05=0.02",
+        "所求为0.02/0.032=5/8"
+      ],
+      "alignment": "本题通过用贝叶斯从结果更新来源概率检测“贝叶斯公式”；解答中的相应计算或论证是评分依据。",
+      "contrast": "P(次品|乙)=5%不是P(乙|次品)。",
+      "assessment": {
+        "objective": "用贝叶斯从结果更新来源概率",
+        "boundary": "检测双来源逆向条件，不涉及检验医学解读",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "72696ed8a4a1504036cb6476cbdd3de9ccff714df724de0414cf818badf62eb1",
+        "answerCheck": "固定规格计算检查：精确后验概率。独立解答复审：后验分子乙且次品0.020，除总次品0.032得20/32=5/8，方向正确。",
+        "alignmentCheck": "本题通过用贝叶斯从结果更新来源概率检测“贝叶斯公式”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测双来源逆向条件，不涉及检验医学解读 对照：P(次品|乙)=5%不是P(乙|次品)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-2-01",
+      "skillId": "full-m5-7-2-01",
+      "familyId": "full-m5-7-2-01",
+      "text": "连续抛两枚公平硬币，定义X为正面个数。列出样本点及X的对应值，并说明X取值集合。",
+      "answer": "反反→0；正反→1；反正→1；正正→2；X∈{0,1,2}。",
+      "steps": [
+        "四个有序结果是样本点",
+        "按定义逐个数正面",
+        "两个不同样本点可有相同X值1"
+      ],
+      "alignment": "本题通过把试验结果映射为数值随机变量并求取值检测“随机变量的概念”；解答中的相应计算或论证是评分依据。",
+      "contrast": "X的取值数3不等于样本点数4，映射不必一一对应。",
+      "assessment": {
+        "objective": "把试验结果映射为数值随机变量并求取值",
+        "boundary": "检测有限离散随机变量，区分样本点与取值",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "052605398f8fc088a88ef15fd08411f345177cfe65f6278cf626d982a28da437",
+        "answerCheck": "固定规格计算检查：硬币四点映射。独立解答复审：四个有序正反样本映射为0,1,1,2，随机变量值集合仅三个，未把两个值1当不同数。",
+        "alignmentCheck": "本题通过把试验结果映射为数值随机变量并求取值检测“随机变量的概念”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测有限离散随机变量，区分样本点与取值 对照：X的取值数3不等于样本点数4，映射不必一一对应。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-2-02",
+      "skillId": "full-m5-7-2-02",
+      "familyId": "full-m5-7-2-02",
+      "text": "X取0、1、2，对应概率c、2c、1/4。求c与P(X≥1)，并检查合法性。",
+      "answer": "c=1/4；P(X≥1)=3/4；分布合法。",
+      "steps": [
+        "总概率c+2c+1/4=1，得c=1/4",
+        "三概率1/4,1/2,1/4均非负且和1",
+        "P(X≥1)=1/2+1/4=3/4"
+      ],
+      "alignment": "本题通过利用概率非负及总和为1确定分布列参数检测“分布列及性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "仅概率和为1不够，还必须每项非负。",
+      "assessment": {
+        "objective": "利用概率非负及总和为1确定分布列参数",
+        "boundary": "检测有限分布列合法性和区间概率",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "681ba229c5a780fe9a50a0d745883584084fe6c6a3396d9cd8de8272f36d76e8",
+        "answerCheck": "固定规格计算检查：分布参数与尾概率。独立解答复审：归一化3c+1/4=1得c=1/4，三个概率均非负；1与2的概率和3/4。",
+        "alignmentCheck": "本题通过利用概率非负及总和为1确定分布列参数检测“分布列及性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测有限分布列合法性和区间概率 对照：仅概率和为1不够，还必须每项非负。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-2-03",
+      "skillId": "full-m5-7-2-03",
+      "familyId": "full-m5-7-2-03",
+      "text": "一次射击命中概率0.7，命中记X=1，否则X=0。写分布列。若命中得5分、否则得-2分，得分Y与X的关系是什么？",
+      "answer": "P(X=1)=0.7，P(X=0)=0.3；Y=7X-2。",
+      "steps": [
+        "命中与未命中互为补事件",
+        "两点概率为p与1-p",
+        "由X=0时Y=-2、X=1时Y=5确定斜率7、截距-2"
+      ],
+      "alignment": "本题通过建立0-1两点分布并辨别一般两值变量检测“两点分布”；解答中的相应计算或论证是评分依据。",
+      "contrast": "通常所说两点分布以0、1为取值；Y可由它线性变换得到，但不能直接当作0-1变量。",
+      "assessment": {
+        "objective": "建立0-1两点分布并辨别一般两值变量",
+        "boundary": "检测伯努利0-1分布及仿射变化",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c64e55c637bbdb21b3fc23370ed3c326eeaf76e19e211c5d8130d4a9039b0bce",
+        "answerCheck": "固定规格计算检查：0-1映射到得分。独立解答复审：0、1两点概率互补0.3、0.7；仿射式7X-2在0和1分别给-2与5，两个端点完全还原。",
+        "alignmentCheck": "本题通过建立0-1两点分布并辨别一般两值变量检测“两点分布”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测伯努利0-1分布及仿射变化 对照：通常所说两点分布以0、1为取值；Y可由它线性变换得到，但不能直接当作0-1变量。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-3-01",
+      "skillId": "full-m5-7-3-01",
+      "familyId": "full-m5-7-3-01",
+      "text": "X取-1、2、5，概率分别1/2、1/3、1/6。求E(X)，并说明期望是否必须是实际取值。",
+      "answer": "E(X)=1；不必是实际取值，本题X从不取1。",
+      "steps": [
+        "概率和1",
+        "按Σxp计算-1/2+2/3+5/6=(-3+4+5)/6=1",
+        "1不在{-1,2,5}中"
+      ],
+      "alignment": "本题通过由分布列加权计算期望并解释非必然取值检测“数学期望”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能把三取值简单平均为2，概率并不相同。",
+      "assessment": {
+        "objective": "由分布列加权计算期望并解释非必然取值",
+        "boundary": "检测有限离散期望",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "184160d8c82eb3ded52b34471f45f98f5f9e6195a876232b894ac862c84f3ab9",
+        "answerCheck": "固定规格计算检查：直接分布期望。独立解答复审：概率和1，加权和(-3+4+5)/6=1；1不在支持集内，期望不须为实际值的例证有效。",
+        "alignmentCheck": "本题通过由分布列加权计算期望并解释非必然取值检测“数学期望”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测有限离散期望 对照：不能把三取值简单平均为2，概率并不相同。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-3-02",
+      "skillId": "full-m5-7-3-02",
+      "familyId": "full-m5-7-3-02",
+      "text": "已知E(X)=3、E(Y)=-1，不知道它们是否独立。求E(2X+5)、E(3X-2Y)。",
+      "answer": "分别11、11；均无需独立。",
+      "steps": [
+        "常数期望等于本身，E(2X+5)=2×3+5=11",
+        "线性性E(3X-2Y)=3×3-2×(-1)=11"
+      ],
+      "alignment": "本题通过使用期望线性性且不额外要求独立检测“期望的性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "E(XY)=E(X)E(Y)通常需要独立等额外条件，不能由线性性直接推出。",
+      "assessment": {
+        "objective": "使用期望线性性且不额外要求独立",
+        "boundary": "检测线性变换与两变量线性组合",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "6bdf0734e42befad30ab8fed87da884998db1db673b14755465cd968a164764c",
+        "answerCheck": "固定规格计算检查：期望线性计算。独立解答复审：线性期望直接2×3+5=11、3×3-2×(-1)=11，独立性不作为前提。",
+        "alignmentCheck": "本题通过使用期望线性性且不额外要求独立检测“期望的性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测线性变换与两变量线性组合 对照：E(XY)=E(X)E(Y)通常需要独立等额外条件，不能由线性性直接推出。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-3-03",
+      "skillId": "full-m5-7-3-03",
+      "familyId": "full-m5-7-3-03",
+      "text": "X取0、1、3，概率分别1/2、1/4、1/4，求E(X)与Var(X)。",
+      "answer": "E(X)=1；Var(X)=3/2。",
+      "steps": [
+        "期望0+1/4+3/4=1",
+        "中心平方加权=(0-1)²/2+(1-1)²/4+(3-1)²/4=1/2+0+1=3/2"
+      ],
+      "alignment": "本题通过由中心平方或二阶矩计算方差检测“方差”；解答中的相应计算或论证是评分依据。",
+      "contrast": "方差不带正负，不能直接平均有符号偏差（该平均总为0）。",
+      "assessment": {
+        "objective": "由中心平方或二阶矩计算方差",
+        "boundary": "检测有限分布列的方差及与期望区别",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3a4ba043c6e64ff1778e823d54bcae91874551aa4d9da93b4e668b3b9ad1706a",
+        "answerCheck": "固定规格计算检查：两种方差定义分别算。独立解答复审：E(X)=1、E(X²)=1/4+9/4=5/2，差于均值平方得3/2，与中心平方算法吻合。",
+        "alignmentCheck": "本题通过由中心平方或二阶矩计算方差检测“方差”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测有限分布列的方差及与期望区别 对照：方差不带正负，不能直接平均有符号偏差（该平均总为0）。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-3-04",
+      "skillId": "full-m5-7-3-04",
+      "familyId": "full-m5-7-3-04",
+      "text": "已知Var(X)=4，求Var(3X-2)。再判断仅知Var(Y)=9时，能否断言Var(X+Y)=13？",
+      "answer": "Var(3X-2)=36；不能，缺少独立或零协方差等条件。",
+      "steps": [
+        "平移不改变离均差，缩放3使平方偏差乘9，故9×4=36",
+        "和的方差含2Cov(X,Y)，未给相关性不能确定"
+      ],
+      "alignment": "本题通过对线性变换的方差平方缩放并辨别独立条件检测“方差的性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "取Y=1.5X，则Var(Y)=9但Var(X+Y)=Var(2.5X)=25，是反例。",
+      "assessment": {
+        "objective": "对线性变换的方差平方缩放并辨别独立条件",
+        "boundary": "检测单变量仿射变换以及和方差的局限",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "951053c8162385d212247b5d901e74c416ed2b0097eb68b44792f6fd92de6040",
+        "answerCheck": "固定规格计算检查：仿射方差与相关反例。独立解答复审：仿射方差9×4=36；仅知边际方差不能删除协方差，例Y=(3/2)X时VarY=9而和方差25不等13。",
+        "alignmentCheck": "本题通过对线性变换的方差平方缩放并辨别独立条件检测“方差的性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测单变量仿射变换以及和方差的局限 对照：取Y=1.5X，则Var(Y)=9但Var(X+Y)=Var(2.5X)=25，是反例。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-4-01",
+      "skillId": "full-m5-7-4-01",
+      "familyId": "full-m5-7-4-01",
+      "text": "比较：A每次充分混合后从3红2蓝袋独立随机取一球记录颜色再放回，共3次；B同一袋连续不放回均匀随机取3球。哪种可将红球次数建为n=3、p=3/5的独立重复试验？说明原因。",
+      "answer": "A可以（按题设每次随机且独立抽取）；B不可以。",
+      "steps": [
+        "A次数固定，每次红概率3/5，放回并重新独立抽取保持分布",
+        "B取首球红后下一次红概率变为2/4，不等于3/5且依赖前次"
+      ],
+      "alignment": "本题通过检验固定次数独立性及成功概率相同三个条件检测“n次独立重复试验”；解答中的相应计算或论证是评分依据。",
+      "contrast": "仅有每次边际成功概率相同仍不够，还需独立。",
+      "assessment": {
+        "objective": "检验固定次数独立性及成功概率相同三个条件",
+        "boundary": "检测辨认独立重复试验模型",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "4133df4fe92889a36eb5aebed011bdd6f1b590d35926546b72e6a49b6d24a3e8",
+        "answerCheck": "逻辑辅助检查（非自动证明）：B的条件概率1/2与原3/5不同，直接反证独立；A所述机制明确提供独立性。。独立解答复审：按修订后的每次独立随机放回抽取，A有固定p=3/5且独立；B先红后再红条件概率2/4，确不满足恒p。",
+        "alignmentCheck": "本题通过检验固定次数独立性及成功概率相同三个条件检测“n次独立重复试验”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测辨认独立重复试验模型 对照：仅有每次边际成功概率相同仍不够，还需独立。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：二项分布",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-7-4-02",
+      "skillId": "full-m5-7-4-02",
+      "familyId": "full-m5-7-4-02",
+      "text": "独立进行4次试验，每次成功概率1/3，X为成功次数。求P(X=2)及P(X≥1)。",
+      "answer": "P(X=2)=8/27；P(X≥1)=65/81。",
+      "steps": [
+        "X~B(4,1/3)",
+        "恰2次成功为C₄²(1/3)²(2/3)²=24/81=8/27",
+        "至少一次用补事件1-(2/3)⁴=65/81"
+      ],
+      "alignment": "本题通过将成功次数建成二项分布并算恰好与至少概率检测“二项分布”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只算(1/3)²(2/3)²漏掉6种成功位置。",
+      "assessment": {
+        "objective": "将成功次数建成二项分布并算恰好与至少概率",
+        "boundary": "检测n=4固定p的独立试验",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "c1a9585546f010689ff031ff46249d40b43d7bf9377ca1641af67e1ab2757476",
+        "answerCheck": "固定规格计算检查：枚举16条成功失败路径精确加权。独立解答复审：恰二次概率6×(1/9)×(4/9)=24/81=8/27；零次16/81，其补65/81。",
+        "alignmentCheck": "本题通过将成功次数建成二项分布并算恰好与至少概率检测“二项分布”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测n=4固定p的独立试验 对照：只算(1/3)²(2/3)²漏掉6种成功位置。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：二项分布",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-7-4-03",
+      "skillId": "full-m5-7-4-03",
+      "familyId": "full-m5-7-4-03",
+      "text": "X~B(20,0.3)，求E(X)、Var(X)，并求Y=2X+1的期望与方差。",
+      "answer": "E(X)=6，Var(X)=4.2；E(Y)=13，Var(Y)=16.8。",
+      "steps": [
+        "二项均值np=20×0.3=6",
+        "方差np(1-p)=20×0.3×0.7=4.2",
+        "Y期望2×6+1=13",
+        "方差乘2²得16.8"
+      ],
+      "alignment": "本题通过从二项参数求期望方差并由指标和解释检测“二项分布的期望与方差”；解答中的相应计算或论证是评分依据。",
+      "contrast": "Y的方差不加常数1，缩放系数需平方。",
+      "assessment": {
+        "objective": "从二项参数求期望方差并由指标和解释",
+        "boundary": "检测二项分布数字特征",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e6fd013b10c2f4495249ffaadb9783309d297fdedfaf5d2da2d8361c15ea3cbe",
+        "answerCheck": "固定规格计算检查：完整21项二项分布重算期望方差。独立解答复审：np=6、np(1-p)=4.2；线性均值13、方差乘4得16.8，常数1不影响方差。",
+        "alignmentCheck": "本题通过从二项参数求期望方差并由指标和解释检测“二项分布的期望与方差”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测二项分布数字特征 对照：Y的方差不加常数1，缩放系数需平方。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：二项分布",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-7-4-04",
+      "skillId": "full-m5-7-4-04",
+      "familyId": "full-m5-7-4-04",
+      "text": "盒中4红3蓝，不放回随机取3球，X为红球数。写分布列并求P(X≥2)。",
+      "answer": "X=0,1,2,3的概率为1/35、12/35、18/35、4/35；P(X≥2)=22/35。",
+      "steps": [
+        "总组合C₇³=35",
+        "P(X=k)=C₄ᵏC₃³⁻ᵏ/35，k=0至3",
+        "分别为1,12,18,4除以35",
+        "合并k=2、3得22/35"
+      ],
+      "alignment": "本题通过用不放回组合计数建立超几何分布及支持集检测“超几何分布”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不放回导致相依，不能用B(3,4/7)替代精确分布。",
+      "assessment": {
+        "objective": "用不放回组合计数建立超几何分布及支持集",
+        "boundary": "检测小样本全分布，不混同放回二项",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "a4eebe2964536e6e76d92942bdfff96bee50b29d5ab25e1f10c05d1dc94900e4",
+        "answerCheck": "固定规格计算检查：35种标号球组合全枚举。独立解答复审：组合分子依次1、12、18、4，和35与总35一致；至少二红分子18+4=22。",
+        "alignmentCheck": "本题通过用不放回组合计数建立超几何分布及支持集检测“超几何分布”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测小样本全分布，不混同放回二项 对照：不放回导致相依，不能用B(3,4/7)替代精确分布。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-7-5-01",
+      "skillId": "full-m5-7-5-01",
+      "familyId": "full-m5-7-5-01",
+      "text": "随机变量X的密度f(x)=1/(2√(2π))·exp[-(x-3)²/8]。求均值μ、标准差σ、峰值位置与峰高，并求P(X=3)。",
+      "answer": "μ=3，σ=2；峰在x=3，峰高1/(2√(2π))；P(X=3)=0。",
+      "steps": [
+        "与1/(σ√(2π))exp[-(x-μ)²/(2σ²)]对比，2σ²=8得σ=2",
+        "平方最小时指数最大，峰在3",
+        "连续分布单点面积为0"
+      ],
+      "alignment": "本题通过从正态密度式读取参数并区分密度与概率检测“正态分布的概率密度曲线”；解答中的相应计算或论证是评分依据。",
+      "contrast": "峰高是密度，不是P(X=3)。",
+      "assessment": {
+        "objective": "从正态密度式读取参数并区分密度与概率",
+        "boundary": "检测密度参数、峰值与单点概率",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3d6be4a8921e2a78b0d53fa43daf930aa17491f3103bbd3531ab8a205d26e477",
+        "answerCheck": "固定规格计算检查：密度标准参数与峰值。独立解答复审：密度标准化系数给σ=2，平方中心μ=3；最大指数0时峰高如答，连续分布一点概率为0。",
+        "alignmentCheck": "本题通过从正态密度式读取参数并区分密度与概率检测“正态分布的概率密度曲线”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测密度参数、峰值与单点概率 对照：峰高是密度，不是P(X=3)。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：正态分布",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-1-the-standard-normal-distribution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-7-5-02",
+      "skillId": "full-m5-7-5-02",
+      "familyId": "full-m5-7-5-02",
+      "text": "X~N(10,4)，已知P(8<X<12)=0.6827。求P(X>12)、P(X<10)。与N(10,1)相比，X的密度峰更高还是更低？",
+      "answer": "0.15865、0.5；X的峰更低且曲线更宽。",
+      "steps": [
+        "N(10,4)的σ=2，对称轴x=10",
+        "两侧外尾总概率1-0.6827=0.3173，各半为0.15865",
+        "中心左侧0.5",
+        "峰高与σ成反比，σ=2比σ=1峰低"
+      ],
+      "alignment": "本题通过使用正态曲线对称性及标准差对形状影响检测“正态曲线的性质”；解答中的相应计算或论证是评分依据。",
+      "contrast": "N(10,4)中的4是方差，标准差是2。",
+      "assessment": {
+        "objective": "使用正态曲线对称性及标准差对形状影响",
+        "boundary": "检测对称尾概率和同均值曲线比较",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "9bcec43fa23bcc17e77cc588a2a09827ef968db935a945d96d557ece09f6ffa1",
+        "answerCheck": "固定规格计算检查：给定覆盖概率两侧分配。独立解答复审：两边对称外尾总0.3173，各0.15865；中心概率0.5；峰与σ倒数成比，σ=2较σ=1低。",
+        "alignmentCheck": "本题通过使用正态曲线对称性及标准差对形状影响检测“正态曲线的性质”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测对称尾概率和同均值曲线比较 对照：N(10,4)中的4是方差，标准差是2。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：正态分布",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-1-the-standard-normal-distribution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-7-5-03",
+      "skillId": "full-m5-7-5-03",
+      "familyId": "full-m5-7-5-03",
+      "text": "X~N(100,15²)，令Z=(X-100)/15。已知Φ(1)=0.8413、Φ(2)=0.9772，求Z分布与P(115<X<130)。",
+      "answer": "Z~N(0,1)；概率0.1359。",
+      "steps": [
+        "标准化减均值再除标准差15",
+        "两个端点变成(115-100)/15=1与(130-100)/15=2",
+        "所求Φ(2)-Φ(1)=0.1359"
+      ],
+      "alignment": "本题通过将一般正态标准化并使用给定分布函数检测“标准正态分布”；解答中的相应计算或论证是评分依据。",
+      "contrast": "不能除以方差225，标准化分母是标准差。",
+      "assessment": {
+        "objective": "将一般正态标准化并使用给定分布函数",
+        "boundary": "检测两端标准化及区间概率",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "193edcbff9d2f8eb6750ba1aadc7e1f6e3a2917a61dd44d3f14753ed5ab605fb",
+        "answerCheck": "固定规格计算检查：端点标准化与表值差。独立解答复审：115、130标准化分别1、2；表值相减0.9772-0.8413=0.1359，未当作密度值。",
+        "alignmentCheck": "本题通过将一般正态标准化并使用给定分布函数检测“标准正态分布”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两端标准化及区间概率 对照：不能除以方差225，标准化分母是标准差。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：正态分布",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-1-the-standard-normal-distribution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-7-5-04",
+      "skillId": "full-m5-7-5-04",
+      "familyId": "full-m5-7-5-04",
+      "text": "零件长度X~N(50,0.2²)毫米，采用P(|X-μ|≤3σ)≈0.9973。写3σ区间及落在区间外的近似概率；超出区间是否不可能？",
+      "answer": "区间[49.4,50.6]毫米；外部概率约0.0027（0.27%）；并非不可能。",
+      "steps": [
+        "3σ=0.6",
+        "均值左右各0.6得到区间",
+        "补概率1-0.9973=0.0027",
+        "概率虽小但非0"
+      ],
+      "alignment": "本题通过应用三倍标准差区间并解释小概率而非绝不可能检测“3-sigma原则”；解答中的相应计算或论证是评分依据。",
+      "contrast": "未检验正态假设的数据不能机械声称99.73%覆盖。",
+      "assessment": {
+        "objective": "应用三倍标准差区间并解释小概率而非绝不可能",
+        "boundary": "检测已假设正态总体的经验覆盖范围",
+        "prerequisiteSkills": "分数运算、事件与概率基础"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7b445e921192cf957eeffa922a34c71a4fa26df60806b6fcc802a8eebe35d40f",
+        "answerCheck": "固定规格计算检查：三标准差端点与补概率。独立解答复审：标准差0.2乘3为0.6，端点49.4、50.6；补概率0.0027正而非0，小概率不等不可能。",
+        "alignmentCheck": "本题通过应用三倍标准差区间并解释小概率而非绝不可能检测“3-sigma原则”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测已假设正态总体的经验覆盖范围 对照：未检验正态假设的数据不能机械声称99.73%覆盖。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：正态分布",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/6-1-the-standard-normal-distribution"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-8-1-01",
+      "skillId": "full-m5-8-1-01",
+      "familyId": "full-m5-8-1-01",
+      "text": "将成对数据(-2,4)、(-1,1)、(0,0)、(1,1)、(2,4)画在平面直角坐标系（x水平、y竖直），描述形状，是否适合一条斜直线概括？",
+      "answer": "应标出这5点，形成关于y轴对称的U形；不适合用一条斜直线概括。",
+      "steps": [
+        "各行是一对坐标，按横纵位置逐点标记",
+        "从左到右y先降后升",
+        "数据满足y=x²，关系非线性"
+      ],
+      "alignment": "本题通过正确绘制成对数据散点并观察非线性形态检测“散点图”；解答中的相应计算或论证是评分依据。",
+      "contrast": "线性相关系数为0也可能存在明显非线性关系，本数据即例。",
+      "assessment": {
+        "objective": "正确绘制成对数据散点并观察非线性形态",
+        "boundary": "检测点坐标绘制及避免简单线性概括",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "1e4d756e4e2d3c2abd0f44365f969df55b9835793c2703ef63821423b9abbba0",
+        "answerCheck": "固定规格计算检查：散点满足明确二次关系。独立解答复审：五点的y逐个等于x²，横轴两侧先降后升且镜像对称，直线不能表达其U形趋势。",
+        "alignmentCheck": "本题通过正确绘制成对数据散点并观察非线性形态检测“散点图”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测点坐标绘制及避免简单线性概括 对照：线性相关系数为0也可能存在明显非线性关系，本数据即例。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-8-1-02",
+      "skillId": "full-m5-8-1-02",
+      "familyId": "full-m5-8-1-02",
+      "text": "甲组：(1,2),(2,4),(3,5),(4,7)；乙组：(1,8),(2,6),(3,5),(4,2)。判断相关方向。若甲组是学习时长与成绩，仅凭这些数据能断言增加时长必然提高成绩吗？",
+      "answer": "甲正相关，乙负相关；仅凭这组观察数据不能断言因果或必然提升。",
+      "steps": [
+        "甲随x增大y整体上升，乙整体下降",
+        "相关描述共同变化",
+        "潜在基础水平等因素未被控制，因此不能直接得出干预效果"
+      ],
+      "alignment": "本题通过根据总体趋势区分正负相关并避免因果推断检测“正相关与负相关”；解答中的相应计算或论证是评分依据。",
+      "contrast": "负相关不等于毫无关系，也不意味着每个个体都必须严格下降。",
+      "assessment": {
+        "objective": "根据总体趋势区分正负相关并避免因果推断",
+        "boundary": "检测两组简短成对数据的相关方向",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "7d0429c9c337a1ec1a58700ef553debe95d4fd58db6651794a92dfd446a014f5",
+        "answerCheck": "固定规格计算检查：两数据列相邻差方向。独立解答复审：甲的四个y单调上升、乙单调下降；观察共变不控制混杂，关于非因果的限制诚实。",
+        "alignmentCheck": "本题通过根据总体趋势区分正负相关并避免因果推断检测“正相关与负相关”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两组简短成对数据的相关方向 对照：负相关不等于毫无关系，也不意味着每个个体都必须严格下降。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-8-1-03",
+      "skillId": "full-m5-8-1-03",
+      "familyId": "full-m5-8-1-03",
+      "text": "数据(1,1)、(2,3)、(3,2)，求样本相关系数r。",
+      "answer": "r=1/2。",
+      "steps": [
+        "两均值均2",
+        "x偏差-1,0,1，y偏差-1,1,0",
+        "乘积和1，两平方和均2",
+        "r=1/√(2×2)=1/2"
+      ],
+      "alignment": "本题通过按中心化积与平方和求样本相关系数检测“样本相关系数”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若某变量所有值相同，分母为0，相关系数不定义。",
+      "assessment": {
+        "objective": "按中心化积与平方和求样本相关系数",
+        "boundary": "检测非零方差小样本的相关系数",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "5cf968e42fd5be05cce6ac7f3ae9b5d26b7c2204198a32a3803b8519081ce0f0",
+        "answerCheck": "固定规格计算检查：中心积及平方和独立算r。独立解答复审：偏差两向量(-1,0,1)、(-1,1,0)点积1、平方模均2，r=1/√4=1/2，均值确为2。",
+        "alignmentCheck": "本题通过按中心化积与平方和求样本相关系数检测“样本相关系数”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测非零方差小样本的相关系数 对照：若某变量所有值相同，分母为0，相关系数不定义。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-8-2-01",
+      "skillId": "full-m5-8-2-01",
+      "familyId": "full-m5-8-2-01",
+      "text": "在x∈[2,8]的样本范围内拟合得到ŷ=1.5x+2。解释斜率，并预测x=6时的y；能否保证实际y正好等于预测？",
+      "answer": "x每增加1，模型预测y增加1.5；x=6预测为11；实际值未必正好11。",
+      "steps": [
+        "斜率描述预测均值随x的变化",
+        "代入1.5×6+2=11",
+        "回归存在残差，预测不等于确定函数值"
+      ],
+      "alignment": "本题通过利用回归模型作区间内预测并区分估计与确定值检测“回归直线方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "对x=100的预测属于远距离外推，可靠性不能由当前数据保证。",
+      "assessment": {
+        "objective": "利用回归模型作区间内预测并区分估计与确定值",
+        "boundary": "检测已给回归式的解释和预测",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "3d3d6b1aa6dbfdbfccc464eba443809d0997be53ac7f591783011d841840223d",
+        "answerCheck": "固定规格计算检查：回归预测与斜率差。独立解答复审：6位于给定样本范围，代入1.5×6+2=11；斜率是预测值改变量，残差使实际值并不被强制。",
+        "alignmentCheck": "本题通过利用回归模型作区间内预测并区分估计与确定值检测“回归直线方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测已给回归式的解释和预测 对照：对x=100的预测属于远距离外推，可靠性不能由当前数据保证。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：最小二乘回归",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-8-2-02",
+      "skillId": "full-m5-8-2-02",
+      "familyId": "full-m5-8-2-02",
+      "text": "数据(0,1)、(1,2)、(2,2)，在直线ŷ=a+bx中求使残差平方和最小的a,b，并求最小平方和。",
+      "answer": "a=7/6，b=1/2；最小平方和1/6。",
+      "steps": [
+        "均值x̄=1、ȳ=5/3",
+        "令c=a+b，则平方和Q=3(c-5/3)²+2(b-1/2)²+1/6",
+        "平方项均非负，唯一最小在c=5/3,b=1/2",
+        "故a=c-b=7/6"
+      ],
+      "alignment": "本题通过以残差平方和最小建立拟合直线检测“最小二乘法”；解答中的相应计算或论证是评分依据。",
+      "contrast": "最小二乘最小化纵向残差平方，不是各点到直线的垂直距离平方。",
+      "assessment": {
+        "objective": "以残差平方和最小建立拟合直线",
+        "boundary": "检测三点带截距最小二乘及唯一最优",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "695c9dcff197bf93699f0179c8694a612d4bc51f9b7df912c730e1cd8408abd3",
+        "answerCheck": "固定规格计算检查：最小二乘正规方程及完成平方独立校验。独立解答复审：独立展开残差平方和，配成3(a+b-5/3)²+2(b-1/2)²+1/6；唯一最优a=7/6,b=1/2，回代残差平方和1/6。",
+        "alignmentCheck": "本题通过以残差平方和最小建立拟合直线检测“最小二乘法”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测三点带截距最小二乘及唯一最优 对照：最小二乘最小化纵向残差平方，不是各点到直线的垂直距离平方。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：最小二乘回归",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-8-2-03",
+      "skillId": "full-m5-8-2-03",
+      "familyId": "full-m5-8-2-03",
+      "text": "样本n=4，Σx=10，Σy=16，Σx²=30，Σxy=45。求最小二乘回归直线ŷ=a+bx。",
+      "answer": "b=1，a=3/2；ŷ=x+3/2。",
+      "steps": [
+        "x̄=10/4=5/2，ȳ=4",
+        "中心积45-4×(5/2)×4=5",
+        "x离差平方和30-4×(5/2)²=5",
+        "b=5/5=1，a=4-1×5/2=3/2"
+      ],
+      "alignment": "本题通过由原始汇总量算回归斜率与截距检测“回归系数的计算”；解答中的相应计算或论证是评分依据。",
+      "contrast": "分母是Σx²-nx̄²，不能用Σx²直接相除。",
+      "assessment": {
+        "objective": "由原始汇总量算回归斜率与截距",
+        "boundary": "检测含截距一元线性回归的系数计算",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "2722d4e5310a2d8aba35891342c6226d29535a3a0c254460540d783a4c78296c",
+        "answerCheck": "固定规格计算检查：汇总量可实现与回归系数。独立解答复审：中心积45-10×16/4=5，中心平方和30-100/4=5；比值1，截距4-2.5=1.5。",
+        "alignmentCheck": "本题通过由原始汇总量算回归斜率与截距检测“回归系数的计算”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测含截距一元线性回归的系数计算 对照：分母是Σx²-nx̄²，不能用Σx²直接相除。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：最小二乘回归",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-8-2-04",
+      "skillId": "full-m5-8-2-04",
+      "familyId": "full-m5-8-2-04",
+      "text": "对n=5组数据作含截距最小二乘回归，得到ŷ=2x+b，已知Σx=15、Σy=40，求b。说明为何使用均值点。",
+      "answer": "b=2。",
+      "steps": [
+        "x̄=3、ȳ=8",
+        "含截距最小二乘满足残差和0，故ȳ=a+bx̄型中心性质",
+        "本式为8=2×3+b，得b=2"
+      ],
+      "alignment": "本题通过用样本中心在含截距回归线上求未知数检测“回归直线过样本中心”；解答中的相应计算或论证是评分依据。",
+      "contrast": "强制过原点且不估计截距的回归不保证经过样本中心。",
+      "assessment": {
+        "objective": "用样本中心在含截距回归线上求未知数",
+        "boundary": "检测含截距最小二乘中心性质",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "036c9b61a8b8e7ffd6b4884835696b6c0002b4f52db04d234d201b5073e3077a",
+        "answerCheck": "固定规格计算检查：中心性质和残差总和约束。独立解答复审：样本中心(3,8)代入8=6+b得2；含截距最小二乘残差和为0是过中心条件，未误推广无截距模型。",
+        "alignmentCheck": "本题通过用样本中心在含截距回归线上求未知数检测“回归直线过样本中心”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测含截距最小二乘中心性质 对照：强制过原点且不估计截距的回归不保证经过样本中心。",
+        "sourceRefs": [
+          {
+            "title": "概念参考（非本题答案）：最小二乘回归",
+            "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "full-m5-8-3-01",
+      "skillId": "full-m5-8-3-01",
+      "familyId": "full-m5-8-3-01",
+      "text": "100人中参加社团40人，其中通过测试30人；未参加社团者通过测试35人。按“参加/未参加”与“通过/未通过”构成2×2表，补齐四格与行列合计。",
+      "answer": "四格为：参加且通过30、参加且未通过10、未参加且通过35、未参加且未通过25；行合计40、60，列合计65、35，总计100。",
+      "steps": [
+        "参加未通过40-30=10",
+        "未参加总人数100-40=60，未通过60-35=25",
+        "按列相加通过65、未通过35"
+      ],
+      "alignment": "本题通过由分类人数补全二维列联表与边际和检测“2x2列联表”；解答中的相应计算或论证是评分依据。",
+      "contrast": "各百分比需说明分母；30/40是参加者通过率，不是全体的占比。",
+      "assessment": {
+        "objective": "由分类人数补全二维列联表与边际和",
+        "boundary": "检测两个二分类变量，四格互斥穷尽",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "0d4f4187b97422edcf6eeecb78ea42c3d98b554d63a5cdd1e877576d8be4019f",
+        "answerCheck": "固定规格计算检查：列联表行列总和。独立解答复审：两行40与60；缺格10与25，列和65及35，总100，四格互斥且穷尽。",
+        "alignmentCheck": "本题通过由分类人数补全二维列联表与边际和检测“2x2列联表”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测两个二分类变量，四格互斥穷尽 对照：各百分比需说明分母；30/40是参加者通过率，不是全体的占比。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-8-3-02",
+      "skillId": "full-m5-8-3-02",
+      "familyId": "full-m5-8-3-02",
+      "text": "2×2表按行是(30,10)、(20,40)。用χ²=n(ad-bc)²/[(a+b)(c+d)(a+c)(b+d)]求统计量，不作连续性校正。",
+      "answer": "χ²=50/3≈16.667。",
+      "steps": [
+        "a=30,b=10,c=20,d=40,n=100",
+        "ad-bc=1200-200=1000",
+        "分母40×60×50×50=6000000",
+        "分子100×1000000=100000000",
+        "相除得50/3"
+      ],
+      "alignment": "本题通过代入2×2列联表计算未校正卡方统计量检测“卡方统计量的计算”；解答中的相应计算或论证是评分依据。",
+      "contrast": "换行或换列不会改变平方后的值，但不能随意重排单个格子。",
+      "assessment": {
+        "objective": "代入2×2列联表计算未校正卡方统计量",
+        "boundary": "检测Pearson未作连续性校正的统计量",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "8a9e93bb693e826414be210711fdbdb049c967659975c7ff715de5b81c14ceae",
+        "answerCheck": "固定规格计算检查：按Pearson逐格期望频数求卡方。独立解答复审：ad-bc=30×40-10×20=1000；分母40×60×50×50=6000000，分子100000000，比例50/3。",
+        "alignmentCheck": "本题通过代入2×2列联表计算未校正卡方统计量检测“卡方统计量的计算”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测Pearson未作连续性校正的统计量 对照：换行或换列不会改变平方后的值，但不能随意重排单个格子。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-m5-8-3-03",
+      "skillId": "full-m5-8-3-03",
+      "familyId": "full-m5-8-3-03",
+      "text": "随机样本2×2表为(30,10)、(20,40)，四格对应“是否参加活动×是否通过测试”。已算未校正χ²=50/3。给定自由度1、显著性水平0.05的临界值3.841，作独立性检验并解释结论。",
+      "answer": "拒绝“参加活动与通过测试相互独立”的原假设；在0.05水平有统计证据表明二者相关，但不能据此断言参加活动导致通过或独立概率仅5%。",
+      "steps": [
+        "设H₀为两个分类变量独立",
+        "检查期望频数20,20,30,30均足够大",
+        "50/3≈16.667>3.841，拒绝H₀",
+        "显著性水平描述在H₀成立时方法误拒的控制标准，不是H₀为真的后验概率"
+      ],
+      "alignment": "本题通过完成独立性检验的假设统计量阈值和有限结论检测“独立性检验的步骤与判断”；解答中的相应计算或论证是评分依据。",
+      "contrast": "若统计量小于临界值，只能说证据不足以拒绝独立，不能证明必然独立。",
+      "assessment": {
+        "objective": "完成独立性检验的假设统计量阈值和有限结论",
+        "boundary": "检测给定阈值的2×2卡方检验，不证明因果",
+        "prerequisiteSkills": "均值、平方和与数据表阅读"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "723a3557c6938872a42d5c152472d80af7b1e06eb5142d1be97670c4d5bb5e0a",
+        "answerCheck": "固定规格计算检查：统计量与临界值数值比较。独立解答复审：行列合计给期望20,20,30,30，均非稀疏；统计量50/3大于3.841故拒绝独立，未误释显著性为后验概率或因果。",
+        "alignmentCheck": "本题通过完成独立性检验的假设统计量阈值和有限结论检测“独立性检验的步骤与判断”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测给定阈值的2×2卡方检验，不证明因果 对照：若统计量小于临界值，只能说证据不足以拒绝独立，不能证明必然独立。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-j-alg-01",
+      "skillId": "s10",
+      "familyId": "full-j-alg-01",
+      "text": "解3(2x-1)-4=2(x+5)+7，并验算。",
+      "answer": "x=6。",
+      "steps": [
+        "去括号得6x-7=2x+17",
+        "移项4x=24",
+        "除以4得x=6",
+        "代回左边3×11-4=29，右边2×11+7=29"
+      ],
+      "alignment": "本题通过去括号移项解一元一次方程并代回检测“移项与一元一次方程”；解答中的相应计算或论证是评分依据。",
+      "contrast": "移项时符号改变是两边加减同一项的结果，不可只改位置不改符号。",
+      "assessment": {
+        "objective": "去括号移项解一元一次方程并代回",
+        "boundary": "仅检测有唯一解的一元一次实例",
+        "prerequisiteSkills": "有理数与代数式基础运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "02d9e256eb961114ee2f9275af1391bb2309dfd848aa953ce5fbdee3352e3ec6",
+        "answerCheck": "固定规格计算检查：直接解原始方程。独立解答复审：展开左6x-7、右2x+17，解4x=24为6；回代两侧29，一次唯一解。",
+        "alignmentCheck": "本题通过去括号移项解一元一次方程并代回检测“移项与一元一次方程”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "仅检测有唯一解的一元一次实例 对照：移项时符号改变是两边加减同一项的结果，不可只改位置不改符号。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-j-alg-02",
+      "skillId": "full-j-alg-02",
+      "familyId": "full-j-alg-02",
+      "text": "将(x+2)²-(x-2)²+2x²+8因式分解。",
+      "answer": "2(x+2)²。",
+      "steps": [
+        "前两平方差为8x",
+        "总式为2x²+8x+8",
+        "提取公因式2，得2(x²+4x+4)",
+        "识别完全平方，得2(x+2)²"
+      ],
+      "alignment": "本题通过先展开合并再提取公因式和完全平方检测“因式分解与整式运算”；解答中的相应计算或论证是评分依据。",
+      "contrast": "只写2(x²+4x+4)尚未把二次因式分解到底。",
+      "assessment": {
+        "objective": "先展开合并再提取公因式和完全平方",
+        "boundary": "检测整式运算与整系数二次因式分解",
+        "prerequisiteSkills": "有理数与代数式基础运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "13bdca4febb8d186af896d52955df45a45dcec15b7bbc904e1c2422a9f231968",
+        "answerCheck": "固定规格计算检查：整式展开与实数因式分解重乘。独立解答复审：已重新阅读修订题：末项改为+8。前两式平方差8x，加2x²+8得2x²+8x+8=2(x+2)²；整系数完全平方因式分解与初中检测边界吻合。",
+        "alignmentCheck": "本题通过先展开合并再提取公因式和完全平方检测“因式分解与整式运算”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测整式运算与整系数二次因式分解 对照：只写2(x²+4x+4)尚未把二次因式分解到底。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-j-alg-03",
+      "skillId": "s11",
+      "familyId": "full-j-alg-03",
+      "text": "解-3(2x-1)>9，并用区间表示解集。",
+      "answer": "x<-1，解集(-∞,-1)。",
+      "steps": [
+        "展开-6x+3>9",
+        "两边减3得-6x>6",
+        "除以负数-6须反向，得x<-1"
+      ],
+      "alignment": "本题通过负系数除法变号并表示不等式解集检测“不等式变号与解集”；解答中的相应计算或论证是评分依据。",
+      "contrast": "端点-1不取，因为原式为严格大于。",
+      "assessment": {
+        "objective": "负系数除法变号并表示不等式解集",
+        "boundary": "检测严格不等式与解集表示",
+        "prerequisiteSkills": "有理数与代数式基础运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "e82f9835aa7a651c5858255b8a6959ce9e5703edf806bbc5d245af5d218742ca",
+        "answerCheck": "固定规格计算检查：符号求不等式解集。独立解答复审：展开为-6x+3>9，移项后除负数反向得x<-1；在-2成立、0不成立，边界-1相等须排除。",
+        "alignmentCheck": "本题通过负系数除法变号并表示不等式解集检测“不等式变号与解集”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测严格不等式与解集表示 对照：端点-1不取，因为原式为严格大于。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-j-alg-04",
+      "skillId": "full-j-alg-04",
+      "familyId": "full-j-alg-04",
+      "text": "化简(x²-1)/(x-1)-(x+1)/(x+2)，并写原式有意义条件。",
+      "answer": "(x+1)²/(x+2)，条件x≠1且x≠-2。",
+      "steps": [
+        "原分母要求x-1≠0且x+2≠0",
+        "因式分解约去x-1得到x+1-(x+1)/(x+2)",
+        "通分得(x+1)(x+1)/(x+2)"
+      ],
+      "alignment": "本题通过分式通分约分同时保留原分母限制检测“分式运算与分母限制”；解答中的相应计算或论证是评分依据。",
+      "contrast": "化简后虽能代x=1，但原式在1无意义，不能恢复被排除点。",
+      "assessment": {
+        "objective": "分式通分约分同时保留原分母限制",
+        "boundary": "检测可约因子产生的可去点限制",
+        "prerequisiteSkills": "有理数与代数式基础运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "f758557e623cad8bb8b280fa4857d344c5911ad900eb52eae8f908911741c9fa",
+        "answerCheck": "固定规格计算检查：有理式化简与原分母零点。独立解答复审：先记录1和-2两个禁值；约分后(x+1)[1-1/(x+2)]=(x+1)²/(x+2)，可去点1禁值保留。",
+        "alignmentCheck": "本题通过分式通分约分同时保留原分母限制检测“分式运算与分母限制”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测可约因子产生的可去点限制 对照：化简后虽能代x=1，但原式在1无意义，不能恢复被排除点。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-j-alg-05",
+      "skillId": "s12",
+      "familyId": "full-j-alg-05",
+      "text": "对y=x²-4x+3，求开口方向、顶点、对称轴、与两轴交点及y<0的x范围。",
+      "answer": "开口向上；顶点(2,-1)，轴x=2；x轴交点(1,0),(3,0)，y轴交点(0,3)；y<0时1<x<3。",
+      "steps": [
+        "配方y=(x-2)²-1，得到开口顶点轴",
+        "因式分解(x-1)(x-3)，零点1与3",
+        "令x=0得3",
+        "两根之间两因子异号，所以函数负"
+      ],
+      "alignment": "本题通过由二次函数配方与因式分解读图像和零点检测“二次函数图像与零点”；解答中的相应计算或论证是评分依据。",
+      "contrast": "零点是x的数值1、3，横轴交点则是有序点(1,0)、(3,0)。",
+      "assessment": {
+        "objective": "由二次函数配方与因式分解读图像和零点",
+        "boundary": "检测开口顶点对称轴截点和符号区间",
+        "prerequisiteSkills": "有理数与代数式基础运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "15dc52c2fdb7840165a4189455d1feeb7cc86ab3bc9ffb9f743a6cb7914877a2",
+        "answerCheck": "固定规格计算检查：零点及负值区间符号求解。独立解答复审：配方顶点(2,-1)，因子(x-1)(x-3)给两个零点；x=0截距3，两根之间负，全部图像信息一致。",
+        "alignmentCheck": "本题通过由二次函数配方与因式分解读图像和零点检测“二次函数图像与零点”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测开口顶点对称轴截点和符号区间 对照：零点是x的数值1、3，横轴交点则是有序点(1,0)、(3,0)。",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "full-j-geo-01",
+      "skillId": "full-j-geo-01",
+      "familyId": "full-j-geo-01",
+      "text": "直角三角形ABC中∠C=90°，AC=6、BC=8，CD垂直斜边AB于D。求AB、AD、BD、CD，并写用于求AD的相似三角形对应。",
+      "answer": "AB=10，AD=18/5，BD=32/5，CD=24/5；△ACD∽△ABC，对应A↔A、C↔B、D↔C。",
+      "steps": [
+        "勾股得AB=√(36+64)=10",
+        "△ACD与△ABC有公共角A且直角D对应C，故相似",
+        "对应边AD/AC=AC/AB，得AD=36/10=18/5",
+        "BD=AB-AD=32/5",
+        "由面积AC·BC/2=AB·CD/2得CD=48/10=24/5"
+      ],
+      "alignment": "本题通过把勾股定理与直角三角形相似比例联合应用检测“勾股定理与相似三角形”；解答中的相应计算或论证是评分依据。",
+      "contrast": "相似对应顺序写错会造成把AD/AC误配到BC/AB。",
+      "assessment": {
+        "objective": "把勾股定理与直角三角形相似比例联合应用",
+        "boundary": "检测直角三角形斜边及斜边高的相似关系",
+        "prerequisiteSkills": "有理数与代数式基础运算"
+      },
+      "source": "本项目原创题；参考解答与考点匹配已复核，检测范围见说明。",
+      "status": "solution-checked",
+      "audit": null,
+      "verification": {
+        "method": "solution-review",
+        "checkedAt": "2026-09-17",
+        "fingerprint": "d083352aa29e57f46cec380c43302c339172cfbe5aefecd0afd4b5abd8be50ec",
+        "answerCheck": "固定规格计算检查：相似长度勾股和面积等式复核。独立解答复审：勾股斜边10，相似顺序A↔A,C↔B,D↔C正确；AD=AC²/AB=18/5，BD=32/5，高由面积得24/5，且AD·BD=CD²。",
+        "alignmentCheck": "本题通过把勾股定理与直角三角形相似比例联合应用检测“勾股定理与相似三角形”；解答中的相应计算或论证是评分依据。",
+        "bypassCheck": "检测直角三角形斜边及斜边高的相似关系 对照：相似对应顺序写错会造成把AD/AC误配到BC/AB。",
+        "sourceRefs": []
+      }
+    }
+  ]
+};

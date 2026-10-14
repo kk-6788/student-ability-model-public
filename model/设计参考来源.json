@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-10",
+  "references": [
+    {
+      "source": "Aceternity UI / Bento Grid",
+      "url": "https://ui.aceternity.com/components/bento-grid",
+      "useType": "visual-inspiration",
+      "inspected": "official-page-and-browser-preview",
+      "implementation": "independent HTML/CSS",
+      "downloadedFiles": []
+    },
+    {
+      "source": "Uiverse / adamgiebl / massive-insect-65",
+      "url": "https://uiverse.io/adamgiebl/massive-insect-65",
+      "useType": "interaction-reference",
+      "inspected": "official-page-text",
+      "implementation": "independent button states; no code copied",
+      "downloadedFiles": []
+    },
+    {
+      "source": "Aceternity UI / Animated Tabs",
+      "url": "https://ui.aceternity.com/components/tabs",
+      "useType": "interaction-reference",
+      "inspected": "official-documentation",
+      "implementation": "independent static segmented navigation; animation not reused",
+      "downloadedFiles": []
+    }
+  ]
+}
